@@ -11,17 +11,17 @@ sys.path.append(os.getcwd())
 home_dir = os.getcwd()
 master_url = 'http://127.0.0.1:8000'
 master_app = 'runestone'
-serving_dir = "./build/Student-CSP"
+serving_dir = "./build/StudentCSP"
 
 options(
     sphinx = Bunch(docroot=".",),
 
     build = Bunch(
-        builddir="./build/Student-CSP",
+        builddir="./build/StudentCSP",
         sourcedir="_sources",
-        outdir="./build/Student-CSP",
+        outdir="./build/StudentCSP",
         confdir=".",
-        project_name = "Student-CSP",
+        project_name = "StudentCSP",
         template_args={'course_id': 'CSP',
                        'login_required':'false',
                        'appname':master_app,
