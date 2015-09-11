@@ -7,9 +7,9 @@ Pretest
 
 The following is a pretest to test what you already know about programming in Python. Don't worry if you don't understand the questions yet.  We don't expect you to.  Just answer the questions to the best of your ability or pick "I don't know". 
 
-Click the "Start" button when you are ready to begin the exam.  Click the "Pause" button to pause the exam (you will not be able to see the questions when the exam is paused).  It will show how much time you have used, but you have unlimited time.  Click on the "Submit Answers" button at the end when you are done.  The number correct, number wrong, and number skipped will be displayed at the bottom of the page.  Feedback for each answer will also be shown as well as your answer.
+We recommend creating a login if you haven't yet so that your answers are saved under your login.  Answers are saved on the computer you are working on by your username so we recommend logging in before starting.   Login by going to the outline of a person's head and shoulders at the top right of the window and select login.  Click register if you haven't created a username yet.  
 
-We recommend creating a login if you haven't yet so that your answers are saved under your login.  Answers are saved on the computer you are working on by your username so we recommend logging in before starting.
+Click the "Start" button when you are ready to begin the exam.  Click the "Pause" button to pause the exam (you will not be able to see the questions when the exam is paused).  It will show how much time you have used, but you have unlimited time.  Click on the "Submit Answers" button at the end when you are done.  The number correct, number wrong, and number skipped will be displayed at the bottom of the page.  Feedback for each answer will also be shown as well as your answer.
 
 You will not be able to change your answers after you hit the "Submit Answers" button.
 
