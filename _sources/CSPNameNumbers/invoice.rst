@@ -136,4 +136,29 @@ You are welcome to try out the following answers by copying and pasting them int
 
    Which line of code will compute the correct ``totalCost`` if put into line 3 above?
 
+.. tabbed:: Invoice3t
 
+        .. tab:: Question
+
+           Write the code to calculate and print how many *paperclips* you can buy if each paperclip is $0.05 and you have $4.00 in your pocket.  It should print 80.
+           
+           .. activecode::  Invoice3q
+               :nocodelens:
+
+        .. tab:: Answer
+        
+            Create variables to hold each value.  Calculate ``numPaperclips`` as ``budget / costPerClip``.  Be sure to print the result.
+            
+            .. activecode::  Invoice2a
+                :nocodelens:
+                
+                costPerClip = .05
+                budget = 4.00
+                numPaperclips = budget / costPerClip 
+                print(numPaperclips)
+                                
+        .. tab:: Discussion 
+
+            .. disqus::
+                :shortname: studentcsp
+                :identifier: studentcsp_Invoice3q
