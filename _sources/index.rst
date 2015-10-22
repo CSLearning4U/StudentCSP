@@ -333,6 +333,7 @@ Chapter 19: Computer Abilities Summary
    CSPAbilitySummary/thatsall.rst
    CSPAbilitySummary/ch19_summary.rst
    CSPAbilitySummary/examPost.rst
+   CSPAbilitySummary/scs1.rst
    
 Indices
 ::::::::::::::::::
