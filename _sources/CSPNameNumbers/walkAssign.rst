@@ -129,5 +129,38 @@ We can see values (including the values for named variables) by printing them.  
    =====
    print(perPersonCost)
 
+.. tabbed:: 3_7_5_WSt
+
+        .. tab:: Question
+
+           Everyone went to a restaurant again to celebrate your birthday, party of 10 including yourself. Each guest ate 1 appetizer and 1 entree. The whole party shared 1 dessert. Write the code to calculate and print the total *bill* if each appetizer costs $2.00, each entree costs $9.89, and dessert costs $7.99.  It should print 126.89.
+           
+           .. activecode::  3_7_5_WSq
+               :nocodelens:
+
+        .. tab:: Answer
+        
+            Create variables to hold each value.  Calculate ``totalBill`` as ``(10 * (costPerApp + costPerEntree)) + costPerDessert``.  Be sure to print the result.
+            
+            .. activecode::  3_7_5_WSa
+                :nocodelens:
+                
+                # 1. DECLARE VARIABLES AND ASSIGN VALUES
+                #    we need to account for appetizers, entrees, and dessert
+                costPerApp = 2.00
+                costPerEntree = 9.89
+                costPerDessert = 7.99
+                # 2. CREATE FORMULA FOR BILL CALCULATION
+                #    10 guests, and dessert was shared
+                totalBill = (10 * (costPerApp + costPerEntree)) + costPerDessert
+                # 3. PRINT THE RESULT
+                print(totalBill)
+                                
+        .. tab:: Discussion 
+
+            .. disqus::
+                :shortname: studentcsp
+                :identifier: studentcsp_3_7_5_WSq
+
 
 

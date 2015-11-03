@@ -55,3 +55,38 @@ Run this next one, and look at how a simple change to the pattern gives a very d
    :feedback_d: The same <code>for</code> loop is creating both an in-order copy of the string and a reversed order of the string.  The <code>for</code> loop is the same in both cases.
 
    Why do you think ``newStringB`` has all the letters, but in the reverse order?
+
+.. tabbed:: 9_2_2_WSt
+
+        .. tab:: Question
+
+           Write the code to make a palindrome with the string "popsicle". Palindromes read the same foward and backwards. Example: appleelpple
+
+           .. activecode::  9_2_2_WSq
+                :nocodelens:
+
+        .. tab:: Answer
+            
+          .. activecode::  9_2_2_WSa
+              :nocodelens:
+              
+              # STEP 1: INITIALIZE ACCUMULATORS
+              newStringA = ""
+              newStringB = ""
+              # STEP 2: GET DATA
+              word = "popsicle!"
+              # STEP 3: LOOP THROUGH THE DATA
+              for letter in word:
+                # STEP 4: ACCUMULATE
+                  newStringA = letter + newStringA
+                  newStringB = newStringB + letter
+              # STEP 5: PROCESS RESULT
+              print("Here's the result of using newStringB + letter:")
+              print(newStringB + newStringA)
+                
+        .. tab:: Discussion 
+
+            .. disqus::
+                :shortname: studentcsp
+                :identifier: studentcsp_9_2_2_WSq
+    

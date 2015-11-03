@@ -71,3 +71,51 @@ That is what you are doing when you execute a statement like ``from turtle impor
    
    Imagine that you add one more line to the program above.  Which procedure can you use safely, because it will have been defined?
 
+.. tabbed:: 6_5_2_WSt
+
+        .. tab:: Question
+
+           Similar to the example above, make a procedure that takes in 2 parameters: a turtle and size. The procedure should draw a pentagon. Write the main code to call the pentagon function once.
+           
+           .. activecode::  6_5_2_WSq
+               :nocodelens:
+
+        .. tab:: Answer
+            
+          .. activecode::  6_5_2_WSa
+              :nocodelens:
+              
+              # 1. DEFINE THE PROCEDURE
+              #    include 2 parameters: turtle and size
+              def pentagon(turtle,size):
+              # 2. PROVIDE FUNCTIONALITY
+              #    draw a line
+              #    360/5 = 72 degree turn 
+                  turtle.forward(size) 
+                  turtle.right(72) 
+                  turtle.forward(size)
+                  turtle.right(72)
+                  turtle.forward(size)
+                  turtle.right(72)
+                  turtle.forward(size)
+                  turtle.right(72)
+                  turtle.forward(size)
+                  turtle.right(72)
+
+              # 3. SETUP TURTLE WORLD
+              #    use the turtle library
+              #    create a turtle screen (space)
+              #    create a turtle named emily
+              from turtle import *      
+              space = Screen()          
+              emily = Turtle()
+              # 4. CALL THE PROCEDURE 
+              #    provide values for parameters
+              pentagon(emily,100)
+                                
+        .. tab:: Discussion 
+
+            .. disqus::
+                :shortname: studentcsp
+                :identifier: studentcsp_6_5_2_WSq
+

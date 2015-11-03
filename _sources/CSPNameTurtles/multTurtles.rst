@@ -127,6 +127,62 @@ Every turtle object has its own attributes like its current position and color. 
    =====
    wn.exitonclick()
 
+.. tabbed:: 5_4_4_WSt
+
+        .. tab:: Question
+
+           Modify the problem csp-5-4-2 above so that Jamal returns to his starting point and draws an equal length line south. Tina returns to her starting point and draws an equal length line west. Finally, the program should set the window to close when the user clicks in it. 
+           
+           .. activecode::  5_4_4_WSq
+               :nocodelens:
+
+        .. tab:: Answer
+            
+          .. activecode::  5_4_4_WSa
+              :nocodelens:
+              
+              # 1. CREATE THE TURTLE WORLD
+              #    import the turtle module
+              #    create the turtle screen
+              #    create a turtle named Jamal
+              from turtle import *
+              wn = Screen()
+              jamal = Turtle()
+              jamal.color("blue") 
+              jamal.pensize(10)  
+              jamal.penup()
+              # 2. NAVIGATE JAMAL TO DRAW LINE
+              #    Jamal needs to face north and head to the start of the line 
+              #    Jamal's pen should be down 
+              #    Jamal needs to face south and draw a line
+              jamal.left(90)
+              jamal.forward(150)
+              jamal.pendown()
+              jamal.left(180)
+              jamal.forward(300)
+              # 3. ADD A NEW TURTLE TO THE WORLD
+              #    create a turtle named tina
+              #    give her an orange pen of size 10
+              tina = Turtle()
+              tina.color("orange") 
+              tina.pensize(10)  
+              tina.penup()
+              # 4. NAVIGATE TINA TO DRAW LINE
+              #    Tina needs to head to the start of the line 
+              #    Tina's pen should be down 
+              #    Tina needs to face west and draw a line
+              tina.forward(150)
+              tina.pendown()
+              tina.left(180)
+              tina.forward(300)  
+              # 5. EXIT WINDOW 
+              wn.exitonclick()
+                                
+        .. tab:: Discussion 
+
+            .. disqus::
+                :shortname: studentcsp
+                :identifier: studentcsp_5_4_4_WSq
 
 
 

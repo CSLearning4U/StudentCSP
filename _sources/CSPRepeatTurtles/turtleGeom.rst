@@ -87,5 +87,41 @@ Change the ``??`` in line 7 below to the amount to turn each time to draw a 12 s
    =====
        marie.left(120)
 
+.. tabbed:: 10_2_3_WSt
 
+        .. tab:: Question
+
+           Write a procedure which takes in a turtle and the number of sides as parameters to draw a polygon. Call the function to test it. 
+
+           .. activecode:: 10_2_3_WSq
+                :nocodelens:
+
+        .. tab:: Answer
+            
+          .. activecode:: 10_2_3_WSa
+              :nocodelens:
+              
+              # 1. DEFINE THE PROCEDURE
+              #    write an equation to calculate degrees turned per side
+              def polygon(turtle, sides):
+                degree = 360 / sides
+                for side in range(sides): 
+                    mia.forward(40)         
+                    mia.right(degree)           
+
+              # 2. SET UP THE TURTLE WORLD 
+              #    import turtle library
+              #    create the screen an turtle
+              from turtle import *  
+              space = Screen()      
+              mia = Turtle()      
+              mia.setheading(90)      
+              #3. CALL THE PROCEDURE
+              polygon(mia,5)
+                
+        .. tab:: Discussion 
+
+            .. disqus::
+                :shortname: studentcsp
+                :identifier: studentcsp_10_2_3_WSq
 

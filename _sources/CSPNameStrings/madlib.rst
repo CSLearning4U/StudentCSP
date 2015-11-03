@@ -155,29 +155,35 @@ You might have done MadLib stories when you were a kid.  You provide some pieces
    =====
    print("So, " + name + " went home.")
 
-.. tabbed:: 4_4_6_Q1t
+.. tabbed:: 4_4_6_WSt
 
         .. tab:: Question
 
            Write the code below to calculate and print how many blocks you can travel in an hour if you walk .3 blocks every minute.  It should print: "I will travel 18 blocks in an hour if I walk .3 blocks every minute."
            
-           .. activecode::  4_4_6_Q1q
+           .. activecode::  4_4_6_WSq
                 :nocodelens:
 
         .. tab:: Answer
         
             Name each of the values.  Calculate the ``totalBlocks`` it will take and print the information.
             
-            .. activecode::  4_4_6_Q1a
+            .. activecode::  4_4_6_WSa
                 :nocodelens:
-                
+
+                # 1. DECLARE VARIABLES
                 ratePerMinute = .3
                 minutesPerHour = 60
+                # 2. CREATE FORMULA
+                #    our rate is in MINUTES 
+                #    we want the answer over the course of an HOUR
                 totalBlocks = ratePerMinute * minutesPerHour
-                print("I will travel" + str(totalBlocks) + " blocks in an hour if I walk " + str(ratePerMinute) + " blocks every minute.")
+                # 3. PRINT RESULT 
+                #    use the str function to convert a number to a string 
+                print("I will travel " + str(totalBlocks) + " blocks in an hour if I walk " + str(ratePerMinute) + " blocks every minute.")
                                 
         .. tab:: Discussion 
 
             .. disqus::
                 :shortname: studentcsp
-                :identifier: studentcsp_4_4_6_Q1
+                :identifier: studentcsp_4_4_6_WSq
