@@ -167,31 +167,31 @@ Let's try side-to-side copying.
           .. activecode::  11_4_1_WSa
               :nocodelens:
 
-              # STEP 1: USE THE IMAGE LIBRARY
+              # USE THE IMAGE LIBRARY
               from image import *
 
-              # STEP 2: PICK THE IMAGE
+              # PICK THE IMAGE
               img = Image("vangogh.jpg")
 
-              # STEP 3: SELECT THE DATA
+              # SELECT THE DATA
               halfwayWidth = (int) (img.getWidth() / 2)
               halfwayHeight = (int) (img.getHeight() / 2)
               for x in range(halfwayWidth):
                   for y in range(halfwayHeight):
 
-                      # STEP 4: GET THE DATA
+                      # GET THE DATA
                       p = img.getPixel(x, y)
                       r = p.getRed()
                       g = p.getGreen()
                       b = p.getBlue()
 
-                      # STEP 5: CREATE THE COLOR
+                      # CREATE THE COLOR
                       newPixel = Pixel(r, g, b)
 
-                      # STEP 6: CHANGE THE PIXEL
+                      # CHANGE THE PIXEL
                       img.setPixel(halfwayWidth + x, halfwayHeight + y, newPixel)
 
-              # STEP 7: SHOW THE RESULT
+              # SHOW THE RESULT
               win = ImageWin(img.getWidth(),img.getHeight())
               img.draw(win)
   

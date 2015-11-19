@@ -54,14 +54,8 @@ Can you modify the code above to use 3 different colors?  You can use ``num % 3`
 
    What could you use to limit the x values to just the left half of the drawing space (screen)? 
 
-.. figure:: Figures/TurtleChevronLine.png
-    :width: 150px
-    :align: center
-    :alt: 
-    :figclass: align-center
-
-.. figure:: Figures/TurtleChevronStamp.png
-    :width: 150px
+.. figure:: Figures/TurtleChevron.png
+    :width: 300px
     :align: center
     :alt: 
     :figclass: align-center
@@ -70,36 +64,36 @@ Can you modify the code above to use 3 different colors?  You can use ``num % 3`
 
         .. tab:: Question
 
-           In the first section this chapter we created the chevron image on the top using turtles. Modify the code to create the stampped image on the bottom. The turtles will stamp at the peak of chevrons in blue and green. The color of the stamp will be chosen at random based on if a random number is odd or even.
+           In the first section this chapter we created the chevron image on the left using turtles. Modify the code to create the stampped image on the right. The turtles will stamp/draw in blue and green. The color will be chosen at random.
            
            .. activecode::  14_4_2_WSq
                :nocodelens:
 
-               from turtle import *      # use the turtle library
-               from sys import *         # use the system library
-               setExecutionLimit(50000)  # let this take up to 50 seconds
-               space = Screen()          # create a turtle screen (space)
+               from turtle import *      
+               from sys import *         
+               setExecutionLimit(50000)  
+               space = Screen()          
 
-               width = 400               # set the desired width
-               space.setup(width,width)  # set the space width and height
-               maxX = width / 2          # set the max x value to half the width
+               width = 400               
+               space.setup(width,width)  
+               maxX = width / 2          
 
-               jaz = Turtle()            # create a turtle named jaz
-               jaz.shape('turtle')       # set the shape for jaz to turtle
-               jaz.penup()               # pick up the pen (don't draw)
-               jaz.goto(-1 * maxX,100)   # go to the left side of the space
-               jaz.pendown()             # put the pen down to draw with
-               jaz.left(60)              # turn the turtle left 60 degrees
+               jaz = Turtle()            
+               jaz.shape('turtle')       
+               jaz.penup()               
+               jaz.goto(-1 * maxX,100)   
+               jaz.pendown()             
+               jaz.left(60)              
 
-               for x in range(10):       # repeat the body 10 times
-                   jaz.forward(100)           # go forward 100
-                   jaz.right(120)             # turn right 120 degrees
-                   jaz.forward(100)           # go forward 100
-                   jaz.left(120)              # turn left 120 degrees
-                   if (jaz.xcor() >= maxX):   # if at right edge of space
-                       jaz.penup()                # pick up the pen
-                       jaz.goto(-1 * maxX,jaz.ycor() - 100)  # move left & down
-                       jaz.pendown()              # put the pen down
+               for x in range(10):       
+                   jaz.forward(100)           
+                   jaz.right(120)             
+                   jaz.forward(100)           
+                   jaz.left(120)              
+                   if (jaz.xcor() >= maxX):   
+                       jaz.penup()                
+                       jaz.goto(-1 * maxX,jaz.ycor() - 100)  
+                       jaz.pendown()              
 
 
 
@@ -108,36 +102,42 @@ Can you modify the code above to use 3 different colors?  You can use ``num % 3`
           .. activecode::  14_4_2_WSa
               :nocodelens:
 
-              from turtle import *      # use the turtle library
+              # CREATE THE TURTLE WORLD
+              from turtle import *      
               import random
-              from sys import *         # use the system library
-              setExecutionLimit(50000)  # let this take up to 50 seconds
-              space = Screen()          # create a turtle screen (space)
+              from sys import *         
+              setExecutionLimit(50000)  
+              space = Screen()          
 
-              width = 400               # set the desired width
-              space.setup(width,width)  # set the space width and height
-              maxX = width / 2          # set the max x value to half the width
+              # SET UP THE SCREEN SIZE
+              width = 400               
+              space.setup(width,width)  
+              maxX = width / 2          
 
-              jaz = Turtle()            # create a turtle named jaz
-              jaz.shape('turtle')       # set the shape for jaz to turtle
-              jaz.penup()               # pick up the pen (don't draw)
-              jaz.goto(-1 * maxX,100)   # go to the left side of the space
-              jaz.left(60)              # turn the turtle left 60 degrees
+              # MOVE TURTLE TO STARTING POSITION
+              jaz = Turtle()            
+              jaz.shape('turtle')       
+              jaz.penup()              
+              jaz.goto(-1 * maxX,100)   
+              jaz.pendown()
+              jaz.left(60)              
 
-              for x in range(10):       # repeat the body 10 times
-                    rand = random.randrange(0, 100)
-                    if (rand % 2 == 1):
-                        jaz.color('blue')
-                    if (rand % 2 == 0):
-                        jaz.color('green')
-                    jaz.forward(100)           # go forward 100
-                    jaz.right(120)             # turn right 120 degrees
-                    jaz.stamp()
-                    jaz.forward(100)           # go forward 100
-                    jaz.left(120)              # turn left 120 degrees
-                    if (jaz.xcor() >= maxX):   # if at right edge of space
-                        jaz.penup()                # pick up the pen
-                        jaz.goto(-1 * maxX,jaz.ycor() - 100)  # move left & down
+              # DRAW THE CHEVRON DESIGN
+              for x in range(10):       
+                rand = random.randrange(0, 2)
+                if (rand == 0):
+                  jaz.color("green")
+                else:
+                  jaz.color("blue")
+                jaz.forward(100)           
+                jaz.right(120)             
+                jaz.stamp()
+                jaz.forward(100)           
+                jaz.left(120)              
+                if (jaz.xcor() >= maxX):   
+                  jaz.penup()                
+                  jaz.goto(-1 * maxX,jaz.ycor() - 100)  
+                  jaz.pendown()
 
                                             
         .. tab:: Discussion 
