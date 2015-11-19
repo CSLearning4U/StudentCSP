@@ -147,4 +147,58 @@ Let's try side-to-side copying.
    
    Try it: How would you mirror the image from left-to-right around a vertical line in the middle of the picture?  Try changing line 22 to these.  If you get it right it will look like the women is nose to nose with herself.
 
+.. figure:: Figures/ImageCopy.png
+    :width: 150px
+    :align: center
+    :alt: 
+    :figclass: align-center
+
+.. tabbed:: 11_4_1_WSt
+
+        .. tab:: Question
+
+           Copy the pixels in the top left quadrant to the the bottom right quadrant. Look at the picture above for the expected result.
+           
+           .. activecode::  11_4_1_WSq
+               :nocodelens:
+
+        .. tab:: Answer
+            
+          .. activecode::  11_4_1_WSa
+              :nocodelens:
+
+              # STEP 1: USE THE IMAGE LIBRARY
+              from image import *
+
+              # STEP 2: PICK THE IMAGE
+              img = Image("vangogh.jpg")
+
+              # STEP 3: SELECT THE DATA
+              halfwayWidth = (int) (img.getWidth() / 2)
+              halfwayHeight = (int) (img.getHeight() / 2)
+              for x in range(halfwayWidth):
+                  for y in range(halfwayHeight):
+
+                      # STEP 4: GET THE DATA
+                      p = img.getPixel(x, y)
+                      r = p.getRed()
+                      g = p.getGreen()
+                      b = p.getBlue()
+
+                      # STEP 5: CREATE THE COLOR
+                      newPixel = Pixel(r, g, b)
+
+                      # STEP 6: CHANGE THE PIXEL
+                      img.setPixel(halfwayWidth + x, halfwayHeight + y, newPixel)
+
+              # STEP 7: SHOW THE RESULT
+              win = ImageWin(img.getWidth(),img.getHeight())
+              img.draw(win)
+  
+        .. tab:: Discussion 
+
+            .. disqus::
+                :shortname: studentcsp
+                :identifier: studentcsp_11_4_1_WSq
+
 

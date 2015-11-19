@@ -120,3 +120,51 @@ Try the program above on some of the other images by changing the name of the im
    win = ImageWin(img.getWidth(),img.getHeight())
    img.draw(win)
 
+.. tabbed:: 11_4_1_WSt
+
+        .. tab:: Question
+
+           Decrease the red by .5 and increase the blue and green by .5 in puppy.jpg. 
+           
+           .. activecode::  11_4_1_WSq
+               :nocodelens:
+
+        .. tab:: Answer
+            
+          .. activecode::  11_4_1_WSa
+              :nocodelens:
+
+              # STEP 1: USE THE IMAGE LIBRARY
+              from image import *
+
+              # STEP 2: PICK THE IMAGE
+              img = Image("puppy.jpg")
+
+              # STEP 3: LOOP THROUGH THE PIXELS
+              pixels = img.getPixels()
+              for p in pixels:
+
+                  # STEP 4: GET THE DATA
+                  r = p.getRed()
+                  g = p.getGreen()
+                  b = p.getBlue()
+
+                  # STEP 5: MODIFY THE COLOR
+                  p.setRed(r * .5)
+                  p.setGreen(g * 1.5)
+                  p.setBlue(b * 1.5)
+
+                  # STEP 6: UPDATE THE IMAGE
+                  img.updatePixel(p)
+
+              # STEP 7: SHOW THE RESULT
+              win = ImageWin(img.getWidth(),img.getHeight())
+              img.draw(win)
+
+                                
+        .. tab:: Discussion 
+
+            .. disqus::
+                :shortname: studentcsp
+                :identifier: studentcsp_11_4_1_WSq
+
