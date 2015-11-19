@@ -131,11 +131,11 @@ The following code is an attempt to show another way to print the values from 1 
           .. activecode::  8_2_5_WSa
               :nocodelens:
               
-              # 1. INITIALIZE COUNTER 
+              # INITIALIZE COUNTER 
               counter = 5  
-              # 2. SET LOOP CONDITION
+              # SET LOOP CONDITION
               while counter < 10 :
-                # 3. PRINT CURRENT VALUE
+                # PRINT CURRENT VALUE
                 print(counter)
                 counter = counter + 1
                 

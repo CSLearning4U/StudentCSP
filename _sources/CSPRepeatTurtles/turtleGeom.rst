@@ -101,22 +101,18 @@ Change the ``??`` in line 7 below to the amount to turn each time to draw a 12 s
           .. activecode:: 10_2_3_WSa
               :nocodelens:
               
-              # 1. DEFINE THE PROCEDURE
-              #    write an equation to calculate degrees turned per side
+              # DEFINE THE PROCEDURE
               def polygon(turtle, sides):
                 degree = 360 / sides
                 for side in range(sides): 
                     mia.forward(40)         
-                    mia.right(degree)           
-
-              # 2. SET UP THE TURTLE WORLD 
-              #    import turtle library
-              #    create the screen an turtle
+                    mia.right(degree)       
+              # CREATE THE TURTLE WORLD 
               from turtle import *  
               space = Screen()      
               mia = Turtle()      
               mia.setheading(90)      
-              #3. CALL THE PROCEDURE
+              # CALL THE PROCEDURE
               polygon(mia,5)
                 
         .. tab:: Discussion 

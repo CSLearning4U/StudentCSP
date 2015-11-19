@@ -110,28 +110,21 @@ Modify the code above to draw a square of stars.
           .. activecode::  8_5_2_WSa
               :nocodelens:
               
-              # 1. TOP LINE 
-              #    initialize accumulator 
-              #    loop through data
-              #    accumulate
+              # TOP LINE 
               line = ""
               for x in range(0,4):
                 line = line + "*"
               print(line)
 
-              # 2. MIDDLE LINES 
-              #    initialize accumulator 
-              #    outer loop for edge of square 
-              #    inner loop for space in square
-
-              for x in range(0,2):
+              # MIDDLE LINES 
+              for x in range(0,2):      # outer loop for edge of square 
                 line = "*"
-                for y in range(0,2):
+                for y in range(0,2):    # inner loop for space in square
                     line = line + ' '
                 line = line + '*'
                 print(line)
 
-              # 3. BOTTOM LINE 
+              # BOTTOM LINE 
               line = ""
               for x in range(0,4):
                 line = line + "*"

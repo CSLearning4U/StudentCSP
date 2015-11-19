@@ -73,3 +73,50 @@ Here are a couple of other pictures that we can also use.  The first is apple.jp
     <img src="../_static/apple.jpg" id="apple.jpg">
     <img src="../_static/gal2.jpg" id="gal2.jpg">
 
+.. tabbed:: 15_2_1_WSt
+
+        .. tab:: Question
+
+           The decimal red-green-blue color code for purple is 128, 0, 128 respectively. Write code to change the white background in gal2.jpg to purple. 
+           
+           .. activecode::  15_2_1_WSq
+               :nocodelens:
+
+        .. tab:: Answer
+            
+          .. activecode::  15_2_1_WSa
+              :nocodelens:
+
+              from image import *
+
+              # CREATE AN IMAGE FROM A FILE
+              img = Image("gal2.jpg")
+
+              # LOOP THROUGH ALL PIXELS
+              for x in range(img.getWidth()):
+                  for y in range(img.getHeight()):
+                      p = img.getPixel(x, y)
+                      r = p.getRed()
+                      g = p.getGreen()
+                      b = p.getBlue()
+                     
+                      # VALUES FOR THE NEW COLOR
+                      if r >250 and g > 250 and b >250:
+                        newPixel = Pixel(128, 0, 128)
+                        img.setPixel(x, y, newPixel)
+
+              # SHOW THE CHANGED IMAGE
+              win = ImageWin(img.getWidth(),img.getHeight())
+              img.draw(win)
+
+
+                                
+        .. tab:: Discussion 
+
+            .. disqus::
+                :shortname: studentcsp
+                :identifier: studentcsp_15_2_1_WSq
+
+
+
+

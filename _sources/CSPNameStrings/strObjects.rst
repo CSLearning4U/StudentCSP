@@ -217,15 +217,14 @@ The ``find(string)`` function takes a string as input and returns the index wher
 
         .. tab:: Answer
         
-            Create variable to hold the string.  Calculate ``totalBill`` as ``(10 * (costPerApp + costPerEntree)) + costPerDessert``.  Be sure to print the result.
+            Create variable to hold the string.  
             
             .. activecode::  4_2_5_WSa
                 :nocodelens:
 
-                # 1. DECLARE VARIABLES
+                # DECLARE VARIABLES
                 sentence = 'I like green eggs'
-                # 2. USE STR and LEN FUNCTIONS
-                # 3. PRINT RESULT 
+                # PRINT RESULT 
                 print('The length is ' + str(len(sentence)))
                                 
         .. tab:: Discussion 

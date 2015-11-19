@@ -171,15 +171,12 @@ You might have done MadLib stories when you were a kid.  You provide some pieces
             .. activecode::  4_4_6_WSa
                 :nocodelens:
 
-                # 1. DECLARE VARIABLES
+                # DECLARE VARIABLES
                 ratePerMinute = .3
                 minutesPerHour = 60
-                # 2. CREATE FORMULA
-                #    our rate is in MINUTES 
-                #    we want the answer over the course of an HOUR
+                # CREATE FORMULA
                 totalBlocks = ratePerMinute * minutesPerHour
-                # 3. PRINT RESULT 
-                #    use the str function to convert a number to a string 
+                # PROCESS AND DISPLAY RESULT 
                 print("I will travel " + str(totalBlocks) + " blocks in an hour if I walk " + str(ratePerMinute) + " blocks every minute.")
                                 
         .. tab:: Discussion 

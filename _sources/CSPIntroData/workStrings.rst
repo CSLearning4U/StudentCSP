@@ -93,5 +93,32 @@ Run the code below to see what type of error you get if you use a different star
     print(combined)
     print(name * 3)
     
+.. tabbed:: 16_2_4_WSt
+
+        .. tab:: Question
+
+           Do 'simple arithmetic' with the variables provided below to print 'jellybeanjellybeanjellybean'. 
+           
+           .. activecode::  16_2_4_WSq
+               :nocodelens:
+
+               string1 = "jelly"
+               string2 = "bean"
+
+        .. tab:: Answer
+            
+          .. activecode::  16_2_4_WSa
+              :nocodelens:
+              
+              string1 = "jelly"
+              string2 = "bean"
+              combined = string1 + string2
+              print(combined * 3)
+                                
+        .. tab:: Discussion 
+
+            .. disqus::
+                :shortname: studentcsp
+                :identifier: studentcsp_16_2_4_WSq
 
 

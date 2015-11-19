@@ -115,7 +115,7 @@ Can you loop through and encode a string to hide the contents of the message?
 
     .. tab:: Question
 
-       Write the code to replace every 0 with o in the given string. 
+       Write the code to replace every 0 with o in the given string 'The 0wl h00ts l0udly'. 
 
        .. activecode::  9_4_4_WSq
             :nocodelens:
@@ -126,14 +126,16 @@ Can you loop through and encode a string to hide the contents of the message?
           :nocodelens:
           
           str = "The 0wl h00ts l0udly"
-          # 1. USE FIND FUNCTION TO GET FIRST POSITION 
-          pos = str.find("0")
-          # 2. SET WHILE LOOP CONDITION
+          # SET POS TO A VALUE GREATER THAN OR EQUAL TO 0
+          pos = 1
+          # SET WHILE CONDITION
           while pos >= 0:
-              # 3. REPLACE VALUE
-              str = str[0:pos] + "o" + str[pos+1:len(str)]
+              # REPLACE VALUE
               pos = str.find("0")
-          # 4. PRINT RESULT
+              if pos == -1:
+                break
+              str = str[0:pos] + "o" + str[pos+1:len(str)]
+          # PRINT RESULT
           print(str)
             
     .. tab:: Discussion 

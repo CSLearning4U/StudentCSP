@@ -152,8 +152,7 @@ You are welcome to try out the following answers by copying and pasting them int
             .. activecode::  3_8_4_WSa
                 :nocodelens:
                 
-                # 1. DECLARE VARIABLES AND ASSIGN VALUES
-                #    we need to account for cost per clip and budget
+                # DECLARE VARIABLES AND ASSIGN VALUES
                 costPerClip = .05
                 budget = 4.00
                 # 2. CREATE FORMULA  

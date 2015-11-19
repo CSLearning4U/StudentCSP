@@ -81,5 +81,34 @@ In this second version, we set a ``price`` as a *default*, then change it only o
    print(weight)
    print(price)
    print(total)
-   
+
+.. tabbed:: 12_3_3_WSt
+
+        .. tab:: Question
+
+           Write the code to calculate and print the cost of a 14 mile cab ride. If the distance traveled is less than or equal to 12 miles the cost is $2.00 a mile, and if the distance traveled is more than 12 miles the cost is $1.50 a mile. 
+           
+           .. activecode::  12_3_3_WSq
+               :nocodelens:
+
+        .. tab:: Answer
+            
+          .. activecode::  6_5_2_WSa
+              :nocodelens:
+              
+              distance = 14
+              # SET CONDITIONS 
+              if distance <= 12:
+                  rate = 2.00
+              if distance > 12:
+                  rate = 1.50
+              # CALCULATE TRIP COST 
+              total = distance * rate
+              print("Total cost of trip: " + str(total))
+                                
+        .. tab:: Discussion 
+
+            .. disqus::
+                :shortname: studentcsp
+                :identifier: studentcsp_12_3_3_WSq
 

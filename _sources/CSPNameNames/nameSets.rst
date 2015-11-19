@@ -85,12 +85,8 @@ That is what you are doing when you execute a statement like ``from turtle impor
           .. activecode::  6_5_2_WSa
               :nocodelens:
               
-              # 1. DEFINE THE PROCEDURE
-              #    include 2 parameters: turtle and size
+              # DEFINE THE PROCEDURE
               def pentagon(turtle,size):
-              # 2. PROVIDE FUNCTIONALITY
-              #    draw a line
-              #    360/5 = 72 degree turn 
                   turtle.forward(size) 
                   turtle.right(72) 
                   turtle.forward(size)
@@ -102,15 +98,11 @@ That is what you are doing when you execute a statement like ``from turtle impor
                   turtle.forward(size)
                   turtle.right(72)
 
-              # 3. SETUP TURTLE WORLD
-              #    use the turtle library
-              #    create a turtle screen (space)
-              #    create a turtle named emily
+              # CREATE TURTLE WORLD
               from turtle import *      
               space = Screen()          
               emily = Turtle()
-              # 4. CALL THE PROCEDURE 
-              #    provide values for parameters
+              # CALL THE PROCEDURE 
               pentagon(emily,100)
                                 
         .. tab:: Discussion 

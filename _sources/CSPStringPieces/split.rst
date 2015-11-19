@@ -124,5 +124,38 @@ This makes it easy to change all of the data, by changing only one line as shown
    print(next2)
    print(next3)
    print(ending)
+
+.. tabbed:: 17_3_3_WSt
+
+        .. tab:: Question
+
+           Write code to print out the phone number without the area code using the ''split'' function. 
+           
+           .. activecode::  17_3_3_WSq
+               :nocodelens:
+
+        .. tab:: Answer
+            
+          .. activecode:: 17_3_3_WSa
+              :nocodelens:
+                
+              # create the input
+              input = "(805)555-8585"
+
+              # split on the close-parenthesis
+              phoneNumber = input.split(")")
+
+              # print the value
+              print("My number is:")
+              print(phoneNumber[1])
+                                
+        .. tab:: Discussion 
+
+            .. disqus::
+                :shortname: studentcsp
+                :identifier: studentcsp_17_3_3_WSq
+
+
+
    
 

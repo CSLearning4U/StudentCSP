@@ -523,4 +523,44 @@ There is actually a way of using a **for** loop to read in a file.  We can read 
 
    What is the disadvantage of the second program, with a ``for`` loop? 
 
+.. tabbed:: 18_3_2_WSt
+
+        .. tab:: Question
+
+           Write code to that will read an input file uspoll.txt . It will print the city name and the pollution values for all cities that have a PM 10 pollution of 20 or more. 
+           
+           
+           .. activecode::  18_3_2_WSq
+               :nocodelens:
+
+        .. tab:: Answer
+            
+          .. activecode::  18_3_2_WSa
+              :nocodelens:
+              
+              # open the file, read the lines into a list, and close the file
+              inFile = open("uspoll.txt","r")
+              line = inFile.readline()
+
+              # loop through the lines list
+              while line:
+
+                     # split at :
+                     values = line.split(":")
+
+                     # get the PM 10 pollution
+                     pollution = float(values[1])
+                     if (pollution > 19):
+                            print('City: ', values[0])
+                            print("Pollution values:",values[1],values[2])
+                     line = inFile.readline()
+
+              inFile.close()
+                                
+        .. tab:: Discussion 
+
+            .. disqus::
+                :shortname: studentcsp
+                :identifier: studentcsp_18_3_2_WSq
+
 

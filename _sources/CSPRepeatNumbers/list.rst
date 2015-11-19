@@ -120,20 +120,20 @@ Let's write that program again with a better variable name.  We will use ``produ
           .. activecode::  7_3_5_WSa
               :nocodelens:
               
-              # 1. DEFINE THE FUNCTION
+              # DEFINE THE FUNCTION
               def summation(endvalue):
-                # 2. INITIALIZE ACCUMULATOR 
+                # INITIALIZE ACCUMULATOR 
                 sum = 0  
-                # 3. GET DATA
+                # NAME DATA
                 numbers = range(1, endvalue +1)
-                # 4. LOOP THROUGH DATA
+                # LOOP THROUGH DATA
                 for number in numbers:
-                  # 5. ACCUMULATE 
+                  # ACCUMULATE 
                   sum = sum + number
-                # 6. RETURN SUM
+                # RETURN SUM
                 return sum
 
-              # 7. PRINT RESULT 
+              # PRINT RESULT 
               print(summation(10)) 
                 
         .. tab:: Discussion 

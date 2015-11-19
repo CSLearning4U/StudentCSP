@@ -60,7 +60,7 @@ Run this next one, and look at how a simple change to the pattern gives a very d
 
         .. tab:: Question
 
-           Write the code to make a palindrome with the string "popsicle". Palindromes read the same foward and backwards. Example: appleelpple
+           Write the code to make a palindrome with the string "popsicle". Palindromes read the same foward and backwards. Example: appleelppa
 
            .. activecode::  9_2_2_WSq
                 :nocodelens:
@@ -70,17 +70,17 @@ Run this next one, and look at how a simple change to the pattern gives a very d
           .. activecode::  9_2_2_WSa
               :nocodelens:
               
-              # STEP 1: INITIALIZE ACCUMULATORS
+              # INITIALIZE ACCUMULATORS
               newStringA = ""
               newStringB = ""
-              # STEP 2: GET DATA
-              word = "popsicle!"
-              # STEP 3: LOOP THROUGH THE DATA
+              # NAME DATA
+              word = "popsicle"
+              # LOOP THROUGH THE DATA
               for letter in word:
-                # STEP 4: ACCUMULATE
+                # ACCUMULATE RESULT
                   newStringA = letter + newStringA
                   newStringB = newStringB + letter
-              # STEP 5: PROCESS RESULT
+              # DISPLAY RESULT
               print("Here's the result of using newStringB + letter:")
               print(newStringB + newStringA)
                 
