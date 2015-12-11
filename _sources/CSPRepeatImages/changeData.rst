@@ -153,18 +153,18 @@ Let's try side-to-side copying.
     :alt: 
     :figclass: align-center
 
-.. tabbed:: 11_4_1_WSt
+.. tabbed:: 11_6_1_WSt
 
         .. tab:: Question
 
            Copy the pixels in the top left quadrant to the the bottom right quadrant. Look at the picture above for the expected result.
            
-           .. activecode::  11_4_1_WSq
+           .. activecode::  11_6_1_WSq
                :nocodelens:
 
         .. tab:: Answer
             
-          .. activecode::  11_4_1_WSa
+          .. activecode::  11_6_1_WSa
               :nocodelens:
 
               # USE THE IMAGE LIBRARY
@@ -199,6 +199,12 @@ Let's try side-to-side copying.
 
             .. disqus::
                 :shortname: studentcsp
-                :identifier: studentcsp_11_4_1_WSq
+                :identifier: studentcsp_11_6_1_WSq
 
+.. note::
 
+    Discuss topics in this section with classmates. 
+
+      .. disqus::
+          :shortname: studentcsp
+          :identifier: studentcsp_11_6

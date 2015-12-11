@@ -117,6 +117,11 @@ Here are a couple of other pictures that we can also use.  The first is apple.jp
                 :shortname: studentcsp
                 :identifier: studentcsp_15_2_1_WSq
 
+.. note::
 
+    Discuss topics in this section with classmates. 
 
+      .. disqus::
+          :shortname: studentcsp
+          :identifier: studentcsp_15_2
 

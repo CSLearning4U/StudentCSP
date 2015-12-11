@@ -106,4 +106,10 @@ When we ask a turtle to turn left, it will turn left based on the direction it i
    =====
    maria.forward(150)
 
+.. note::
 
+    Discuss topics in this section with classmates. 
+
+      .. disqus::
+          :shortname: studentcsp
+          :identifier: studentcsp_5_1

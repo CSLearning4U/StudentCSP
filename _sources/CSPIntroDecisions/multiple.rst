@@ -112,3 +112,10 @@ In this second version, we set a ``price`` as a *default*, then change it only o
                 :shortname: studentcsp
                 :identifier: studentcsp_12_3_3_WSq
 
+.. note::
+
+    Discuss topics in this section with classmates. 
+
+      .. disqus::
+          :shortname: studentcsp
+          :identifier: studentcsp_12_3

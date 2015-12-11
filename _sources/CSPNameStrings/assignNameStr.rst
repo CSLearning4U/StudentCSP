@@ -151,5 +151,11 @@ We can update our driving example to print out the cost of the trip with just on
      cityState = "Atlanta, GA"
      print(street + "," + cityState)
 
-   
+.. note::
+
+    Discuss topics in this section with classmates. 
+
+      .. disqus::
+          :shortname: studentcsp
+          :identifier: studentcsp_4_1   
 

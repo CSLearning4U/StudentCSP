@@ -97,3 +97,11 @@ How about the square root of 25?  How about 2,356?  It's difficult to know ahead
           var1 = var1 + 1
           var2 = var2 - 1
       print("var1: " + str(var1) + " var2 " + str(var2))
+
+.. note::
+
+    Discuss topics in this section with classmates. 
+
+      .. disqus::
+          :shortname: studentcsp
+          :identifier: studentcsp_8_4

@@ -111,3 +111,10 @@ That is what you are doing when you execute a statement like ``from turtle impor
                 :shortname: studentcsp
                 :identifier: studentcsp_6_5_2_WSq
 
+.. note::
+
+    Discuss topics in this section with classmates. 
+
+      .. disqus::
+          :shortname: studentcsp
+          :identifier: studentcsp_6_5

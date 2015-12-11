@@ -563,4 +563,10 @@ There is actually a way of using a **for** loop to read in a file.  We can read 
                 :shortname: studentcsp
                 :identifier: studentcsp_18_3_2_WSq
 
+.. note::
 
+    Discuss topics in this section with classmates. 
+
+      .. disqus::
+          :shortname: studentcsp
+          :identifier: studentcsp_18_3

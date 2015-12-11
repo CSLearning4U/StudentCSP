@@ -110,5 +110,11 @@ Run the following program.
    jamal.left(65)
    jamal.forward(45)
    
+.. note::
 
+    Discuss topics in this section with classmates. 
+
+      .. disqus::
+          :shortname: studentcsp
+          :identifier: studentcsp_5_6
 

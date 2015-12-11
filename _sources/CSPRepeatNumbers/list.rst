@@ -142,5 +142,11 @@ Let's write that program again with a better variable name.  We will use ``produ
                 :shortname: studentcsp
                 :identifier: studentcsp_7_3_5_WSq
 
+.. note::
 
+    Discuss topics in this section with classmates. 
+
+      .. disqus::
+          :shortname: studentcsp
+          :identifier: studentcsp_7_3
 

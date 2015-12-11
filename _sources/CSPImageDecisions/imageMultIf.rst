@@ -78,6 +78,14 @@ Rewrite the code for posterizing an image using if and else rather than multiple
    :feedback_d: That's the total number of colors possible.  But this code reduces that.
    
    How many different colors will be in our image when we are done?
+
+.. note::
+
+    Discuss topics in this section with classmates. 
+
+      .. disqus::
+          :shortname: studentcsp
+          :identifier: studentcsp_15_4
    
  
 

@@ -117,3 +117,10 @@ It is easy to write an ``if`` when you want *exactly* one block to execute, but 
             .. disqus::
                 :shortname: studentcsp
                 :identifier: studentcsp_12_7_2_WSq
+.. note::
+
+    Discuss topics in this section with classmates. 
+
+      .. disqus::
+          :shortname: studentcsp
+          :identifier: studentcsp_12_7

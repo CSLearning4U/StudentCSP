@@ -155,7 +155,13 @@ This makes it easy to change all of the data, by changing only one line as shown
                 :shortname: studentcsp
                 :identifier: studentcsp_17_3_3_WSq
 
+.. note::
 
+    Discuss topics in this section with classmates. 
+
+      .. disqus::
+          :shortname: studentcsp
+          :identifier: studentcsp_17_3
 
    
 

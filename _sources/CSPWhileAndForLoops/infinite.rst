@@ -64,3 +64,10 @@ We ran the following code in a form of Python where we could stop the computer e
 
    How many lines are in the body of the ``while`` loop in shown above?
 
+.. note::
+
+    Discuss topics in this section with classmates. 
+
+      .. disqus::
+          :shortname: studentcsp
+          :identifier: studentcsp_8_2

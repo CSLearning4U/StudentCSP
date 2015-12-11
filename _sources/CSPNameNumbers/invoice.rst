@@ -165,3 +165,11 @@ You are welcome to try out the following answers by copying and pasting them int
             .. disqus::
                 :shortname: studentcsp
                 :identifier: studentcsp_3_8_4_WSq
+
+.. note::
+
+    Discuss topics in this section with classmates. 
+
+      .. disqus::
+          :shortname: studentcsp
+          :identifier: studentcsp_3_8

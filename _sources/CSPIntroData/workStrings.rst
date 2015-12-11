@@ -121,4 +121,10 @@ Run the code below to see what type of error you get if you use a different star
                 :shortname: studentcsp
                 :identifier: studentcsp_16_2_4_WSq
 
+.. note::
 
+    Discuss topics in this section with classmates. 
+
+      .. disqus::
+          :shortname: studentcsp
+          :identifier: studentcsp_16_2

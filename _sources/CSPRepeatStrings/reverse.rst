@@ -90,3 +90,10 @@ Run this next one, and look at how a simple change to the pattern gives a very d
                 :shortname: studentcsp
                 :identifier: studentcsp_9_2_2_WSq
     
+.. note::
+
+    Discuss topics in this section with classmates. 
+
+      .. disqus::
+          :shortname: studentcsp
+          :identifier: studentcsp_9_2

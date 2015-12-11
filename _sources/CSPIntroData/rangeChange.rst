@@ -50,5 +50,11 @@ There is a version of ``range`` that takes an **change amount**, so that you can
 
    Which of these changes to the program would give you just the odd values in a list? (Again: Try it!)  Select all that work.
 		   
+.. note::
 
+    Discuss topics in this section with classmates. 
+
+      .. disqus::
+          :shortname: studentcsp
+          :identifier: studentcsp_16_6
 

@@ -87,3 +87,11 @@ Run the code below to see what type of error you get if you forget the ending ``
     start = [3
     start = start + ["What"3]
     print(start)
+
+.. note::
+
+    Discuss topics in this section with classmates. 
+
+      .. disqus::
+          :shortname: studentcsp
+          :identifier: studentcsp_16_3

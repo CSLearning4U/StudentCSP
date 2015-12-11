@@ -65,3 +65,10 @@ Be sure to press the |audiobutton| to get an explanation for how this program wo
 
 Run this program.  Enh, not that interesting, eh?  It just copies all the letters from ``phrase`` to ``newString``.
 
+.. note::
+
+    Discuss topics in this section with classmates. 
+
+      .. disqus::
+          :shortname: studentcsp
+          :identifier: studentcsp_9_1

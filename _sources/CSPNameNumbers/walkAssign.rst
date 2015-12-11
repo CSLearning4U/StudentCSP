@@ -162,5 +162,11 @@ We can see values (including the values for named variables) by printing them.  
                 :shortname: studentcsp
                 :identifier: studentcsp_3_7_5_WSq
 
+.. note::
 
+    Discuss topics in this section with classmates. 
+
+      .. disqus::
+          :shortname: studentcsp
+          :identifier: studentcsp_3_7
 

@@ -131,3 +131,10 @@ See the video below for a hint on how to solve the next mixed up code problem.
    ===== 
        endDef #distractor
 
+.. note::
+
+    Discuss topics in this section with classmates. 
+
+      .. disqus::
+          :shortname: studentcsp
+          :identifier: studentcsp_6_3

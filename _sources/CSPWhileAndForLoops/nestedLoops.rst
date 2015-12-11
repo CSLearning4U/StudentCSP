@@ -137,3 +137,10 @@ Modify the code above to draw a square of stars.
                 :shortname: studentcsp
                 :identifier: studentcsp_8_5_2_WSq
                
+.. note::
+
+    Discuss topics in this section with classmates. 
+
+      .. disqus::
+          :shortname: studentcsp
+          :identifier: studentcsp_8_5

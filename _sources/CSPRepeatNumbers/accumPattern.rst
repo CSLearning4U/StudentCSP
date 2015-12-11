@@ -154,6 +154,12 @@ How do we know what's really going on in this program?  How do we know that *num
    =====
    numbers = range(50,100,2) #distractor
 
+.. note::
 
+    Discuss topics in this section with classmates. 
+
+      .. disqus::
+          :shortname: studentcsp
+          :identifier: studentcsp_7_5
 
 

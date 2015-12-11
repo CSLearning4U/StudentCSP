@@ -515,3 +515,11 @@ Can you now write the code to get the city with the smallest PM 10 value?  Chang
    =====        
    # print the smallest PM 2.5 value
    print("Smallest PM 2.5 ",min25," in ",minCity)
+
+.. note::
+
+    Discuss topics in this section with classmates. 
+
+      .. disqus::
+          :shortname: studentcsp
+          :identifier: studentcsp_18_5

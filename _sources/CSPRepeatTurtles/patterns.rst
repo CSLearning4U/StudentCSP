@@ -93,5 +93,11 @@ You can use the coloring to help figure out the correct order of the lines below
            mateo.forward(50) 
            mateo.right(120)
          
+.. note::
 
+    Discuss topics in this section with classmates. 
+
+      .. disqus::
+          :shortname: studentcsp
+          :identifier: studentcsp_10_3
 

@@ -143,3 +143,11 @@ Can you loop through and encode a string to hide the contents of the message?
         .. disqus::
             :shortname: studentcsp
             :identifier: studentcsp_9_4_4_WSq
+
+.. note::
+
+    Discuss topics in this section with classmates. 
+
+      .. disqus::
+          :shortname: studentcsp
+          :identifier: studentcsp_9_4

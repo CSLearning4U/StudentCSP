@@ -96,4 +96,10 @@ Let's imagine going on to make another partial square along the slope, to create
    bob.right(90)
 
 
+.. note::
 
+    Discuss topics in this section with classmates. 
+
+      .. disqus::
+          :shortname: studentcsp
+          :identifier: studentcsp_5_5

@@ -531,3 +531,11 @@ What states have the highest average pollution values?  What do you think is mos
    # print the average
    avg = total25/count
    print("Avg for " , state, " is ", avg)
+
+.. note::
+
+    Discuss topics in this section with classmates. 
+
+      .. disqus::
+          :shortname: studentcsp
+          :identifier: studentcsp_18_8

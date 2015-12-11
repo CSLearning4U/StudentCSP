@@ -158,7 +158,13 @@ Here's the fortune teller code from before but now it is written using ``elif`` 
                 :shortname: studentcsp
                 :identifier: studentcsp_13_4_4_WSq
        
+.. note::
 
+    Discuss topics in this section with classmates. 
+
+      .. disqus::
+          :shortname: studentcsp
+          :identifier: studentcsp_13_4
 
 
 

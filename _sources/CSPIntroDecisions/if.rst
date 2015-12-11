@@ -65,5 +65,11 @@ indented block if the logical expression was true.  If the logical expression wa
          print ("x is less than 3")
      print ("All done")
 
- 
+.. note::
+
+    Discuss topics in this section with classmates. 
+
+      .. disqus::
+          :shortname: studentcsp
+          :identifier: studentcsp_12_2 
 

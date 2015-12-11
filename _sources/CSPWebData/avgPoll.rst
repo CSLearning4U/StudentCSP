@@ -486,3 +486,11 @@ Now, replace the lines that start with ``#`` below to write the code to get the 
    ===== 
    # print the average PM 2.5 value
    print("Average PM 2.5 value is ",total25/count)
+
+.. note::
+
+    Discuss topics in this section with classmates. 
+
+      .. disqus::
+          :shortname: studentcsp
+          :identifier: studentcsp_18_6

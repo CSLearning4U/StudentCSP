@@ -233,7 +233,13 @@ The ``find(string)`` function takes a string as input and returns the index wher
                 :shortname: studentcsp
                 :identifier: studentcsp_4_2_4_WSq
 
+.. note::
 
+    Discuss topics in this section with classmates. 
+
+      .. disqus::
+          :shortname: studentcsp
+          :identifier: studentcsp_4_2
 
    
    

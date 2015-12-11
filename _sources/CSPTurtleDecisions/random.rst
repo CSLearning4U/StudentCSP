@@ -146,7 +146,13 @@ Can you modify the code above to use 3 different colors?  You can use ``num % 3`
                 :shortname: studentcsp
                 :identifier: studentcsp_14_4_2_WSq
 
+.. note::
 
+    Discuss topics in this section with classmates. 
+
+      .. disqus::
+          :shortname: studentcsp
+          :identifier: studentcsp_14_4
 
 
 
