@@ -25,7 +25,7 @@ options(
         template_args={'course_id': 'CSP',
                        'login_required':'false',
                        'appname':master_app,
-                       'loglevel': 0,
+                       'loglevel': 10,
                        'course_url':master_url,
                        'use_services': 'true',
                        'python3': 'true'
