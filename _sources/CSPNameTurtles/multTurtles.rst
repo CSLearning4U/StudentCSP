@@ -127,7 +127,67 @@ Every turtle object has its own attributes like its current position and color. 
    =====
    wn.exitonclick()
 
+.. figure:: Figures/TwoTurtlesCross.png
+    :width: 150px
+    :align: center
+    :alt: 
+    :figclass: align-center
 
+.. tabbed:: 5_4_4_WSt
+        
+        .. tab:: Question
+           
+           Modify the problem csp-5-4-2 so that Jamal and Tina draw equal length lines to form a cross. Jamal's line will run north to south and Tina's line with run east to west. Refer to the image above. Finally, the program should set the window to close when the user clicks in it. 
+           
+           .. activecode::  5_4_4_WSq
+               :nocodelens:
 
+        .. tab:: Answer
+            
+          .. activecode::  5_4_4_WSa
+              :nocodelens:
+              
+              # CREATE THE TURTLE WORLD
+              from turtle import *
+              wn = Screen()
+              # CREATE TURTLE AND SET PROPERTIES 
+              jamal = Turtle()
+              jamal.color("blue") 
+              jamal.pensize(10)  
+              # MOVE TURTLE TO STARTING POINT
+              jamal.penup()
+              jamal.left(90)
+              jamal.forward(150)
+              jamal.pendown()
+              jamal.left(180)
+              # DRAW LINE 
+              jamal.forward(300)
+              # CREATE TURTLE AND SET PROPERTIES
+              tina = Turtle()
+              tina.color("orange") 
+              tina.pensize(10)  
+              # MOVE TURTLE TO STARTING POINT
+              tina.penup()
+              tina.forward(150)
+              tina.pendown()
+              tina.left(180)
+              # DRAW LINE 
+              tina.forward(300)  
+              # 5. EXIT WINDOW 
+              wn.exitonclick()
+                                
+        .. tab:: Discussion 
+
+            .. disqus::
+                :shortname: cslearn4u
+                :identifier: studentcsp_5_4_4_WSq
+
+.. note::
+
+    Discuss topics in this section with classmates. 
+
+      .. disqus::
+          :shortname: cslearn4u
+          :identifier: studentcsp_5_4
 
 

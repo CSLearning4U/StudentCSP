@@ -47,4 +47,12 @@ You can use conditionals to detect when two turtles are getting close to each ot
 
        .. disqus::
            :shortname: cslearn4u
-           :identifier: studentcsp_ch14collision                
+           :identifier: studentcsp_ch14collision   
+
+.. note::
+
+    Discuss topics in this section with classmates. 
+
+      .. disqus::
+          :shortname: cslearn4u
+          :identifier: studentcsp_14_5          

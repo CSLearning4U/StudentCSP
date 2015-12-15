@@ -106,5 +106,47 @@ Let's write that program again with a better variable name.  We will use ``produ
        sum = sum + number
    print(sum / 5) 
 
+.. tabbed:: 7_3_5_WSt
 
+        .. tab:: Question
+
+           Define a function to calculate the sum of 1 to the passed number using the range function.  Return the sum from the function.  Call the function and print the result.
+           
+           .. activecode::  7_3_5_WSq
+                :nocodelens:
+
+        .. tab:: Answer
+            
+          .. activecode::  7_3_5_WSa
+              :nocodelens:
+              
+              # DEFINE THE FUNCTION
+              def summation(endvalue):
+                # INITIALIZE ACCUMULATOR 
+                sum = 0  
+                # NAME DATA
+                numbers = range(1, endvalue +1)
+                # LOOP THROUGH DATA
+                for number in numbers:
+                  # ACCUMULATE 
+                  sum = sum + number
+                # RETURN SUM
+                return sum
+
+              # PRINT RESULT 
+              print(summation(10)) 
+                
+        .. tab:: Discussion 
+
+            .. disqus::
+                :shortname: cslearn4u
+                :identifier: studentcsp_7_3_5_WSq
+
+.. note::
+
+    Discuss topics in this section with classmates. 
+
+      .. disqus::
+          :shortname: cslearn4u
+          :identifier: studentcsp_7_3
 

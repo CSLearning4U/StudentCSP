@@ -87,3 +87,11 @@ The accumulator doesn't have to be set to be an empty string.  You can put somet
        newStr = char + newStr + char
    =====
    print(newStr)
+
+.. note::
+
+    Discuss topics in this section with classmates. 
+
+      .. disqus::
+          :shortname: cslearn4u
+          :identifier: studentcsp_9_3

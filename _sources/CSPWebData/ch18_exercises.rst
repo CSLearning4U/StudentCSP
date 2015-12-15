@@ -481,7 +481,7 @@ If you want to see **all** of the data click on the *Show* button below.  Once i
         .. tab:: Discussion 
 
             .. disqus::
-                :shortname: studentcsp
+                :shortname: cslearn4u
                 :identifier: studentcsp_ch18ex2q
                 
 #. 
@@ -513,7 +513,7 @@ If you want to see **all** of the data click on the *Show* button below.  Once i
         .. tab:: Discussion 
 
             .. disqus::
-                :shortname: studentcsp
+                :shortname: cslearn4u
                 :identifier: studentcsp_ch18ex5q
 
 #. 
@@ -578,7 +578,7 @@ If you want to see **all** of the data click on the *Show* button below.  Once i
         .. tab:: Discussion 
 
             .. disqus::
-                :shortname: studentcsp
+                :shortname: cslearn4u
                 :identifier: studentcsp_ch18ex4q
                 
                 
@@ -611,7 +611,7 @@ If you want to see **all** of the data click on the *Show* button below.  Once i
         .. tab:: Discussion 
 
             .. disqus::
-                :shortname: studentcsp
+                :shortname: cslearn4u
                 :identifier: studentcsp_ch18ex6q
                 
 #. 
@@ -631,7 +631,7 @@ If you want to see **all** of the data click on the *Show* button below.  Once i
         .. tab:: Discussion 
 
             .. disqus::
-                :shortname: studentcsp
+                :shortname: cslearn4u
                 :identifier: studentcsp_ch18ex7q
                 
 #. 
@@ -651,7 +651,7 @@ If you want to see **all** of the data click on the *Show* button below.  Once i
         .. tab:: Discussion 
 
             .. disqus::
-                :shortname: studentcsp
+                :shortname: cslearn4u
                 :identifier: studentcsp_ch18ex8q
                 
 #. 
@@ -670,7 +670,7 @@ If you want to see **all** of the data click on the *Show* button below.  Once i
         .. tab:: Discussion 
 
             .. disqus::
-                :shortname: studentcsp
+                :shortname: cslearn4u
                 :identifier: studentcsp_ch18ex9q
                 
 #. 
@@ -688,7 +688,7 @@ If you want to see **all** of the data click on the *Show* button below.  Once i
         .. tab:: Discussion 
 
             .. disqus::
-                :shortname: studentcsp
+                :shortname: cslearn4u
                 :identifier: studentcsp_ch18ex10q
 
 

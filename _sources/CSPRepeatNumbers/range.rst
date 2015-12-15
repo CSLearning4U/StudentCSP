@@ -80,5 +80,11 @@ Let's rewrite the program that calculates the product using the ``range`` functi
 
    Change ONE number in the above program to tell us the product of all numbers from 1 to 20
 
+.. note::
 
+    Discuss topics in this section with classmates. 
+
+      .. disqus::
+          :shortname: cslearn4u
+          :identifier: studentcsp_7_4
 
