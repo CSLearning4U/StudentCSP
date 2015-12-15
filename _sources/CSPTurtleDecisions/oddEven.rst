@@ -105,5 +105,5 @@ Try to change the code above to use both an ``elif`` and ``else`` to draw three 
     Discuss topics in this section with classmates. 
 
       .. disqus::
-          :shortname: studentcsp
+          :shortname: cslearn4u
           :identifier: studentcsp_14_3  

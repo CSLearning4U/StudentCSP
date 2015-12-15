@@ -125,5 +125,5 @@ Just by going forward, backward, left, and right, we can have a turtle draw a sh
     Discuss topics in this section with classmates. 
 
       .. disqus::
-          :shortname: studentcsp
+          :shortname: cslearn4u
           :identifier: studentcsp_1_5

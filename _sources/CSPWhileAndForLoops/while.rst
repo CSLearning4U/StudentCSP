@@ -103,5 +103,5 @@ How about the square root of 25?  How about 2,356?  It's difficult to know ahead
     Discuss topics in this section with classmates. 
 
       .. disqus::
-          :shortname: studentcsp
+          :shortname: cslearn4u
           :identifier: studentcsp_8_4

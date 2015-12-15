@@ -179,7 +179,7 @@ Every turtle object has its own attributes like its current position and color. 
         .. tab:: Discussion 
 
             .. disqus::
-                :shortname: studentcsp
+                :shortname: cslearn4u
                 :identifier: studentcsp_5_4_4_WSq
 
 .. note::
@@ -187,7 +187,7 @@ Every turtle object has its own attributes like its current position and color. 
     Discuss topics in this section with classmates. 
 
       .. disqus::
-          :shortname: studentcsp
+          :shortname: cslearn4u
           :identifier: studentcsp_5_4
 
 

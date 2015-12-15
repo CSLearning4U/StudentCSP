@@ -104,7 +104,7 @@ You can actually run this code on any image on the web by specifying the image u
     Discuss topics in this section with classmates. 
 
       .. disqus::
-          :shortname: studentcsp
+          :shortname: cslearn4u
           :identifier: studentcsp_11_1
 
 

@@ -84,7 +84,7 @@ Rewrite the code for posterizing an image using if and else rather than multiple
     Discuss topics in this section with classmates. 
 
       .. disqus::
-          :shortname: studentcsp
+          :shortname: cslearn4u
           :identifier: studentcsp_15_4
    
  

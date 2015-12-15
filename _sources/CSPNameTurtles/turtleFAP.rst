@@ -109,5 +109,5 @@ The program below uses the ``goto(x,y)`` to move to the top left corner before d
     Discuss topics in this section with classmates. 
 
       .. disqus::
-          :shortname: studentcsp
+          :shortname: cslearn4u
           :identifier: studentcsp_5_3

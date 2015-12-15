@@ -118,7 +118,7 @@ Run the code below to see what type of error you get if you use a different star
         .. tab:: Discussion 
 
             .. disqus::
-                :shortname: studentcsp
+                :shortname: cslearn4u
                 :identifier: studentcsp_16_2_4_WSq
 
 .. note::
@@ -126,5 +126,5 @@ Run the code below to see what type of error you get if you use a different star
     Discuss topics in this section with classmates. 
 
       .. disqus::
-          :shortname: studentcsp
+          :shortname: cslearn4u
           :identifier: studentcsp_16_2

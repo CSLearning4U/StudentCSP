@@ -101,7 +101,7 @@ Try to figure out what the program above does, then try to answer this question.
         .. tab:: Discussion 
 
             .. disqus::
-                :shortname: studentcsp
+                :shortname: cslearn4u
                 :identifier: studentcsp_16_7_3_WSq
 
 .. note::
@@ -109,6 +109,6 @@ Try to figure out what the program above does, then try to answer this question.
     Discuss topics in this section with classmates. 
 
       .. disqus::
-          :shortname: studentcsp
+          :shortname: cslearn4u
           :identifier: studentcsp_16_7
 

@@ -165,7 +165,7 @@ Try the program above on some of the other images by changing the name of the im
         .. tab:: Discussion 
 
             .. disqus::
-                :shortname: studentcsp
+                :shortname: cslearn4u
                 :identifier: studentcsp_11_4_1_WSq
 
 .. note::
@@ -173,5 +173,5 @@ Try the program above on some of the other images by changing the name of the im
     Discuss topics in this section with classmates. 
 
       .. disqus::
-          :shortname: studentcsp
+          :shortname: cslearn4u
           :identifier: studentcsp_11_4

@@ -521,5 +521,5 @@ Can you now write the code to get the city with the smallest PM 10 value?  Chang
     Discuss topics in this section with classmates. 
 
       .. disqus::
-          :shortname: studentcsp
+          :shortname: cslearn4u
           :identifier: studentcsp_18_5

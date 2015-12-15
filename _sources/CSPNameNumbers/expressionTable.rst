@@ -108,5 +108,5 @@ Summary of Expression Types
     Discuss topics in this section with classmates. 
 
       .. disqus::
-          :shortname: studentcsp
+          :shortname: cslearn4u
           :identifier: studentcsp_3_3

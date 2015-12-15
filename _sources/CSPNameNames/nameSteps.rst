@@ -136,5 +136,5 @@ See the video below for a hint on how to solve the next mixed up code problem.
     Discuss topics in this section with classmates. 
 
       .. disqus::
-          :shortname: studentcsp
+          :shortname: cslearn4u
           :identifier: studentcsp_6_3

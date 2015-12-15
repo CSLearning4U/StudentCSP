@@ -157,5 +157,5 @@ Try the program above on some of the other images as well by changing the file n
     Discuss topics in this section with classmates. 
 
       .. disqus::
-          :shortname: studentcsp
+          :shortname: cslearn4u
           :identifier: studentcsp_11_5

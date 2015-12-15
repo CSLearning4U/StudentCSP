@@ -115,12 +115,12 @@ It is easy to write an ``if`` when you want *exactly* one block to execute, but 
         .. tab:: Discussion 
 
             .. disqus::
-                :shortname: studentcsp
+                :shortname: cslearn4u
                 :identifier: studentcsp_12_7_2_WSq
 .. note::
 
     Discuss topics in this section with classmates. 
 
       .. disqus::
-          :shortname: studentcsp
+          :shortname: cslearn4u
           :identifier: studentcsp_12_7

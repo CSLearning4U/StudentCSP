@@ -136,5 +136,5 @@ You may not be familiar with the **modulo** (remainder) operator ``%``.  It retu
     Discuss topics in this section with classmates. 
 
       .. disqus::
-          :shortname: studentcsp
+          :shortname: cslearn4u
           :identifier: studentcsp_3_2

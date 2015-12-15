@@ -51,5 +51,5 @@ The functions ``abs`` and ``int`` are *names*.  They are *variables* whose value
     Discuss topics in this section with classmates. 
 
       .. disqus::
-          :shortname: studentcsp
+          :shortname: cslearn4u
           :identifier: studentcsp_6_7

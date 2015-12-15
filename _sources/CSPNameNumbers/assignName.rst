@@ -148,5 +148,5 @@ Since you can't have spaces in a variable name you can either join words togethe
     Discuss topics in this section with classmates. 
 
       .. disqus::
-          :shortname: studentcsp
+          :shortname: cslearn4u
           :identifier: studentcsp_3_1

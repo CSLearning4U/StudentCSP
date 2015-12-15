@@ -62,5 +62,5 @@ In programming there are two different terms used for a named sequence of statem
     Discuss topics in this section with classmates. 
 
       .. disqus::
-          :shortname: studentcsp
+          :shortname: cslearn4u
           :identifier: studentcsp_6_2

@@ -98,6 +98,6 @@ You can use the coloring to help figure out the correct order of the lines below
     Discuss topics in this section with classmates. 
 
       .. disqus::
-          :shortname: studentcsp
+          :shortname: cslearn4u
           :identifier: studentcsp_10_3
 

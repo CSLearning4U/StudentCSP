@@ -155,7 +155,7 @@ Here's the fortune teller code from before but now it is written using ``elif`` 
         .. tab:: Discussion 
 
             .. disqus::
-                :shortname: studentcsp
+                :shortname: cslearn4u
                 :identifier: studentcsp_13_4_4_WSq
        
 .. note::
@@ -163,7 +163,7 @@ Here's the fortune teller code from before but now it is written using ``elif`` 
     Discuss topics in this section with classmates. 
 
       .. disqus::
-          :shortname: studentcsp
+          :shortname: cslearn4u
           :identifier: studentcsp_13_4
 
 

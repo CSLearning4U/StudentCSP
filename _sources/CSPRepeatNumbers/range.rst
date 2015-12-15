@@ -85,6 +85,6 @@ Let's rewrite the program that calculates the product using the ``range`` functi
     Discuss topics in this section with classmates. 
 
       .. disqus::
-          :shortname: studentcsp
+          :shortname: cslearn4u
           :identifier: studentcsp_7_4
 

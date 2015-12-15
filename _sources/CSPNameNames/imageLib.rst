@@ -76,5 +76,5 @@ This ability to name functions and procedures, and sets of functions and procedu
     Discuss topics in this section with classmates. 
 
       .. disqus::
-          :shortname: studentcsp
+          :shortname: cslearn4u
           :identifier: studentcsp_6_6

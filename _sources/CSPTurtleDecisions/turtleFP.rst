@@ -95,7 +95,7 @@ more options on the `Python Docs Website <http://docs.python.org/dev/py3k/librar
     Discuss topics in this section with classmates. 
 
       .. disqus::
-          :shortname: studentcsp
+          :shortname: cslearn4u
           :identifier: studentcsp_14_1
 
   

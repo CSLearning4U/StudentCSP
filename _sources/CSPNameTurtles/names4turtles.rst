@@ -111,5 +111,5 @@ When we ask a turtle to turn left, it will turn left based on the direction it i
     Discuss topics in this section with classmates. 
 
       .. disqus::
-          :shortname: studentcsp
+          :shortname: cslearn4u
           :identifier: studentcsp_5_1

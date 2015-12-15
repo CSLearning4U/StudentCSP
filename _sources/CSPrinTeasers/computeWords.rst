@@ -95,5 +95,5 @@ A string can also be asked to return a new string that is changed in some way fr
     Discuss topics in this section with classmates. 
 
       .. disqus::
-          :shortname: studentcsp
+          :shortname: cslearn4u
           :identifier: studentcsp_1_4

@@ -115,6 +115,6 @@ Run the following program.
     Discuss topics in this section with classmates. 
 
       .. disqus::
-          :shortname: studentcsp
+          :shortname: cslearn4u
           :identifier: studentcsp_5_6
 

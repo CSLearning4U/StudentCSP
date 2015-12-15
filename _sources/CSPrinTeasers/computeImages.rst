@@ -136,5 +136,5 @@ The lines that are important are under the comments (lines that start with a ``#
     Discuss topics in this section with classmates. 
 
       .. disqus::
-          :shortname: studentcsp
+          :shortname: cslearn4u
           :identifier: studentcsp_1_6

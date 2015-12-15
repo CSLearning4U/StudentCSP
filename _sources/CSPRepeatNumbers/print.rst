@@ -55,5 +55,5 @@ The goal of this stage of learning about programming is to develop a mental mode
     Discuss topics in this section with classmates. 
 
       .. disqus::
-          :shortname: studentcsp
+          :shortname: cslearn4u
           :identifier: studentcsp_7_6

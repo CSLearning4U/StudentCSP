@@ -55,6 +55,6 @@ We can use the looping ability of computers, plus the indexing ability, to manip
     Discuss topics in this section with classmates. 
 
       .. disqus::
-          :shortname: studentcsp
+          :shortname: cslearn4u
           :identifier: studentcsp_16_5
 

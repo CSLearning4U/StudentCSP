@@ -492,5 +492,5 @@ Now, replace the lines that start with ``#`` below to write the code to get the 
     Discuss topics in this section with classmates. 
 
       .. disqus::
-          :shortname: studentcsp
+          :shortname: cslearn4u
           :identifier: studentcsp_18_6

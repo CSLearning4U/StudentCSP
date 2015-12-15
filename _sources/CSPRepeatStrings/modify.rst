@@ -141,7 +141,7 @@ Can you loop through and encode a string to hide the contents of the message?
     .. tab:: Discussion 
 
         .. disqus::
-            :shortname: studentcsp
+            :shortname: cslearn4u
             :identifier: studentcsp_9_4_4_WSq
 
 .. note::
@@ -149,5 +149,5 @@ Can you loop through and encode a string to hide the contents of the message?
     Discuss topics in this section with classmates. 
 
       .. disqus::
-          :shortname: studentcsp
+          :shortname: cslearn4u
           :identifier: studentcsp_9_4

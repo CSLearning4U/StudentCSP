@@ -134,7 +134,7 @@ Modify the code above to draw a square of stars.
         .. tab:: Discussion 
 
             .. disqus::
-                :shortname: studentcsp
+                :shortname: cslearn4u
                 :identifier: studentcsp_8_5_2_WSq
                
 .. note::
@@ -142,5 +142,5 @@ Modify the code above to draw a square of stars.
     Discuss topics in this section with classmates. 
 
       .. disqus::
-          :shortname: studentcsp
+          :shortname: cslearn4u
           :identifier: studentcsp_8_5

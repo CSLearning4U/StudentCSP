@@ -69,5 +69,5 @@ Modify the code above to draw a different pattern.  Try turning changing the dir
     Discuss topics in this section with classmates. 
 
       .. disqus::
-          :shortname: studentcsp
+          :shortname: cslearn4u
           :identifier: studentcsp_14_2 

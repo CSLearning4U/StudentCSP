@@ -111,5 +111,5 @@ The code below will loop as long as the number that you enter isn't negative.  I
     Discuss topics in this section with classmates. 
 
       .. disqus::
-          :shortname: studentcsp
+          :shortname: cslearn4u
           :identifier: studentcsp_8_1

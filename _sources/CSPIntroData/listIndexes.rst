@@ -105,6 +105,6 @@ You can access individual items of a list just like they were variables.  Using 
     Discuss topics in this section with classmates. 
 
       .. disqus::
-          :shortname: studentcsp
+          :shortname: cslearn4u
           :identifier: studentcsp_16_4
 

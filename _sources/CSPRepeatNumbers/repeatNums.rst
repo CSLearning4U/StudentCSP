@@ -72,6 +72,6 @@ What is the sum of all the numbers between 1 and 10?  Run the program below to c
     Discuss topics in this section with classmates. 
 
       .. disqus::
-          :shortname: studentcsp
+          :shortname: cslearn4u
           :identifier: studentcsp_7_2
 

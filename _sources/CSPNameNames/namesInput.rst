@@ -202,5 +202,5 @@ The inputs that are specified in a function or procedure definition are also cal
     Discuss topics in this section with classmates. 
 
       .. disqus::
-          :shortname: studentcsp
+          :shortname: cslearn4u
           :identifier: studentcsp_6_4

@@ -70,5 +70,5 @@ Run this program.  Enh, not that interesting, eh?  It just copies all the letter
     Discuss topics in this section with classmates. 
 
       .. disqus::
-          :shortname: studentcsp
+          :shortname: cslearn4u
           :identifier: studentcsp_9_1

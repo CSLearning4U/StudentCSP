@@ -64,6 +64,6 @@ Creating a procedure with parameters makes it easy to customize the madlib stori
     Discuss topics in this section with classmates. 
 
       .. disqus::
-          :shortname: studentcsp
+          :shortname: cslearn4u
           :identifier: studentcsp_17_5       
 

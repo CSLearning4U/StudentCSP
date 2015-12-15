@@ -67,7 +67,7 @@ What should the program do if the user enters something besides in, left, or rig
     Discuss topics in this section with classmates. 
 
       .. disqus::
-          :shortname: studentcsp
+          :shortname: cslearn4u
           :identifier: studentcsp_13_2
 
 

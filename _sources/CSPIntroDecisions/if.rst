@@ -70,6 +70,6 @@ indented block if the logical expression was true.  If the logical expression wa
     Discuss topics in this section with classmates. 
 
       .. disqus::
-          :shortname: studentcsp
+          :shortname: cslearn4u
           :identifier: studentcsp_12_2 
 

@@ -537,5 +537,5 @@ What states have the highest average pollution values?  What do you think is mos
     Discuss topics in this section with classmates. 
 
       .. disqus::
-          :shortname: studentcsp
+          :shortname: cslearn4u
           :identifier: studentcsp_18_8

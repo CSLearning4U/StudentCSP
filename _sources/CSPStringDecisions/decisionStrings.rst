@@ -108,7 +108,7 @@ Now go back and change the last active code (csp_sd_score) to work correctly.  R
     Discuss topics in this section with classmates. 
 
       .. disqus::
-          :shortname: studentcsp
+          :shortname: cslearn4u
           :identifier: studentcsp_13_1
 
 

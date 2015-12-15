@@ -49,6 +49,6 @@ Sure, we can -- if we can take that string apart.  The computer knows how to bre
     Discuss topics in this section with classmates. 
 
       .. disqus::
-          :shortname: studentcsp
+          :shortname: cslearn4u
           :identifier: studentcsp_17_2
 

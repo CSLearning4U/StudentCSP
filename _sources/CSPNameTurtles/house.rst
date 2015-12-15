@@ -101,5 +101,5 @@ Let's imagine going on to make another partial square along the slope, to create
     Discuss topics in this section with classmates. 
 
       .. disqus::
-          :shortname: studentcsp
+          :shortname: cslearn4u
           :identifier: studentcsp_5_5

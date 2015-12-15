@@ -72,6 +72,6 @@ This isn't actually a different ``for`` loop.  The function ``range`` actually c
     Discuss topics in this section with classmates. 
 
       .. disqus::
-          :shortname: studentcsp
+          :shortname: cslearn4u
           :identifier: studentcsp_16_8
 

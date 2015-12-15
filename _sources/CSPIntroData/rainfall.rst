@@ -71,6 +71,6 @@ Type the program here and try it.  Does it work like you thought it would?
     Discuss topics in this section with classmates. 
 
       .. disqus::
-          :shortname: studentcsp
+          :shortname: cslearn4u
           :identifier: studentcsp_16_9    
 

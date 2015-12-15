@@ -88,7 +88,7 @@ not sure, write a new line of code after the ``for`` loop to change tess' color,
     Discuss topics in this section with classmates. 
 
       .. disqus::
-          :shortname: studentcsp
+          :shortname: cslearn4u
           :identifier: studentcsp_10_4
  
 

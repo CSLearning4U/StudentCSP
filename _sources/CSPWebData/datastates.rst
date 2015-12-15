@@ -57,5 +57,5 @@ Let's give you a way of asking these questions.  Let's write a program to get th
     Discuss topics in this section with classmates. 
 
       .. disqus::
-          :shortname: studentcsp
+          :shortname: cslearn4u
           :identifier: studentcsp_18_7

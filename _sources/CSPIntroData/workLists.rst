@@ -93,5 +93,5 @@ Run the code below to see what type of error you get if you forget the ending ``
     Discuss topics in this section with classmates. 
 
       .. disqus::
-          :shortname: studentcsp
+          :shortname: cslearn4u
           :identifier: studentcsp_16_3

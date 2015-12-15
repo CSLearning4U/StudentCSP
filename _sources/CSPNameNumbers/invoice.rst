@@ -163,7 +163,7 @@ You are welcome to try out the following answers by copying and pasting them int
         .. tab:: Discussion 
 
             .. disqus::
-                :shortname: studentcsp
+                :shortname: cslearn4u
                 :identifier: studentcsp_3_8_4_WSq
 
 .. note::
@@ -171,5 +171,5 @@ You are welcome to try out the following answers by copying and pasting them int
     Discuss topics in this section with classmates. 
 
       .. disqus::
-          :shortname: studentcsp
+          :shortname: cslearn4u
           :identifier: studentcsp_3_8

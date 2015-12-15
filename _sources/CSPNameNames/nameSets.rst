@@ -108,7 +108,7 @@ That is what you are doing when you execute a statement like ``from turtle impor
         .. tab:: Discussion 
 
             .. disqus::
-                :shortname: studentcsp
+                :shortname: cslearn4u
                 :identifier: studentcsp_6_5_2_WSq
 
 .. note::
@@ -116,5 +116,5 @@ That is what you are doing when you execute a statement like ``from turtle impor
     Discuss topics in this section with classmates. 
 
       .. disqus::
-          :shortname: studentcsp
+          :shortname: cslearn4u
           :identifier: studentcsp_6_5

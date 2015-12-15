@@ -118,7 +118,7 @@ Below is a selection of images that you can use in the programs in this section.
         .. tab:: Discussion 
 
             .. disqus::
-                :shortname: studentcsp
+                :shortname: cslearn4u
                 :identifier: studentcsp_ch11ex2q
 
 #. 
@@ -202,7 +202,7 @@ Below is a selection of images that you can use in the programs in this section.
         .. tab:: Discussion 
 
             .. disqus::
-                :shortname: studentcsp
+                :shortname: cslearn4u
                 :identifier: studentcsp_ch11ex4q
    
 #. 
@@ -242,7 +242,7 @@ Below is a selection of images that you can use in the programs in this section.
         .. tab:: Discussion 
 
             .. disqus::
-                :shortname: studentcsp
+                :shortname: cslearn4u
                 :identifier: studentcsp_ch11ex5q
                 
 #. 
@@ -281,7 +281,7 @@ Below is a selection of images that you can use in the programs in this section.
         .. tab:: Discussion 
 
             .. disqus::
-                :shortname: studentcsp
+                :shortname: cslearn4u
                 :identifier: studentcsp_ch11ex6q
                 
 #. 
@@ -322,7 +322,7 @@ Below is a selection of images that you can use in the programs in this section.
         .. tab:: Discussion 
 
             .. disqus::
-                :shortname: studentcsp
+                :shortname: cslearn4u
                 :identifier: studentcsp_ch11ex7q
                 
 #. 
@@ -360,7 +360,7 @@ Below is a selection of images that you can use in the programs in this section.
         .. tab:: Discussion 
 
             .. disqus::
-                :shortname: studentcsp
+                :shortname: cslearn4u
                 :identifier: studentcsp_ch11ex8q
                 
 #. 
@@ -377,7 +377,7 @@ Below is a selection of images that you can use in the programs in this section.
         .. tab:: Discussion 
 
             .. disqus::
-                :shortname: studentcsp
+                :shortname: cslearn4u
                 :identifier: studentcsp_ch11ex9q
                 
 #. 
@@ -395,7 +395,7 @@ Below is a selection of images that you can use in the programs in this section.
         .. tab:: Discussion 
 
             .. disqus::
-                :shortname: studentcsp
+                :shortname: cslearn4u
                 :identifier: studentcsp_ch11ex10q
 
 

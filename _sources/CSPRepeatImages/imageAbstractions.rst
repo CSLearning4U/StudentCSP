@@ -41,7 +41,7 @@ There are some excellent CS Unplugged activities for understanding `image and co
     Discuss topics in this section with classmates. 
 
       .. disqus::
-          :shortname: studentcsp
+          :shortname: cslearn4u
           :identifier: studentcsp_11_2
 
 

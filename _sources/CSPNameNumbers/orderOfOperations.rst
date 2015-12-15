@@ -94,5 +94,5 @@ You can change the default order by adding parentheses around part of an express
     Discuss topics in this section with classmates. 
 
       .. disqus::
-          :shortname: studentcsp
+          :shortname: cslearn4u
           :identifier: studentcsp_3_4

@@ -91,5 +91,5 @@ While the strings themselves can't be changed you can change the value of a vari
     Discuss topics in this section with classmates. 
 
       .. disqus::
-          :shortname: studentcsp
+          :shortname: cslearn4u
           :identifier: studentcsp_4_3

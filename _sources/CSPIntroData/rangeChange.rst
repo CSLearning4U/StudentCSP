@@ -55,6 +55,6 @@ There is a version of ``range`` that takes an **change amount**, so that you can
     Discuss topics in this section with classmates. 
 
       .. disqus::
-          :shortname: studentcsp
+          :shortname: cslearn4u
           :identifier: studentcsp_16_6
 

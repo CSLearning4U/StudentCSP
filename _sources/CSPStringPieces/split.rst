@@ -152,7 +152,7 @@ This makes it easy to change all of the data, by changing only one line as shown
         .. tab:: Discussion 
 
             .. disqus::
-                :shortname: studentcsp
+                :shortname: cslearn4u
                 :identifier: studentcsp_17_3_3_WSq
 
 .. note::
@@ -160,7 +160,7 @@ This makes it easy to change all of the data, by changing only one line as shown
     Discuss topics in this section with classmates. 
 
       .. disqus::
-          :shortname: studentcsp
+          :shortname: cslearn4u
           :identifier: studentcsp_17_3
 
    

@@ -143,7 +143,7 @@ Can you modify the code above to use 3 different colors?  You can use ``num % 3`
         .. tab:: Discussion 
 
             .. disqus::
-                :shortname: studentcsp
+                :shortname: cslearn4u
                 :identifier: studentcsp_14_4_2_WSq
 
 .. note::
@@ -151,7 +151,7 @@ Can you modify the code above to use 3 different colors?  You can use ``num % 3`
     Discuss topics in this section with classmates. 
 
       .. disqus::
-          :shortname: studentcsp
+          :shortname: cslearn4u
           :identifier: studentcsp_14_4
 
 

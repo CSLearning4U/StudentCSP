@@ -97,5 +97,5 @@ Change the weight (in inches) and height (in pounds) in the program above, and p
     Discuss topics in this section with classmates. 
 
       .. disqus::
-          :shortname: studentcsp
+          :shortname: cslearn4u
           :identifier: studentcsp_1_3

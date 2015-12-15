@@ -139,7 +139,7 @@ Let's write that program again with a better variable name.  We will use ``produ
         .. tab:: Discussion 
 
             .. disqus::
-                :shortname: studentcsp
+                :shortname: cslearn4u
                 :identifier: studentcsp_7_3_5_WSq
 
 .. note::
@@ -147,6 +147,6 @@ Let's write that program again with a better variable name.  We will use ``produ
     Discuss topics in this section with classmates. 
 
       .. disqus::
-          :shortname: studentcsp
+          :shortname: cslearn4u
           :identifier: studentcsp_7_3
 

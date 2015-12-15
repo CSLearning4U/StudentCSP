@@ -75,7 +75,7 @@ You have probably figured out why the `range` in the `for` loop stops at one les
     Discuss topics in this section with classmates. 
 
       .. disqus::
-          :shortname: studentcsp
+          :shortname: cslearn4u
           :identifier: studentcsp_17_4			   		   
 
 

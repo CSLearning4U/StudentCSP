@@ -96,7 +96,7 @@ The ``range`` function returns a value so that the *for* loop executes that many
     Discuss topics in this section with classmates. 
 
       .. disqus::
-          :shortname: studentcsp
+          :shortname: cslearn4u
           :identifier: studentcsp_10_1
 
 

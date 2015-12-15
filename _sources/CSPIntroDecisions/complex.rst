@@ -95,5 +95,5 @@ A common use of ``or`` is to check if either one of two conditions are true.  Fo
     Discuss topics in this section with classmates. 
 
       .. disqus::
-          :shortname: studentcsp
+          :shortname: cslearn4u
           :identifier: studentcsp_12_5

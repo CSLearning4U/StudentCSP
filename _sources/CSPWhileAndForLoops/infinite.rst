@@ -69,5 +69,5 @@ We ran the following code in a form of Python where we could stop the computer e
     Discuss topics in this section with classmates. 
 
       .. disqus::
-          :shortname: studentcsp
+          :shortname: cslearn4u
           :identifier: studentcsp_8_2

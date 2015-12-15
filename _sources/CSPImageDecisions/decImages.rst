@@ -67,5 +67,5 @@ Remember that white light is a combination of red, green, and blue light with ea
     Discuss topics in this section with classmates. 
 
       .. disqus::
-          :shortname: studentcsp
+          :shortname: cslearn4u
           :identifier: studentcsp_15_1

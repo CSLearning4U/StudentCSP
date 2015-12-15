@@ -560,7 +560,7 @@ There is actually a way of using a **for** loop to read in a file.  We can read 
         .. tab:: Discussion 
 
             .. disqus::
-                :shortname: studentcsp
+                :shortname: cslearn4u
                 :identifier: studentcsp_18_3_2_WSq
 
 .. note::
@@ -568,5 +568,5 @@ There is actually a way of using a **for** loop to read in a file.  We can read 
     Discuss topics in this section with classmates. 
 
       .. disqus::
-          :shortname: studentcsp
+          :shortname: cslearn4u
           :identifier: studentcsp_18_3

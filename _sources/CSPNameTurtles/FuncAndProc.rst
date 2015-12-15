@@ -72,5 +72,5 @@ The following example has 4 errors.  Can you fix the errors so that the code run
     Discuss topics in this section with classmates. 
 
       .. disqus::
-          :shortname: studentcsp
+          :shortname: cslearn4u
           :identifier: studentcsp_5_2

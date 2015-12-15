@@ -93,5 +93,5 @@ The accumulator doesn't have to be set to be an empty string.  You can put somet
     Discuss topics in this section with classmates. 
 
       .. disqus::
-          :shortname: studentcsp
+          :shortname: cslearn4u
           :identifier: studentcsp_9_3

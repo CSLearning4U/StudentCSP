@@ -102,6 +102,6 @@ The next type of problem is new.  It shows correct code in code blocks on the le
     Discuss topics in this section with classmates. 
 
       .. disqus::
-          :shortname: studentcsp
+          :shortname: cslearn4u
           :identifier: studentcsp_3_6
 

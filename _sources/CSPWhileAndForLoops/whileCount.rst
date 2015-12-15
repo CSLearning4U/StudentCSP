@@ -142,7 +142,7 @@ The following code is an attempt to show another way to print the values from 1 
         .. tab:: Discussion 
 
             .. disqus::
-                :shortname: studentcsp
+                :shortname: cslearn4u
                 :identifier: studentcsp_8_3_5_WSq
     
 .. note::
@@ -150,5 +150,5 @@ The following code is an attempt to show another way to print the values from 1 
     Discuss topics in this section with classmates. 
 
       .. disqus::
-          :shortname: studentcsp
+          :shortname: cslearn4u
           :identifier: studentcsp_8_3

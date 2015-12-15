@@ -58,5 +58,5 @@ The computer's ability to take action (execute some code) when something is true
     Discuss topics in this section with classmates. 
 
       .. disqus::
-          :shortname: studentcsp
+          :shortname: cslearn4u
           :identifier: studentcsp_12_1

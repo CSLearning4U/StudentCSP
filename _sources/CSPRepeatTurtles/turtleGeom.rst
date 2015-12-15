@@ -118,7 +118,7 @@ Change the ``??`` in line 7 below to the amount to turn each time to draw a 12 s
         .. tab:: Discussion 
 
             .. disqus::
-                :shortname: studentcsp
+                :shortname: cslearn4u
                 :identifier: studentcsp_10_2_3_WSq
 
 .. note::
@@ -126,5 +126,5 @@ Change the ``??`` in line 7 below to the amount to turn each time to draw a 12 s
     Discuss topics in this section with classmates. 
 
       .. disqus::
-          :shortname: studentcsp
+          :shortname: cslearn4u
           :identifier: studentcsp_10_2

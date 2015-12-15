@@ -64,7 +64,7 @@ Modify the program to handle when the user enters something other than a number 
     Discuss topics in this section with classmates. 
 
       .. disqus::
-          :shortname: studentcsp
+          :shortname: cslearn4u
           :identifier: studentcsp_13_3
 
 

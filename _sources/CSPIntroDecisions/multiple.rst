@@ -109,7 +109,7 @@ In this second version, we set a ``price`` as a *default*, then change it only o
         .. tab:: Discussion 
 
             .. disqus::
-                :shortname: studentcsp
+                :shortname: cslearn4u
                 :identifier: studentcsp_12_3_3_WSq
 
 .. note::
@@ -117,5 +117,5 @@ In this second version, we set a ``price`` as a *default*, then change it only o
     Discuss topics in this section with classmates. 
 
       .. disqus::
-          :shortname: studentcsp
+          :shortname: cslearn4u
           :identifier: studentcsp_12_3

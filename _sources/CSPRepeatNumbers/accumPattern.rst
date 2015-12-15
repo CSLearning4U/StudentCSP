@@ -159,7 +159,7 @@ How do we know what's really going on in this program?  How do we know that *num
     Discuss topics in this section with classmates. 
 
       .. disqus::
-          :shortname: studentcsp
+          :shortname: cslearn4u
           :identifier: studentcsp_7_5
 
 

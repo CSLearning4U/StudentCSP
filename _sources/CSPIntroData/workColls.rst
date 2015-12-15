@@ -41,6 +41,6 @@ The rest of this chapter will give examples of using two data *collections*: str
     Discuss topics in this section with classmates. 
 
       .. disqus::
-          :shortname: studentcsp
+          :shortname: cslearn4u
           :identifier: studentcsp_16_1
 

@@ -523,5 +523,5 @@ Replace the lines that start with a comment (a ``#``) below to find the city wit
     Discuss topics in this section with classmates. 
 
       .. disqus::
-          :shortname: studentcsp
+          :shortname: cslearn4u
           :identifier: studentcsp_18_4

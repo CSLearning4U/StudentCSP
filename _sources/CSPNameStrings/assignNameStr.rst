@@ -156,6 +156,6 @@ We can update our driving example to print out the cost of the trip with just on
     Discuss topics in this section with classmates. 
 
       .. disqus::
-          :shortname: studentcsp
+          :shortname: cslearn4u
           :identifier: studentcsp_4_1   
 

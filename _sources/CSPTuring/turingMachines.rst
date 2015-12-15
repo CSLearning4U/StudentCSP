@@ -89,7 +89,7 @@ A **programming language** (like *Java* or *Python*) which is a language that al
     Discuss topics in this section with classmates. 
 
       .. disqus::
-          :shortname: studentcsp
+          :shortname: cslearn4u
           :identifier: studentcsp_2_2
 
 

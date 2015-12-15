@@ -182,12 +182,12 @@ You might have done MadLib stories when you were a kid.  You provide some pieces
         .. tab:: Discussion 
 
             .. disqus::
-                :shortname: studentcsp
+                :shortname: cslearn4u
                 :identifier: studentcsp_4_4_6_WSq
 .. note::
 
     Discuss topics in this section with classmates. 
 
       .. disqus::
-          :shortname: studentcsp
+          :shortname: cslearn4u
           :identifier: studentcsp_4_4

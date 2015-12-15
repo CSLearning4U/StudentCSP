@@ -198,7 +198,7 @@ Let's try side-to-side copying.
         .. tab:: Discussion 
 
             .. disqus::
-                :shortname: studentcsp
+                :shortname: cslearn4u
                 :identifier: studentcsp_11_6_1_WSq
 
 .. note::
@@ -206,5 +206,5 @@ Let's try side-to-side copying.
     Discuss topics in this section with classmates. 
 
       .. disqus::
-          :shortname: studentcsp
+          :shortname: cslearn4u
           :identifier: studentcsp_11_6

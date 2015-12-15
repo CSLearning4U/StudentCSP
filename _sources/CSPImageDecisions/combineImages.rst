@@ -114,7 +114,7 @@ Here are a couple of other pictures that we can also use.  The first is apple.jp
         .. tab:: Discussion 
 
             .. disqus::
-                :shortname: studentcsp
+                :shortname: cslearn4u
                 :identifier: studentcsp_15_2_1_WSq
 
 .. note::
@@ -122,6 +122,6 @@ Here are a couple of other pictures that we can also use.  The first is apple.jp
     Discuss topics in this section with classmates. 
 
       .. disqus::
-          :shortname: studentcsp
+          :shortname: cslearn4u
           :identifier: studentcsp_15_2
 

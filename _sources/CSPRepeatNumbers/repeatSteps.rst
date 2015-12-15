@@ -50,6 +50,6 @@ A computer never gets tired.  It can do the same thing over-and-over without sli
     Discuss topics in this section with classmates. 
 
       .. disqus::
-          :shortname: studentcsp
+          :shortname: cslearn4u
           :identifier: studentcsp_7_1
 

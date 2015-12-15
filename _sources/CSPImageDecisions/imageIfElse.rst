@@ -84,5 +84,5 @@ Try other ways to detect big changes in color from one pixel to another.
     Discuss topics in this section with classmates. 
 
       .. disqus::
-          :shortname: studentcsp
+          :shortname: cslearn4u
           :identifier: studentcsp_15_3

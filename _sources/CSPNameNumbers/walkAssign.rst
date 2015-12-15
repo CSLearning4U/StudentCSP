@@ -159,7 +159,7 @@ We can see values (including the values for named variables) by printing them.  
         .. tab:: Discussion 
 
             .. disqus::
-                :shortname: studentcsp
+                :shortname: cslearn4u
                 :identifier: studentcsp_3_7_5_WSq
 
 .. note::
@@ -167,6 +167,6 @@ We can see values (including the values for named variables) by printing them.  
     Discuss topics in this section with classmates. 
 
       .. disqus::
-          :shortname: studentcsp
+          :shortname: cslearn4u
           :identifier: studentcsp_3_7
 

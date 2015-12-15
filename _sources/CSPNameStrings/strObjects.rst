@@ -230,7 +230,7 @@ The ``find(string)`` function takes a string as input and returns the index wher
         .. tab:: Discussion 
 
             .. disqus::
-                :shortname: studentcsp
+                :shortname: cslearn4u
                 :identifier: studentcsp_4_2_4_WSq
 
 .. note::
@@ -238,7 +238,7 @@ The ``find(string)`` function takes a string as input and returns the index wher
     Discuss topics in this section with classmates. 
 
       .. disqus::
-          :shortname: studentcsp
+          :shortname: cslearn4u
           :identifier: studentcsp_4_2
 
    

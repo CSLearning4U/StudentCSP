@@ -42,5 +42,5 @@ The following are examples of logical expressions:
     Discuss topics in this section with classmates. 
 
       .. disqus::
-          :shortname: studentcsp
+          :shortname: cslearn4u
           :identifier: studentcsp_12_4

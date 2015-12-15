@@ -107,7 +107,7 @@ Say that you are looking for a name in a string but don't know the exact positio
     Discuss topics in this section with classmates. 
 
       .. disqus::
-          :shortname: studentcsp
+          :shortname: cslearn4u
           :identifier: studentcsp_17_6  
     
    

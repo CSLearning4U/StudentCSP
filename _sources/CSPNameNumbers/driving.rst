@@ -131,6 +131,6 @@ Try editing the program above and running it to answer this question:
     Discuss topics in this section with classmates. 
 
       .. disqus::
-          :shortname: studentcsp
+          :shortname: cslearn4u
           :identifier: studentcsp_3_5
 
