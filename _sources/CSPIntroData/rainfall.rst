@@ -53,53 +53,24 @@ Let's imagine that you have a list that contains amounts of rainfall for each da
       print("No rain")
 
 
-.. tabbed:: rainfallTab
 
-    .. tab:: Question
    
-        Type the program here and try it.  Does it work like you thought it would?
+Type the program here and try it.  Does it work like you thought it would?
 
-        .. activecode:: Rainfall_AC
+.. activecode:: Rainfall_AC
 
-           # initialize the variables
-           rain = [0,5,1,0,-1,6,7,-2,0]
-           sumRain = 0
-           count = 0
+    # initialize the variables
+    rain = [0,5,1,0,-1,6,7,-2,0]
+    sumRain = 0
+    count = 0
   
-           # Your code goes here
+    # Your code goes here
            
-    .. tab:: Answer
-    
-        Here is a solution.  Notice that it checks that the value is positive before adding it to the sum.  It also checks that the count is positive before calculating the average since you can't divide by zero.
-    
-        .. activecode:: Rainfall_Answer
+.. note::
 
-           # initialize the variables
-           rain = [0,5,1,0,-1,6,7,-2,0]
-           sumRain = 0
-           count = 0
-  
-           # loop through the values in the list
-           for day in rain:
-           
-               # if the value of day is positive
-               if day >= 0:
-                   # add the value of day to the sum and increment the count
-                   sumRain = sumRain + day
-                   count = count + 1.0
-  
-           # if count is positive
-           if count > 0:
+    Discuss topics in this section with classmates. 
 
-               # calculate and print the average
-               ave = sumRain / count
-               print("Average",ave)
-  
-           # otherwise 
-           else:
-      
-               # print no rain
-               print("No rain")
-  
-
+      .. disqus::
+          :shortname: cslearn4u
+          :identifier: studentcsp_16_9    
 

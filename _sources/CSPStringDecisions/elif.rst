@@ -6,9 +6,9 @@
     no Front-Cover Texts, and no Back-Cover Texts.  A copy of the license
     is included in the section entitled "GNU Free Documentation License".
 
-.. 	qnum::
-	:start: 1
-	:prefix: csp-13-4-
+..  qnum::
+  :start: 1
+  :prefix: csp-13-4-
 
 Using elif for more options
 ================================
@@ -28,8 +28,8 @@ We have used ``if`` and ``else`` to handle two possible options, but what could 
 Run this several times and change the value of x each time.  Try it with a positive number, a negative number, and 0 to check that it works correctly.  Modify the code to 
 take a number as input from the user instead.  
 
-..	index::
-   	single: elif
+..  index::
+    single: elif
 
 Another way to choose between three options is to use ``if`` followed by ``elif`` and finally ``else`` as shown below.  
 
@@ -125,8 +125,46 @@ Here's the fortune teller code from before but now it is written using ``elif`` 
 
    How many conditions (logical expressions) are checked in the code above if the user answered 2?
    
-       
+.. tabbed:: 13_4_4_WSt
 
+        .. tab:: Question
+
+           Write code to that will take a number as input and return a response as a string. Ask the user to enter the number of states visited in the US. Have 3 categories of responses. 
+           
+           .. activecode::  13_4_4_WSq
+               :nocodelens:
+
+        .. tab:: Answer
+            
+          .. activecode::  13_4_4_WSa
+              :nocodelens:
+              
+              num = input ("Type a number from 1 to 5. Then click OK or press enter")
+              states = int(num)
+              if states <10 : 
+                  print("It seems that you have explored some states.")
+              elif states <25 :
+                  print("Wow, you're almost halfway through seeing the entire US.")
+              elif states <50:
+                  print("You're so well traveled!")
+              elif states == 50:
+                  print("Congratulations on exploring the US!")
+              else:
+                  print("There are 50 US states, are you sure you traveled this many?")
+                                
+        .. tab:: Discussion 
+
+            .. disqus::
+                :shortname: cslearn4u
+                :identifier: studentcsp_13_4_4_WSq
+       
+.. note::
+
+    Discuss topics in this section with classmates. 
+
+      .. disqus::
+          :shortname: cslearn4u
+          :identifier: studentcsp_13_4
 
 
 

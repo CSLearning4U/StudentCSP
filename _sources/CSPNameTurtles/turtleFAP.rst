@@ -104,3 +104,10 @@ The program below uses the ``goto(x,y)`` to move to the top left corner before d
     anu.right(90)         # turn right 90 degrees
     anu.forward(300)      # move forward by 300 pixels
 
+.. note::
+
+    Discuss topics in this section with classmates. 
+
+      .. disqus::
+          :shortname: cslearn4u
+          :identifier: studentcsp_5_3

@@ -60,7 +60,7 @@ Chapter 8 Exercises
         .. tab:: Discussion 
 
             .. disqus::
-                :shortname: studentcsp
+                :shortname: cslearn4u
                 :identifier: studentcsp_ch8ex2q
 
 #. 
@@ -111,7 +111,7 @@ Chapter 8 Exercises
         .. tab:: Discussion 
 
             .. disqus::
-                :shortname: studentcsp
+                :shortname: cslearn4u
                 :identifier: studentcsp_ch8ex4q
    
 #. 
@@ -133,7 +133,7 @@ Chapter 8 Exercises
         .. tab:: Discussion 
 
             .. disqus::
-                :shortname: studentcsp
+                :shortname: cslearn4u
                 :identifier: studentcsp_ch8ex5q
                 
 #. 
@@ -156,7 +156,7 @@ Chapter 8 Exercises
         .. tab:: Discussion 
 
             .. disqus::
-                :shortname: studentcsp
+                :shortname: cslearn4u
                 :identifier: studentcsp_ch8ex6q
                 
 #. 
@@ -185,7 +185,7 @@ Chapter 8 Exercises
         .. tab:: Discussion 
 
             .. disqus::
-                :shortname: studentcsp
+                :shortname: cslearn4u
                 :identifier: studentcsp_ch8ex7q
                 
 #. 
@@ -214,7 +214,7 @@ Chapter 8 Exercises
         .. tab:: Discussion 
 
             .. disqus::
-                :shortname: studentcsp
+                :shortname: cslearn4u
                 :identifier: studentcsp_ch8ex8q
                 
 #. 
@@ -223,7 +223,7 @@ Chapter 8 Exercises
 
         .. tab:: Question
 
-           Create a function to calculate and return the sum of all of the even numbers from 1 to the passed input using a while loop.
+           Create a function to calculate and return the sum of all of the even numbers from 0 to the passed number (inclusive) using a while loop.
            
            .. activecode::  ch8ex9q
                 :nocodelens:
@@ -231,7 +231,7 @@ Chapter 8 Exercises
         .. tab:: Discussion 
 
             .. disqus::
-                :shortname: studentcsp
+                :shortname: cslearn4u
                 :identifier: studentcsp_ch8ex9q
                 
 #. 
@@ -240,7 +240,7 @@ Chapter 8 Exercises
 
         .. tab:: Question
 
-           Create a procedure to print stars in a square pattern and have it take as input the number of stars on a side.  Use a nested loop to do this.
+           Create a procedure to print stars and spaces in a roughly square pattern and have it take as input the number of stars on a side.  Use a nested loop to do this.
            
            .. activecode::  ch8ex10q
                :nocodelens:
@@ -248,7 +248,7 @@ Chapter 8 Exercises
         .. tab:: Discussion 
 
             .. disqus::
-                :shortname: studentcsp
+                :shortname: cslearn4u
                 :identifier: studentcsp_ch8ex10q
 
 

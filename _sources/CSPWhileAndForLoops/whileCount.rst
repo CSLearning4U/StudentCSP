@@ -116,4 +116,39 @@ The following code is an attempt to show another way to print the values from 1 
        counter = counter + 2
    =====
        counter = counter + 1 #distractor
+
+.. tabbed:: 8_3_5_WSt
+
+        .. tab:: Question
+
+           Use a while loop to count from 5 to 9. Print the current value in the counter at every interation in the loop. 
+           
+           .. activecode::  8_3_5_WSq
+                :nocodelens:
+
+        .. tab:: Answer
+            
+          .. activecode::  8_3_5_WSa
+              :nocodelens:
+              
+              # INITIALIZE COUNTER 
+              counter = 5  
+              # SET LOOP CONDITION
+              while counter < 10 :
+                # PRINT CURRENT VALUE
+                print(counter)
+                counter = counter + 1
+                
+        .. tab:: Discussion 
+
+            .. disqus::
+                :shortname: cslearn4u
+                :identifier: studentcsp_8_3_5_WSq
     
+.. note::
+
+    Discuss topics in this section with classmates. 
+
+      .. disqus::
+          :shortname: cslearn4u
+          :identifier: studentcsp_8_3

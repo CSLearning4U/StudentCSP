@@ -13,7 +13,7 @@
 
 .. 	qnum::
 	:start: 1
-	:prefix: csp-1-5-
+	:prefix: csp-1-6-
 
 
 .. |runbutton| image:: Figures/run-button.png
@@ -57,7 +57,7 @@ Pixels are quite small.  Even this small picture below has 180 columns and 240 r
     
     Figure 2: Picture of an arch from Oxford, England
     
-.. mchoice:: 1_5_1_Image_Q1
+.. mchoice:: 1_6_1_Image_Q1
    :answer_a: From left to right
    :answer_b: From right to left
    :answer_c: From top to bottom
@@ -120,7 +120,7 @@ The lines that are important are under the comments (lines that start with a ``#
     win = ImageWin(img.getWidth(),img.getHeight())
     img.draw(win)
     
-.. mchoice:: 1_5_2_Image_Black
+.. mchoice:: 1_6_2_Image_Black
    :answer_a: You still see the picture, but it is all in shades of gray.  
    :answer_b: The picture is all white.
    :answer_c: The picture is all black.
@@ -131,4 +131,10 @@ The lines that are important are under the comments (lines that start with a ``#
    
    What do you think happens when you set all the colors to 0?  Try adding ``p.setBlue(0)`` and ``p.setGreen(0)`` to the program above after the ``p.setRed(0)`` and run it to check.
  
+.. note::
 
+    Discuss topics in this section with classmates. 
+
+      .. disqus::
+          :shortname: cslearn4u
+          :identifier: studentcsp_1_6

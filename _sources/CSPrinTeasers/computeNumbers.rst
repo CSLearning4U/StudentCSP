@@ -13,7 +13,7 @@
 
 .. 	qnum::
 	:start: 1
-	:prefix: csp-1-2-
+	:prefix: csp-1-3-
 
 
 .. |runbutton| image:: Figures/run-button.png
@@ -79,7 +79,7 @@ Change the weight (in inches) and height (in pounds) in the program above, and p
 .. Note
    Notice how naming the values (using variables) for height and weight makes it easier to figure out what values need to be changed.  
 
-.. mchoice:: 1_2_1_BMI_Q1
+.. mchoice:: 1_3_1_BMI_Q1
    :answer_a: 21.9
    :answer_b: 21.924704834
    :answer_c: 21
@@ -92,4 +92,10 @@ Change the weight (in inches) and height (in pounds) in the program above, and p
    
    Imagine that you are 5 foot 7 inches and weighed 140 pounds.  What is your BMI?
 
+.. note::
 
+    Discuss topics in this section with classmates. 
+
+      .. disqus::
+          :shortname: cslearn4u
+          :identifier: studentcsp_1_3

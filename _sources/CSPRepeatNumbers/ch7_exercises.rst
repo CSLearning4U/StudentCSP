@@ -60,7 +60,7 @@ Chapter 7 Exercises
         .. tab:: Discussion 
 
             .. disqus::
-                :shortname: studentcsp
+                :shortname: cslearn4u
                 :identifier: studentcsp_ch7ex2q
 
 #. 
@@ -106,7 +106,7 @@ Chapter 7 Exercises
         .. tab:: Discussion 
 
             .. disqus::
-                :shortname: studentcsp
+                :shortname: cslearn4u
                 :identifier: studentcsp_ch7ex4q
    
 #. 
@@ -115,7 +115,7 @@ Chapter 7 Exercises
 
         .. tab:: Question
 
-           Fill in the code below on lines 2, 4, and 6 to correctly add up and print the sum of all the even numbers from 1 to 10 (inclusive).
+           Fill in the code below on lines 2, 4, and 6 to correctly add up and print the sum of all the even numbers from 0 to 10 (inclusive).
            
            .. activecode::  ch7ex5q
                 :nocodelens:
@@ -134,7 +134,7 @@ Chapter 7 Exercises
         .. tab:: Discussion 
 
             .. disqus::
-                :shortname: studentcsp
+                :shortname: cslearn4u
                 :identifier: studentcsp_ch7ex5q
                 
 #. 
@@ -163,7 +163,7 @@ Chapter 7 Exercises
         .. tab:: Discussion 
 
             .. disqus::
-                :shortname: studentcsp
+                :shortname: cslearn4u
                 :identifier: studentcsp_ch7ex6q
                 
 #. 
@@ -192,7 +192,7 @@ Chapter 7 Exercises
         .. tab:: Discussion 
 
             .. disqus::
-                :shortname: studentcsp
+                :shortname: cslearn4u
                 :identifier: studentcsp_ch7ex7q
                 
 #. 
@@ -209,7 +209,7 @@ Chapter 7 Exercises
         .. tab:: Discussion 
 
             .. disqus::
-                :shortname: studentcsp
+                :shortname: cslearn4u
                 :identifier: studentcsp_ch7ex8q
                 
 #. 
@@ -218,7 +218,7 @@ Chapter 7 Exercises
 
         .. tab:: Question
 
-           Create a function to calculate and return the product of all of the even numbers from 1 to the passed end number.  Be sure to call the function to test it and print the result.
+           Create a function to calculate and return the product of all of the even numbers from 2 to the passed end number (inclusive).  Be sure to call the function to test it and print the result.
            
            .. activecode::  ch7ex9q
                 :nocodelens:
@@ -226,7 +226,7 @@ Chapter 7 Exercises
         .. tab:: Discussion 
 
             .. disqus::
-                :shortname: studentcsp
+                :shortname: cslearn4u
                 :identifier: studentcsp_ch7ex9q
                 
 #. 
@@ -243,7 +243,7 @@ Chapter 7 Exercises
         .. tab:: Discussion 
 
             .. disqus::
-                :shortname: studentcsp
+                :shortname: cslearn4u
                 :identifier: studentcsp_ch7ex10q
 
 

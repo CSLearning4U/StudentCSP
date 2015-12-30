@@ -154,5 +154,40 @@ You might have done MadLib stories when you were a kid.  You provide some pieces
    print("But, he didn't like any.")
    =====
    print("So, " + name + " went home.")
-   
 
+.. tabbed:: 4_4_6_WSt
+
+        .. tab:: Question
+
+           Write the code below to calculate and print how many blocks you can travel in an hour if you walk .3 blocks every minute.  It should print: "I will travel 18 blocks in an hour if I walk .3 blocks every minute."
+           
+           .. activecode::  4_4_6_WSq
+                :nocodelens:
+
+        .. tab:: Answer
+        
+            Name each of the values.  Calculate the ``totalBlocks`` it will take and print the information.
+            
+            .. activecode::  4_4_6_WSa
+                :nocodelens:
+
+                # DECLARE VARIABLES
+                ratePerMinute = .3
+                minutesPerHour = 60
+                # CREATE FORMULA
+                totalBlocks = ratePerMinute * minutesPerHour
+                # PROCESS AND DISPLAY RESULT 
+                print("I will travel " + str(totalBlocks) + " blocks in an hour if I walk " + str(ratePerMinute) + " blocks every minute.")
+                                
+        .. tab:: Discussion 
+
+            .. disqus::
+                :shortname: cslearn4u
+                :identifier: studentcsp_4_4_6_WSq
+.. note::
+
+    Discuss topics in this section with classmates. 
+
+      .. disqus::
+          :shortname: cslearn4u
+          :identifier: studentcsp_4_4

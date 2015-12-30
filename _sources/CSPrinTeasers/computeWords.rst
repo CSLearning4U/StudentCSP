@@ -13,7 +13,7 @@
 
 .. 	qnum::
 	:start: 1
-	:prefix: csp-1-3-
+	:prefix: csp-1-4-
 
 
 .. |runbutton| image:: Figures/run-button.png
@@ -69,7 +69,7 @@ A string can also be asked to return a new string that is changed in some way fr
    betterStill = better.capitalize() + "."
    print(betterStill)
    
-.. mchoice:: 1_3_1_String_Methods_Q1
+.. mchoice:: 1_4_1_String_Methods_Q1
    :answer_a: Hi There
    :answer_b: HiThere
    :answer_c: Hi There Hi There
@@ -90,3 +90,10 @@ A string can also be asked to return a new string that is changed in some way fr
       next = "There"
       print ((first + next) * 2)
 
+.. note::
+
+    Discuss topics in this section with classmates. 
+
+      .. disqus::
+          :shortname: cslearn4u
+          :identifier: studentcsp_1_4

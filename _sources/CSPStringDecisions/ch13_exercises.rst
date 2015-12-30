@@ -73,7 +73,7 @@ Chapter 13 Exercises
         .. tab:: Discussion 
 
             .. disqus::
-                :shortname: studentcsp
+                :shortname: cslearn4u
                 :identifier: studentcsp_ch13ex2q
 
 #. 
@@ -137,7 +137,7 @@ Chapter 13 Exercises
         .. tab:: Discussion 
 
             .. disqus::
-                :shortname: studentcsp
+                :shortname: cslearn4u
                 :identifier: studentcsp_ch13ex4q
                 
 
@@ -170,7 +170,7 @@ Chapter 13 Exercises
         .. tab:: Discussion 
 
             .. disqus::
-                :shortname: studentcsp
+                :shortname: cslearn4u
                 :identifier: studentcsp_ch13ex5q
                 
 #. 
@@ -198,7 +198,7 @@ Chapter 13 Exercises
         .. tab:: Discussion 
 
             .. disqus::
-                :shortname: studentcsp
+                :shortname: cslearn4u
                 :identifier: studentcsp_ch13ex6q
                 
 #. 
@@ -231,7 +231,7 @@ Chapter 13 Exercises
         .. tab:: Discussion 
 
             .. disqus::
-                :shortname: studentcsp
+                :shortname: cslearn4u
                 :identifier: studentcsp_ch13ex7q
                 
 #. 
@@ -260,7 +260,7 @@ Chapter 13 Exercises
         .. tab:: Discussion 
 
             .. disqus::
-                :shortname: studentcsp
+                :shortname: cslearn4u
                 :identifier: studentcsp_ch13ex8q
                 
 #. 
@@ -278,7 +278,7 @@ Chapter 13 Exercises
         .. tab:: Discussion 
 
             .. disqus::
-                :shortname: studentcsp
+                :shortname: cslearn4u
                 :identifier: studentcsp_ch13ex9q
                 
 #. 
@@ -297,7 +297,7 @@ Chapter 13 Exercises
         .. tab:: Discussion 
 
             .. disqus::
-                :shortname: studentcsp
+                :shortname: cslearn4u
                 :identifier: studentcsp_ch13ex10q
 
 

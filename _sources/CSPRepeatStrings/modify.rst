@@ -110,3 +110,44 @@ Can you loop through and encode a string to hide the contents of the message?
        message = message + str[pos:pos+1]
    =====
    print(message)
+
+.. tabbed:: 9_4_4_WSt
+
+    .. tab:: Question
+
+       Write the code to replace every 0 with o in the given string 'The 0wl h00ts l0udly'. 
+
+       .. activecode::  9_4_4_WSq
+            :nocodelens:
+
+    .. tab:: Answer
+
+      .. activecode::  9_4_4_WSa
+          :nocodelens:
+          
+          str = "The 0wl h00ts l0udly"
+          # SET POS TO A VALUE GREATER THAN OR EQUAL TO 0
+          pos = 1
+          # SET WHILE CONDITION
+          while pos >= 0:
+              # REPLACE VALUE
+              pos = str.find("0")
+              if pos == -1:
+                break
+              str = str[0:pos] + "o" + str[pos+1:len(str)]
+          # PRINT RESULT
+          print(str)
+            
+    .. tab:: Discussion 
+
+        .. disqus::
+            :shortname: cslearn4u
+            :identifier: studentcsp_9_4_4_WSq
+
+.. note::
+
+    Discuss topics in this section with classmates. 
+
+      .. disqus::
+          :shortname: cslearn4u
+          :identifier: studentcsp_9_4

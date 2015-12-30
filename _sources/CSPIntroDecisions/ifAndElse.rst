@@ -85,3 +85,42 @@ It is easy to write an ``if`` when you want *exactly* one block to execute, but 
      print(weight)
      print(price)
      print(total)
+
+.. tabbed:: 12_7_2_WSt
+
+        .. tab:: Question
+
+           Fix the example above such that the cost of frozen yogurt is 0 if you pour exactly 1 lb. in your cup. 
+           
+           .. activecode::  12_7_2_WSq
+               :nocodelens:
+
+        .. tab:: Answer
+            
+          .. activecode::  12_7_2_WSa
+              :nocodelens:
+              
+              weight = 0.5
+              if weight < 1:
+                price = 1.45
+              if weight == 1:
+                price = 0
+              if weight > 1: 
+                price = 1.15
+              total = weight * price
+              print(weight)
+              print(price)
+              print(total)
+                                
+        .. tab:: Discussion 
+
+            .. disqus::
+                :shortname: cslearn4u
+                :identifier: studentcsp_12_7_2_WSq
+.. note::
+
+    Discuss topics in this section with classmates. 
+
+      .. disqus::
+          :shortname: cslearn4u
+          :identifier: studentcsp_12_7

@@ -76,7 +76,7 @@ Chapter 9 Exercises
         .. tab:: Discussion 
 
             .. disqus::
-                :shortname: studentcsp
+                :shortname: cslearn4u
                 :identifier: studentcsp_ch9ex2q
 
 #. 
@@ -114,7 +114,7 @@ Chapter 9 Exercises
 
         .. tab:: Question
 
-           The code below is supposed to replace all 1's with i's, but it is in an infinite loop.  Add a line to make the code work.  It should print: "This is a string."
+           The code below is supposed to replace all 1's with i's, but it is in an infinite loop.  You can reload the page to stop the infinite loop.  Add a line to make the code work.  It should print: "This is a string."
            
            .. activecode::  ch9ex4q
                 :nocodelens:
@@ -129,7 +129,7 @@ Chapter 9 Exercises
         .. tab:: Discussion 
 
             .. disqus::
-                :shortname: studentcsp
+                :shortname: cslearn4u
                 :identifier: studentcsp_ch9ex4q
    
 #. 
@@ -156,7 +156,7 @@ Chapter 9 Exercises
         .. tab:: Discussion 
 
             .. disqus::
-                :shortname: studentcsp
+                :shortname: cslearn4u
                 :identifier: studentcsp_ch9ex5q
                 
 #. 
@@ -185,7 +185,7 @@ Chapter 9 Exercises
         .. tab:: Discussion 
 
             .. disqus::
-                :shortname: studentcsp
+                :shortname: cslearn4u
                 :identifier: studentcsp_ch9ex6q
                 
 #. 
@@ -214,7 +214,7 @@ Chapter 9 Exercises
         .. tab:: Discussion 
 
             .. disqus::
-                :shortname: studentcsp
+                :shortname: cslearn4u
                 :identifier: studentcsp_ch9ex7q
                 
 #. 
@@ -240,7 +240,7 @@ Chapter 9 Exercises
         .. tab:: Discussion 
 
             .. disqus::
-                :shortname: studentcsp
+                :shortname: cslearn4u
                 :identifier: studentcsp_ch9ex8q
                 
 #. 
@@ -266,7 +266,7 @@ Chapter 9 Exercises
         .. tab:: Discussion 
 
             .. disqus::
-                :shortname: studentcsp
+                :shortname: cslearn4u
                 :identifier: studentcsp_ch9ex9q
                 
 #. 
@@ -283,7 +283,7 @@ Chapter 9 Exercises
         .. tab:: Discussion 
 
             .. disqus::
-                :shortname: studentcsp
+                :shortname: cslearn4u
                 :identifier: studentcsp_ch9ex10q
 
 

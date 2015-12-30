@@ -205,9 +205,41 @@ The ``find(string)`` function takes a string as input and returns the index wher
      str = "His shirt is red"
      pos = str.find("is")
      print(pos)
-     
 
+.. tabbed:: 4_2_5_WSt
 
+        .. tab:: Question
+
+           Write the code to evaluate the length of the string "I like green eggs" and print it. It should print "The length is 17".
+           
+           .. activecode::  4_2_5_WSq
+               :nocodelens:
+
+        .. tab:: Answer
+        
+            Create variable to hold the string.  
+            
+            .. activecode::  4_2_5_WSa
+                :nocodelens:
+
+                # DECLARE VARIABLES
+                sentence = 'I like green eggs'
+                # PRINT RESULT 
+                print('The length is ' + str(len(sentence)))
+                                
+        .. tab:: Discussion 
+
+            .. disqus::
+                :shortname: cslearn4u
+                :identifier: studentcsp_4_2_4_WSq
+
+.. note::
+
+    Discuss topics in this section with classmates. 
+
+      .. disqus::
+          :shortname: cslearn4u
+          :identifier: studentcsp_4_2
 
    
    

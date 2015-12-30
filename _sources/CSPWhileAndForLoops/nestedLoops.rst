@@ -95,4 +95,52 @@ You can add items to a string in the inner loop and then print the strings to ma
         print(line)
         
 Modify the code above to draw a square of stars.  
+
+.. tabbed:: 8_5_2_WSt
+
+        .. tab:: Question
+
+           Write code to print stars in the shape of an empty square of size 4 by 4. 
+           
+           .. activecode::  8_5_2_WSq
+                :nocodelens:
+
+        .. tab:: Answer
+            
+          .. activecode::  8_5_2_WSa
+              :nocodelens:
+              
+              # TOP LINE 
+              line = ""
+              for x in range(0,4):
+                line = line + "*"
+              print(line)
+
+              # MIDDLE LINES 
+              for x in range(0,2):      # outer loop for edge of square 
+                line = "*"
+                for y in range(0,2):    # inner loop for space in square
+                    line = line + ' '
+                line = line + '*'
+                print(line)
+
+              # BOTTOM LINE 
+              line = ""
+              for x in range(0,4):
+                line = line + "*"
+              print(line)
+
+                
+        .. tab:: Discussion 
+
+            .. disqus::
+                :shortname: cslearn4u
+                :identifier: studentcsp_8_5_2_WSq
                
+.. note::
+
+    Discuss topics in this section with classmates. 
+
+      .. disqus::
+          :shortname: cslearn4u
+          :identifier: studentcsp_8_5

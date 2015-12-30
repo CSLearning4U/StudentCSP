@@ -30,7 +30,9 @@
 This Book is for Students
 ==========================
 
-This chapter introduces the approach used in this book and offers some quick "teasers" of things we'll be doing later.  **Don't worry if you don't understand the code (programs - instructions that a computer can understand) that you see in this chapter**.  We'll go through things much more slowly in the next few chapters.  This book is intended for students who haven't programmed before.  If you are a teacher then send email to cslearn4u@gmail.com to get access to the teacher edition of this book.
+This chapter introduces the approach used in this book and offers some quick "teasers" of things we'll be doing later.  **Don't worry if you don't understand the code (programs - instructions that a computer can understand) that you see in this chapter**.  We'll go through things much more slowly in the next few chapters.  This book is intended for students who haven't programmed before.  If you are a teacher then send email to cslearn4u@gmail.com to get access to the teacher edition of this book which contains several features just for teachers.
+
+Please fill out the survey at https://www.surveymonkey.com/r/studentCSP-pre. It will help us with our research.  You might want to open that link in another tab to make it easier for you to get back to the ebook.
 
 ..	index::
 	single: Python
@@ -38,6 +40,14 @@ This chapter introduces the approach used in this book and offers some quick "te
 	single: program
 
 This electronic book is different because it uses *examples plus practice*.  Most computer science books are about becoming professional software developers (people who write programs for a living).  Most computer science courses require you to write lots of code.  This book helps students learn how *programming* without making you write lots of code.  It will use the programming language **Python** which is used by companies like Google and Pixar.  
+
+.. figure:: Figures/studentsAtComputers.jpg
+    :width: 400px
+    :align: center
+    :alt: students in a computer classroom
+    :figclass: align-center
+
+    Figure 1: Students in a computer classroom
 
 - Rather than have you write lots of code, we will ask you to *read* a lot of code *examples*.
 - We ask you to *use* what you are learning from the examples in some simple *practice* exercises.  These exercises are meant to be short and easy.

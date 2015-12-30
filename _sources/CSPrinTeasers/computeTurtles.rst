@@ -13,7 +13,7 @@
 
 .. 	qnum::
 	:start: 1
-	:prefix: csp-1-4-
+	:prefix: csp-1-5-
 
 
 .. |runbutton| image:: Figures/run-button.png
@@ -73,7 +73,7 @@ Try clicking the |runbutton| button below to see what the following program does
 .. Note::
    Notice that we tell ``alex`` what to do in the code above using **dot notation**: ``alex.forward(150)``, 	``alex.left(90)``, and ``alex.forward(75)``.  That is how you communicate with a turtle.  You use the name of the turtle followed by a ``.`` and then what you want it to do.  
 
-.. mchoice:: 1_4_1_Turtle_Q1
+.. mchoice:: 1_5_1_Turtle_Q1
    :answer_a: North
    :answer_b: West
    :answer_c: South
@@ -95,9 +95,9 @@ Try clicking the |runbutton| button below to see what the following program does
 
 Just by going forward, backward, left, and right, we can have a turtle draw a shape.  
 
-.. fillintheblank:: 1_4_2_Shape_fill
+.. fillintheblank:: 1_5_2_Shape_fill
 
-    .. blank:: 1_4_2_Shape
+    .. blank:: 1_5_2_Shape
         :correct: ^square$|^Square$|^SQUARE$
         :feedback1: ('.*','Did you actually run the program?')
 
@@ -120,3 +120,10 @@ Just by going forward, backward, left, and right, we can have a turtle draw a sh
     zari.forward(100)    	# tell zari to move forward by 100 units
     zari.right(90)       	# turn by 90 degrees
    
+.. note::
+
+    Discuss topics in this section with classmates. 
+
+      .. disqus::
+          :shortname: cslearn4u
+          :identifier: studentcsp_1_5

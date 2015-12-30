@@ -53,4 +53,117 @@ Can you modify the code above to use 3 different colors?  You can use ``num % 3`
    :feedback_c: This will range from the minimum x value (inclusive) to 0.  It will cover the left half o the drawing area.
 
    What could you use to limit the x values to just the left half of the drawing space (screen)? 
+
+.. figure:: Figures/TurtleChevron.png
+    :width: 300px
+    :align: center
+    :alt: 
+    :figclass: align-center
+
+.. tabbed:: 14_4_2_WSt
+
+        .. tab:: Question
+
+           In the first section this chapter we created the chevron image on the left using turtles. Modify the code to create the stampped image on the right. The turtles will stamp/draw in blue and green. The color will be chosen at random.
+           
+           .. activecode::  14_4_2_WSq
+               :nocodelens:
+
+               from turtle import *      
+               from sys import *         
+               setExecutionLimit(50000)  
+               space = Screen()          
+
+               width = 400               
+               space.setup(width,width)  
+               maxX = width / 2          
+
+               jaz = Turtle()            
+               jaz.shape('turtle')       
+               jaz.penup()               
+               jaz.goto(-1 * maxX,100)   
+               jaz.pendown()             
+               jaz.left(60)              
+
+               for x in range(10):       
+                   jaz.forward(100)           
+                   jaz.right(120)             
+                   jaz.forward(100)           
+                   jaz.left(120)              
+                   if (jaz.xcor() >= maxX):   
+                       jaz.penup()                
+                       jaz.goto(-1 * maxX,jaz.ycor() - 100)  
+                       jaz.pendown()              
+
+
+
+        .. tab:: Answer
+            
+          .. activecode::  14_4_2_WSa
+              :nocodelens:
+
+              # CREATE THE TURTLE WORLD
+              from turtle import *      
+              import random
+              from sys import *         
+              setExecutionLimit(50000)  
+              space = Screen()          
+
+              # SET UP THE SCREEN SIZE
+              width = 400               
+              space.setup(width,width)  
+              maxX = width / 2          
+
+              # MOVE TURTLE TO STARTING POSITION
+              jaz = Turtle()            
+              jaz.shape('turtle')       
+              jaz.penup()              
+              jaz.goto(-1 * maxX,100)   
+              jaz.pendown()
+              jaz.left(60)              
+
+              # DRAW THE CHEVRON DESIGN
+              for x in range(10):       
+                rand = random.randrange(0, 2)
+                if (rand == 0):
+                  jaz.color("green")
+                else:
+                  jaz.color("blue")
+                jaz.forward(100)           
+                jaz.right(120)             
+                jaz.stamp()
+                jaz.forward(100)           
+                jaz.left(120)              
+                if (jaz.xcor() >= maxX):   
+                  jaz.penup()                
+                  jaz.goto(-1 * maxX,jaz.ycor() - 100)  
+                  jaz.pendown()
+
+                                            
+        .. tab:: Discussion 
+
+            .. disqus::
+                :shortname: cslearn4u
+                :identifier: studentcsp_14_4_2_WSq
+
+.. note::
+
+    Discuss topics in this section with classmates. 
+
+      .. disqus::
+          :shortname: cslearn4u
+          :identifier: studentcsp_14_4
+
+
+
+
+
+
+
+
+
+
+
+
+
       

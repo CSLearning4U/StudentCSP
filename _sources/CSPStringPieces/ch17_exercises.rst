@@ -102,7 +102,7 @@ Chapter 17 Exercises
         .. tab:: Discussion 
 
             .. disqus::
-                :shortname: studentcsp
+                :shortname: cslearn4u
                 :identifier: studentcsp_ch17ex2q
                 
 #. 
@@ -140,7 +140,7 @@ Chapter 17 Exercises
         .. tab:: Discussion 
 
             .. disqus::
-                :shortname: studentcsp
+                :shortname: cslearn4u
                 :identifier: studentcsp_ch17ex5q
 
 #. 
@@ -202,7 +202,7 @@ Chapter 17 Exercises
         .. tab:: Discussion 
 
             .. disqus::
-                :shortname: studentcsp
+                :shortname: cslearn4u
                 :identifier: studentcsp_ch17ex4q
                 
                 
@@ -217,7 +217,7 @@ Chapter 17 Exercises
            .. activecode::  ch17ex6q
                 :nocodelens: 
                 
-                input = "Elivs, alien, blue"
+                input = "Elvis, alien, blue"
                 pieces = input.split(",")
                 name = pieces[0]
                 thing = pieces[1]
@@ -230,7 +230,7 @@ Chapter 17 Exercises
         .. tab:: Discussion 
 
             .. disqus::
-                :shortname: studentcsp
+                :shortname: cslearn4u
                 :identifier: studentcsp_ch17ex6q
                 
 #. 
@@ -259,7 +259,7 @@ Chapter 17 Exercises
         .. tab:: Discussion 
 
             .. disqus::
-                :shortname: studentcsp
+                :shortname: cslearn4u
                 :identifier: studentcsp_ch17ex7q
                 
 #. 
@@ -280,7 +280,7 @@ Chapter 17 Exercises
         .. tab:: Discussion 
 
             .. disqus::
-                :shortname: studentcsp
+                :shortname: cslearn4u
                 :identifier: studentcsp_ch17ex8q
                 
 #. 
@@ -300,7 +300,7 @@ Chapter 17 Exercises
         .. tab:: Discussion 
 
             .. disqus::
-                :shortname: studentcsp
+                :shortname: cslearn4u
                 :identifier: studentcsp_ch17ex9q
                 
 #. 
@@ -320,7 +320,7 @@ Chapter 17 Exercises
         .. tab:: Discussion 
 
             .. disqus::
-                :shortname: studentcsp
+                :shortname: cslearn4u
                 :identifier: studentcsp_ch17ex10q
 
 

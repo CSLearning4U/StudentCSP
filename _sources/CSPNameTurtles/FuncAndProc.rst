@@ -67,3 +67,10 @@ The following example has 4 errors.  Can you fix the errors so that the code run
 
    Is right(90) a function or procedure?
     
+.. note::
+
+    Discuss topics in this section with classmates. 
+
+      .. disqus::
+          :shortname: cslearn4u
+          :identifier: studentcsp_5_2

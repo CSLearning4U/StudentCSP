@@ -91,6 +91,12 @@ The ``range`` function returns a value so that the *for* loop executes that many
     :width: 200px
     :align: top
 
+.. note::
 
+    Discuss topics in this section with classmates. 
+
+      .. disqus::
+          :shortname: cslearn4u
+          :identifier: studentcsp_10_1
 
 

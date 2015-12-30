@@ -50,4 +50,10 @@ The goal of this stage of learning about programming is to develop a mental mode
    =====
        print(sum)
 
+.. note::
 
+    Discuss topics in this section with classmates. 
+
+      .. disqus::
+          :shortname: cslearn4u
+          :identifier: studentcsp_7_6
