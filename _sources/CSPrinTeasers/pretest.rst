@@ -9,9 +9,9 @@ The following is a pretest to test what you already know about programming in Py
 
 Answers are saved on the computer you are working on by your username so we recommend logging in before starting.   Login by going to the outline of a person's head and shoulders at the top right of the window and select login.  Click register if you haven't created a username yet.  
 
-Click the "Start" button when you are ready to begin the exam.  Click the "Pause" button to pause the exam (you will not be able to see the questions when the exam is paused).  It will show how much time you have used, but you have unlimited time.  Click on the "Finish Exam" button at the end when you are done.  The number correct, number wrong, and number skipped will be displayed at the bottom of the page.  Feedback for each answer will also be shown as well as your answer.
+Click the "Start" button when you are ready to begin the exam.  Click the "Pause" button to pause the exam (you will not be able to see the questions when the exam is paused).  It will show how much time you have used, but you have unlimited time.  Click on the "Submit Answers" button at the end when you are done.  The number correct, number wrong, and number skipped will be displayed at the bottom of the page.  Feedback for each answer will also be shown as well as your answer.
 
-You will not be able to change your answers after you hit the "Finish Exam" button.
+You will not be able to change your answers after you hit the "Submit Answers" button.
 
 .. timed:: preTest
     
