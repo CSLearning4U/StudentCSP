@@ -1,0 +1,16 @@
+/* Student CSP Custom modifications */
+
+body {
+    padding-top: 60px;
+    color: #ff9933;
+    background-color: #3399ff;
+}
+
+div.container {
+    background-color: #e4f1ff;
+}
+
+a {
+    color: #f77c00;
+    text-decoration: none;
+}
