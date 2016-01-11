@@ -68,7 +68,7 @@ Chapter 10 Exercises
         .. tab:: Discussion 
 
             .. disqus::
-                :shortname: studentcsp
+                :shortname: cslearn4u
                 :identifier: studentcsp_ch10ex2q
 
 #. 
@@ -120,7 +120,7 @@ Chapter 10 Exercises
         .. tab:: Discussion 
 
             .. disqus::
-                :shortname: studentcsp
+                :shortname: cslearn4u
                 :identifier: studentcsp_ch10ex4q
    
 #. 
@@ -153,7 +153,7 @@ Chapter 10 Exercises
         .. tab:: Discussion 
 
             .. disqus::
-                :shortname: studentcsp
+                :shortname: cslearn4u
                 :identifier: studentcsp_ch10ex5q
                 
 #. 
@@ -181,7 +181,7 @@ Chapter 10 Exercises
         .. tab:: Discussion 
 
             .. disqus::
-                :shortname: studentcsp
+                :shortname: cslearn4u
                 :identifier: studentcsp_ch10ex6q
                 
 #. 
@@ -206,7 +206,7 @@ Chapter 10 Exercises
         .. tab:: Discussion 
 
             .. disqus::
-                :shortname: studentcsp
+                :shortname: cslearn4u
                 :identifier: studentcsp_ch10ex7q
                 
 #. 
@@ -234,7 +234,7 @@ Chapter 10 Exercises
         .. tab:: Discussion 
 
             .. disqus::
-                :shortname: studentcsp
+                :shortname: cslearn4u
                 :identifier: studentcsp_ch10ex8q
                 
 #. 
@@ -251,7 +251,7 @@ Chapter 10 Exercises
         .. tab:: Discussion 
 
             .. disqus::
-                :shortname: studentcsp
+                :shortname: cslearn4u
                 :identifier: studentcsp_ch10ex9q
                 
 #. 
@@ -268,7 +268,7 @@ Chapter 10 Exercises
         .. tab:: Discussion 
 
             .. disqus::
-                :shortname: studentcsp
+                :shortname: cslearn4u
                 :identifier: studentcsp_ch10ex10q
 
 

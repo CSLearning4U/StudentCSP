@@ -58,7 +58,7 @@ Chapter 5 Exercises
         .. tab:: Discussion 
 
             .. disqus::
-                :shortname: studentcsp
+                :shortname: cslearn4u
                 :identifier: studentcsp_ch5ex2q
 
 #. 
@@ -106,7 +106,7 @@ Chapter 5 Exercises
         .. tab:: Discussion 
 
             .. disqus::
-                :shortname: studentcsp
+                :shortname: cslearn4u
                 :identifier: studentcsp_ch5ex4q
    
 #. 
@@ -127,7 +127,7 @@ Chapter 5 Exercises
         .. tab:: Discussion 
 
             .. disqus::
-                :shortname: studentcsp
+                :shortname: cslearn4u
                 :identifier: studentcsp_ch5ex5q
                 
 #. 
@@ -144,7 +144,7 @@ Chapter 5 Exercises
         .. tab:: Discussion 
 
             .. disqus::
-                :shortname: studentcsp
+                :shortname: cslearn4u
                 :identifier: studentcsp_ch5ex6q
                 
 #. 
@@ -161,7 +161,7 @@ Chapter 5 Exercises
         .. tab:: Discussion 
 
             .. disqus::
-                :shortname: studentcsp
+                :shortname: cslearn4u
                 :identifier: studentcsp_ch5ex7q
                 
 #. 
@@ -178,7 +178,7 @@ Chapter 5 Exercises
         .. tab:: Discussion 
 
             .. disqus::
-                :shortname: studentcsp
+                :shortname: cslearn4u
                 :identifier: studentcsp_ch5ex8q
                 
 #. 
@@ -197,7 +197,7 @@ Chapter 5 Exercises
         .. tab:: Discussion 
 
             .. disqus::
-                :shortname: studentcsp
+                :shortname: cslearn4u
                 :identifier: studentcsp_ch5ex9q
                 
 #. 
@@ -214,7 +214,7 @@ Chapter 5 Exercises
         .. tab:: Discussion 
 
             .. disqus::
-                :shortname: studentcsp
+                :shortname: cslearn4u
                 :identifier: studentcsp_ch5ex10q
 
 

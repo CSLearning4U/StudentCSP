@@ -65,7 +65,7 @@ Chapter 16 Exercises
         .. tab:: Discussion 
 
             .. disqus::
-                :shortname: studentcsp
+                :shortname: cslearn4u
                 :identifier: studentcsp_ch16ex2q
                 
 #. 
@@ -89,7 +89,7 @@ Chapter 16 Exercises
         .. tab:: Discussion 
 
             .. disqus::
-                :shortname: studentcsp
+                :shortname: cslearn4u
                 :identifier: studentcsp_ch16ex5q
 
 #. 
@@ -147,7 +147,7 @@ Chapter 16 Exercises
         .. tab:: Discussion 
 
             .. disqus::
-                :shortname: studentcsp
+                :shortname: cslearn4u
                 :identifier: studentcsp_ch16ex4q
                 
                 
@@ -176,7 +176,7 @@ Chapter 16 Exercises
         .. tab:: Discussion 
 
             .. disqus::
-                :shortname: studentcsp
+                :shortname: cslearn4u
                 :identifier: studentcsp_ch16ex6q
                 
 #. 
@@ -200,7 +200,7 @@ Chapter 16 Exercises
         .. tab:: Discussion 
 
             .. disqus::
-                :shortname: studentcsp
+                :shortname: cslearn4u
                 :identifier: studentcsp_ch16ex7q
                 
 #. 
@@ -220,7 +220,7 @@ Chapter 16 Exercises
         .. tab:: Discussion 
 
             .. disqus::
-                :shortname: studentcsp
+                :shortname: cslearn4u
                 :identifier: studentcsp_ch16ex8q
                 
 #. 
@@ -240,7 +240,7 @@ Chapter 16 Exercises
         .. tab:: Discussion 
 
             .. disqus::
-                :shortname: studentcsp
+                :shortname: cslearn4u
                 :identifier: studentcsp_ch16ex9q
                 
 #. 
@@ -260,7 +260,7 @@ Chapter 16 Exercises
         .. tab:: Discussion 
 
             .. disqus::
-                :shortname: studentcsp
+                :shortname: cslearn4u
                 :identifier: studentcsp_ch16ex10q
 
 
