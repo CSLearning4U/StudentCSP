@@ -28,7 +28,8 @@ options(
                        'loglevel': 10,
                        'course_url':master_url,
                        'use_services': 'true',
-                       'python3': 'true'
+                       'python3': 'true',
+                       'basecourse': 'studentcsp'
                         }
     )
 )
