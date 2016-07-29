@@ -6,7 +6,7 @@
     Contributor List, no Front-Cover Texts, and no Back-Cover Texts.  A copy of
     the license is included in the section entitled "GNU Free Documentation
     License".
-    
+
 
 .. setup for automatic question numbering.
 
@@ -18,7 +18,7 @@ Chapter 18 Exercises
 ---------------------
 
 Here are just the first 9 lines of the data.
-  
+
  ::
 
      Aberdeen, SD :13 :8
@@ -35,9 +35,9 @@ If you want to see **all** of the data click on the *Show* button below.  Once i
 .. reveal:: pol_Data1
     :showtitle: Show
     :hidetitle: Hide
-    
+
     .. raw:: html
-    
+
        <pre id="uspoll.txt">
        Aberdeen, SD :13 :8
        Adrian, MI :15 :9
@@ -407,7 +407,6 @@ If you want to see **all** of the data click on the *Show* button below.  Once i
        Watertown, SD :18 :11
        Weirton-Steubenville, WV-OH :20 :12
        Wenatchee, WA :17 :10
-       Wheeling, WV-OH :20 :12
        Wichita, KS :16 :9
        Wilmington, NC :14 :9
        Winchester, VA-WV :16 :10
@@ -420,17 +419,89 @@ If you want to see **all** of the data click on the *Show* button below.  Once i
        Yuma, AZ :14 :9
        </pre>
 
-#. 
+This data set shows stats from the NBA in the order: Name, Team, Age, Games Played, Games Won, Average Minutes per Game, Average Points per Game
+
+::
+
+      Walter Tavares,ATL,24,11,7,6.6,2.3
+      Mike Muscala,ATL,24,60,34,9.4,3.3
+      Paul Millsap,ATL,31,81,48,32.7,17.1
+      Kent Bazemore,ATL,26,75,44,27.8,11.6
+      Kirk Hinrich,ATL,35,46,26,13.7,3
+      Al Horford,ATL,30,82,48,32.1,15.2
+      Thabo Sefolosha,ATL,32,75,42,23.4,6.4
+      Tim Hardaway Jr.,ATL,24,51,29,16.9,6.4
+      Lamar Patterson,ATL,24,35,23,11.3,2.4
+
+
+If you want to see **all** of the data click on the *Show* button below.  Once it appears, you can hide it again by clicking on the *Hide* button.
+
+.. reveal:: pol_Data1
+   :showtitle: Show
+   :hidetitle: Hide
+
+   .. raw:: html
+
+      <pre id="sports.txt">
+      Walter Tavares,ATL,24,11,7,6.6,2.3
+      Mike Muscala,ATL,24,60,34,9.4,3.3
+      Paul Millsap,ATL,31,81,48,32.7,17.1
+      Kent Bazemore,ATL,26,75,44,27.8,11.6
+      Kirk Hinrich,ATL,35,46,26,13.7,3
+      Al Horford,ATL,30,82,48,32.1,15.2
+      Thabo Sefolosha,ATL,32,75,42,23.4,6.4
+      Tim Hardaway Jr.,ATL,24,51,29,16.9,6.4
+      Lamar Patterson,ATL,24,35,23,11.3,2.4
+      Mike Scott,ATL,27,75,46,15.3,6.2
+      Dennis Schroder,ATL,22,80,47,20.3,11
+      Kris Humphries,ATL,31,53,29,15.7,6.5
+      Jeff Teague,ATL,28,79,47,28.5,15.7
+      Tiago Splitter,ATL,31,36,21,16.1,5.6
+      Kyle Korver,ATL,35,80,46,30,9.2
+      Tristan Thompson,CLE,25,82,57,27.7,7.8
+      Sasha Kaun,CLE,31,25,18,3.8,0.9
+      Kyrie Irving,CLE,24,53,37,31.5,19.6
+      Jordan McRae,CLE,25,22,10,8.9,4.5
+      Jared Cunningham,CLE,25,44,31,9.3,2.7
+      Channing Frye,CLE,33,70,35,17.1,6.1
+      Kevin Love,CLE,27,77,53,31.5,16
+      James Jones,CLE,35,48,33,9.7,3.7
+      Dahntay Jones,CLE,35,1,0,42.4,13
+      Richard Jefferson,CLE,36,74,51,17.9,5.5
+      Joe Harris,CLE,24,5,5,3,0.6
+      Timofey Mozgov,CLE,29,76,52,17.4,6.3
+      Iman Shumpert,CLE,26,54,39,24.4,5.8
+      Mo Williams,CLE,33,41,27,18.2,8.2
+      J.R. Smith,CLE,30,77,53,30.7,12.4
+      LeBron James,CLE,31,76,56,35.6,25.3
+      Matthew Dellavedova,CLE,25,76,54,24.6,7.5
+      Stephen Curry,GSW,28,79,71,34.2,30.1
+      Marreese Speights,GSW,28,72,64,11.6,7.1
+      Brandon Rush,GSW,30,72,63,14.6,4.2
+      Klay Thompson,GSW,26,80,71,33.3,22.1
+      Draymond Green,GSW,26,81,73,34.7,14
+      James Michael McAdoo,GSW,23,41,37,6.4,2.9
+      Ian Clark,GSW,25,66,59,8.8,3.6
+      Andrew Bogut,GSW,31,70,62,20.7,5.4
+      Leandro Barbosa,GSW,33,68,60,15.9,6.4
+      Harrison Barnes,GSW,24,66,59,30.9,11.7
+      Festus Ezeli,GSW,26,46,42,16.7,7
+      Kevon Looney,GSW,20,5,4,4.1,1.8
+      Shaun Livingston,GSW,30,78,69,19.5,6.3
+      Andre Iguodala,GSW,32,65,59,26.6,7
+      Anderson Varejao,GSW,33,53,41,9.4,2.6
+
+#.
 
     .. tabbed:: ch18ex1t
 
         .. tab:: Question
-            
-            Fix 5 errors in the code below so that the code runs correctly and prints the pollution for all cities that start with the letter A.  
+
+            Fix 5 errors in the code below so that the code runs correctly and prints the pollution for all cities that start with the letter A.
 
             .. activecode:: ch18ex1q
                 :nocodelens:
-                
+
                 inFile = open("uspoll.txt","r)
                 line = inFile.readLine()
                 while line
@@ -442,23 +513,55 @@ If you want to see **all** of the data click on the *Show* button below.  Once i
                     line = infile.readline()
 
                 inFile.close()
-      
-                
+
         .. tab:: Discussion
 
             .. disqus::
                 :shortname: cslearn4u
-                :identifier: studentcsp_ch18ex1q
+                :identifier: teachercsp_ch18ex1q
 
-#. 
+#.
 
     .. tabbed:: ch18ex2t
 
         .. tab:: Question
 
+            Fix the errors in the code below so that it prints the average PM values of only the cities that start with "A".
+
+            .. activecode::  ch18ex2q
+                :nocodelens:
+
+                inFile = open("uspoll.txt","r")
+                lines = inFile.readlines()
+                inFile.close()
+
+                total25 = 0
+                count = 1.0
+                for line in lines:
+                    values = line.split(":")
+                    new25 = float(values[2])
+                    city = values[1]
+                    if (city.find("A") == -1):
+                        total25 = total25 + new25
+                    count = count + 1
+
+                print("Average PM 2.5 value for cities that start with "A" is ", total25/count)
+
+        .. tab:: Discussion
+
+            .. disqus::
+                :shortname: teachercsp
+                :identifier: teachercsp_ch18ex2q
+
+#.
+
+    .. tabbed:: ch18ex3t
+
+        .. tab:: Question
+
            Fix the 5 errors in the code below so that it runs and prints the largest PM 2.5 value and the city that has that value.
-           
-           .. activecode::  ch18ex2q
+
+           .. activecode::  ch18ex3q
                 :nocodelens:
 
                 inFile = open("uspoll.txt","r"
@@ -474,59 +577,122 @@ If you want to see **all** of the data click on the *Show* button below.  Once i
                         maxCity = values[0]
                         max25 = new25 # save the new maximum
                 print("Largest PM 2.5 value is ",max25," in ",maxCity)
-                
-          
-      
 
-        .. tab:: Discussion 
+
+        .. tab:: Discussion
 
             .. disqus::
-                :shortname: cslearn4u
-                :identifier: studentcsp_ch18ex2q
-                
-#. 
+                :shortname: teachercsp
+                :identifier: teachercsp_ch18ex3q
 
-    .. tabbed:: ch18ex3t
+#.
+
+    .. tabbed:: ch18ex4t
 
         .. tab:: Question
 
-           Fix the indention below for the code to correctly find and print the lowest 2.5 value and city. 
-           
-           .. activecode::  ch18ex3q
+            The code below prints all the lines that start with an "A". Change it so that it prints out all lines that start with "A" or "B".
+
+            .. activecode::  ch18ex4q
+                :nocodelens:
+
+                # read all the lines
+                inFile = open("uspoll.txt","r")
+                lines = inFile.readlines()
+                inFile.close()
+
+                # loop through the lines
+                for line in lines:
+                    if line[0] == "A":
+                        print(line)
+
+
+        .. tab:: Discussion
+
+            .. disqus::
+                :shortname: teachercsp
+                :identifier: teachercsp_ch18ex4q
+
+#.
+
+    .. tabbed:: ch18ex5t
+
+        .. tab:: Question
+
+           Fix the indention below for the code to correctly find and print the lowest 2.5 value and city.
+
+           .. activecode::  ch18ex5q
                 :nocodelens:
 
                 inFile = open("uspoll.txt","r")
                 lines = inFile.readlines()
                 inFile.close()
-     
+
                 minCity = ''
                 min25 = 500
                 for line in lines:
                 values = line.split(":")
                 new25 = float(values[2]) # set the value for new25 to be the current PM 2.5 value
                 if new25 < min25:
-                minCity = values[0] # Save the minimum city and state 
+                minCity = values[0] # Save the minimum city and state
                 min25 = new25 # save the minimum PM 2.5 value
                 print("Smallest PM 2.5 ",min25," in ",minCity)
 
-       
-        .. tab:: Discussion 
+        .. tab:: Discussion
 
             .. disqus::
-                :shortname: cslearn4u
-                :identifier: studentcsp_ch18ex5q
+                :shortname: teachercsp
+                :identifier: teachercsp_ch18ex5q
 
-#. 
+#.
 
-    .. tabbed:: ch18ex4t
+    .. tabbed:: ch18ex6t
 
         .. tab:: Question
 
-           Fix the indention on the lines below so that it correctly prints the average PM 2.5 value.    
-        
-           .. activecode::  ch18ex4q
+            Fix the code so that it prints out the min value and the cities only when the min value is even.
+
+            .. activecode::  ch18ex6q
                 :nocodelens:
-                
+
+                # read all the lines
+                inFile = open("uspoll.txt", r)
+                lines = inFile.readline
+                inFile.close()
+
+                # loop through the lines
+                for line in lines:
+
+                    # split at :
+                    values = line.split(" ")
+
+                    # get the min PM 2.5 pollution and the city
+                    num = str(values[2])
+                    city = values[0]
+
+                    # check if even
+                    if num % 2 == 0:
+
+                    # print the values
+                    print("Even min PM 2.5 ", num ," in ", city)
+
+        .. tab:: Discussion
+
+            .. disqus::
+                :shortname: teachercsp
+                :identifier: teachercsp_ch18ex6q
+
+#.
+
+    .. tabbed:: ch18ex7t
+
+        .. tab:: Question
+
+           Fix the indention on the lines below so that it correctly prints the average PM 2.5 value.
+
+           .. activecode::  ch18ex7q
+                :nocodelens:
+
                 inFile = open("uspoll.txt","r")
                 lines = inFile.readlines()
                 inFile.close()
@@ -541,23 +707,38 @@ If you want to see **all** of the data click on the *Show* button below.  Once i
 
                 print("Average PM 2.5 value is ",total25/count)
 
-       
-
-        .. tab:: Discussion 
+        .. tab:: Discussion
 
             .. disqus::
                 :shortname: cslearn4u
-                :identifier: studentcsp_ch18ex3q
-                
-#. 
-                
-    .. tabbed:: ch18ex5t
+                :identifier: teachercsp_ch18ex7q
+
+#.
+
+    .. tabbed:: ch18ex8t
 
         .. tab:: Question
 
-           Turn the following code into a procedure.  Pass the input file and the amount of PM 10 to the procedure. It will print the city name and the pollution values for all cities that have that much PM 10 pollution or more. 
-           
-           .. activecode::  ch18ex5q
+            Write a procedure that takes in the file name as a parameter and prints out all the cities that start with a vowel (a,e,i,o, or u) and their associated pollution values.
+
+            .. activecode::  ch18ex8q
+                :nocodelens:
+
+        .. tab:: Discussion
+
+            .. disqus::
+                :shortname: teachercsp
+                :identifier: teachercsp_ch18ex8q
+
+#.
+
+    .. tabbed:: ch18ex9t
+
+        .. tab:: Question
+
+           Turn the following code into a procedure.  Pass the input file and the amount of PM 10 to the procedure. It will print the city name and the pollution values for all cities that have that much PM 10 pollution or more.
+
+           .. activecode::  ch18ex9q
                 :nocodelens:
 
                 inFile = open("uspoll.txt","r")
@@ -573,26 +754,40 @@ If you want to see **all** of the data click on the *Show* button below.  Once i
                 inFile.close()
 
 
-      
-                
-        .. tab:: Discussion 
+        .. tab:: Discussion
 
             .. disqus::
-                :shortname: cslearn4u
-                :identifier: studentcsp_ch18ex4q
-                
-                
-#. 
+                :shortname: teachercsp
+                :identifier: teachercsp_ch18ex9q
 
-    .. tabbed:: ch18ex6t
+#.
+
+    .. tabbed:: ch18ex10t
+
+        .. tab:: Question
+
+           Write a function that finds the maximum value in a list.  Pass in the list and return the maximum value.  Call the function and print the result.
+
+           .. activecode::  ch18ex10q
+                :nocodelens:
+
+        .. tab:: Discussion
+
+            .. disqus::
+                :shortname: teachercsp
+                :identifier: teachercsp_ch18ex10q
+
+#.
+
+    .. tabbed:: ch18ex11t
 
         .. tab:: Question
 
            Change the following code into a procedure that prints the city name and pollution values for all cities that have a PM 2.5 of less than some passed value.  Pass in the input file and the amount of pollution.
-           
-           .. activecode::  ch18ex6q
-                :nocodelens: 
-                
+
+           .. activecode::  ch18ex11q
+                :nocodelens:
+
                 inFile = open("uspoll.txt","r")
                 line = inFile.readline()
                 while line:
@@ -605,91 +800,206 @@ If you want to see **all** of the data click on the *Show* button below.  Once i
 
                 inFile.close()
 
-
-       
-                
-        .. tab:: Discussion 
+        .. tab:: Discussion
 
             .. disqus::
-                :shortname: cslearn4u
-                :identifier: studentcsp_ch18ex6q
-                
-#. 
+                :shortname: teachercsp
+                :identifier: teachercsp_ch18ex11q
 
-    .. tabbed:: ch18ex7t
+#.
+
+    .. tabbed:: ch18ex12t
 
         .. tab:: Question
 
-           Write a procedure that takes the name of a city and prints the pollution values for that city if it is found.  
-           
-           .. activecode::  ch18ex7q
-                :nocodelens: 
-                
-       
-                
-                
-        .. tab:: Discussion 
+           Write a procedure that takes the name of a city and prints the pollution values for that city if it is found.
 
-            .. disqus::
-                :shortname: cslearn4u
-                :identifier: studentcsp_ch18ex7q
-                
-#. 
-
-    .. tabbed:: ch18ex8t
-
-        .. tab:: Question
-
-           Write a function that takes a list and returns the minimum value in the list.  
-           
-           .. activecode::  ch18ex8q
-                :nocodelens:
-                
-                
-       
-                
-        .. tab:: Discussion 
-
-            .. disqus::
-                :shortname: cslearn4u
-                :identifier: studentcsp_ch18ex8q
-                
-#. 
-
-    .. tabbed:: ch18ex9t
-
-        .. tab:: Question
-
-           Write a function that finds the maximum value in a list.  Pass in the list and return the maximum value.  Call the function and print the result. 
-            
-           .. activecode::  ch18ex9q
+           .. activecode::  ch18ex12q
                 :nocodelens:
 
-       
-                                
-        .. tab:: Discussion 
+        .. tab:: Discussion
 
             .. disqus::
-                :shortname: cslearn4u
-                :identifier: studentcsp_ch18ex9q
-                
-#. 
+                :shortname: teachercsp
+                :identifier: teachercsp_ch18ex12q
 
-    .. tabbed:: ch18ex10t
+#.
+
+    .. tabbed:: ch18ex13t
 
         .. tab:: Question
 
-           Write a function that calculates the average of all values in the list.  Return the average.  
-           
-           .. activecode::  ch18ex10q
+            Complete the code at the ``#`` to figure out who lost the most games. Remember, games lost = games played - games won. The procedure should print out the name of the player and how many games they lost. Don't worry about ties, it should print only one name and score.
+
+            .. activecode::  ch18ex13q
+                :nocodelens:
+
+                def gamesLost(file):
+                    maxLost = 0
+                    lines = file.readlines()
+                    for # in lines:
+                        values = line.split(#)
+                        gamesPlayed = float(values[#])
+                        gamesWon = float(values[4])
+                        gamesLost = gamesPlayed # gamesLost
+                        if (gamesLost # maxLost):
+                            maxLost = gamesLost
+                            player = values[#]
+                    print(player + " lost " + maxLost)
+
+                file = open("sports.txt", "r")
+                gamesLost(file)
+
+        .. tab:: Discussion
+
+            .. disqus::
+                :shortname: teachercsp
+                :identifier: teachercsp_ch18ex13q
+
+#.
+
+    .. tabbed:: ch18ex14t
+
+        .. tab:: Question
+
+            Fix the errors below so that the procedure prints all the names of the players who averaged more than 10 points a game.
+
+            .. activecode::  ch18ex14q
+                :nocodelens:
+
+                def playerScore(file):
+                    lines = file.readlines()
+                    for lines in lines:
+                    values = line.split()
+                    score = str(line[7])
+                    if score < 10:
+                        print(line[0])
+                file = open("sports.txt", "r")
+                playerScore(file)
+
+        .. tab:: Discussion
+
+            .. disqus::
+                :shortname: teachercsp
+                :identifier: teachercsp_ch18ex14q
+
+#.
+
+    .. tabbed:: ch18ex15t
+
+        .. tab:: Question
+
+            The code currently prints the player with the least minutes per game. Change it so it prints the player with the most minutes per game.
+
+            .. activecode::  ch18ex15q
+                :nocodelens:
+
+                file = open("sports.txt". "r")
+                lines = file.readlines()
+                minMin = 100
+                for line in lines:
+                    values = line.split(",")
+                    minutes = values[5]
+                    if minutes < minMin:
+                        minMin = minutes
+                        player = values[0]
+                print(player)
+
+        .. tab:: Discussion
+
+            .. disqus::
+                :shortname: teachercsp
+                :identifier: teachercsp_ch18ex15q
+
+#.
+
+    .. tabbed:: ch18ex16t
+
+        .. tab:: Question
+
+            The code below prints all the names of the players whose first names start with "J". Change it to print the name of the players whose last names start with "J". (Hint: you need to add two lines after line 5 and change something on line 6)
+
+            .. activecode::  ch18ex16q
+                :nocodelens:
+
+                file = open("sports.txt", "r")
+                lines = file.readlines()
+                for line in lines:
+                    values = line.split(",")
+                    name = values[0]
+                    if name[0] == "J":
+                        print(name)
+
+        .. tab:: Discussion
+
+            .. disqus::
+                :shortname: teachercsp
+                :identifier: teachercsp_ch18ex16q
+
+#.
+
+    .. tabbed:: ch18ex17t
+
+        .. tab:: Question
+
+            Write a procedure that takes in a file and a capital letter and prints the average of the average points scored by all players whose names start with that letter.
+
+            .. activecode::  ch18ex17q
+                :nocodelens:
+
+        .. tab:: Discussion
+
+            .. disqus::
+                :shortname: teachercsp
+                :identifier: teachercsp_ch18ex17q
+
+#.
+
+    .. tabbed:: ch18ex18t
+
+        .. tab:: Question
+
+            Write a function that takes a file name and the abbreviation for a team (i.e. ATL, GSW, CLE) as parameters and returns the average age of the members of that team. (Hint: Use a counter variable to keep track of how many players are on the team)
+
+            .. activecode::  ch18ex18q
+                :nocodelens:
+
+        .. tab:: Discussion
+
+            .. disqus::
+                :shortname: teachercsp
+                :identifier: teachercsp_ch18ex18q
+
+#.
+
+    .. tabbed:: ch18ex19t
+
+        .. tab:: Question
+
+            Write a function that returns the players with the most points per minute. (Points per game / minutes per game = points per minute).
+
+           .. activecode::  ch18ex19q
                :nocodelens:
 
-       
-        .. tab:: Discussion 
+        .. tab:: Discussion
 
             .. disqus::
-                :shortname: cslearn4u
-                :identifier: studentcsp_ch18ex10q
+                :shortname: teachercsp
+                :identifier: teachercsp_ch18ex19q
 
+#.
 
+    .. tabbed:: ch18ex20t
 
+        .. tab:: Question
+
+            Write a function that takes a file as a parameter and finds the oldest player who scored the most points. Return the name, age, and number of points.
+
+            .. activecode::  ch18ex20q
+                :nocodelens:
+
+        .. tab:: Discussion
+
+            .. disqus::
+                :shortname: teachercsp
+                :identifier: teachercsp_ch18ex20q
