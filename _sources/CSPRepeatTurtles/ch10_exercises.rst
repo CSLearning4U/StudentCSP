@@ -101,7 +101,7 @@ Chapter 10 Exercises
 
         .. tab:: Question
 
-            Fix the errors in the code so that it draws a square.
+            Fix the errors in the code so that it draws an octagon.
 
             .. activecode::  ch10ex4q
                 :nocodelens:
@@ -110,9 +110,9 @@ Chapter 10 Exercises
                 space = Screen()
                 liz = Turtle()
                 liz.setheading(90)
-                for sides in range(5)
-                    liz.forward(90)
-                liz.right(100)
+                for sides in range(9)
+                    liz.forward(45)
+                liz.right(50)
 
         .. tab:: Discussion
 
@@ -258,7 +258,7 @@ Chapter 10 Exercises
 
         .. tab:: Question
 
-            The procedure below draws a square. Write code that uses the procedure to draw two squares connected by a line 10 units in length.
+            The procedure below draws a square. Write code that uses the procedure to draw two squares connected by a line 50 units in length.
 
             .. activecode::  ch10ex10q
                 :nocodelens:
@@ -308,17 +308,17 @@ Chapter 10 Exercises
 
         .. tab:: Question
 
-                Complete the code where the ``x's`` are in order to draw 20 triangles.
+                Complete the code where the ``x's`` are so that the code draws 20 triangles.
 
             .. activecode::  ch10ex12q
                 :nocodelens:
 
                 from turtle import *
-                for sys import *              # use the system library
+                from sys import *              # use the system library
                 setExecutionLimit(50000)      # let this take up to 50 seconds
                 space = Screen()
                 t = x
-                t.setHeading(90)
+                t.setheading(90)
                 for repeats in range(x):
                     t.color("blue")
                     t.forward(10)
