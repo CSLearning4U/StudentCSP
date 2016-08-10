@@ -169,7 +169,7 @@ Chapter 13 Exercises
 
                 age = 4
                 if age < 6:
-                 print("You're in kindergarten")
+                    print("You're in kindergarten")
                 if age < 11:
                     print("You're in elementary school")
 
@@ -328,12 +328,12 @@ Chapter 13 Exercises
                 if number < 5:
                     user2 =
                     number2 = int(user2)
-                        if
-                            print("I love CS")
-                        elif
-                            print("CS is the best")
-                        else:
-                            print("I like CS better than food")
+                    if
+                        print("I love CS")
+                    elif
+                        print("CS is the best")
+                    else:
+                        print("I like CS better than food")
                 else:
                     print("Who else loves CS?")
 
