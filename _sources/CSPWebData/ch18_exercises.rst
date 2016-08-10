@@ -656,7 +656,7 @@ If you want to see **all** of the data click on the *Show* button below.  Once i
                         total25 = total25 + new25
                     count = count + 1
 
-                print("Average PM 2.5 value for cities that start with "A" is ", total25/count)
+                print("Average PM 2.5 value for cities that start with 'A' is ", total25/count)
 
         .. tab:: Discussion
 
