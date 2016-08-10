@@ -99,8 +99,10 @@ Chapter 8 Exercises
                 :nocodelens:
 
                 for x in range(1,2)
-                while x in range(0,4):
+                y = 0
+                while y < 4:
                 print("*")
+                y += 1
 
         .. tab:: Discussion
 
@@ -392,7 +394,7 @@ Chapter 8 Exercises
                 :nocodelens:
 
                 for x in range(0,11)
-                for y in range(0,11):
+                for y in range(1,11):
                 print(str(x) + " * " + str(y) + " = " + str(x*y))
 
         .. tab:: Discussion
@@ -424,7 +426,7 @@ Chapter 8 Exercises
 
         .. tab:: Question
 
-            Write a procedure that takes a user input and keeps asking for a user input until the input is "Hello". If the input is not hello, it should print "This is you n wrong try." where n is the number of times they have put an input in. If they type "Hello", the procedure should print "Success!". Hint: ``!=`` means does not equal
+           Write a procedure that takes a user input and keeps asking for a user input until the input is "Hello". If the input is not "Hello", it should print "This is your n wrong try." where n is the number of times they have put an input in. If they type "Hello", the procedure should print "Success!". Hint: ``!=`` means does not equal
 
             .. activecode::  ch8ex18q
                 :nocodelens:
