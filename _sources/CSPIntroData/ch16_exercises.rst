@@ -124,7 +124,7 @@ Chapter 16 Exercises
            .. activecode::  ch16ex5q
                 :nocodelens:
 
-               def itemLister(itemList):
+               def itemLister(items):
                    items[0] = "First item'
                    items[1] = items0]
                    items[2] = items[2] + 1
