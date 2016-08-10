@@ -60,7 +60,7 @@ Chapter 3 Exercises
                 print((7 # 2) # 10 == 35)
                 print(2 # 4 == 0.5)
                 print(5 # 2 # 3 == -1)
-                print(3 # 2 # 1 = 7)
+                print(3 # 2 # 1 == 7)
 
         .. tab:: Discussion
 
