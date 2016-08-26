@@ -323,7 +323,7 @@ Chapter 18: Working with Data on the Web
    CSPWebData/findPollState.rst
    CSPWebData/ch18_summary.rst
    CSPWebData/ch18_exercises.rst
-
+   
 Chapter 19: Internet
 ::::::::::::::::::::::::::::::::::::::::::::
 
@@ -341,11 +341,20 @@ Chapter 20: Creativity
     CSPCreativity/programming.rst
     CSPCreativity/referencing.rst
 
-
 Chapter 21: Global Impact
 ::::::::::::::::::::::::::::::::::::::::::::
 
+.. toctree::
+   :maxdepth: 2
 
+   CSPGlobalImpact/intro.rst
+   CSPGlobalImpact/exploring.rst
+   CSPGlobalImpact/task.rst
+   CSPGlobalImpact/deciding.rst
+   CSPGlobalImpact/choosing.rst
+   CSPGlobalImpact/outline.rst
+   CSPGlobalImpact/completing.rst   
+   
 Chapter 22: Computer Abilities Summary
 ::::::::::::::::::::::::::::::::::::::::::::
 
