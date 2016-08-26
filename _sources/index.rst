@@ -323,9 +323,30 @@ Chapter 18: Working with Data on the Web
    CSPWebData/findPollState.rst
    CSPWebData/ch18_summary.rst
    CSPWebData/ch18_exercises.rst
-   
-   
-Chapter 19: Computer Abilities Summary
+
+Chapter 19: Internet
+::::::::::::::::::::::::::::::::::::::::::::
+
+Chapter 20: Creativity
+::::::::::::::::::::::::::::::::::::::::::::
+
+.. toctree::
+    :maxdepth: 2
+
+    CSPCreativity/intro.rst
+    CSPCreativity/task.rst
+    CSPCreativity/deciding.rst
+    CSPCreativity/examples.rst
+    CSPCreativity/processQ.rst
+    CSPCreativity/programming.rst
+    CSPCreativity/referencing.rst
+
+
+Chapter 21: Global Impact
+::::::::::::::::::::::::::::::::::::::::::::
+
+
+Chapter 22: Computer Abilities Summary
 ::::::::::::::::::::::::::::::::::::::::::::
 
 .. toctree::
