@@ -442,7 +442,7 @@ Chapter 7 Exercises
             .. activecode::  ch7ex20q
                 :nocodelens:
 
-    .. tab:: Discussion
+    	.. tab:: Discussion
 
             .. disqus::
                 :shortname: teachercsp
