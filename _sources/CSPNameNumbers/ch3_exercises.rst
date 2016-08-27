@@ -227,7 +227,7 @@ Chapter 3 Exercises
                 couponPrice =
                 print(couponPrice)
 
-    .. tab:: Discussion
+	.. tab:: Discussion
 
             .. disqus::
                 :shortname: teachercsp
