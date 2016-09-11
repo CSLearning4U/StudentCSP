@@ -86,19 +86,19 @@ Below is a selection of images that you can use in the programs in this section.
                 :nocodelens:
 
                 # USE THE IMAGE LIBRARY
-        		from image import *
+        	from image import *
                 # PICK THE IMAGE
-        		img = Image("puppy.jpg")
+        	img = Image("puppy.jpg")
                 # LOOP THROUGH THE PIXELS
-        		pixelList = img.getPixels()
+        	pixelList = img.getPixels()
     	        for p in pixelList:
                     # SET THE COLOR
-    		        p.setRed(0)
+    		    p.setRed(0)
                     # UPDATE THE PIXEL
     	            img.updatePixel(p)
 
                 # SHOW THE RESULT
-        		win = ImageWin(img.getWidth(),img.getHeight())
+        	win = ImageWin(img.getWidth(),img.getHeight())
                 img.draw(win)
 
         .. tab:: Discussion
@@ -163,7 +163,7 @@ Below is a selection of images that you can use in the programs in this section.
                 :nocodelens:
 
                 # STEP 1: USE THE IMAGE LIBRARY
-		        from image import *
+		from image import *
                 # STEP 2: PICK THE IMAGE
                 img = Image("kitten")
                 # STEP 3: LOOP THROUGH THE PIXELS
@@ -236,13 +236,13 @@ Below is a selection of images that you can use in the programs in this section.
 
         .. tab:: Question
 
-            Complete the code in order to set the blue value to an eigth of the green value plus an eight of the red value.
+            Complete the code in order to set the blue value to an eighth of the green value plus an eighth of the red value.
 
             .. activecode::  ch11ex6q
                 :nocodelens:
 
                 # STEP 1: USE THE IMAGE LIBRARY
-		        from image import *
+		from image import *
                 # STEP 2: PICK THE IMAGE
                 img = Image("swan.jpg")
                 # STEP 3: LOOP THROUGH THE PIXELS
@@ -472,21 +472,21 @@ Below is a selection of images that you can use in the programs in this section.
             .. activecode::  ch11ex12q
                 :nocodelens:
 
-		        from image import *
+		from image import *
                 # CREATE AN IMAGE FROM A FILE
-		        img = Image("vangogh.jpg")
+		img = Image("vangogh.jpg")
                 # LOOP THROUGH THE PIXELS
-        		for x in range(int(img.getWidth()):
-        		    for y in range(int(img.getHeight()):
+        	for x in range(int(img.getWidth())):
+        	    for y in range(int(img.getHeight())):
                         # GET THE DATA
-        	            p = img.getPixel(x, y)
+        	        p = img.getPixel(x, y)
                         # SET THE PIXEL
-        			    p.setRed(0)
+        		p.setRed(0)
                         # UPDATE THE PIXEL
-        			    img.updatePixel(p)
+        		img.updatePixel(p)
                 # SHOW THE RESULT
-        		win = ImageWin(img.getWidth(),img.getHeight())
-        		img.draw(win)
+        	win = ImageWin(img.getWidth(),img.getHeight())
+        	img.draw(win)
 
         .. tab:: Discussion
 

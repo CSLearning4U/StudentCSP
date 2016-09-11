@@ -342,7 +342,7 @@ Chapter 5 Exercises
 
         .. tab:: Question
 
-           Write the code below to draw a diamond shape.
+           Write code below to draw a diamond shape.
 
            .. activecode::  ch5ex15q
                 :nocodelens:
@@ -376,7 +376,7 @@ Chapter 5 Exercises
 
         .. tab:: Question
 
-           Write the code below to draw a star like this picture.
+           Write code below to draw a star like this picture.
 
            .. image:: Figures/star.png
 
@@ -412,7 +412,7 @@ Chapter 5 Exercises
 
         .. tab:: Question
 
-           Write the code below to draw at least one of your initials in block style.
+           Write code below to draw at least one of your initials in block style.
 
            .. activecode::  ch5ex19q
                :nocodelens:
