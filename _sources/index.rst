@@ -364,6 +364,14 @@ Chapter 22: Computer Abilities Summary
    CSPAbilitySummary/thatsall.rst
    CSPAbilitySummary/ch19_summary.rst
    CSPAbilitySummary/examPost.rst
+
+Chapter 23: What's Next?
+::::::::::::::::::::::::::::::::::::::::::::
+
+.. toctree::
+   :maxdepth: 2
+   
+   CSPWhatsNext/whatsNext.rst
    
 Indices
 ::::::::::::::::::
