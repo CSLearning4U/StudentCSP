@@ -293,15 +293,15 @@ Chapter 6 Exercises
 
         .. tab:: Question
 
-            Change the code so the function takes parameters for the length and base and then call the function and print the result.
+            Change the code so the function takes parameters for the base and height of the triangle. Then, write code to call the function and print the result.
 
             .. activecode::  ch6ex10q
                 :nocodelens:
 
                 def areaTriangle():
-                   length = 5
-                   base = 4
-                   return (5 * 4) / 2
+                    base = 5
+                    height = 4
+                    return (5 * 4) / 2
 
         .. tab:: Discussion
 
