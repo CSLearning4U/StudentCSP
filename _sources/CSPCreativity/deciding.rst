@@ -16,13 +16,15 @@ Deciding What to Program
 As we talked about earlier in the chapter, programming involves a lot of creativity. However, it is also important to ensure your design is doable. If you need inspiration, GitHub is a great place to start. Fork a repository and examine the code, but remember to avoid plagiarism and cite any resource you use! Once you come up with an idea, make sure you perform some background research. Follow this process to test your idea: 
 
 1. Understand the problem 
-    | First, you should really understand the problem you want to solve. To help you focus, you can use the ‘Heilmeier Questions <http://www.design.caltech.edu/erik/Misc/Heilmeier_Questions.html>’_:
-a. Why does this problem exist?
-b. How is it handled today?
-c. What impact will your change have?
-d. How can your idea be innovative?
-e. What are the requirements for your solution?
-You don’t need to answer all of the questions right away, rather they will guide you through the whole design process. Completing background research and prioritizing your requirements can help to shape your idea during the next steps.
+    | First, you should really understand the problem you want to solve. To help you focus, you can use the `Heilmeier Questions <http://www.design.caltech.edu/erik/Misc/Heilmeier_Questions.html>`_:
+
+    a. Why does this problem exist?
+    b. How is it handled today?
+    c. What impact will your change have?
+    d. How can your idea be innovative?
+    e. What are the requirements for your solution?
+
+    | You don’t need to answer all of the questions right away, rather they will guide you through the whole design process. Completing background research and prioritizing your requirements can help to shape your idea during the next steps.
 
 
 2. Brainstorm solutions 
