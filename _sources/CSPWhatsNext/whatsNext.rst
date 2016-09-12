@@ -29,11 +29,11 @@ Python Shell Instructions:
 
    *Way #1*: You can use the Python shell where you can directly run commands one at a time. Below is an example of what the IDLE shell looks like.
 	
-	.. image:: needsanimage.png
+	.. image:: IDLE_shell.png
 
    *Way #2*: You can also write multiple lines of Python in a file and then run all those lines at once. This is similar to what you've seen in this book. Use File > New File to start a new Python file from scratch, or use File > Open to open an existing file. Run the file with Run > Run Module or F5.
 
-        .. image:: needsanimage.png
+        .. image:: IDLE_file.png
 
 
 
@@ -47,7 +47,7 @@ JES is an IDE that makes it easy to get started with Python and allows you to wr
 
 2. After downloading, click on the JES icon to start the application. Below is a sample function and its output.
         
-        .. image:: needsanimage.png
+        .. image:: JES.png
 
 3. Make sure that you save the code that you write into a Python file on your computer. Before running a function make sure you load the program and then call the function in the output box (bottom black part).
 
