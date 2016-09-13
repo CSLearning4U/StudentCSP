@@ -324,13 +324,6 @@ Chapter 18: Working with Data on the Web
    CSPWebData/ch18_summary.rst
    CSPWebData/ch18_exercises.rst
 
-  
-SECTION 6: WHAT'S POSSIBLE
-:::::::::::::::::::::::::::::::::::::::::::
-
-.. toctree::
-   :maxdepth: 3
-
 Chapter 19: Computer Abilities Summary
 ::::::::::::::::::::::::::::::::::::::::::::
 
@@ -339,6 +332,13 @@ Chapter 19: Computer Abilities Summary
    
    CSPAbilitySummary/thatsall.rst
    CSPAbilitySummary/ch19_summary.rst
+
+  
+SECTION 6: WHAT'S POSSIBLE
+:::::::::::::::::::::::::::::::::::::::::::
+
+.. toctree::
+   :maxdepth: 3
 
 Chapter 20: The Internet
 ::::::::::::::::::::::::::::::::::::::::::::
