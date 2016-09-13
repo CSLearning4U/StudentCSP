@@ -323,8 +323,7 @@ Chapter 18: Working with Data on the Web
    CSPWebData/findPollState.rst
    CSPWebData/ch18_summary.rst
    CSPWebData/ch18_exercises.rst
-   
-   
+
 Chapter 19: Computer Abilities Summary
 ::::::::::::::::::::::::::::::::::::::::::::
 
@@ -333,7 +332,64 @@ Chapter 19: Computer Abilities Summary
    
    CSPAbilitySummary/thatsall.rst
    CSPAbilitySummary/ch19_summary.rst
-   CSPAbilitySummary/examPost.rst
+
+  
+SECTION 6: WHAT'S POSSIBLE
+:::::::::::::::::::::::::::::::::::::::::::
+
+.. toctree::
+   :maxdepth: 3
+
+Chapter 20: The Internet
+::::::::::::::::::::::::::::::::::::::::::::
+
+ 
+Chapter 21: Creativity
+::::::::::::::::::::::::::::::::::::::::::::
+
+.. toctree::
+    :maxdepth: 2
+
+    CSPCreativity/intro.rst
+    CSPCreativity/task.rst
+    CSPCreativity/deciding.rst
+    CSPCreativity/examples.rst
+    CSPCreativity/processQ.rst
+    CSPCreativity/programming.rst
+    CSPCreativity/referencing.rst
+
+Chapter 22: Global Impact
+::::::::::::::::::::::::::::::::::::::::::::
+
+.. toctree::
+   :maxdepth: 2
+
+   CSPGlobalImpact/intro.rst
+   CSPGlobalImpact/exploring.rst
+   CSPGlobalImpact/task.rst
+   CSPGlobalImpact/deciding.rst
+   CSPGlobalImpact/choosing.rst
+   CSPGlobalImpact/outline.rst
+   CSPGlobalImpact/completing.rst   
+
+Chapter 23: What's Next
+::::::::::::::::::::::::::::::::::::::::::::
+
+.. toctree::
+   :maxdepth: 2
+   
+   CSPWhatsNext/whatsNext.rst
+
+SECTION 7: WRAP-UP
+:::::::::::::::::::::::::::::::::::::::::::
+
+Chapter 24: Post Exam
+::::::::::::::::::::::::::::::::::::::::::::
+
+.. toctree::
+   :maxdepth: 2
+   
+   CSPExamPost/examPost.rst
    
 Indices
 ::::::::::::::::::
