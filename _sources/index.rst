@@ -332,6 +332,7 @@ Chapter 19: Computer Abilities Summary
    
    CSPAbilitySummary/thatsall.rst
    CSPAbilitySummary/ch19_summary.rst
+   CSPExamPost/examPost.rst
 
   
 SECTION 6: WHAT'S POSSIBLE
@@ -380,19 +381,8 @@ Chapter 23: What's Next
 .. toctree::
    :maxdepth: 2
    
-   CSPWhatsNext/whatsNext.rst
-
-SECTION 7: WRAP-UP
-:::::::::::::::::::::::::::::::::::::::::::
-
-Chapter 24: Post Exam
-::::::::::::::::::::::::::::::::::::::::::::
-
-.. toctree::
-   :maxdepth: 2
-   
-   CSPExamPost/examPost.rst
-   
+   CSPWhatsNext/whatsNext.rst   
+      
 Indices
 ::::::::::::::::::
 
