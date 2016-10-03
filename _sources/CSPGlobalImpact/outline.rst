@@ -44,3 +44,11 @@ d. Outline 1: ATMs
 
 
 Here are a few more possible topic examples from the University of Berkeley's `Beauty and Joy of Computing <http://bjc.berkeley.edu/website/curriculum.html>`_ “Lecture Slides on Social Implications of Computing”.
+
+.. note::
+
+    Discuss topics in this section with classmates. 
+
+      .. disqus::
+          :shortname: cslearn4u
+          :identifier: studentcsp_globalimpact_outline

@@ -26,3 +26,11 @@ When was the article/information published? Was it within the last two years? Th
 
 Which innovations do I want to read more about?
     | Example: In the article above, the slide show of pictures provides links to learn more about each technology. Click on the ones that seem most interesting and relevant to you....maybe the `GM 4G LTE Connected Car <http://bestofwhatsnew.popsci.com/gm-4g-lte>`_?
+
+.. note::
+
+    Discuss topics in this section with classmates. 
+
+      .. disqus::
+          :shortname: cslearn4u
+          :identifier: studentcsp_globalimpact_deciding

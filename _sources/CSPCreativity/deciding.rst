@@ -35,3 +35,11 @@ As we talked about earlier in the chapter, programming involves a lot of creativ
 
 4. Review/Revisit requirements and brainstorming notes 
     | Now that you completed the initial round of prototyping, you are probably eager to begin the development process. However, it is a good idea to slow down for a moment and revisit the first two steps to ensure that you are on the right track. Does your prototype solve the problem you defined effectively and uniquely? Does your idea meet all the requirements you have listed? Can you find other ideas from your brainstorming sessions that you can add to your prototype?
+
+.. note::
+
+    Discuss topics in this section with classmates. 
+
+      .. disqus::
+          :shortname: cslearn4u
+          :identifier: studentcsp_creativity_deciding

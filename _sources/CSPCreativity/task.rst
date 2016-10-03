@@ -20,3 +20,11 @@ The Create Task
 You will be provided 12 hours of class time to complete this Performance Task”*
 
 Click `here <http://media.collegeboard.com/digitalServices/pdf/ap/ap-computer-science-principles-performance-assessment.pdf>`_ to review the specific guidelines for completing the following performance task.
+
+.. note::
+
+    Discuss topics in this section with classmates. 
+
+      .. disqus::
+          :shortname: cslearn4u
+          :identifier: studentcsp_creativity_task

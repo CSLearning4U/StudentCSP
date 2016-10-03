@@ -17,3 +17,11 @@ Here are some resources to jumpstart your own programming ideas:
 	| - “Homework” section on the `University of Pennsylvania CS101 website <https://sites.google.com/site/penncis101/2012-spring/homework>`_ 
 	| - “Assignments” page on the `University of Alabama CS104 website <http://cs104.cs.ua.edu/index_files/Assignments.htm>`_ 
 	| - “BJC Related Projects” on the `University of California, Berkeley Beauty and Joy of Computing website <http://bjc.berkeley.edu/website/curriculum.html>`_  
+
+.. note::
+
+    Discuss topics in this section with classmates. 
+
+      .. disqus::
+          :shortname: cslearn4u
+          :identifier: studentcsp_creativity_examples

@@ -114,4 +114,12 @@ Another important application of computing is in the supply chain. The supply ch
 
 Algorithms are processes or sets of rules to be followed in calculations or other problem-solving operations, and are the fundamental ways computers function and perform tasks. There are now algorithms that predict growth and sales for a company, algorithms that are able to determine cell growth, and much, much more. How do you apply an algorithm to something as random as cell growth you ask? Well the algorithms developed thus far are based on stochastic simulation, or random models that have a probability distribution or pattern. You might try to say, simulate the chemical reactions associated with cell growth and measure the time-dependent reaction rates, as well as the growth and division of the cells over time. 
 
-Even today, the use of algorithms in sports analytics is exploding. For example, the use of John Hollinger’s formula to determine an NBA player’s efficiency on the court incorporates many different types of stats and player performance has inspired teams around the league to start investing in their analytics department. Who are these “analysts” you ask? They are no other than your coders, developers, and computer scientists who look at different variables in the basketball landscape and determine what the relationships between these variables are. 
+Even today, the use of algorithms in sports analytics is exploding. For example, the use of John Hollinger’s formula to determine an NBA player’s efficiency on the court incorporates many different types of stats and player performance has inspired teams around the league to start investing in their analytics department. Who are these “analysts” you ask? They are no other than your coders, developers, and computer scientists who look at different variables in the basketball landscape and determine what the relationships between these variables are.
+
+.. note::
+
+    Discuss topics in this section with classmates. 
+
+      .. disqus::
+          :shortname: cslearn4u
+          :identifier: studentcsp_whatsnext_whatsnext 

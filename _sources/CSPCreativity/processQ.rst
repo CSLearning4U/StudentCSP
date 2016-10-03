@@ -39,3 +39,12 @@ B. Create a project map. Outline the process you used to create your program and
 +---------+-------------+---------------+---------------------+--------------------+
 |Step 4   |             |               |                     |                    |
 +---------+-------------+---------------+---------------------+--------------------+
+
+
+.. note::
+
+    Discuss topics in this section with classmates. 
+
+      .. disqus::
+          :shortname: cslearn4u
+          :identifier: studentcsp_creativity_processQ

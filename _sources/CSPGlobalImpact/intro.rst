@@ -33,3 +33,12 @@ With the internet, computer scientists and engineers have enabled a new form of 
 However, the global effects of computing can also be harmful for people and society. Companies that want to improve their customer experience or advertisement strategy  can collect personal data which raises data protection and privacy issues. With thousands of new electrical gadgets on the market everyday, the generation of clean energy and development of effective recycling becomes more and more urgent. The "Digital Divide" suggests how segments of society struggle to participate in the new technologically influenced economy. For example, the elderly, poor, and disabled struggle to access technology. Such rising challenges encourage innovative solutions and policies that will protect human rights and economic competition between new company giants.
 
 Computing power and intelligent algorithms help to develop new innovations that are faster and scalable.  By learning creative and logical problem solving, you can use your coding powers to have an impact on your community and the world.
+
+
+.. note::
+
+    Discuss topics in this section with classmates. 
+
+      .. disqus::
+          :shortname: cslearn4u
+          :identifier: studentcsp_globalimpact_intro

@@ -64,3 +64,12 @@ Place the information as a comment above the code you want to cite. The examples
   Date: 2011
   Code version: 2.0
   Availability: http://www.graphicsdrawer.com """ 
+
+
+.. note::
+
+    Discuss topics in this section with classmates. 
+
+      .. disqus::
+          :shortname: cslearn4u
+          :identifier: studentcsp_creativity_referencing

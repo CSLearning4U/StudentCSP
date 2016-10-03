@@ -26,3 +26,12 @@ Another method of collaboration involves dividing the program tasks between you 
 Software development in industry requires a lot of different people working together. To ensure work is completed efficiently, developers often use a methodology called Agile development. The Agile method prioritizes people and interactions over tools and processes. It focuses on producing results and responding to changes instead of following a set plan. 
 
 When you combine your code for review and discuss the next tasks to tackle, consider what tasks are essential to reaching a milestone in your project and reflect on whether your initial ideas need to be adjusted. 
+
+
+.. note::
+
+    Discuss topics in this section with classmates. 
+
+      .. disqus::
+          :shortname: cslearn4u
+          :identifier: studentcsp_creativity_programming

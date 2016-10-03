@@ -54,3 +54,11 @@ __________________
 
 **TED talks** are a great way to get informed about new ideas from all over the world:
 https://www.ted.com/topics/technology
+
+.. note::
+
+    Discuss topics in this section with classmates. 
+
+      .. disqus::
+          :shortname: cslearn4u
+          :identifier: studentcsp_globalimpact_exploring

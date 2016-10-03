@@ -33,3 +33,11 @@ After coming up with an innovative idea, most people already have a vision of th
 Additionally, a novel idea will result in unique code. Unique code means you can’t just import an existing program as a library or use an established application. You should also keep in mind that the initial solution to a problem will probably not be the one you end up using. Programming involves constant consideration of alternate ways to improve your program. A perfect solution does not exist, but some methods will work better than others. With every line of code, you must decide how to efficiently utilize time and resources. 
 
 Thankfully, you don’t have to work on your projects alone. Software development is a social activity. Developing creative ways to work efficiently and leverage your team’s strengths will ensure smooth collaboration. In this chapter, you are encouraged to use your imagination to develop a creative and fun program! Always remember...everything is possible with code.
+
+.. note::
+
+    Discuss topics in this section with classmates. 
+
+      .. disqus::
+          :shortname: cslearn4u
+          :identifier: studentcsp_creativity_intro

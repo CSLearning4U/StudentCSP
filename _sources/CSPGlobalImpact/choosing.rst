@@ -32,3 +32,11 @@ What population is impacted by this innovation?
 
 What are the pros and cons of this innovation?
     | Example: Connectivity provides efficiency and ease of use for car owners. Data aggregation allows convenience when scheduling car servicing and may ensure safety. However, hackers could potentially hack into the system and cause harm.
+
+.. note::
+
+    Discuss topics in this section with classmates. 
+
+      .. disqus::
+          :shortname: cslearn4u
+          :identifier: studentcsp_globalimpact_choosing
