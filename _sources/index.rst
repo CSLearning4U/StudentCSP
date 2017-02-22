@@ -381,7 +381,22 @@ Chapter 23: What's Next
 .. toctree::
    :maxdepth: 2
    
-   CSPWhatsNext/whatsNext.rst   
+   CSPWhatsNext/whatsNext.rst
+
+SECTION 7: PRACTICE EXAM QUESTIONS
+:::::::::::::::::::::::::::::::::::::::::::
+
+.. toctree::
+   :maxdepth: 3
+   
+Chapter 24:  Question Sets
+::::::::::::::::::::::::::::::::::::::
+
+.. toctree::
+   :maxdepth: 2
+   
+   CSPPracticeQuestions/APCSP_ExamInfo.rst
+   CSPPracticeQuestions/exam24_1.rst
       
 Indices
 ::::::::::::::::::
