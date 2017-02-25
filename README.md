@@ -16,4 +16,5 @@ This book was written by
 * Rhea Chatterjee - Creativity chapter
 * Leonie Reif - Global Impact chapter
 * Advaith Venkatakrishnan - What's Next chapter
+* Dominic Kynkor, Michael Aki, Prabhav Chawla, Yoonwoo Steven Kim - Practice AP exam questions
 
