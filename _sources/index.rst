@@ -397,6 +397,7 @@ Chapter 24:  Question Sets
    
    CSPPracticeQuestions/APCSP_ExamInfo.rst
    CSPPracticeQuestions/exam24_1.rst
+   CSPPracticeQuestions/exam24_3.rst
       
 Indices
 ::::::::::::::::::
