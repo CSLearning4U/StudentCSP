@@ -87,17 +87,20 @@ You will not be able to change your answers after you hit the "Finish Exam" butt
          Y ← X + Y
 
     .. mchoice:: e24_1_5
-       :answer_a: The baby duck picture appears as it was intended to appear.
-       :answer_b: The baby duck picture appears distorted.
-       :answer_c: The baby duck picture won’t load on the user’s smartphone.
-       :answer_d: The baby duck picture appears as 4 out of order images.
+       .. mchoice:: e24_1_5
+       :answer_a: The baby duck picture appears as intended.
+       :answer_b: The baby duck picture appears as 4 out of order images.
+       :answer_c: The baby duck picture is distorted.
+       :answer_d: The baby duck picture won’t load on the user’s smartphone.
        :correct: a
        :feedback_a: Correct
        :feedback_b: Incorrect
        :feedback_c: Incorrect
-       :feedback_d: Incorrect 
+       :feedback_d: Incorrect
 
-       A user’s smartphone makes a request for 10 packets from a server that represent the image of a baby duck. The server sends the 10 packets but they arrive at the user’s smartphone out of order. How does the smartphone interpret the packets that form the image?
+       A duck user’s smartphone makes a request for 4 packets from a server that represent the image of a baby duck. The server sends the 4 packets but they arrive at the user’s smartphone out of order. How does the smartphone interpret the packets that form the image
+          .. figure:: Figures/duckpacket.jpg
+       
 
     .. mchoice:: e24_1_6
        :answer_a: Cloud Computing
