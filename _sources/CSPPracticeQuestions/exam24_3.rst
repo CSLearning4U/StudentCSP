@@ -149,7 +149,9 @@ You will not be able to change your answers after you hit the "Finish Exam" butt
             RETURN employeeList
           }
         
-       Using the min(a,b) and max(a,b) functions, which return the lesser and greater values of the inputs, respectively, which of the following code segments can be placed in the <MISSING CODE> area to make the program work as expected?
+       Which of the following code segments can be placed in the <MISSING CODE> area to make the program work as expected?
+
+       (The min(a,b) and max(a,b) functions return the lesser and greater values of the inputs, respectively.)
        
        Option I. 
             
@@ -196,7 +198,7 @@ You will not be able to change your answers after you hit the "Finish Exam" butt
        :feedback_c: Incorrect
        :feedback_d: Correct
 
-       Which of the following have increased the availability of distant communication and collaboration?
+       Which of the following have increased the availability of communication and collaboration between people at a distance?
        
         | I. Social Media
         | II. SMS
