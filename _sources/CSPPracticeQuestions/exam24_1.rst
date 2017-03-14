@@ -98,8 +98,9 @@ You will not be able to change your answers after you hit the "Finish Exam" butt
        :feedback_c: Incorrect
        :feedback_d: Incorrect
 
-       A duck user’s smartphone makes a request for 4 packets from a server that represent the image of a baby duck. The server sends the 4 packets but they arrive at the user’s smartphone out of order. How does the smartphone interpret the packets that form the image
-          .. figure:: Figures/duckpacket.jpg
+       A user’s smartphone makes a request to a server for 4 packets that represent the image of a baby duck. The server sends the 4 packets but they arrive at the user’s smartphone out of order. How does the smartphone interpret the packets that form the image?
+
+       .. figure:: Figures/duckpacket.jpg
        
 
     .. mchoice:: e24_1_6
