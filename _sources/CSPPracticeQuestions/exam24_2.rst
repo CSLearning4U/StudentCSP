@@ -5,9 +5,11 @@
 Set #2
 -------------------------------------
 
-The following questions make up Set #2 of the Practice Exam Questions. The questions resemble, both in format and substance, what you might see on the AP CS Principles exam. You should finish these questions within 17 minutes to satisfy the time constraints of the AP exam. You may refer to the AP CS Reference Sheet, which can be found here_.
+The following questions make up Set #2 of the Practice Exam Questions. These questions are designed to be similar to those on the AP CSP exam. You should finish these questions within 17 minutes to stay on track with the timing of the actual exam. During the actual exam, you will be provided with the AP CS Reference Sheet, which can be found |link|.
 
-.. _here: raw::html <a href="" target="_blank">here</a>
+.. |link| raw:: html
+
+   <a href="https://secure-media.collegeboard.org/digitalServices/pdf/ap/ap-computer-science-principles-course-and-exam-description.pdf#page=121" target="_blank">here</a>
 
 Click the "Start" button when you are ready to begin the exam.  Click the "Pause" button to pause the exam (you will not be able to see the questions when the exam is paused).  It will show how much time you have used, but you have unlimited time.  Click on the "Finish Exam" button at the end when you are done.  The number correct, number wrong, and number skipped will be displayed at the bottom of the page.  Feedback for each answer will also be shown as well as your answer.
 

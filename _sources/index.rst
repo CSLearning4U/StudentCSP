@@ -399,6 +399,7 @@ Chapter 24:  Question Sets
    CSPPracticeQuestions/exam24_1.rst
    CSPPracticeQuestions/exam24_2.rst
    CSPPracticeQuestions/exam24_3.rst
+   CSPPracticeQuestions/exam24_4.rst
       
 Indices
 ::::::::::::::::::
