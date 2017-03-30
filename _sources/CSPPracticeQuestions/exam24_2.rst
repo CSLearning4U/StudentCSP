@@ -112,9 +112,9 @@ You will not be able to change your answers after you hit the "Finish Exam" butt
        :answer_d: The run-time first increases and then decreases as the input size is increased.
        :correct: a
        :feedback_a: Correct. This is true because every input requires the same amount of time.
-       :feedback_b: Incorrect. This is incorrect because time per step doesn't decrease with more steps.
+       :feedback_b: Incorrect. This is incorrect because time per step doesn't decrease with more inputs.
        :feedback_c: Incorrect. The number of steps an algorithm goes through does influence the the time an algorithm takes to run. 
-       :feedback_d: Incorrect. The number of steps increasing always increases the runtime of a algortihm in this case. 
+       :feedback_d: Incorrect. The number of steps increasing always increases the runtime of an algorithm in this case. 
 
        If the number of steps that an algorithm takes is equal to a linear function of the input size, then which of the following statements is true regarding the runtime of the algorithm? 
 
@@ -166,9 +166,9 @@ You will not be able to change your answers after you hit the "Finish Exam" butt
        :answer_c: Recursive algorithm
        :answer_d: Dynamic Programming
        :correct: a
-       :feedback_a: Correct. A Heuristic algorithm attemps to find an approximation of a solution without findinf the exact solution.
+       :feedback_a: Correct. A Heuristic algorithm atempts to find an approximation of a solution without finding the exact solution.
        :feedback_b: Incorrect. Brute-Forcing is trying to find a solution using trial and error. 
-       :feedback_c: Incorrect. A Recursive algorithm is an algorith that calls itself until a condition is met, at which point it stops. 
+       :feedback_c: Incorrect. A Recursive algorithm is an algorithm that calls itself until a condition is met, at which point it stops. 
        :feedback_d: Incorrect. Dynamic Programming is breaking a problem into smaller sub problems in order to find the correct answer. 
 
         The Travelling Salesman Problem is a problem in theoretical computer science in which one tries to find the shortest route that passes through every point in a set, once and only once. The optimal solution to the problem for an arbitrary set of of points cannot be found in a reasonable amount of time, that is, it cannot be found in polynomial time. However, we can find an approximation to the optimal solution in a reasonable amount of time. It would be best to find the approximate solution using a
@@ -179,10 +179,11 @@ You will not be able to change your answers after you hit the "Finish Exam" butt
        :answer_c: I. and IV. only
        :answer_d: III. and IV. only
        :correct: d
-       :feedback_a: Incorrect. temp == 0 will cause the temperature to increment to 1 when temp == 0 and temp > 0 will cause the temperature to only increment above temp == 0.
+       :feedback_a: Incorrect. temp == 0 will cause the temperature to increment to 1 when temp == 0 and temp greater than 0 will cause the temperature to only increment above temp == 0.
        :feedback_b: Incorrect. temp == 0 will cause the temperature to increment to 1 when temp == 0 
        :feedback_c: Incorrect. temp == 0 will cause the temperature to increment to 1 when temp == 0 
-       :feedback_d: Correct. 
+       :feedback_d: Correct. These two conditionals will not allow temp to go above 0
+
        In a freezer, the temperature can be increased, but should not go above 0° C.  It can, however, be exactly equal to 0° C. The unfinished code for increasing the temperature in a freezer is shown below.  The variable temp represents the current temperature in degrees Celsius.
        ::
          PROCEDURE incrementTemperature(temp)
@@ -210,6 +211,6 @@ You will not be able to change your answers after you hit the "Finish Exam" butt
        :feedback_a: Correct. Abstraction doesn't require knowledge of internal details to understand the overall concept of a device. 
        :feedback_b: Incorrect. This is a good example because not every detail on a map is a perfect representation of a geographical region.
        :feedback_c: Incorrect. This is a good example because knowledge of details is not required to understand the overall concept. 
-       :feedback_d: Incorrect. This is a good example because knowledge of how a car brake function is not required to press a car brake.
+       :feedback_d: Incorrect. This is a good example because knowledge of how a car brake functions is not required to press a car brake.
 
        What is NOT a good example of abstraction?
