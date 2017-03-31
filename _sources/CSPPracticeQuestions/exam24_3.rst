@@ -24,7 +24,7 @@ You will not be able to change your answers after you hit the "Finish Exam" butt
        :answer_d: sample.org/help
        :correct: c
        :feedback_a: Incorrect. This is a completely different website unrelated to sample.org.
-       :feedback_b: Incorrect. Sample.org is a subdomain of biz in this answer choice.
+       :feedback_b: Incorrect. sample.org is a subdomain of biz in this answer choice.
        :feedback_c: Correct. The subdomain is always on the left of the domain name.
        :feedback_d: Incorrect. Subdomains are always on the left side of the domain and use a "." instead of a "/".
 
@@ -72,10 +72,10 @@ You will not be able to change your answers after you hit the "Finish Exam" butt
        :answer_c: What is the average annual precipitation?
        :answer_d: What is the average daily temperature? 
        :correct: c
-       :feedback_a: Incorrect. The meteorologists have temperature data from day and nights.
-       :feedback_b: Incorrect. The meteorologists have temperature and precipitation data.
+       :feedback_a: Incorrect. The meteorologists have temperature data from days and nights so they can compare the differences between them.
+       :feedback_b: Incorrect. The meteorologists have temperature and precipitation data, so they can compare them and determine if there is a correlation.
        :feedback_c: Correct. The meteorologists only have data from one year, so they cannot calculate the average annual precipitation.
-       :feedback_d: Incorrect. The meteorologists have temperature data for an entire year.
+       :feedback_d: Incorrect. The meteorologists have temperature data for an entire year, so they can find the average of daily temperatures across that time range.
 
        Meteorologists record atmospheric data to predict future weather conditions. Suppose that a meteorological lab in Atlanta takes hourly measurements of air temperature and precipitation in the city for a total period of 12 months. Note that the lab also records the exact time and date for each measurement. 
 
@@ -118,7 +118,7 @@ You will not be able to change your answers after you hit the "Finish Exam" butt
        :feedback_a: Correct. It can store 2^(64 - 16) as many distinct values.
        :feedback_b: Incorrect. That is how many total values the long data stores.
        :feedback_c: Incorrect. That is how many total values the short data stores.
-       :feedback_d: Incorrect. While long data is 4 times as long as the short, the question asks for the difference in distinct values.
+       :feedback_d: Incorrect. While long data is 4 times as long as the short, the question asks for the difference in distinct values the data type can hold.
 
        Imagine there is a programming language which uses two different data types to store integers - a 16-bit short data type and a 64-bit long data type. Then which of the following statements is true about the two data types?
        
@@ -216,7 +216,7 @@ You will not be able to change your answers after you hit the "Finish Exam" butt
 
        Which of the following statements are true about algorithms?
        
-         | I. If an algorithm runs in reasonable time, the number of steps the algorithm takes is a polynomial function (constant, linear, square, etc.) of the size of the input.
+         | I. If an algorithm runs in reasonable time, the number of steps the algorithm takes is a polynomial function (constant, linear, squared, etc.) of the size of the input.
          | II. All problems can be solved using an algorithm that runs in reasonable time.
          | III. If a problem cannot be solved in reasonable time, a heuristic approach is helpful to solve the problem.
  
