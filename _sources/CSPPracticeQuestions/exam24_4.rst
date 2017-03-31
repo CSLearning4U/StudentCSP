@@ -37,7 +37,7 @@ You will not be able to change your answers after you hit the "Finish Exam" butt
        :answer_d: Your program is more likely than your friend’s to give answers with round off errors.
        :correct: b
        :feedback_a: Incorrect. Refer to feedback for answer choice (B).
-       :feedback_b: Correct. Since the variable used in your program occupies more memory/has greater number of bits, it will have greater precision and range than the varibale used in your friend's program. Thus a more accurate answer is received in your program when numbers are divided.
+       :feedback_b: Correct. Since the variable used in your program occupies more memory/has greater number of bits, it will have greater precision and range than the variable used in your friend's program. Thus a more accurate answer is received in your program when numbers are divided.
        :feedback_c: Incorrect. There will be cases in which precision will differ since the two variables have different memory size, and therefore different range.
        :feedback_d: Incorrect. Round off errors are observed more when variables with lesser memory size are used.
    
@@ -50,9 +50,9 @@ You will not be able to change your answers after you hit the "Finish Exam" butt
        :answer_d: BEG
        :correct: a
        :feedback_a: Correct. We can see that 102 base-8 = 1 * 64 + 0 * 8 + 2 * 1 = 66 base-10 = 'B', similarly 117 base-8 = 'O' and 107 base-8 = 'G'
-       :feedback_b: Incorrect. Check your calculations! See feedback for answer choice A to understand how to convert ocal numbers to decimal numbers.
-       :feedback_c: Incorrect. Check your calculations! See feedback for answer choice A to understand how to convert ocal numbers to decimal numbers.
-       :feedback_d: Incorrect. Check your calculations! See feedback for answer choice A to understand how to convert ocal numbers to decimal numbers.
+       :feedback_b: Incorrect. Check your calculations. See feedback for answer choice A to understand how to convert ocal numbers to decimal numbers.
+       :feedback_c: Incorrect. Check your calculations. See feedback for answer choice A to understand how to convert ocal numbers to decimal numbers.
+       :feedback_d: Incorrect. Check your calculations. See feedback for answer choice A to understand how to convert ocal numbers to decimal numbers.
        
        ASCII is a character-encoding scheme that uses numeric values to represent alphanumeric and special characters. For example, the uppercase letter ‘A’ is represented by the decimal (base 10) value 65. A partial list of characters and their corresponding ASCII values are shown in the table below.
 
@@ -71,8 +71,8 @@ You will not be able to change your answers after you hit the "Finish Exam" butt
        :answer_d: All of the above
        :correct: d
        :feedback_a: Incorrect. This statement is true since we cannot perform meaninful analysis on our data if  our computer can't understand it. However, the other answer choices are also correct!
-       :feedback_b: Incorrect. Before we can arrive at results, we need to hypothesize - make predictions about what our results may be and test them out. Looking for patterns in the data can help us gain intuition into how we should proceed proving or disproving our hypothesis. Thus this statement is true; however, the other answer choices are also correct!
-       :feedback_c: Incorrect. The end user is not concerned with our raw data, or with all our lengthy calculations; we should use abstraction and present only the necessary data and results to the end user. Thus this statement is true; however, the other answer choices are also correct!
+       :feedback_b: Incorrect. Before we can arrive at results, we need to hypothesize - make predictions about what our results may be and test them out. Looking for patterns in the data can help us gain intuition into how we should proceed proving or disproving our hypothesis. This statement is true; however, the other answer choices are also correct!
+       :feedback_c: Incorrect. The end user is not concerned with our raw data, or with all our lengthy calculations; we should use abstraction and present only the necessary data and results to the end user. This statement is true; however, the other answer choices are also correct!
        :feedback_d: Correct. Since all answer choices are correct.
 
        Which of the following is an important part of data analysis?
@@ -229,10 +229,10 @@ You will not be able to change your answers after you hit the "Finish Exam" butt
        :answer_c: How easy or difficult the algorithm is to understand.
        :answer_d: The size of the output obtained after running the algorithm.
        :correct: b
-       :feedback_a: Incorrect. Efficienies of algorithms are not realted to number of lines of codes. In fact, a program with lesser lines of code may very well be more inefficient than a program with more lines of code.
-       :feedback_b: Correct. This is correct since efficieny of algorithms in measured in terms of run-time and space complexity.
-       :feedback_c: Inorrect. How "complex" an algorithm is to understand has nothing to do with it's run-time or space complexity. In fact, an algorithm which is easy to understand may very well be more inefficient than an algorithm which isn't.
-       :feedback_d: Incorrect. Output size doest not determine the efficieny of an algorithm.
+       :feedback_a: Incorrect. Efficiencies of algorithms are not related to number of lines of codes. In fact, a program with fewer lines of code may very well be more inefficient than a program with more lines of code.
+       :feedback_b: Correct. This is correct since efficiency of algorithms in measured in terms of run-time and space complexity.
+       :feedback_c: Inorrect. How "complex" an algorithm is to understand has nothing to do with its run-time or space complexity. In fact, an algorithm which is easy to understand may very well be more inefficient than an algorithm which isn't.
+       :feedback_d: Incorrect. Output size doest not determine the efficiency of an algorithm.
         
        Efficiency of algorithms is most often analyzed based on which of the following characteristics?
 

@@ -24,9 +24,9 @@ You will not be able to change your answers after you hit the "Finish Exam" butt
        :answer_d: I., II. and III.
        :correct: a
        :feedback_a: Correct. Statement I. is true since it correctly identifies a property of lossless compression. Statement III. is true becasue it correctly identifies the trade-offs involved in compression techniques.
-       :feedback_b: Incorrect. Statement II. is false since lossless compression can be applied to resotre a file to its original state.
-       :feedback_c: Incorrect. Statement II. is false since lossless compression can be applied to resotre a file to its original state.
-       :feedback_d: Incorrect. Statement II. is false since lossless compression can be applied to resotre a file to its original state.
+       :feedback_b: Incorrect. Statement II. is false since lossless compression can be applied to restore a file to its original state.
+       :feedback_c: Incorrect. Statement II. is false since lossless compression can be applied to restore a file to its original state.
+       :feedback_d: Incorrect. Statement II. is false since lossless compression can be applied to restore a file to its original state.
 
        Which of the following statements are true regarding compressing files?
 
@@ -39,13 +39,13 @@ You will not be able to change your answers after you hit the "Finish Exam" butt
     .. mchoice:: e24_1_2
        :answer_a: Abstraction requires users to understand the low-level details of a system.
        :answer_b: Abstraction reduces information and detail to facilitate focus on relevant concepts.
-       :answer_c: Abstraction increases the complexity of the software system.
+       :answer_c: Abstraction increases the run-time complexity of a program.
        :answer_d: Abstraction compresses a program file to reduce file size.
        :correct: b
-       :feedback_a: Incorrect. Abstraction is used to hide the low-level details from the user, hence this statement is false.
+       :feedback_a: Incorrect. Abstraction is used to hide the low-level details from the user, therefore this statement is false.
        :feedback_b: Correct. This follows from the definition of abstraction.
-       :feedback_c: Incorrect. Abstraction is not realted to complexity of a software system.
-       :feedback_d: Incorrect. Abstraction is not realted to compression.
+       :feedback_c: Incorrect. Abstraction is not related to run-time complexity.
+       :feedback_d: Incorrect. Abstraction is not related to compression.
    
        Which of the following statements about abstraction is true?
 
@@ -56,9 +56,9 @@ You will not be able to change your answers after you hit the "Finish Exam" butt
        :answer_d: No, but it will work correctly if statements 1. and 2. are switched.
        :correct: c
        :feedback_a: Incorrect. In this case, the value of 'a' will remain unchanged although 'b' will correctly store the value of 'a'.
-       :feedback_b: Incorrect. In this case, the code will not compile as we are trying to assign the value of 'temp' to 'b' before declaring 'temp'.
+       :feedback_b: Incorrect. In this case, the code will not compile as we are trying to assign the value of 'temp' to 'b' before giving a value to 'temp'.
        :feedback_c: Correct. Plug any values in 'a' and 'b' and trace the code! You will find that it works.
-       :feedback_d: Incorrect. In this case, the code will not compile as we are trying to assign the value of 'temp' to 'b' before declaring 'temp'.
+       :feedback_d: Incorrect. In this case, the code will not compile as we are trying to assign the value of 'temp' to 'b' before giving a value to 'temp'.
        
        A programmer is writing code to switch the values of two integer variables, namely ``a`` and ``b``, using a temporary integer variable, ``temp``. This is the pseudo-code that the programmer has come up with:
        ::
@@ -75,7 +75,7 @@ You will not be able to change your answers after you hit the "Finish Exam" butt
        :answer_c: X = 15, Y = 5
        :answer_d: X = 20, Y = 25
        :correct: d
-       :feedback_a: Incorrect. Since 'X' and 'Y' are not strings, we cannot simply concatenate their values.
+       :feedback_a: Incorrect. Since 'X' and 'Y' are not strings, we cannot simply concatenate their characters.
        :feedback_b: Incorrect. While the value of 'X' is correct in this answer choice, the final value of 'Y' is not.
        :feedback_c: Incorrect. The values of both 'X' and 'Y' are incorrect in this answer choice.
        :feedback_d: Correct. Trace the code! Don't forget to use the updated value of 'X' while finding the value of 'Y' in the last statement.
@@ -95,7 +95,7 @@ You will not be able to change your answers after you hit the "Finish Exam" butt
        :answer_c: The baby duck picture is distorted.
        :answer_d: The baby duck picture won’t load on the user’s smartphone.
        :correct: a
-       :feedback_a: Correct. One of the specific design goals of TCP/IP network protocols is to allow packets to arrive out of order and then be reassembled correctly, hence the picture appears as intended.
+       :feedback_a: Correct. One of the specific design goals of TCP/IP network protocols is to allow packets to arrive out of order and then be reassembled correctly, therefore the picture appears as intended.
        :feedback_b: Incorrect. The packets are always reassembled in the correct order, so the original picture will appear as inteded.
        :feedback_c: Incorrect. The packets are always reassembled in the correct order, so the original picture will appear as inteded.
        :feedback_d: Incorrect. The picture will load since all the packets successfully arrive on the user's smart phone.
