@@ -23,8 +23,8 @@ You will not be able to change your answers after you hit the "Finish Exam" butt
        :correct: b
        :feedback_a: Incorrect. This isn't phishing because there is no ill intent and there is no request made.
        :feedback_b: Correct. This is a clear example of phishing because it involves a request for information.
-       :feedback_c: Incorrect. This is different from phishing because there is no request for information
-       :feedback_d: Incorrect. This is different from phishing because there is no request for information
+       :feedback_c: Incorrect. This is different from phishing because there is no request for information.
+       :feedback_d: Incorrect. This is different from phishing because there is no request for information.
 
        Which of the following is most likely to be a part of a phishing attack?
            
@@ -35,10 +35,10 @@ You will not be able to change your answers after you hit the "Finish Exam" butt
        :answer_c: II, III only
        :answer_d: I, II, III
        :correct: b
-       :feedback_a: Incorrect. The Internet does allow for quick spread of information, but it also can be accessed from different devices (Phones, Laptops, Desktops, etc.)
-       :feedback_b: Correct. This is correct because The Internet is not made for Security, rather Spread of Informaton and Availability.
-       :feedback_c: Incorrect. This is incorrect because the Internet is not made for Security.
-       :feedback_d: Incorrect. This is incorrect because the Internet is not made for Secuirty.
+       :feedback_a: Incorrect. The Internet does allow for quick spread of information, but it also can be accessed from different devices (phones, laptops, desktops, etc.)
+       :feedback_b: Correct. This is correct because The Internet is not made with security built-in, rather spread of informaton and availability are key goals.
+       :feedback_c: Incorrect. This is incorrect because the Internet is not made with security built-in.
+       :feedback_d: Incorrect. This is incorrect because the Internet is not made with security built-in.
    
        Which of the following statements is true regarding the benefits of using the internet?
        ::
@@ -83,10 +83,10 @@ You will not be able to change your answers after you hit the "Finish Exam" butt
        :answer_c: Quantity, Favorite Food
        :answer_d: Animal Size, Favorite Food
        :correct: d
-       :feedback_a: Incorrect. The Quantity of Animal isn't considered if trying to determine what food to prepare.
-       :feedback_b: Incorrect. Price and Quantity of an Animal isnt considered when determining which food to prepare. 
-       :feedback_c: Incorrect. Favorite Food is important for the manager to know, but Quantity of animal is not important in determining what food to prepare.
-       :feedback_d: Correct. Animal Size and Favorite food are the two columns a manager would look at to determine which food to prepare. 
+       :feedback_a: Incorrect. The quantity of animal isn't considered if trying to determine what food to prepare.
+       :feedback_b: Incorrect. Price and quantity of an animal isnt considered when determining which food to prepare. 
+       :feedback_c: Incorrect. Favorite food is important for the manager to know, but quantity of animal is not important in determining what food to prepare.
+       :feedback_d: Correct. Animal size and favorite food are the two columns a manager would look at to determine which food to prepare. 
     
        A pet store has a database of all of its animals with information about each animal. The database is shown below.
 
@@ -111,10 +111,10 @@ You will not be able to change your answers after you hit the "Finish Exam" butt
        :answer_c: The run-time of the program does not change with respect to the input size.
        :answer_d: The run-time first increases and then decreases as the input size is increased.
        :correct: a
-       :feedback_a: Correct. This is true because every input requires the same amount of time.
-       :feedback_b: Incorrect. This is incorrect because time per step doesn't decrease with more inputs.
-       :feedback_c: Incorrect. The number of steps an algorithm goes through does influence the the time an algorithm takes to run. 
-       :feedback_d: Incorrect. The number of steps increasing always increases the runtime of an algorithm in this case. 
+       :feedback_a: Correct. This is true because every additional input requires the same amount of additional time.
+       :feedback_b: Incorrect. This is incorrect because the number of steps doesn't decrease with more inputs for this algorithm.
+       :feedback_c: Incorrect. The number of steps an algorithm goes through does influence the the time an algorithm takes to run for this algorithm. 
+       :feedback_d: Incorrect. As the number of inputs increases, the number of steps in this algorithm will always be increasing in this case. 
 
        If the number of steps that an algorithm takes is equal to a linear function of the input size, then which of the following statements is true regarding the runtime of the algorithm? 
 
@@ -169,9 +169,9 @@ You will not be able to change your answers after you hit the "Finish Exam" butt
        :feedback_a: Correct. A Heuristic algorithm atempts to find an approximation of a solution without finding the exact solution.
        :feedback_b: Incorrect. Brute-Forcing is trying to find a solution using trial and error. 
        :feedback_c: Incorrect. A Recursive algorithm is an algorithm that calls itself until a condition is met, at which point it stops. 
-       :feedback_d: Incorrect. Dynamic Programming is breaking a problem into smaller sub problems in order to find the correct answer. 
+       :feedback_d: Incorrect. Dynamic Programming is breaking a problem into smaller sub-problems in order to find the correct answer. 
 
-        The Travelling Salesman Problem is a problem in theoretical computer science in which one tries to find the shortest route that passes through every point in a set, once and only once. The optimal solution to the problem for an arbitrary set of of points cannot be found in a reasonable amount of time, that is, it cannot be found in polynomial time. However, we can find an approximation to the optimal solution in a reasonable amount of time. It would be best to find the approximate solution using a
+        The Traveling Salesman Problem is a problem in theoretical computer science in which one tries to find the shortest route that passes through every point in a set, once and only once. The optimal solution to the problem for an arbitrary set of of points cannot be found in a reasonable amount of time, that is, it cannot be found in polynomial time. However, we can find an approximation to the optimal solution in a reasonable amount of time. It would be best to find the approximate solution using a
 
     .. mchoice:: e24_2_9
        :answer_a: I. and II. only
@@ -208,8 +208,8 @@ You will not be able to change your answers after you hit the "Finish Exam" butt
        :answer_c: A painting by Picasso, because the painting does not contain as many details as a photograph, but it still communicates the emotion of the event being painted
        :answer_d: Pressing on the brake pedal of your car, because you don’t have to know how brakes work in order to stop the car
        :correct: a
-       :feedback_a: Correct. Abstraction doesn't require knowledge of internal details to understand the overall concept of a device. 
-       :feedback_b: Incorrect. This is a good example because not every detail on a map is a perfect representation of a geographical region.
+       :feedback_a: Correct. Abstraction doesn't require knowledge of internal details to understand the overall function of a device. 
+       :feedback_b: Incorrect. This is a good example because not every part of the real landscape is represented on a map, only key features.
        :feedback_c: Incorrect. This is a good example because knowledge of details is not required to understand the overall concept. 
        :feedback_d: Incorrect. This is a good example because knowledge of how a car brake functions is not required to press a car brake.
 
