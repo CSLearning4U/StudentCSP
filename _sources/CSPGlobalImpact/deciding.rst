@@ -20,6 +20,10 @@ What keywords would you use to search the internet for interesting computing inn
 
 Is the resource reliable? Is it from a technology news source, company, educational institution, etc.?
     | Example: As you’ve probably learned in other courses, every website you visit does not always provide valid information. While Wikipedia may generally explain a topic, it may not be the most accurate resource and should not be relied upon.  Instead, explore research institutions (MIT Technology Review), scientific magazines (Scientific American; WIRED), or other online news sites (Forbes) where content is verified before publication.
+    
+    .. image:: Figures/smiley.png
+              :height: 250px
+              :width: 250px
 
 When was the article/information published? Was it within the last two years? The publication date is normally found beside the author’s name or near the article title.
     | Example: This Popular Science `article <http://www.popsci.com/popular-sciences-best-whats-new-gallery>`_ was published in 2014.

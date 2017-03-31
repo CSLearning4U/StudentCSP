@@ -19,12 +19,37 @@ After deciding on a topic, you already have an outline to work off of! Ask more 
 
 What are the long-term impacts of the innovation?
     | Example: Migration toward automated and smarter cars.
+    
+.. shortanswer:: outline_1
+
+   What are the long-term impacts of your innovation?    
+    
 Short-term impacts?
     | Example: A growing number of buyers are no longer willing to consider cars without wi-fi connectivity.
+    
+.. shortanswer:: outline_2
+
+   What are the short-term impacts of your innovation?       
+    
 Beneficial effects?
     | Example: Connected cars integrate seamlessly with advancing mobile technology and the internet of things trend.
+    
+.. shortanswer:: outline_3
+
+   What are the beneficial effects of your innovation?   
+    
 Harmful effects?
     | Example: People are worried about data privacy.
+    
+.. shortanswer:: outline_4
+
+   What are the harmful effects of your innovation?  
+    
+    
+    .. image:: Figures/writing-828911_960_720.jpg
+          :height: 250px
+          :width: 375px
+          
 
 Creating an outline provides a thorough and efficient method for deciding and developing your topic. Here is an example:
 
