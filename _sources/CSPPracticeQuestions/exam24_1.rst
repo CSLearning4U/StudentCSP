@@ -111,10 +111,10 @@ You will not be able to change your answers after you hit the "Finish Exam" butt
        :answer_c: Short Message Service
        :answer_d: Data Mining
        :correct: a
-       :feedback_a: Correct. Storage solutions made possible by Cloud Computing allow users to store, manage and access files remotely.
-       :feedback_b: Incorrect. GPS allows navigation and location services to function, but it's not related to what is being asked here.
-       :feedback_c: Incorrect. SMS allows users to send text messages to one another using standardized communication protocols, but it's not related to what is being asked here.
-       :feedback_d: Incorrect. Data Mining involves extracting and finding patterns in large data sets, but it's not related to what is being asked here.
+       :feedback_a: Correct. Storage solutions made possible by Cloud Computing allow users to store, manage and access files remotely over the Internet.
+       :feedback_b: Incorrect. GPS allows navigation and location services to function, but it is not related to managing files remotely. Also note that GPS is not an Internet-dependent technology. 
+       :feedback_c: Incorrect. SMS allows users to send text messages to one another using standardized communication protocols, but it's not related to managing files remotely. Also note that SMS is not an Internet-dependent technology.
+       :feedback_d: Incorrect. Data Mining involves extracting and finding patterns in large data sets, but it's not related to managing files remotely. Also note that Data Mining can be done without the use of Internet.
 
        Which of the following technologies allows its users to store, manage and access files remotely over the Internet?
 
