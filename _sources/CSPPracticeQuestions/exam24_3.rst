@@ -5,7 +5,7 @@
 Set #3
 -------------------------------------
 
-The following questions make up Set #3 of the Practice Exam Questions. The questions resemble, both in format and substance, what you might see on the AP CS Principles exam. You should finish these questions within 17 minutes to satisfy the time constraints of the AP exam. You may refer to the official AP CS Reference Sheet during the exam, provided by the College Board, which can be found |link|.
+The following questions make up Set #3 of the Practice Exam Questions. These questions are designed to be similar to those on the AP CSP exam. You should finish these questions within 17 minutes to stay on track with the timing of the actual exam. During the actual exam, you will be provided with the AP CS Reference Sheet, which can be found |link|.
 
 .. |link| raw:: html
 
