@@ -1,7 +1,7 @@
 .. qnum::
    :prefix: 24-1-
    :start: 1
-   
+
 Set #1
 -------------------------------------
 
@@ -16,17 +16,17 @@ Click the "Start" button when you are ready to begin the exam.  Click the "Pause
 You will not be able to change your answers after you hit the "Finish Exam" button.
 
 .. timed:: ch24ex
-    
+
     .. mchoice:: e24_1_1
        :answer_a: I. and III. only
        :answer_b: I. and II. only
        :answer_c: II. and III. only
        :answer_d: I., II. and III.
        :correct: a
-       :feedback_a: Correct. Statement I. is true since it correctly identifies a property of lossless compression. Statement III. is true becasue it correctly identifies the trade-offs involved in compression techniques.
-       :feedback_b: Incorrect. Statement II. is false since lossless compression can be applied to restore a file to its original state.
-       :feedback_c: Incorrect. Statement II. is false since lossless compression can be applied to restore a file to its original state.
-       :feedback_d: Incorrect. Statement II. is false since lossless compression can be applied to restore a file to its original state.
+       :feedback_a: Correct. Statement I is true since it correctly identifies a property of lossless compression. Statement III is true becasue it correctly identifies the trade-offs involved in compression techniques.
+       :feedback_b: Incorrect. Statement II is false since lossless compression can be applied to restore a file to its original state.
+       :feedback_c: Incorrect. Statement II is false since lossless compression can be applied to restore a file to its original state.
+       :feedback_d: Incorrect. Statement II is false since lossless compression can be applied to restore a file to its original state.
 
        Which of the following statements are true regarding compressing files?
 
@@ -35,7 +35,7 @@ You will not be able to change your answers after you hit the "Finish Exam" butt
        II. No matter what compression technique is used, once a data file is compressed, it cannot be restored to its original state.
 
        III. The amount of data reduction possible using lossy compression is often much higher than through lossless techniques.
-           
+
     .. mchoice:: e24_1_2
        :answer_a: Abstraction requires users to understand the low-level details of a system.
        :answer_b: Abstraction reduces information and detail to facilitate focus on relevant concepts.
@@ -46,7 +46,7 @@ You will not be able to change your answers after you hit the "Finish Exam" butt
        :feedback_b: Correct. This follows from the definition of abstraction.
        :feedback_c: Incorrect. Abstraction is not related to run-time complexity.
        :feedback_d: Incorrect. Abstraction is not related to compression.
-   
+
        Which of the following statements about abstraction is true?
 
     .. mchoice:: e24_1_3
@@ -59,7 +59,7 @@ You will not be able to change your answers after you hit the "Finish Exam" butt
        :feedback_b: Incorrect. In this case, the code will not compile as we are trying to assign the value of 'temp' to 'b' before giving a value to 'temp'.
        :feedback_c: Correct. Plug any values in 'a' and 'b' and trace the code! You will find that it works.
        :feedback_d: Incorrect. In this case, the code will not compile as we are trying to assign the value of 'temp' to 'b' before giving a value to 'temp'.
-       
+
        A programmer is writing code to switch the values of two integer variables, namely ``a`` and ``b``, using a temporary integer variable, ``temp``. This is the pseudo-code that the programmer has come up with:
        ::
 
@@ -103,7 +103,7 @@ You will not be able to change your answers after you hit the "Finish Exam" butt
        A user’s smartphone makes a request to a server for 4 packets that represent the image of a baby duck. The server sends the 4 packets but they arrive at the user’s smartphone out of order. How does the smartphone interpret the packets that form the image?
 
        .. figure:: Figures/duckpacket.jpg
-       
+
 
     .. mchoice:: e24_1_6
        :answer_a: Cloud Computing
@@ -112,7 +112,7 @@ You will not be able to change your answers after you hit the "Finish Exam" butt
        :answer_d: Data Mining
        :correct: a
        :feedback_a: Correct. Storage solutions made possible by Cloud Computing allow users to store, manage and access files remotely over the Internet.
-       :feedback_b: Incorrect. GPS allows navigation and location services to function, but it is not related to managing files remotely. Also note that GPS is not an Internet-dependent technology. 
+       :feedback_b: Incorrect. GPS allows navigation and location services to function, but it is not related to managing files remotely. Also note that GPS is not an Internet-dependent technology.
        :feedback_c: Incorrect. SMS allows users to send text messages to one another using standardized communication protocols, but it's not related to managing files remotely. Also note that SMS is not an Internet-dependent technology.
        :feedback_d: Incorrect. Data Mining involves extracting and finding patterns in large data sets, but it's not related to managing files remotely. Also note that Data Mining can be done without the use of Internet.
 
@@ -154,7 +154,7 @@ You will not be able to change your answers after you hit the "Finish Exam" butt
                 DISPLAY(b)
             }
          }
-       
+
        Which of the following options can be substituted for <MISSING CODE 1> and <MISSING CODE 2>, respectively, for the code to work as intended?
 
     .. mchoice:: e24_1_8
@@ -167,13 +167,13 @@ You will not be able to change your answers after you hit the "Finish Exam" butt
        :feedback_b: Incorrect. This would be true if the loop terminated at i = 3
        :feedback_c: Correct. This is true since the loop runs 3 times and we are multiplying 'n' with 2 in each iteration.
        :feedback_d: Incorrect. This would be true if the loop terminated at i = 5
-        
+
        Trace the value of an integer variable ``n`` in the following code.
        ::
 
          i ← 1
          n ← 2
-         REPEAT until i = 4 
+         REPEAT until i = 4
          {
             n ← n * 2
             i ← i + 1
@@ -211,7 +211,7 @@ You will not be able to change your answers after you hit the "Finish Exam" butt
        | students            |                           |                            |                            |
        +---------------------+---------------------------+----------------------------+----------------------------+
 
-       Based on the information in the table, which of the following tasks is likely to take the least amount of time if the computer system is used for a class of 400 students? 
+       Based on the information in the table, which of the following tasks is likely to take the least amount of time if the computer system is used for a class of 400 students?
 
     .. mchoice:: e24_1_10
        :answer_a: Because hexadecimal is a lower level of abstraction than binary.
