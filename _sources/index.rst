@@ -373,7 +373,8 @@ Chapter 22: Global Impact
    CSPGlobalImpact/deciding.rst
    CSPGlobalImpact/choosing.rst
    CSPGlobalImpact/outline.rst
-   CSPGlobalImpact/completing.rst   
+   CSPGlobalImpact/completing.rst  
+   CSPGlobalImpact/working.rst
 
 Chapter 23: What's Next
 ::::::::::::::::::::::::::::::::::::::::::::
