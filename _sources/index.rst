@@ -344,7 +344,13 @@ SECTION 6: WHAT'S POSSIBLE
 Chapter 20: The Internet
 ::::::::::::::::::::::::::::::::::::::::::::
 
-    *This chapter is coming soon!*
+.. toctree::
+    :maxdepth: 2
+
+    CSPInternet/ch20_intro.rst
+    CSPInternet/ch20_autonomous.rst
+    CSPInternet/ch20_characteristics.rst
+    CSPInternet/ch20_cybersecurity.rst
 
  
 Chapter 21: Creativity
