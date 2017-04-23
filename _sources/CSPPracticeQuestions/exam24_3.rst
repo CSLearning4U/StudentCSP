@@ -85,7 +85,7 @@ You will not be able to change your answers after you hit the "Finish Exam" butt
        :answer_a: How does wind speed fluctuate from day to night?
        :answer_b: During which hour of the day does it rain the most on average?
        :answer_c: Is there a correlation between air pressure and precipitation?
-       :answer_d: Is there a correlation between Atlanta’s daily average temperature and Chicago’s daily average temperature?
+       :answer_d: Is there a correlation between Atlanta’s temperature and Chicago’s temperature?
        :correct: b
        :feedback_a: Incorrect. The meteorologists do not have wind speed data.
        :feedback_b: Correct. The meteorologists have precipitation data for a year, so they can calculate this.
