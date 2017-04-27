@@ -17,5 +17,7 @@ This book was written by
 * Leonie Reif - Global Impact chapter
 * Advaith Venkatakrishnan - What's Next chapter
 * Dominic Kynkor, Michael Aki, Prabhav Chawla, Yoonwoo Steven Kim - Practice AP exam questions
+* Dominic Kynkor - Internet Chapter design and initial content
+* Michael Aki - Interactive activities in Global Impact chapter
 * Katie Cunningham - REU Commander
 
