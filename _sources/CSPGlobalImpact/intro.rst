@@ -25,25 +25,41 @@ Global Impact
 
 
 
-The rapid evolution of computing in the last century has transformed our world. Industries in every field are becoming more and more productive and efficient. Calculations of huge data-sets can be made in seconds and repetitive tasks are optimized and automated. Gordon Moore, the co-founder of Intel, once defined a law stating that processing power will double every eighteen months. While this law does not exactly apply to the same time intervals today, computing power continues to increase exponentially. Computers used to fill whole rooms and nowadays we have chips in kitchen tools, cars, and of course our mobile phones.
+The rapid evolution of computing in the last century has transformed our world. Industries in every field are becoming more and more productive and efficient. Calculations of huge data-sets can be made in seconds and repetitive tasks are optimized and automated. Gordon Moore, the co-founder of Intel, once defined a law stating that processing power will double every eighteen months. While this law does not exactly apply to the same time intervals today, computing power continues to increase exponentially. Computers used to fill whole rooms and nowadays we have chips in kitchen tools, cars, and of course our mobile phones. Click `here <https://www.technologyreview.com/s/601441/moores-law-is-dead-now-what/>`_ for more information about Moore's Law more recent uses.
 
-For more information about Moore's Law more recent uses: 
-https://www.technologyreview.com/s/601441/moores-law-is-dead-now-what/
+.. image:: univac.jpg
+    :height: 400px
+    :width: 800 px
+    :scale: 75 %
+    :alt: 1960 UNIVAC (Universal Automatic Computer)
+    :align: center
+
+1960 UNIVAC (Universal Automatic Computer) -- from NPR's article: `The First Supercomputer vs. The Desk Set <http://www.npr.org/2011/06/19/137280862/the-first-supercomputer-vs-the-desk-set>`_
+
+.. image:: intelchip.jpg
+    :height: 300px
+    :width: 400 px
+    :scale: 75 %
+    :alt: 2016 Intel Broadwell-E Processor
+    :align: center
+
+2016 Intel Broadwell-E Processor -- from Digital Trends article: `Intel Broadwell-E Announcement <https://www.digitaltrends.com/computing/intel-broadwell-e-announcement/>`_
+
 
 
 .. mchoice:: 22_1_1_MooreQ1
-		   :answer_a: It is outdated, as processing power no longer increases.
-		   :answer_b: It allows for computing industries to effectively plan for future development.
-		   :answer_c: Moore's law is extremely useful, because it will always be a dependable tool for industries to use.
-		   :answer_d: All of the above.
-		   :correct: b
-		   :feedback_a: While processing power is not increasing at the same exponential rate it used to increase at, it still increases exponentially.
-		   :feedback_b: Many industries use Moore's law to determine the magnitude of computing power in the future.
-		   :feedback_c: This is false because Moore's law is expected to end around 2020 due to transistors being unable to be shrunk further.
-		   :feedback_d: This is false because two of the options are false.
+                :answer_a: It is outdated, as processing power no longer increases.
+                :answer_b: It allows for computing industries to effectively plan for future development.
+                :answer_c: Moore's law is extremely useful, because it will always be a dependable tool for industries to use.
+                :answer_d: All of the above.
+                :correct: b
+                :feedback_a: While processing power is not increasing at the same exponential rate it used to increase at, it still increases exponentially.
+                :feedback_b: Many industries use Moore's law to determine the magnitude of computing power in the future.
+                :feedback_c: This is false because Moore's law is expected to end around 2020 due to transistors being unable to be shrunk further.
+                :feedback_d: This is false because two of the options are false.
 
-                   Which of the following are true about Moore's Law?
-            
+                Which of the following are true about Moore's Law?
+
 
 With the internet, computer scientists and engineers have enabled a new form of human interconnectivity that impacts our daily lives through areas such as education, travel, the environment, and politics. The fact that this eBook is teaching you about computer science shows how education is evolving to be accessible worldwide and free of charge. Social networks have been catalysts for uprisings in the Middle East where oppressed people can utilize these platforms to call for greater freedom and democracy in their countries. The ability to translate content in every language in seconds is connecting people worldwide. With new forms of communication via chats, video calls and collaboration platforms, the internet allows us to work together globally and stay informed about challenges worldwide.
 
