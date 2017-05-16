@@ -36,7 +36,7 @@ Exploring Impact Data
    =====
    Tumblr posts posted
 
-You can find a visualization of the correct result here: http://onesecond.designly.com/.
+You can find a visualization of the correct result `here <http://onesecond.designly.com/>`_
 
 __________________
 
