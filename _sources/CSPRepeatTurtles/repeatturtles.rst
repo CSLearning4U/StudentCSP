@@ -5,6 +5,11 @@
     Invariant Sections being Forward, Prefaces, and Contributor List,
     no Front-Cover Texts, and no Back-Cover Texts.  A copy of the license
     is included in the section entitled "GNU Free Documentation License".
+
+.. |bigteachernote| image:: Figures/apple.jpg
+    :width: 50px
+    :align: top
+    :alt: teacher note
     
 .. 	qnum::
 	:start: 1
@@ -21,8 +26,7 @@ Using Repetition with Turtles
 ..	index::
 	pair: statements; for
 
-We already made turtles draw squares.  We told our turtle to go forward and turn right four times, but we don't *explicitly* say "four times."  We can tell the computer to do something explicitly for a certain number of times by using a ``for`` loop.
-
+We already had a turtle draw a square.  We repeated the lines in order to make the turtle go forward and turn four times.  Another way to do this is to tell the computer to do something explicitly for a certain number of times by using a ``for`` loop. The lines that you want to repeat in the ``for`` loop must be indented by 4 spaces as shown below.
 
 .. activecode:: Turtle_For
     :tour_1: "Lines of code"; 1: tR1-line1; 2: tR1-line2; 3: tR1-line3; 4: tR1-line4; 5: tR1-line5; 6: tR1-line6; 7: tR1-line7;
@@ -51,22 +55,32 @@ We already made turtles draw squares.  We told our turtle to go forward and turn
    
 .. parsonsprob:: 10_1_2_Rectangle
 
-   The following program uses a turtle to draw a rectangle as shown to the left, <img src="../_static/TurtleRect.png" width="150" align="left" hspace="10" vspace="5" /> but the lines are mixed up.  The program should do all necessary set-up and create the turtle.  After that, iterate (loop) 2 times, and each time through the loop the turtle should go forward 175 pixels, turn right 90 degrees, go forward 150 pixels, and turn right 90 degrees.  After the loop, set the window to close when the user clicks in it.<br /><br /><p>Drag the blocks of statements from the left column to the right column and put them in the right order with the correct indention.  Click on <i>Check Me</i> to see if you are right. You will be told if any of the lines are in the wrong order or are incorrectly indented.</p>  
+   The following program uses a turtle to draw a rectangle as shown to the left, <img src="../_static/TurtleRect.png" width="150" align="left" hspace="10" vspace="5" /> but the lines are mixed up.  The program should do all necessary set-up and create the turtle.  After that, iterate (loop) 2 times, and each time through the loop the turtle should go forward 175 pixels, turn right 90 degrees, go forward 150 pixels, and turn right 90 degrees.<br /><br /><p>Drag the needed blocks of statements from the left column to the right column and put them in the right order with the correct indention.  There may be additional blocks that are not needed in a correct solution.   Click on <i>Check Me</i> to see if you are right. You will be told if any of the lines are in the wrong order or are the wrong blocks.</p>  
    -----
    from turtle import *      
    =====   
+   from Turtle import * #paired      
+   ===== 
    space = Screen()
    carlos = Turtle()
    =====
    # repeat 2 times
    for i in [1,2]:  
+   =====
+   # repeat 2 times
+   for i in [1,2]  #paired
    =====   
        carlos.forward(175)
+   =====   
+       carlos.Forward(175) #paired
    =====
        carlos.right(90)
    =====  
        carlos.forward(150)
        carlos.right(90)
+   =====  
+       carlos.forward(150)
+       carlos.turn(90) #paired
    
 Since it doesn't matter what's in the list, just as long as there are *four* items, there is a special way of writing that loop.  We use a ``range`` function. 
 
@@ -85,18 +99,19 @@ Since it doesn't matter what's in the list, just as long as there are *four* ite
       marcus.right(90)          		# turn by 90 degrees
 
 
-The ``range`` function returns a value so that the *for* loop executes that many times.  This makes the turtle go forward and turn right 90 degrees *four* times.
+The ``range(n)`` function returns a list with the values from 0 to n -1.  The *for* loop repeats one time for each item in the list.  This makes the turtle go forward and turn right 90 degrees *four* times.
 
+.. activecode:: Turtle_Print_Range
+  :nocodelens:
+  
+  print(range(4))
+  print(range(10))
+  
 .. |turtlegeometry| image:: Figures/turtle-geometry.jpg
     :width: 200px
     :align: top
+    :alt: teachernote
 
-.. note::
 
-    Discuss topics in this section with classmates. 
-
-      .. disqus::
-          :shortname: cslearn4u
-          :identifier: studentcsp_10_1
 
 

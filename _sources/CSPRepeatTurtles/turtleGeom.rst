@@ -6,10 +6,27 @@
     no Front-Cover Texts, and no Back-Cover Texts.  A copy of the license
     is included in the section entitled "GNU Free Documentation License".
 
+.. |bigteachernote| image:: Figures/apple.jpg
+    :width: 50px
+    :align: top
+    :alt: teacher note
     
 .. 	qnum::
 	:start: 1
 	:prefix: csp-10-2-
+
+|bigteachernote| Teacher Note: Turtle Geometry
+===============================================
+The turtle is actually useful for exploring a wide variety of ideas in geometry.  The book `Turtle Geometry <http://www.amazon.com/Turtle-Geometry-Mathematics-Artificial-Intelligence/dp/0262510375>`_ does a wonderful job of showing how turtles can be used to explore a wide variety of geometric, mathematical, and scientific ideas (e.g., using turtles to model insect behavior).  The example **pattern** below is drawn from that book. 
+
+.. figure:: Figures/turtle-geometry.jpg
+    :width: 200px
+    :align: center
+    :alt: a scan of the cover of the book about turtle geometry
+    :figclass: align-center
+
+    Figure 1: A scan of Mark's copy of the book
+
 
 Total Turtle Trip Theorem
 ===========================
@@ -72,59 +89,31 @@ Change the ``??`` in line 7 below to the amount to turn each time to draw a 12 s
    How much does ``mia`` need turn in the program above to create a closed dodecagon (12-sided figure)?  Only one of these works.
    
 .. parsonsprob:: 10_2_2_Triangle
+   :adaptive:
 
-   The following program uses a turtle to draw a triangle as shown to the left, <img src="../_static/TurtleTriangle.png" width="150" align="left" hspace="10" vspace="5"/> but the lines are mixed up.  The program should do all necessary set-up and create the turtle.  After that, iterate (loop) 3 times, and each time through the loop the turtle should go forward 100 pixels, and then turn left 120 degrees.  After the loop, set the window to close when the user clicks in it.<br /><br /><p>Drag the blocks of statements from the left column to the right column and put them in the right order with the correct indention.  Click on <i>Check Me</i> to see if you are right. You will be told if any of the lines are in the wrong order or are incorrectly indented.</p> 
+   The following program uses a turtle to draw a triangle as shown to the left, <img src="../_static/TurtleTriangle.png" width="150" align="left" hspace="10" vspace="5"/> but the lines are mixed up.  The program should do all necessary set-up and create the turtle.  After that, iterate (loop) 3 times, and each time through the loop the turtle should go forward 100 pixels, and then turn left 120 degrees.<br /><br /><p>Drag the needed blocks of statements from the left column to the right column and put them in the right order with the correct indention.  There may be additional blocks that are not needed in a correct solution.  Click on <i>Check Me</i> to see if you are right. You will be told if any of the lines are in the wrong order or are the wrong blocks.</p> 
    -----
    from turtle import * 
    =====         
    space = Screen()
+   =====         
+   space = screen() #paired
+   ===== 
    marie = Turtle()
    =====
    # repeat 3 times
    for i in range(3): 
+   =====
+   # repeat 3 times
+   for i in range(3) #paired
    =====   
        marie.forward(100)
+   =====   
+       marie.forward(100 #paired
    =====
        marie.left(120)
+   =====
+       marie.turn(120) #paired
 
-.. tabbed:: 10_2_3_WSt
 
-        .. tab:: Question
 
-           Write a procedure which takes in a turtle and the number of sides as parameters to draw a polygon. Call the function to test it. 
-
-           .. activecode:: 10_2_3_WSq
-                :nocodelens:
-
-        .. tab:: Answer
-            
-          .. activecode:: 10_2_3_WSa
-              :nocodelens:
-              
-              # DEFINE THE PROCEDURE
-              def polygon(turtle, sides):
-                degree = 360 / sides
-                for side in range(sides): 
-                    mia.forward(40)         
-                    mia.right(degree)       
-              # CREATE THE TURTLE WORLD 
-              from turtle import *  
-              space = Screen()      
-              mia = Turtle()      
-              mia.setheading(90)      
-              # CALL THE PROCEDURE
-              polygon(mia,5)
-                
-        .. tab:: Discussion 
-
-            .. disqus::
-                :shortname: cslearn4u
-                :identifier: studentcsp_10_2_3_WSq
-
-.. note::
-
-    Discuss topics in this section with classmates. 
-
-      .. disqus::
-          :shortname: cslearn4u
-          :identifier: studentcsp_10_2

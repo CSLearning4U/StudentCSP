@@ -6,6 +6,11 @@
     no Front-Cover Texts, and no Back-Cover Texts.  A copy of the license
     is included in the section entitled "GNU Free Documentation License".
 
+.. |bigteachernote| image:: Figures/apple.jpg
+    :width: 50px
+    :align: top
+    :alt: teacher note
+
 .. 	qnum::
 	:start: 1
 	:prefix: csp-5-6-
@@ -67,54 +72,3 @@ Run the following program.
 
    The code ``alex.left(0)`` will not turn the turtle toward the starting point.  Which of these will?
    
-.. parsonsprob:: 5_6_3_Turtle-T
-
-   The following program uses a turtle to draw a capital T as shown to the left, <img src="../_static/TurtleT.png" width="150" align="left" hspace="10" vspace="5"/> but the lines are mixed up.  The program should do all necessary set-up, create the turtle.  After that the turtle should turn to face north, draw a line that is 150 pixels long, turn to face west, and draw a line that is 50 pixels long.  Next, the turtle should turn 180 degrees and draw a line that is 100 pixels long.  Finally, set the window to close when the user clicks in it.<br /><br /><p>Drag the blocks of statements from the left column to the right column and put them in the right order.  Then click on <i>Check Me</i> to see if you are right. You will be told if any of the lines are in the wrong order.</p>  
-   -----
-   from turtle import *
-   =====
-   space = Screen()    	
-   jamal = Turtle()
-   ===== 
-   jamal.left(90)
-   =====                
-   jamal.forward(150)
-   =====
-   jamal.left(90)
-   jamal.forward(50)
-   =====
-   jamal.right(180)
-   =====
-   jamal.forward(100)
-   
-.. parsonsprob:: 5_6_4_Turtle-A
-
-   The following program uses a turtle to draw a capital A as shown to the left, <img src="../_static/letterA.png" width="150" align="left" hspace="10" vspace="5"/> but the lines are mixed up.  The program should do all necessary set-up, create the turtle.  After that the turtle should turn left, draw a line that is 100 pixels long, turn right 135 degrees and draw another line that is 100 pixels long.  Then the turtle should reverse direction and draw a line 50 pixels long and then turn left to draw the line between the other two lines.  
-   -----
-   from turtle import *
-   space = Screen()  
-   =====  	
-   jamal = Turtle()
-   ===== 
-   jamal.left(70)
-   =====                
-   jamal.forward(100)
-   jamal.right(135)
-   =====
-   jamal.forward(100)
-   =====
-   jamal.right(180)
-   =====
-   jamal.forward(50)
-   =====
-   jamal.left(65)
-   jamal.forward(45)
-   
-.. note::
-
-    Discuss topics in this section with classmates. 
-
-      .. disqus::
-          :shortname: cslearn4u
-          :identifier: studentcsp_5_6
-

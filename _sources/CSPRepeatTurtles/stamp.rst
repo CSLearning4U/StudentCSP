@@ -45,7 +45,7 @@ not sure, write a new line of code after the ``for`` loop to change tess' color,
 
 .. parsonsprob:: 10_4_1_turtle-stamp
 
-   The following program uses the stamp method to create a line of turtle shapes as shown to the left, <img src="../_static/Turtle3Stamp.png" width="150" align="left" hspace="10" vspace="5" /> but the lines are mixed up.  The program should do all necessary set-up, create the turtle, set the shape to "turtle", and pick up the pen.  Then the turtle should repeat the following three times: go forward 50 pixels and leave a copy of the turtle at the current position.  <br /><br /><p>Drag the blocks of statements from the left column to the right column and put them in the right order with the correct indention.  Click on <i>Check Me</i> to see if you are right. You will be told if any of the lines are in the wrong order or are incorrectly indented.</p>
+   The following program uses the stamp method to create a line of turtle shapes as shown to the left, <img src="../_static/Turtle3Stamp.png" width="150" align="left" hspace="10" vspace="5" /> but the lines are mixed up.  The program should do all necessary set-up, create the turtle, set the shape to "turtle", and pick up the pen.  Then the turtle should repeat the following three times: go forward 50 pixels and leave a copy of the turtle at the current position.  <br /><br /><p>Drag the needed blocks of statements from the left column to the right column and put them in the right order with the correct indention.  Click on <i>Check Me</i> to see if you are right. You will be told if any of the lines are in the wrong order or are the wrong blocks.</p>
    -----
    from turtle import *
    space = Screen()
@@ -55,41 +55,56 @@ not sure, write a new line of code after the ``for`` loop to change tess' color,
    =====
    nikea.shape("turtle")
    =====
+   nikea.shape(turtle) #paired
+   =====
    nikea.penup()
+   =====
+   nikea.penUp() #paired
    =====                   
    for size in range(3):  
+   =====                   
+   for size in range(3)  #paired
    =====    
        nikea.forward(50)
    =====
-       nikea.stamp()  
+       nikea.stamp() 
+   =====
+       nikea.stamp #paired 
 
 .. parsonsprob:: 10_4_2_turtle-circle
+   :adaptive:
 
-   The following program uses the stamp method to create a circle of turtle shapes as shown to the left, <img src="../_static/TurtleCircle.png" width="150" align="left" hspace="10" vspace="5"/> but the lines are mixed up.  The program should do all necessary set-up, create the turtle, set the shape to "turtle", and pick up the pen.  Then the turtle should repeat the following ten times: go forward 50 pixels, leave a copy of the turtle at the current position, reverse for 50 pixels, and then turn right 36 degrees.  <br /><br /><p>Drag the blocks of statements from the left column to the right column and put them in the right order with the correct indention.  Click on <i>Check Me</i> to see if you are right. You will be told if any of the lines are in the wrong order or are incorrectly indented.</p>  
+   The following program uses the stamp method to create a circle of turtle shapes as shown to the left, <img src="../_static/TurtleCircle.png" width="150" align="left" hspace="10" vspace="5"/> but the lines are mixed up.  The program should do all necessary set-up, create the turtle, set the shape to "turtle", and pick up the pen.  Then the turtle should repeat the following ten times: go forward 50 pixels, leave a copy of the turtle at the current position, reverse for 50 pixels, and then turn right 36 degrees.  <br /><br /><p>Drag the needed blocks of statements from the left column to the right column and put them in the right order with the correct indention.  Click on <i>Check Me</i> to see if you are right. You will be told if any of the lines are in the wrong order or are the wrong blocks.</p>  
    -----
    from turtle import *
    space = Screen()
    jose = Turtle()
+   =====
    jose.shape("turtle")
    jose.penup()
+   =====
+   jose.shape("turtle")
+   jose.penup #paired
    =====                   
    for size in range(10):  
+   =====                   
+   for size in range(10) #paired
    =====    
        jose.forward(50)
    =====
-       jose.stamp()    
+       jose.stamp() 
+   =====
+       jose.Stamp() #paired   
    =====      
        jose.forward(-50)
+   =====      
+       jose.forward(-25) #paired
    =====
-       jose.right(36)             
+       jose.right(36)  
+   =====
+       jose.right(20) #paired           
 
-.. note::
 
-    Discuss topics in this section with classmates. 
-
-      .. disqus::
-          :shortname: cslearn4u
-          :identifier: studentcsp_10_4
  
 
 

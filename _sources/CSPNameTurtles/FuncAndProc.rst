@@ -6,6 +6,11 @@
     no Front-Cover Texts, and no Back-Cover Texts.  A copy of the license
     is included in the section entitled "GNU Free Documentation License".
 
+.. |bigteachernote| image:: Figures/apple.jpg
+    :width: 50px
+    :align: top
+    :alt: teacher note
+
 .. 	qnum::
 	:start: 1
 	:prefix: csp-5-2-
@@ -21,6 +26,8 @@ We have seen string **functions** like ``lower()`` which returns a new string wi
 .. note::
    Some Python books don't make a distinction between procedures and functions and will call both of these functions.  In this book we are using **function** only for named code that returns a value and **procedure** for named code that doesn't return a value.   
    
+
+   
 .. fillintheblank:: 5_2_1_LetterC_fill
 
     .. blank:: 5_2_1_LetterC
@@ -35,26 +42,12 @@ We have seen string **functions** like ``lower()`` which returns a new string wi
     from turtle import *    # use the turtle library
     space = Screen()        # create a turtle space
     alex = Turtle()         # create a turtle named alex
-    alex.left(180)          # turn by 90 degrees
+    alex.left(180)          # turn alex by 180 degrees
     alex.forward(75)        # move forward by 75 units 
     alex.left(90)           # turn left 90 degrees
-    alex.forward(100)       # more forward by 90 units
+    alex.forward(100)       # more forward by 100 units
     alex.left(90)           # turn left 90 degrees
     alex.forward(75)        # move forward by 75 units 
-
-.. note::
-   Case matters in Python so ``screen`` is not the same as ``Screen``. Also the open and close parentheses are required after every function and procedure call, even if it doesn't take any input.  
-   
-The following example has 4 errors.  Can you fix the errors so that the code runs correctly?
-    
-.. activecode:: Turtle_1_Error
-	
-    from turtle import *    # use the turtle library
-    space = screen()        # create a turtle space
-    alisha = Turtle         # create a turtle named alisha
-    alisha.forward          # move forward by 150 units
-    alisha.left(90)         # turn by 90 degrees
-    alisha.Forward(75)      # move forward by 75 units 
     
 **Check Your Understanding**
 
@@ -67,10 +60,72 @@ The following example has 4 errors.  Can you fix the errors so that the code run
 
    Is right(90) a function or procedure?
     
-.. note::
+.. note ::
 
-    Discuss topics in this section with classmates. 
+   In these next problems we will draw a letter similar to how you might do it without lifting your pen or pencil.    See the numbers and arrows on the letters for the order that the lines are drawn.
+    
+**Mixed up programs**
 
-      .. disqus::
-          :shortname: cslearn4u
-          :identifier: studentcsp_5_2
+.. parsonsprob:: 5_2_1_Turtle-T
+   :adaptive:
+
+   The following program uses a turtle to draw a capital T as shown to the left, <img src="../_static/TurtleT1.png" width="150" align="left" hspace="10" vspace="5"/> but the lines are mixed up.  The program should do all necessary set-up: import the turtle module, get the space to draw on, and create the turtle.  After that the turtle should draw the lines in the numbered order as shown in the picture on the left.<br /><br /><p>Drag the needed blocks of statements from the left column to the right column and put them in the right order.  Then click on <i>Check Me</i> to see if you are right. You will be told if any of the lines are in the wrong order or are the wrong blocks.</p>  
+   -----
+   from turtle import *
+   =====
+   space = Screen()    	
+   jamal = Turtle()
+   ===== 
+   jamal.left(90)
+   ===== 
+   jamal.Left(90) #distractor
+   =====                
+   jamal.forward(150)
+   =====                
+   jamal.Forward(150) #distractor
+   =====
+   jamal.left(90)
+   jamal.forward(50)
+   =====
+   jamal.right(180)
+   =====
+   jamal.turn(180) #distractor
+   =====
+   jamal.forward(100)
+   =====
+   jamal.forward(100 #distractor
+   
+**Mixed up programs**
+   
+.. parsonsprob:: 5_2_2_Turtle-A
+
+   The following program uses a turtle to draw a capital A as shown to the left, <img src="../_static/turtleA2.png" width="150" align="left" hspace="10" vspace="5"/> but the lines are mixed up.  The program should do all necessary set-up: import the turtle module, get the space to draw on, and create the turtle.  After that the turtle should draw the lines in the numbered order as shown in the picture on the left. <br /><br /><p>Drag the needed blocks of statements from the left column to the right column and put them in the right order.  Then click on <i>Check Me</i> to see if you are right. You will be told if any of the lines are in the wrong order or are the wrong blocks.</p>  
+   -----
+   from turtle import *
+   space = Screen()  
+   =====  	
+   jamal = Turtle()
+   =====  	
+   jamal = Turtle) #distractor
+   ===== 
+   jamal.left(70)
+   ===== 
+   jamal.left(90) #distractor
+   =====                
+   jamal.forward(100)
+   jamal.right(135)
+   =====
+   jamal.forward(100)
+   =====
+   jamal.forward(100 #distractor
+   =====
+   jamal.right(180)
+   jamal.forward(50)
+   =====
+   jamal.right(180)
+   jamal.Forward(50) #distractor
+   =====
+   jamal.left(65)
+   jamal.forward(45)
+
+

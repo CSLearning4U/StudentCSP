@@ -6,6 +6,11 @@
     no Front-Cover Texts, and no Back-Cover Texts.  A copy of the license
     is included in the section entitled "GNU Free Documentation License".
 
+.. |bigteachernote| image:: Figures/apple.jpg
+    :width: 50px
+    :align: top
+    :alt: teacher note
+
 .. 	qnum::
 	:start: 1
 	:prefix: csp-5-4-
@@ -27,13 +32,13 @@ You may remember this example as well.
     zari = Turtle() 		# create a turtle named zari
     zari.setheading(90)		# Point due north
     zari.forward(100)		# tell zari to move forward by 100 units
-    zari.right(90)   		# turn by 90 degrees
+    zari.right(90)   		# turn right by 90 degrees
     zari.forward(100)		# tell zari to move forward by 100 units
-    zari.right(90)   		# turn by 90 degrees
+    zari.right(90)   		# turn right by 90 degrees
     zari.forward(100)		# tell zari to move forward by 100 units
-    zari.right(90)   		# turn by 90 degrees
+    zari.right(90)   		# turn right by 90 degrees
     zari.forward(100)		# tell zari to move forward by 100 units
-    zari.right(90)    		# turn by 90 degrees
+    zari.right(90)    		# turn right by 90 degrees
 
 .. fillintheblank:: 5_4_1_triangle_fill
 
@@ -73,7 +78,7 @@ This works because ``zari`` is a turtle, and each statement gets executed, one r
     zari.forward(100)     	# tell zari to move forward by 100 units
     zari.right(120)      	# turn right by 120 degrees
     chad = Turtle()     	# create a new turtle named chad
-    chad.color("orange")  	# change the color chad's draws with
+    chad.color("orange")  	# change the color chad draws with
     chad.forward(100)     	# tell chad to move forward by 100 units
     chad.right(120)     	# turn chad by 120 degrees
     
@@ -83,111 +88,69 @@ Every turtle object has its own attributes like its current position and color. 
 
 .. parsonsprob:: 5_4_2_JandT
 
-   The following program has one turtle, "jamal", draw a capital L in blue and then another, "tina", draw a line to the west in orange as shown to the left, <img src="../_static/TwoTurtles1.png" width="150" align="left" hspace="10" vspace="5" />.  The program should do all set-up, have "jamal" draw the L, and then have "tina" draw the line.   Finally, it should set the window to close when the user clicks in it.<br /><br /><p>Drag the blocks of statements from the left column to the right column and put them in the right order.  Then click on <i>Check Me</i> to see if you are right. You will be told if any of the lines are in the wrong order.</p>
+   The following program has one turtle, "jamal", draw a capital L in blue and then another, "tina", draw a line to the west in orange as shown to the left, <img src="../_static/TwoTurtles1N.png" width="150" align="left" hspace="10" vspace="5" />.  The program should do all set-up, have "jamal" draw the L, and then have "tina" draw the line.   <br /><br /><p>Drag the blocks of statements from the left column to the right column and put them in the right order.  Then click on <i>Check Me</i> to see if you are right. You will be told if any of the lines are in the wrong order or are the wrong blocks.</p>
    -----
    from turtle import *
-   wn = turtle.Screen()
+   wn = Screen()
    =====    	
-   jamal = turtle.Turtle()
+   jamal = Turtle()
    jamal.pensize(10)
-   jamal.color("blue")               	               
+   jamal.color("blue") 
+   =====              	               
    jamal.right(90)
    jamal.forward(150)
+   =====              	               
+   jamal.left(90)
+   jamal.forward(150) #paired
    ===== 
    jamal.left(90)
    jamal.forward(75)
+   ===== 
+   jamal.right(90)
+   jamal.forward(75) #paired
    =====
-   tina = turtle.Turtle()
+   tina = Turtle()
    tina.pensize(10)
    tina.color("orange")
+   =====
+   tina = Turtle()
+   tina.pensize(10)
+   tina.color(orange) #paired
+   =====
    tina.left(180)
    tina.forward(75)
-   =====
-   wn.exitonclick()
 
 .. parsonsprob:: 5_4_3_JandT2
+   :adaptive:
 
-   The following program has one turtle, "jamal", draw a line to the north in blue and then another, "tina", draw a line to the east in orange as shown to the left, <img src="../_static/TwoTurtlesL.png" width="150" align="left" hspace="10" vspace="5" />.  The program should import the turtle module, get the window to draw on, create the turtle "jamal", have it draw a line to the north, then create the turtle "tina", and have it draw a line to the east.  Finally, it should set the window to close when the user clicks in it.<br /><br /><p>Drag the blocks of statements from the left column to the right column and put them in the right order.  Then click on <i>Check Me</i> to see if you are right. You will be told if any of the lines are in the wrong order.</p> 
+   The following program has one turtle, "jamal", draw a line to the north in blue and then another, "tina", draw a line to the east in orange as shown to the left <img src="../_static/TwoTurtlesLN.png" width="150" align="left" hspace="10" vspace="5" />.  The program should import the turtle module, get the window to draw on, create the turtle "jamal", have it draw a line to the north, then create the turtle "tina", and have it draw a line to the east.  <br /><br /><p>Drag the blocks of statements from the left column to the right column and put them in the right order.  Then click on <i>Check Me</i> to see if you are right. You will be told if any of the lines are in the wrong order or are the wrong blocks.</p> 
    -----
    from turtle import *
    =====
-   wn = turtle.Screen()
+   from turtle #paired
+   =====
+   wn = Screen()
    =====   	
-   jamal = turtle.Turtle()
+   jamal = Turtle()
+   =====
+   jamal = turtle() #paired
+   =====
    jamal.color("blue") 
-   jamal.pensize(10)   
-   =====            	               
+   jamal.pensize(10)             	               
    jamal.left(90)
    jamal.forward(150)
    =====
-   tina = turtle.Turtle()
-   tina.pensize(10)  
+   tina = Turtle()
+   tina.pensize(10) 
+   ===== 
    tina.color("orange")
    tina.forward(150)
-   =====
-   wn.exitonclick()
+   ===== 
+   tina.color("orange")
+   tina.Forward(150) #paired
 
-.. figure:: Figures/TwoTurtlesCross.png
-    :width: 150px
-    :align: center
-    :alt: 
-    :figclass: align-center
 
-.. tabbed:: 5_4_4_WSt
-        
-        .. tab:: Question
-           
-           Modify the problem csp-5-4-2 so that Jamal and Tina draw equal length lines to form a cross. Jamal's line will run north to south and Tina's line with run east to west. Refer to the image above. Finally, the program should set the window to close when the user clicks in it. 
-           
-           .. activecode::  5_4_4_WSq
-               :nocodelens:
 
-        .. tab:: Answer
-            
-          .. activecode::  5_4_4_WSa
-              :nocodelens:
-              
-              # CREATE THE TURTLE WORLD
-              from turtle import *
-              wn = Screen()
-              # CREATE TURTLE AND SET PROPERTIES 
-              jamal = Turtle()
-              jamal.color("blue") 
-              jamal.pensize(10)  
-              # MOVE TURTLE TO STARTING POINT
-              jamal.penup()
-              jamal.left(90)
-              jamal.forward(150)
-              jamal.pendown()
-              jamal.left(180)
-              # DRAW LINE 
-              jamal.forward(300)
-              # CREATE TURTLE AND SET PROPERTIES
-              tina = Turtle()
-              tina.color("orange") 
-              tina.pensize(10)  
-              # MOVE TURTLE TO STARTING POINT
-              tina.penup()
-              tina.forward(150)
-              tina.pendown()
-              tina.left(180)
-              # DRAW LINE 
-              tina.forward(300)  
-              # 5. EXIT WINDOW 
-              wn.exitonclick()
-                                
-        .. tab:: Discussion 
 
-            .. disqus::
-                :shortname: cslearn4u
-                :identifier: studentcsp_5_4_4_WSq
-
-.. note::
-
-    Discuss topics in this section with classmates. 
-
-      .. disqus::
-          :shortname: cslearn4u
-          :identifier: studentcsp_5_4
 
 

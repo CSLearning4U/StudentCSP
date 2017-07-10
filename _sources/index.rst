@@ -96,9 +96,10 @@ Chapter 5: Names for Turtles
 
 .. toctree::
    :maxdepth: 2
-   
+
    CSPNameTurtles/names4turtles.rst
    CSPNameTurtles/FuncAndProc.rst
+   CSPNameTurtles/TurtlePractice.rst
    CSPNameTurtles/turtleFAP.rst
    CSPNameTurtles/multTurtles.rst
    CSPNameTurtles/house.rst
@@ -177,11 +178,12 @@ Chapter 10: Repeating Steps with Turtles
 
 .. toctree::
    :maxdepth: 2
-   
+
    CSPRepeatTurtles/repeatturtles.rst
    CSPRepeatTurtles/turtleGeom.rst
    CSPRepeatTurtles/patterns.rst
    CSPRepeatTurtles/stamp.rst
+   CSPRepeatTurtles/RepeatTurtlesPractice.rst
    CSPRepeatTurtles/ch10_summary.rst
    CSPRepeatTurtles/ch10_exercises.rst
    
