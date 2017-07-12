@@ -184,6 +184,14 @@ Use the area below to try to draw to draw your initials in block style with two 
 
 .. activecode:: Turtle_Initials
     :nocodelens:
+    
+.. note::
+
+    Discuss topics in this section with classmates. 
+
+      .. disqus::
+          :shortname: cslearn4u
+          :identifier: studentcsp_5_3
 
 
 

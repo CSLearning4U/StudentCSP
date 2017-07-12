@@ -114,6 +114,51 @@ Change the ``??`` in line 7 below to the amount to turn each time to draw a 12 s
        marie.left(120)
    =====
        marie.turn(120) #paired
+    
+
+.. tabbed:: 10_2_3_WSt		
+ 		
+   .. tab:: Question		
+ 		
+      Write a procedure which takes in a turtle and the number of sides as parameters to draw a polygon. Call the function to test it. 		
+ 		
+      .. activecode:: 10_2_3_WSq		
+         :nocodelens:		
+ 		
+   .. tab:: Answer		
+             		
+      .. activecode:: 10_2_3_WSa		
+         :nocodelens:		
+               		
+         # DEFINE THE PROCEDURE		
+         def polygon(turtle, sides):		
+             degree = 360 / sides		
+             for side in range(sides): 		
+                 mia.forward(40)         		
+                 mia.right(degree) 
+                       		
+         # CREATE THE TURTLE WORLD 		
+         from turtle import *  		
+         space = Screen()      		
+         mia = Turtle()      		
+         mia.setheading(90)      		
+              
+         # CALL THE PROCEDURE		
+         polygon(mia,5)		
+                 		
+   .. tab:: Discussion 		
+ 		
+      .. disqus::		
+         :shortname: cslearn4u		
+         :identifier: studentcsp_10_2_3_WSq		
+ 		
+.. note::		
+ 		
+   Discuss topics in this section with classmates. 		
+ 		
+   .. disqus::		
+      :shortname: cslearn4u		
+      :identifier: studentcsp_10_2
 
 
 
