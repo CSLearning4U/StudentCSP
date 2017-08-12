@@ -14,7 +14,7 @@ home_dir = os.getcwd()
 
 master_url = None
 if master_url is None:
-    if gethostname() in  ['web407.webfaction.com', 'rsbuilder']:
+    if gethostname() in  ['web608.webfaction.com', 'rsbuilder']:
         master_url = 'http://interactivepython.org'
     else:
         master_url = 'http://127.0.0.1:8000'

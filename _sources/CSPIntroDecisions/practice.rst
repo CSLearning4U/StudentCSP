@@ -35,11 +35,10 @@ Try different values for ``weight`` in the above code and then answer the questi
         
 .. fillintheblank:: 12_6_1_brokenrange_fill
 
-    .. blank:: 12_6_1_brokenrange
-        :correct: ^1$|1\.[0]*$
-        :feedback1: (".*", "Which value is not tested currently?")
+   What value for weight will result in an error complaining that price is not defined?
 
-        What value for weight will result in an error complaining that price is not defined?
+   -    :^1$|1\.[0]*$: Correct!
+        :.*: Which value is not tested currently?
 
 It is certainly possible to have multiple ``if`` statements, and each one can match (or not match) the data.  Imagine a more complicated price scheme, where the price is based on the weight, but there is also a 10% discount for buying more then 10 items.
 

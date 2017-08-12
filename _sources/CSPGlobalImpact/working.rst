@@ -8,7 +8,7 @@
 
 
 Creating your project
-====================
+=====================
 
 .. index:: Global Impact
 

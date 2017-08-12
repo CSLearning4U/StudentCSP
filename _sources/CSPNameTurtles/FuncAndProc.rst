@@ -6,11 +6,6 @@
     no Front-Cover Texts, and no Back-Cover Texts.  A copy of the license
     is included in the section entitled "GNU Free Documentation License".
 
-.. |bigteachernote| image:: Figures/apple.jpg
-    :width: 50px
-    :align: top
-    :alt: teacher note
-
 .. 	qnum::
 	:start: 1
 	:prefix: csp-5-2-
@@ -30,11 +25,10 @@ We have seen string **functions** like ``lower()`` which returns a new string wi
    
 .. fillintheblank:: 5_2_1_LetterC_fill
 
-    .. blank:: 5_2_1_LetterC
-        :correct: ^c$|^C$
-        :feedback1: ('.*','Try to follow the directions as if you are the turtle')
+   What letter (like A, B, C, D, etc) will the program below draw in block style when you click on the Run button?
 
-        What letter (like A and D) will the program below draw in block style when you click on the Run button?
+   -    :^c$|^C$: Correct!
+        :.*: Try to follow the directions as if you are the turtle     
 
 .. activecode:: Turtle_C
     :nocodelens:
@@ -127,7 +121,7 @@ We have seen string **functions** like ``lower()`` which returns a new string wi
    =====
    jamal.left(65)
    jamal.forward(45)
-   
+
 .. note::
 
     Discuss topics in this section with classmates. 
@@ -135,5 +129,3 @@ We have seen string **functions** like ``lower()`` which returns a new string wi
       .. disqus::
           :shortname: cslearn4u
           :identifier: studentcsp_5_2
-
-

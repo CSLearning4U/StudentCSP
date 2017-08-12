@@ -97,11 +97,10 @@ Just by going forward, backward, left, and right, we can have a turtle draw a sh
 
 .. fillintheblank:: 1_5_2_Shape_fill
 
-    .. blank:: 1_5_2_Shape
-        :correct: ^square$|^Square$|^SQUARE$
-        :feedback1: ('.*','Did you actually run the program?')
-
-        What shape will the program below draw when you click on the Run button? 
+   What shape will the program below draw when you click on the Run button? 
+   
+   -    :^square$|^Square$|^SQUARE$: Correct!
+        :.*: Did you actually run the program?
 
 .. activecode:: Turtle_2
     :tour_1: "Line-by-line Tour"; 1: t1-line1; 2: t1-line2; 3: t1-line3; 4: t1-line4; 5: t1-line5; 6: t1-line6; 7: t1-for100-1; 8: t1-right90-1; 9: t1-for100-2; 10: t1-right90-2; 11: t1-for100-3; 12: t1-right90-3; 

@@ -141,7 +141,7 @@ Chapter 4 Exercises
                 price = 5
                 print("The" fruit "costs $" + "price")
 
-            .. tab:: Discussion
+        .. tab:: Discussion
 
             .. disqus::
                 :shortname: teachercsp

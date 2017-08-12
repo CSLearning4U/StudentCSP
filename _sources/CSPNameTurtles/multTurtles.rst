@@ -42,11 +42,10 @@ You may remember this example as well.
 
 .. fillintheblank:: 5_4_1_triangle_fill
 
-    .. blank:: 5_4_1_triangle
-        :correct:  ^triangle$|^Triangle$|^TRIANGLE$
-        :feedback1: ('.*','Try to follow the directions as if you are the turtle')
-
-        What shape will the program below draw when you click on the Run button?
+   What shape will the program below draw when you click on the Run button?
+   
+   -    :^triangle$|^Triangle$|^TRIANGLE$: Correct!
+        :.*: Try to follow the directions as if you are the turtle
 
 .. activecode:: Turtle_Names2
     :tour_1: "Line-by-line Tour"; 1: tri-line1; 2: tri-line2; 3: tri-line3; 4: tri-line4; 5: tri-line5; 6: tri-line6; 7: tri-line7; 8: tri-line8; 9: tri-line9; 10: tri-line10;

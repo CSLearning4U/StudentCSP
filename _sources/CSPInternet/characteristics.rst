@@ -13,19 +13,6 @@
 .. highlight:: java
    :linenothreshold: 4
 
-Characteristics of the Internet and the Systems Built Upon It
-================================
-
-Characteristics
----------------
-
-Section Coming Soon!
-
-How Characteristics Influence Systems
--------------------------------------
-
-Section Coming Soon!
-
 Packets
 --------
 

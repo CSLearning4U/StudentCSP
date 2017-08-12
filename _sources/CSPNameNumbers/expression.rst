@@ -38,7 +38,7 @@
     
 .. 	qnum::
 	:start: 1
-	:prefix: csp-3-2-
+	:prefix: csp-3-3-
 
 .. highlight:: java
    :linenothreshold: 4
@@ -56,12 +56,11 @@ The *right hand* side of the assignment statement doesn't have to be a value.  I
 
 .. fillintheblank:: 3_2_1_Mult_fill
 
-    .. blank:: 3_2_1_Mult
-        :correct: ^4$
-        :feedback1: ('.*','Did you actually run the program?')
- 
-        What will be printed when you click on the Run button in the code below? 
+   What will be printed when you click on the Run button in the code below? 
 
+   -    :^4$: Correct. 2 times 2 = 4
+        :.*: Did you actually run the program?
+ 
 .. activecode:: Expression_Mult
     :tour_1: "Line-by-line Tour"; 1: ex1-line1; 2: ex1-line2; 
     :nocodelens:
@@ -79,11 +78,10 @@ You can use all the standard mathematical symbols.
 
 .. fillintheblank:: 3_2_2_Div_fill
 
-    .. blank:: 3_2_2_Div
-        :correct: ^0.333333333333$
-        :feedback1: ('.*','Did you actually run the program?')
+   What will be printed when you click on the Run button in the code below? 
 
-        What will be printed when you click on the Run button in the code below? 
+   -    :^0.333333333333$: Correct!  The computer can only store a certain number of digits for a fractional amount that repeats.
+        :.*: Did you actually run the program?
    
 .. activecode:: Expression_Div
     :tour_1: "Line-by-line Tour"; 1: ex2-line1; 2: ex1-line2; 
@@ -106,12 +104,11 @@ There are also some symbols that may be used in ways that you don't expect.
 
 .. fillintheblank:: 3_2_3_Mod_fill
 
-    .. blank:: 3_2_3_Mod
-        :correct: ^0$
-        :feedback1: ('.*','Did you actually run the program?')
+   What will be printed when you click on the Run button in the code below? 
+ 
+   -    :^0$: Correct!  The 4 is evenly divisible by 2 with no remainder.
+        :.*: Did you actually run the program?
 
-        What will be printed when you click on the Run button in the code below? 
-   
 .. activecode:: Expression_Mod
     :tour_1: "Line-by-line Tour"; 1: ex3-line1; 2: ex1-line2; 
     :nocodelens:
@@ -137,4 +134,4 @@ You may not be familiar with the **modulo** (remainder) operator ``%``.  It retu
 
       .. disqus::
           :shortname: cslearn4u
-          :identifier: studentcsp_3_2
+          :identifier: studentcsp_3_3

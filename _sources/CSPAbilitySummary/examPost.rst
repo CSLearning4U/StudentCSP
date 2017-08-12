@@ -167,7 +167,7 @@ You will not be able to change your answers after you hit the "Finish Exam" butt
        :feedback_c: This would true if there was an odd numer of items in aList.
        :feedback_d: Since you are adding up an even number of odd numbers the answer will be even. Since all numbers are integers (don't have a decimal point) the answer won't have a decimal point either.  
 
-       Given the following code segment, which of the below statements is true?
+       Given the following code segment, which of the below statements is the most true?
        
        ::
        
@@ -260,7 +260,7 @@ You will not be able to change your answers after you hit the "Finish Exam" butt
        :feedback_c: Since counter starts with a value of 1 and increments by 2 each time it will always be odd.  Sum starts off at 0 and adds counter each time.  This will be odd when there it has added an odd number of values and even when it has added an even number of values.  Since this loops till counter is greater than 10 this will loop 5 times so the result is odd. 
        :feedback_d: This would be true if the loop ran an even number of times.
 
-       Given the following code segment, which of the below statements is true?
+       Given the following code segment, which of the below statements is the most true?
        
        ::
        

@@ -11,7 +11,7 @@
 	:prefix: csp-21-1-
 
 Exploring Impact Data
-====================
+=====================
 
 .. index:: Global Impact
 

@@ -20,399 +20,94 @@ CS Principles: Big Ideas in Programming
 
 .. Sources can also be included from subfolders of this directory.
    (e.g. "DataStructures/queues.rst").
+   
+Assignments
+:::::::::::::::::
 
+.. raw:: html
+
+   <ul>
+   <li><a href="/runestone/assignments/chooseAssignment.html">Assignments</a></li>
+   </ul>   
+   
 SECTION 1: COMPUTER ABILITIES
 :::::::::::::::::::::::::::::::
 
 .. toctree::
    :maxdepth: 3
    
-Chapter 1: What is this Book About?
-::::::::::::::::::::::::::::::::::::::::
+   CSPrinTeasers/toctree.rst
+   CSPTuring/toctree.rst
 
-.. toctree::
-   :maxdepth: 2
-
-   CSPrinTeasers/studentBook.rst
-   CSPrinTeasers/pretest.rst
-   CSPrinTeasers/computeNumbers.rst
-   CSPrinTeasers/computeWords.rst
-   CSPrinTeasers/computeTurtles.rst
-   CSPrinTeasers/computeImages.rst
-   CSPrinTeasers/standards.rst
-   CSPrinTeasers/ch1_summary.rst
-   
-Chapter 2: What can Computers Do?
-::::::::::::::::::::::::::::::::::
-
-.. toctree::
-   :maxdepth: 2
-   
-   CSPTuring/whatIsComputer.rst
-   CSPTuring/turingMachines.rst
-   CSPTuring/abilities.rst
-   CSPTuring/ch2_summary.rst
-   CSPTuring/exam1a2.rst
 
 SECTION 2: NAMING
 ::::::::::::::::::::::::::::::::::::::::::::
 
 .. toctree::
-   :maxdepth: 2
-   
-Chapter 3: Names for Numbers
-::::::::::::::::::::::::::::::::::
+   :maxdepth: 3
 
-.. toctree::
-   :maxdepth: 2
+   CSPNameNumbers/toctree.rst
+   CSPNameStrings/toctree.rst
+   CSPNameTurtles/toctree.rst
+   CSPNameNames/toctree.rst
 
-   CSPNameNumbers/assignName.rst
-   CSPNameNumbers/expression.rst
-   CSPNameNumbers/expressionTable.rst
-   CSPNameNumbers/orderOfOperations.rst
-   CSPNameNumbers/driving.rst
-   CSPNameNumbers/ketchup.rst
-   CSPNameNumbers/walkAssign.rst
-   CSPNameNumbers/invoice.rst
-   CSPNameNumbers/ch3_summary.rst
-   CSPNameNumbers/ch3_exercises.rst
-   
-Chapter 4: Names for Strings
-::::::::::::::::::::::::::::::::::
 
-.. toctree::
-   :maxdepth: 2
-   
-   CSPNameStrings/assignNameStr.rst
-   CSPNameStrings/strObjects.rst
-   CSPNameStrings/immutable.rst
-   CSPNameStrings/madlib.rst
-   CSPNameStrings/ch4_summary.rst
-   CSPNameStrings/ch4_exercises.rst
-   CSPNameStrings/exam3a4.rst
-   
-Chapter 5: Names for Turtles
-::::::::::::::::::::::::::::::::::
-
-.. toctree::
-   :maxdepth: 2
-
-   CSPNameTurtles/names4turtles.rst
-   CSPNameTurtles/FuncAndProc.rst
-   CSPNameTurtles/TurtlePractice.rst
-   CSPNameTurtles/turtleFAP.rst
-   CSPNameTurtles/multTurtles.rst
-   CSPNameTurtles/house.rst
-   CSPNameTurtles/changeProg.rst
-   CSPNameTurtles/ch5_summary.rst
-   CSPNameTurtles/ch5_exercises.rst
-
-Chapter 6: Computers can Name Anything
-:::::::::::::::::::::::::::::::::::::::
-
-.. toctree::
-   :maxdepth: 2
-   
-   CSPNameNames/names4names2.rst
-   CSPNameNames/nameFandP.rst
-   CSPNameNames/nameSteps.rst
-   CSPNameNames/namesInput.rst
-   CSPNameNames/nameSets.rst
-   CSPNameNames/imageLib.rst
-   CSPNameNames/renameFunctions.rst
-   CSPNameNames/ch6_summary.rst
-   CSPNameNames/ch6_exercises.rst
-   CSPNameNames/exam5a6.rst
-   
 SECTION 3: REPEATING
 :::::::::::::::::::::::::
 
 .. toctree::
-   :maxdepth: 2
-   
-Chapter 7: Computers can Repeat Steps
-:::::::::::::::::::::::::::::::::::::::::
+   :maxdepth: 3
 
-.. toctree::
-   :maxdepth: 2
+   CSPRepeatNumbers/toctree.rst
+   CSPWhileAndForLoops/toctree.rst
+   CSPRepeatStrings/toctree.rst
+   CSPRepeatTurtles/toctree.rst
+   CSPRepeatImages/toctree.rst
 
-   CSPRepeatNumbers/repeatSteps.rst
-   CSPRepeatNumbers/repeatNums.rst
-   CSPRepeatNumbers/list.rst
-   CSPRepeatNumbers/range.rst
-   CSPRepeatNumbers/accumPattern.rst
-   CSPRepeatNumbers/print.rst
-   CSPRepeatNumbers/ch7_summary.rst
-   CSPRepeatNumbers/ch7_exercises.rst
-   
-Chapter 8: While and For Loops
-:::::::::::::::::::::::::::::::::::::::::
-
-.. toctree::
-   :maxdepth: 2
-   
-   CSPWhileAndForLoops/forAndWhile.rst
-   CSPWhileAndForLoops/infinite.rst
-   CSPWhileAndForLoops/whileCount.rst
-   CSPWhileAndForLoops/while.rst
-   CSPWhileAndForLoops/nestedLoops.rst
-   CSPWhileAndForLoops/ch8_summary.rst
-   CSPWhileAndForLoops/ch8_exercises.rst
-   CSPWhileAndForLoops/exam7a8.rst
-   
-Chapter 9: Repeating Steps with Strings
-:::::::::::::::::::::::::::::::::::::::::
-
-.. toctree::
-   :maxdepth: 2
-   
-   CSPRepeatStrings/repeatstrings.rst
-   CSPRepeatStrings/reverse.rst
-   CSPRepeatStrings/mirror.rst
-   CSPRepeatStrings/modify.rst
-   CSPRepeatStrings/ch9_summary.rst
-   CSPRepeatStrings/ch9_exercises.rst
-   
-Chapter 10: Repeating Steps with Turtles
-:::::::::::::::::::::::::::::::::::::::::
-
-.. toctree::
-   :maxdepth: 2
-
-   CSPRepeatTurtles/repeatturtles.rst
-   CSPRepeatTurtles/turtleGeom.rst
-   CSPRepeatTurtles/patterns.rst
-   CSPRepeatTurtles/stamp.rst
-   CSPRepeatTurtles/RepeatTurtlesPractice.rst
-   CSPRepeatTurtles/ch10_summary.rst
-   CSPRepeatTurtles/ch10_exercises.rst
-   
-Chapter 11: Repeating Steps with Images
-:::::::::::::::::::::::::::::::::::::::::
-
-.. toctree::
-   :maxdepth: 2
-   
-   CSPRepeatImages/repeatimages.rst
-   CSPRepeatImages/imageAbstractions.rst
-   CSPRepeatImages/pattern.rst
-   CSPRepeatImages/changeColor.rst
-   CSPRepeatImages/changeColorLoc.rst
-   CSPRepeatImages/changeData.rst
-   CSPRepeatImages/ch11_summary.rst
-   CSPRepeatImages/ch11_exercises.rst
-   CSPRepeatImages/exam9t11.rst
-   
 SECTION 4: DECISIONS
 ::::::::::::::::::::::::::::::::::::::::::::
 
 .. toctree::
    :maxdepth: 3
    
-Chapter 12: A Computer can Make Decisions
-::::::::::::::::::::::::::::::::::::::::::::
+   CSPIntroDecisions/toctree.rst
+   CSPStringDecisions/toctree.rst
+   CSPTurtleDecisions/toctree.rst
+   CSPImageDecisions/toctree.rst
 
-.. toctree::
-   :maxdepth: 2
-
-   CSPIntroDecisions/decisions.rst
-   CSPIntroDecisions/if.rst
-   CSPIntroDecisions/multiple.rst
-   CSPIntroDecisions/logicalEx.rst
-   CSPIntroDecisions/complex.rst
-   CSPIntroDecisions/practice.rst
-   CSPIntroDecisions/ifAndElse.rst
-   CSPIntroDecisions/ch12_summary.rst
-   CSPIntroDecisions/ch12_exercises.rst
-   
-Chapter 13: Using Decisions with Strings
-::::::::::::::::::::::::::::::::::::::::::::
-
-.. toctree::
-   :maxdepth: 2
-
-   CSPStringDecisions/decisionStrings.rst
-   CSPStringDecisions/input.rst
-   CSPStringDecisions/fortuneTeller.rst
-   CSPStringDecisions/elif.rst
-   CSPStringDecisions/ch13_summary.rst
-   CSPStringDecisions/ch13_exercises.rst
-   CSPStringDecisions/exam12a13.rst
-   
-Chapter 14: Using Decisions with Turtles
-::::::::::::::::::::::::::::::::::::::::::::
-
-.. toctree::
-   :maxdepth: 2
-
-   CSPTurtleDecisions/turtleFP.rst
-   CSPTurtleDecisions/decTurtle.rst
-   CSPTurtleDecisions/oddEven.rst
-   CSPTurtleDecisions/random.rst
-   CSPTurtleDecisions/collisions.rst
-   CSPTurtleDecisions/ch14_summary.rst
-   CSPTurtleDecisions/ch14_exercises.rst
-   
-   
-Chapter 15: Using Decisions with Images
-::::::::::::::::::::::::::::::::::::::::::::
-
-.. toctree::
-   :maxdepth: 2
-   
-   CSPImageDecisions/decImages.rst
-   CSPImageDecisions/combineImages.rst
-   CSPImageDecisions/imageIfElse.rst
-   CSPImageDecisions/imageMultIf.rst
-   CSPImageDecisions/ch15_summary.rst
-   CSPImageDecisions/ch15_exercises.rst
-   CSPImageDecisions/exam14a15.rst
-   
 SECTION 5: DATA
 :::::::::::::::::::::::::::::::::::::::::::
 
 .. toctree::
    :maxdepth: 3
-   
-Chapter 16:  Working with Collections
-::::::::::::::::::::::::::::::::::::::
 
-.. toctree::
-   :maxdepth: 2
-   
-   CSPIntroData/workColls.rst
-   CSPIntroData/workStrings.rst
-   CSPIntroData/workLists.rst
-   CSPIntroData/listIndexes.rst
-   CSPIntroData/revList.rst
-   CSPIntroData/rangeChange.rst
-   CSPIntroData/decRange.rst
-   CSPIntroData/forEach.rst
-   CSPIntroData/rainfall.rst
-   CSPIntroData/ch16_summary.rst
-   CSPIntroData/ch16_exercises.rst
-   
-   
-Chapter 17: Getting pieces out of strings and lists
-::::::::::::::::::::::::::::::::::::::::::::::::::::
+   CSPIntroData/toctree.rst
+   CSPStringPieces/toctree.rst
+   CSPWebData/toctree.rst
+   CSPAbilitySummary/toctree.rst
 
-.. toctree::
-   :maxdepth: 2
-   
-   CSPStringPieces/piecesstrings.rst
-   CSPStringPieces/madLibPieces.rst
-   CSPStringPieces/split.rst
-   CSPStringPieces/outOfRange.rst
-   CSPStringPieces/strProcParam.rst
-   CSPStringPieces/createPartsOfStrings.rst
-   CSPStringPieces/ch17_summary.rst
-   CSPStringPieces/ch17_exercises.rst
-   CSPStringPieces/exam16a17.rst
-   
-Chapter 18: Working with Data on the Web
-::::::::::::::::::::::::::::::::::::::::::::
-
-.. toctree::
-   :maxdepth: 2
-   
-   CSPWebData/webData.rst
-   CSPWebData/pollData.rst
-   CSPWebData/readData.rst
-   CSPWebData/largestPoll.rst
-   CSPWebData/lowestPoll.rst
-   CSPWebData/avgPoll.rst
-   CSPWebData/datastates.rst
-   CSPWebData/findPollState.rst
-   CSPWebData/ch18_summary.rst
-   CSPWebData/ch18_exercises.rst
-
-Chapter 19: Computer Abilities Summary
-::::::::::::::::::::::::::::::::::::::::::::
-
-.. toctree::
-   :maxdepth: 2
-   
-   CSPAbilitySummary/thatsall.rst
-   CSPAbilitySummary/ch19_summary.rst
-   CSPExamPost/examPost.rst
-
-  
 SECTION 6: WHAT'S POSSIBLE
 :::::::::::::::::::::::::::::::::::::::::::
 
 .. toctree::
    :maxdepth: 3
-
-Chapter 20: The Internet
-::::::::::::::::::::::::::::::::::::::::::::
-
-.. toctree::
-    :maxdepth: 2
-
-    CSPInternet/ch20_intro.rst
-    CSPInternet/ch20_autonomous.rst
-    CSPInternet/ch20_characteristics.rst
-    CSPInternet/ch20_cybersecurity.rst
-
- 
-Chapter 21: Creativity
-::::::::::::::::::::::::::::::::::::::::::::
-
-.. toctree::
-    :maxdepth: 2
-
-    CSPCreativity/intro.rst
-    CSPCreativity/task.rst
-    CSPCreativity/deciding.rst
-    CSPCreativity/examples.rst
-    CSPCreativity/processQ.rst
-    CSPCreativity/programming.rst
-    CSPCreativity/referencing.rst
-
-Chapter 22: Global Impact
-::::::::::::::::::::::::::::::::::::::::::::
-
-.. toctree::
-   :maxdepth: 2
-
-   CSPGlobalImpact/intro.rst
-   CSPGlobalImpact/exploring.rst
-   CSPGlobalImpact/task.rst
-   CSPGlobalImpact/deciding.rst
-   CSPGlobalImpact/choosing.rst
-   CSPGlobalImpact/outline.rst
-   CSPGlobalImpact/completing.rst  
-   CSPGlobalImpact/working.rst
-
-Chapter 23: What's Next
-::::::::::::::::::::::::::::::::::::::::::::
-
-.. toctree::
-   :maxdepth: 2
    
-   CSPWhatsNext/whatsNext.rst
+   CSPInternet/toctree.rst
+   CSPCreativity/toctree.rst
+   CSPGlobalImpact/toctree.rst
+   CSPWhatsNext/toctree.rst
 
 SECTION 7: PRACTICE EXAM QUESTIONS
 :::::::::::::::::::::::::::::::::::::::::::
 
 .. toctree::
    :maxdepth: 3
+  
+   CSPPracticeQuestions/toctree.rst
    
-Chapter 24:  Question Sets
-::::::::::::::::::::::::::::::::::::::
-
-.. toctree::
-   :maxdepth: 2
-   
-   CSPPracticeQuestions/APCSP_ExamInfo.rst
-   CSPPracticeQuestions/exam24_1.rst
-   CSPPracticeQuestions/exam24_2.rst
-   CSPPracticeQuestions/exam24_3.rst
-   CSPPracticeQuestions/exam24_4.rst
-      
 Indices
 ::::::::::::::::::
 
 * :ref:`genindex`
 * :ref:`search`
-
+   

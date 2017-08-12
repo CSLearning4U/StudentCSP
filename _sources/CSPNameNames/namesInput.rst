@@ -9,9 +9,6 @@
 .. 	qnum::
 	:start: 1
 	:prefix: csp-6-4-
-	
-.. highlight:: java
-   :linenothreshold: 4
 
 Naming Input 
 ================
@@ -72,7 +69,7 @@ But, this means we have to change each of the four ``forward`` statements and we
 
    What is the side length for a square drawn by the following procedure?
    
-    :: 
+   :: 
  
      def square(turtle):
          size = 200

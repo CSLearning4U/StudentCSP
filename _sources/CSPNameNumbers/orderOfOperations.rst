@@ -38,7 +38,7 @@
     
 .. 	qnum::
 	:start: 1
-	:prefix: csp-3-4-
+	:prefix: csp-3-5-
 
 .. highlight:: java
    :linenothreshold: 4
@@ -61,11 +61,10 @@ The order that expressions are executed is the same as it is in math and is show
 
 .. fillintheblank:: 3_4_1_Order1_fill
 
-    .. blank:: 3_4_1_Order1
-        :correct: ^-2$
-        :feedback1: ('.*','Did you actually run the program?')
-        
-        What is printed when you click on the Run button in the code below? 
+   What is printed when you click on the Run button in the code below?
+
+   -    :^-2$: Correct!
+        :.*: Did you actually run the program?
 
 .. activecode:: Expression_Order1
     :nocodelens:
@@ -77,11 +76,10 @@ You can change the default order by adding parentheses around part of an express
 
 .. fillintheblank:: 3_4_2_Order2_fill
 
-    .. blank:: 3_4_1_Order2
-        :correct: ^6$
-        :feedback1: ('.*','Did you actually run the program?')
+   What is printed when you click on the Run button in the code below?
 
-        What is printed when you click on the Run button in the code below? 
+   -    :^6$: Correct!
+        :.*: Did you actually run the program
 
 .. activecode:: Expression_Order2
     :nocodelens:
@@ -95,4 +93,4 @@ You can change the default order by adding parentheses around part of an express
 
       .. disqus::
           :shortname: cslearn4u
-          :identifier: studentcsp_3_4
+          :identifier: studentcsp_3_5
