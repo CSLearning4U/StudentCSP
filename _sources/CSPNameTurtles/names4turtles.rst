@@ -57,7 +57,7 @@ We have seen the example below once before.  It allows us to use the ``turtle`` 
    :feedback_a: The turtles in some of the examples faced north because of the <code>setheading(90)</code> instruction. Which way does chad move first?
    :feedback_b: Which way does chad first move in the example above?  North is at the top of the page.
    :feedback_c: Turtles start off facing east which is toward the right side of the page.
-   :feedback_d: Which way does chad first move in the example above?   North is at the top of the page.
+   :feedback_d: Which way does the turtle first move in the example above?   North is at the top of the page.
 
    Which way does a turtle face when it is first created?
     
