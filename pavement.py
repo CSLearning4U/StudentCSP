@@ -14,7 +14,9 @@ home_dir = os.getcwd()
 
 master_url = None
 if master_url is None:
-    if gethostname() in  ['web608.webfaction.com', 'rsbuilder']:
+    if 'RSHOST' in os.environ:
+        master_url = environ['RSHOST']
+    elif gethostname() in  ['web608.webfaction.com', 'rsbuilder']:
         master_url = 'http://interactivepython.org'
     elif gethostname() == 'runestone-deploy':
         master_url = 'https://runestone.academy'
