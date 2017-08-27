@@ -16,11 +16,15 @@ master_url = None
 if master_url is None:
     if gethostname() in  ['web608.webfaction.com', 'rsbuilder']:
         master_url = 'http://interactivepython.org'
+    elif gethostname() == 'runestone-deploy':
+        master_url = 'https://runestone.academy'
     else:
         master_url = 'http://127.0.0.1:8000'
 
 master_app = 'runestone'
 serving_dir = "./build/StudentCSP"
+dest = '../../static'
+project_name = "StudentCSP",
 
 options(
     sphinx = Bunch(docroot=".",),
@@ -30,8 +34,8 @@ options(
         sourcedir="_sources",
         outdir="./build/StudentCSP",
         confdir=".",
-        project_name = "StudentCSP",
-        template_args={'course_id': 'CSP',
+        project_name=project_name,
+        template_args={'course_id': project_name,
                        'login_required':'false',
                        'appname':master_app,
                        'loglevel': 10,
@@ -39,7 +43,7 @@ options(
                        'use_services': 'true',
                        'python3': 'true',
                        'dburl': 'postgresql://runestone@localhost/runestone',
-                       'basecourse': 'studentcsp'
+                       'basecourse': 'StudentCSP'
                         }
     )
 )
