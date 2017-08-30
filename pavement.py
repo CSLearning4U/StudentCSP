@@ -26,7 +26,7 @@ if master_url is None:
 master_app = 'runestone'
 serving_dir = "./build/StudentCSP"
 dest = '../../static'
-project_name = "StudentCSP",
+project_name = "StudentCSP"
 
 options(
     sphinx = Bunch(docroot=".",),
