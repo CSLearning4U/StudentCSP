@@ -14,3 +14,4 @@ Chapter 3 - Names for Numbers
    invoice.rst
    ch3_summary.rst
    ch3_exercises.rst
+   VariablePracticeParsons.rst
