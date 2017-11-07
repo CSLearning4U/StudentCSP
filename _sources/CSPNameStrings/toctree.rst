@@ -10,4 +10,5 @@ Chapter 4 - Names for Strings
    madlib.rst
    ch4_summary.rst
    ch4_exercises.rst
+   StringPracticeParsons.rst
    exam3a4.rst
