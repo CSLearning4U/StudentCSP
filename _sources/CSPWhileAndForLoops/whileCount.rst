@@ -48,7 +48,7 @@ For example, we could have a computer count up from 1 to 10.  We will use a ``co
 .. mchoice:: 8_3_2_NegativeCounter
    :answer_a: 5 4 3 2 1
    :answer_b: -5 -4 -3 -2 -1
-   :answer_c: -4 -3 -2 -1
+   :answer_c: -4 -3 -2 -1 0
    :correct: c
    :feedback_a: If x starts at -5 how can the first value printed be 5?
    :feedback_b: This would be true if the print statement was before we incremented x.
