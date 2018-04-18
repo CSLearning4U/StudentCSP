@@ -73,12 +73,12 @@ The next type of problem is new.  It shows correct code in code blocks on the le
    
 **Click on the right arrow below to play the following video.**
    
-.. video:: parsons
-   :controls:
-   :thumb: ../_static/MixedUpCodeVideoThumb.png
+.. the video is MixedUpCode.mov
 
-   http://ice-web.cc.gatech.edu/ce21/1/static/video/MixedUpCode.mov
-   http://ice-web.cc.gatech.edu/ce21/1/static/video/MixedUpCode.webm
+.. youtube:: X5SCf9AV_oo
+    :width: 640
+    :height: 480
+    :align: center
 
 .. parsonsprob:: 3_6_1_Ketchup_Speed
 
