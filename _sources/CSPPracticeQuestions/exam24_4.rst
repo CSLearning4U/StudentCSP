@@ -15,7 +15,7 @@ Click the "Start" button when you are ready to begin the exam.  Click the "Pause
 
 You will not be able to change your answers after you hit the "Finish Exam" button.
 
-.. timed:: ch24ex
+.. timed:: ch24t4
 
     .. mchoice:: e24_4_1
        :answer_a: Calling Domino’s Pizza to talk to an employee to place an order

@@ -15,8 +15,7 @@ Click the "Start" button when you are ready to begin the exam.  Click the "Pause
 
 You will not be able to change your answers after you hit the "Finish Exam" button.
 
-.. timed:: ch24ex
-   :retake:
+.. timed:: ch24t1
 
    .. mchoice:: e24_1_1
       :answer_a: I. and III. only

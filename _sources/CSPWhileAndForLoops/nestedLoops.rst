@@ -29,23 +29,22 @@ The body of any loop, can even include...another loop!  Here is a super-simple p
 
 Here are two different ways to look at this program.  In the first one, we look at the *structure* of the program -- what you can understand by just *looking* at the program.
 
-.. video:: timesTableStructure
-		   :controls:
-		   :thumb: ../_static/timesTableStructure.png
+.. the video is nestedLoopStructure.mov
 
-		   http://ice-web.cc.gatech.edu/ce21/1/static/video/nestedLoopStructure.mov
-		   http://ice-web.cc.gatech.edu/ce21/1/static/video/nestedLoopStructure.webm
-
+.. youtube:: IKh1TdYL3o0
+    :width: 640
+    :height: 480
+    :align: center
 
 In this video, we look at the *execution* of the program -- how it actually works when it's being *run* by the computer.
 
-.. video:: timesTableTrace
-		   :controls:
-		   :thumb: ../_static/timesTableTrace.png
+.. the video is nestedLoopTrace.mov
 
-		   http://ice-web.cc.gatech.edu/ce21/1/static/video/nestedLoopTrace.mov
-		   http://ice-web.cc.gatech.edu/ce21/1/static/video/nestedLoopTrace.webm
-		   
+.. youtube:: mIolNVIF1A4
+    :width: 640
+    :height: 480
+    :align: center
+	   
 How Many Times Does the Inner Loop Execute?
 --------------------------------------------
 		   

@@ -54,12 +54,12 @@ Here's a program that does exactly that.  Try different `target` values, and see
 
 Let's say that you wanted to figure out the square root of 6.  How many times would the body of the ``while`` loop be executed?  We could figure it out by tracing the program.  
 
-.. video:: trace-squareroot
-   :controls:
-   :thumb: ../_static/squareRootTrace.png
+.. the video is square-root-trace.mov
 
-   http://ice-web.cc.gatech.edu/ce21/1/static/video/square-root-trace.mov
-   http://ice-web.cc.gatech.edu/ce21/1/static/video/square-root-trace.webm
+.. youtube:: aDkkuM6QM-0
+    :width: 640
+    :height: 480
+    :align: center
 
 .. mchoice:: 8_4_2_Count_Loops_Q1
   :answer_a: Just once.

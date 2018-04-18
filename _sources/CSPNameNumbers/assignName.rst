@@ -91,12 +91,13 @@ In programming languages, setting a variable's value is also called **assignment
 
 **Click on the right arrow below to play the following video.**
 
-.. video:: intro_assignment
-   :controls:
-   :thumb: ../_static/video-think-about-assignment.png
+.. the video is assignment-v2-small.mov
 
-   http://ice-web.cc.gatech.edu/ce21/1/static/video/assignment-v2-small.mov
-   http://ice-web.cc.gatech.edu/ce21/1/static/video/assignment-v2-small.webm
+.. youtube:: tULT-Nqunlc
+    :width: 640
+    :height: 480
+    :align: center
+
    
 Legal Variable Names
 ----------------------

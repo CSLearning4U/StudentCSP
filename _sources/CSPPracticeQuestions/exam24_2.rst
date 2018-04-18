@@ -13,7 +13,7 @@ Click the "Start" button when you are ready to begin the exam.  Click the "Pause
 
 You will not be able to change your answers after you hit the "Finish Exam" button.
 
-.. timed:: ch24ex
+.. timed:: ch24t2
     
     .. mchoice:: e24_2_1
        :answer_a: Sending your address to a friend through a text message.
