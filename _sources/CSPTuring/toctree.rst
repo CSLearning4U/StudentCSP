@@ -8,4 +8,4 @@ Chapter 2 - What can Computers Do?
    turingMachines.rst
    abilities.rst
    summary.rst
-   exercises.rst
+   Exercises.rst

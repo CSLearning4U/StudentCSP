@@ -9,5 +9,5 @@ Chapter 4 - Names for Strings
    immutable.rst
    madlib.rst
    summary.rst
-   exercises.rst
+   Exercises.rst
    exam3a4.rst

@@ -12,4 +12,4 @@ Chapter 5 - Names for Turtles
    house.rst
    changeProg.rst
    summary.rst
-   exercises.rst
+   Exercises.rst

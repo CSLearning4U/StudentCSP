@@ -9,4 +9,4 @@ Chapter 9 - Repeating Steps with Strings
    mirror.rst
    modify.rst
    summary.rst
-   exercises.rst
+   Exercises.rst

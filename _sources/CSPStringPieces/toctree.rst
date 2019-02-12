@@ -11,5 +11,5 @@ Chapter 17 - Getting pieces out of strings and lists
    strProcParam.rst
    createPartsOfStrings.rst
    summary.rst
-   exercises.rst
+   Exercises.rst
    exam16a17.rst

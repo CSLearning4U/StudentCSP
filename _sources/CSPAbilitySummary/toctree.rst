@@ -6,4 +6,4 @@ Chapter 19 - Computer Abilities Summary
 
    thatsall.rst
    summary.rst
-   exercises.rst
+   Exercises.rst

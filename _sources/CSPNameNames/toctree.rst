@@ -12,5 +12,5 @@ Chapter 6 - Computers can Name Anything
    imageLib.rst
    renameFunctions.rst
    summary.rst
-   exercises.rst
+   Exercises.rst
    exam5a6.rst

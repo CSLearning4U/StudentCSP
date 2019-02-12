@@ -11,5 +11,5 @@ Chapter 11 - Repeating Steps with Images
    changeColorLoc.rst
    changeData.rst
    summary.rst
-   exercises.rst
+   Exercises.rst
    exam9t11.rst

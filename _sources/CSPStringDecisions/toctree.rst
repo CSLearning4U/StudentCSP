@@ -9,5 +9,5 @@ Chapter 13 - Using Decisions with Strings
    fortuneTeller.rst
    elif.rst
    summary.rst
-   exercises.rst
+   Exercises.rst
    exam12a13.rst

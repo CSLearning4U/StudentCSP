@@ -10,4 +10,4 @@ Chapter 14 - Using Decisions with Turtles
    random.rst
    collisions.rst
    summary.rst
-   exercises.rst
+   Exercises.rst

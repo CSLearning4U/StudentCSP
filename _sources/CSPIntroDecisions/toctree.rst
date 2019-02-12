@@ -12,4 +12,4 @@ Chapter 12 - A Computer can Make Decisions
    practice.rst
    ifAndElse.rst
    summary.rst
-   exercises.rst
+   Exercises.rst

@@ -13,5 +13,5 @@ Chapter 3 - Names for Numbers
    walkAssign.rst
    invoice.rst
    summary.rst
-   exercises.rst
+   Exercises.rst
    VariablePracticeParsons.rst

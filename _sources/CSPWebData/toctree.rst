@@ -13,4 +13,4 @@ Chapter 18 - Working with Data on the Web
    datastates.rst
    findPollState.rst
    summary.rst
-   exercises.rst
+   Exercises.rst

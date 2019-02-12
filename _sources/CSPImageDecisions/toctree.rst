@@ -9,5 +9,5 @@ Chapter 15 - Using Decisions with Images
    imageIfElse.rst
    imageMultIf.rst
    summary.rst
-   exercises.rst
+   Exercises.rst
    exam14a15.rst
