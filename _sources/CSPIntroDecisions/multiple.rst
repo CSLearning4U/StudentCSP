@@ -9,7 +9,7 @@
 .. 	qnum::
 	:start: 1
 	:prefix: csp-12-3-
-	
+
 .. highlight:: python
    :linenothreshold: 3
 
@@ -20,18 +20,18 @@ You can use more than one ``if`` statement in your code.  Here's an example of a
 
 .. activecode:: Price_If
     :tour_1: "Structural Tour"; 1: c1-line1; 2-3: c1-line2-3; 4-5: c1-line4-5; 6: c1-line6; 7-9: c3f-line7-9;
-    
+
     weight = 0.5
     if weight < 1:
     	price = 1.45
-    if weight >= 1: 
+    if weight >= 1:
     	price = 1.15
     total = weight * price
     print(weight)
     print(price)
     print(total)
 
-Edit the code above and change the first line so that ``weight`` has a different value. Run it again and see what changes.  Try it in the codelens as well to see how the different values for weight changes the lines of code that are executed.   
+Edit the code above and change the first line so that ``weight`` has a different value. Run it again and see what changes.  Try it in the codelens as well to see how the different values for weight changes the lines of code that are executed.
 
 In this second version, we set a ``price`` as a *default*, then change it only on the special condition. Does it work the same as the above example?
 
@@ -40,7 +40,7 @@ In this second version, we set a ``price`` as a *default*, then change it only o
 
   weight = 0.5
   price = 1.45
-  if weight >= 1: 
+  if weight >= 1:
       price = 1.15
   total = weight * price
   print(weight)
@@ -59,7 +59,7 @@ In this second version, we set a ``price`` as a *default*, then change it only o
   :feedback_d: If the weight is over 1 pound the price will be 1.15 in both programs.
 
    Are there values for weight that make the two programs above print different results when the same weight is used in both programs?
-   
+
 **Mixed up programs**
 
 .. parsonsprob:: 12_3_2_Price_By_Weight
@@ -72,7 +72,7 @@ In this second version, we set a ``price`` as a *default*, then change it only o
    =====
        price = 1.50
    =====
-   if weight >= 2: 
+   if weight >= 2:
    =====
        price = 1.30
    =====
@@ -86,27 +86,27 @@ In this second version, we set a ``price`` as a *default*, then change it only o
 
         .. tab:: Question
 
-           Write the code to calculate and print the cost of a 14 mile cab ride. If the distance traveled is less than or equal to 12 miles the cost is $2.00 a mile, and if the distance traveled is more than 12 miles the cost is $1.50 a mile. 
-           
+           Write the code to calculate and print the cost of a 14 mile cab ride. If the distance traveled is less than or equal to 12 miles the cost is $2.00 a mile, and if the distance traveled is more than 12 miles the cost is $1.50 a mile.
+
            .. activecode::  12_3_3_WSq
                :nocodelens:
 
         .. tab:: Answer
-            
-          .. activecode::  6_5_2_WSa
+
+          .. activecode::  12_3_3_WSa
               :nocodelens:
-              
+
               distance = 14
-              # SET CONDITIONS 
+              # SET CONDITIONS
               if distance <= 12:
                   rate = 2.00
               if distance > 12:
                   rate = 1.50
-              # CALCULATE TRIP COST 
+              # CALCULATE TRIP COST
               total = distance * rate
               print("Total cost of trip: " + str(total))
-                                
-        .. tab:: Discussion 
+
+        .. tab:: Discussion
 
             .. disqus::
                 :shortname: cslearn4u
@@ -114,7 +114,7 @@ In this second version, we set a ``price`` as a *default*, then change it only o
 
 .. note::
 
-    Discuss topics in this section with classmates. 
+    Discuss topics in this section with classmates.
 
       .. disqus::
           :shortname: cslearn4u

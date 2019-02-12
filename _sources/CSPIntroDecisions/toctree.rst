@@ -11,5 +11,5 @@ Chapter 12 - A Computer can Make Decisions
    complex.rst
    practice.rst
    ifAndElse.rst
-   ch12_summary.rst
-   ch12_exercises.rst
+   summary.rst
+   exercises.rst

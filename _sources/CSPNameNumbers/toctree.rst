@@ -12,6 +12,6 @@ Chapter 3 - Names for Numbers
    ketchup.rst
    walkAssign.rst
    invoice.rst
-   ch3_summary.rst
-   ch3_exercises.rst
+   summary.rst
+   exercises.rst
    VariablePracticeParsons.rst

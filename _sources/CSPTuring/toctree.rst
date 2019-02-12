@@ -7,5 +7,5 @@ Chapter 2 - What can Computers Do?
    whatIsComputer.rst
    turingMachines.rst
    abilities.rst
-   ch2_summary.rst
-   exam1a2.rst
+   summary.rst
+   exercises.rst

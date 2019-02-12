@@ -9,5 +9,5 @@ Chapter 14 - Using Decisions with Turtles
    oddEven.rst
    random.rst
    collisions.rst
-   ch14_summary.rst
-   ch14_exercises.rst
+   summary.rst
+   exercises.rst

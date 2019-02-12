@@ -10,6 +10,6 @@ Chapter 17 - Getting pieces out of strings and lists
    outOfRange.rst
    strProcParam.rst
    createPartsOfStrings.rst
-   ch17_summary.rst
-   ch17_exercises.rst
+   summary.rst
+   exercises.rst
    exam16a17.rst

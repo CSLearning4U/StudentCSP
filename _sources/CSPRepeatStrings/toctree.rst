@@ -8,5 +8,5 @@ Chapter 9 - Repeating Steps with Strings
    reverse.rst
    mirror.rst
    modify.rst
-   ch9_summary.rst
-   ch9_exercises.rst
+   summary.rst
+   exercises.rst
