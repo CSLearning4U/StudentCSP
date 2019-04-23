@@ -1,5 +1,5 @@
-Chapter 25 - UNTIMED PRACTICE EXAMS
-:::::::::::::::::::::::::::::::::::
+Chapter 25 - UNTIMED PRACTICE QUESTIONS
+:::::::::::::::::::::::::::::::::::::::
 
 .. toctree::
   :maxdepth: 2
