@@ -7,9 +7,8 @@ Set #3
 
 The following questions make up Set #3 of the Untimed Practice Exam Questions. The questions resemble, both in format and substance, what you might see on the AP CS Principles exam. You should finish these questions within 17 minutes to satisfy the time constraints of the AP exam. You may refer to the AP CS Reference Sheet, which can be found here_.
 
-.. _here: raw::html <a href="" target="_blank">here</a>
+.. _here: raw:: html <a href="https://secure-media.collegeboard.org/digitalServices/pdf/ap/ap-computer-science-principles-course-and-exam-description.pdf#page=121" target="_blank">here</a>
 
-Click the "Start" button when you are ready to begin the exam.  Click the "Pause" button to pause the exam (you will not be able to see the questions when the exam is paused).  It will show how much time you have used, but you have unlimited time.  Click on the "Finish Exam" button at the end when you are done.  The number correct, number wrong, and number skipped will be displayed at the bottom of the page.  Feedback for each answer will also be shown as well as your answer.
 
 You will not be able to change your answers after you hit the "Finish Exam" button.
 
@@ -20,8 +19,8 @@ You will not be able to change your answers after you hit the "Finish Exam" butt
       :answer_c:
       :answer_d:
       :correct: b
-      :feedback_a: Incorrect. This choice does not compare two prices -- the variable 'max' is not a price.
-      :feedback_b: Correct. This choice updates the value of max with 'i' if it is greater than the previous maximum price.
+      :feedback_a: Incorrect. This does not compare two prices -- the variable 'max' is not a price, it is the index of the current max value.
+      :feedback_b: Correct. This updates the value of max with 'i' if it is greater than the previous maximum price.
       :feedback_c: Incorrect. This will not update the value of max with the highest price value.
       :feedback_d: Incorrect. This assigns the price value to the variable max rather than the index value of the list itemList.
 
@@ -86,10 +85,10 @@ You will not be able to change your answers after you hit the "Finish Exam" butt
       :answer_c: Duplicating a section of code multiple times in a program
       :answer_d: Debugging code multiple times until it passes testing
       :correct: b
-      :feedback_a: Incorrect. Iteration is the repetition of a process until a condition is met.
-      :feedback_b: Correct. Iteration is the repetition of a process until a condition is met.
-      :feedback_c: Incorrect. Iteration is the repetition of a process until a condition is met.
-      :feedback_d: Incorrect. Iteration is the repetition of a process until a condition is met.
+      :feedback_a: Incorrect. Iteration with a loop involves repetition, so executing code once is not iteration.
+      :feedback_b: Correct. Iteration repeats one or more statements until a condition is met.
+      :feedback_c: Incorrect. Iterating with loops is a way of preventing you from having to duplicate a section of code multiple times.
+      :feedback_d: Incorrect. Debugging involves a person finding errors or "bugs" in their code. Iteration with loops runs a set of code until a condition is met.
 
       What does iteration with computer science loops mean?
 
@@ -101,7 +100,7 @@ You will not be able to change your answers after you hit the "Finish Exam" butt
       :answer_d: 1.45
       :correct: a
       :feedback_a: Correct. Since 'weight' < 1 is True, 'price' equals 1.45. Both 'weight' and 'price' are being displayed.
-      :feedback_b: Incorrect. Although 0.75 is the value of 'total,' it is never called on to be displayed.
+      :feedback_b: Incorrect. Although 0.75 is the value of 'total,' it is never displayed.
       :feedback_c: Incorrect. Neither the value of weight nor price -- the two variables being displayed -- are equal to 0.
       :feedback_d: Incorrect. Although price is equal to 1.45, the value of weight is also being displayed by this code.
 
@@ -129,7 +128,7 @@ You will not be able to change your answers after you hit the "Finish Exam" butt
       :correct: d
       :feedback_a: Incorrect. There is no code to make "You ordered -2 items" the value of 'message.'
       :feedback_b: Incorrect. This would be the value of 'message' if numItems equaled 1.
-      :feedback_c: Incorrect. Variable 'message' was never assigned a value, so this would result in an error.
+      :feedback_c: Incorrect. Variable 'message' was never assigned a value, so this would result in an error and the code would not run completely.
       :feedback_d: Correct. Variable 'message' was never assigned a value, so this would result in an error.
 
       Refer to the following code:
@@ -152,9 +151,9 @@ You will not be able to change your answers after you hit the "Finish Exam" butt
       :answer_c: negative positive
       :answer_d: Nothing will print
       :correct: a
-      :feedback_a: Correct. The loop iterates through the three integers in 'numbers' and displays the corresponding strings.
+      :feedback_a: Correct. The loop iterates through the three integers in 'numbers' and displays the proper strings when the IF statements are true.
       :feedback_b: Incorrect. 'Positive' is displayed for the final item in the list, but there are two other items in the list.
-      :feedback_c: Incorrect. This answer does not account for the 0 in the list.
+      :feedback_c: Incorrect. This does not account for the 0 in the list.
       :feedback_d: Incorrect. The if and else clauses are satisfied in this code, so there would be an output.
 
       Refer to the following code:
@@ -179,10 +178,10 @@ You will not be able to change your answers after you hit the "Finish Exam" butt
       :answer_c: East
       :answer_d: West
       :correct: c
-      :feedback_a: Incorrect. The default direction of a turtle is facing east.
+      :feedback_a: Incorrect. Though it may seem like a turtle should start by facing north, it starts facing a different direction.
       :feedback_b: Incorrect. The default direction of a turtle is facing east.
       :feedback_c: Correct. The default direction of a turtle is facing east.
-      :feedback_d: Incorrect. The default direction of a turtle is facing east.
+      :feedback_d: Incorrect. Think about in which direction you read and write.
 
       What is the default direction a turtle object is facing?
 
@@ -192,10 +191,10 @@ You will not be able to change your answers after you hit the "Finish Exam" butt
       :answer_c: [25, 0, 10, 20]
       :answer_d: [0, 5, 10, 15]
       :correct: b
-      :feedback_a: Incorrect. The first three items in 'myLst' iterate through the loop, are multiplied by 2 and appended to the back of 'myLst.' Then the list is displayed from the fifth item until the end of the list.
+      :feedback_a: Incorrect. Look again at which elements are modified in the FOR loop and which items in myLst are displayed in the last line of code.
       :feedback_b: Correct. The first three items in 'myLst' iterate through the loop, are multiplied by 2 and appended to the back of 'myLst.' Then the list is displayed from the fifth item until the end of the list.
-      :feedback_c: Incorrect. The first three items in 'myLst' iterate through the loop, are multiplied by 2 and appended to the back of 'myLst.' Then the list is displayed from the fifth item until the end of the list.
-      :feedback_d: Incorrect. The first three items in 'myLst' iterate through the loop, are multiplied by 2 and appended to the back of 'myLst.' Then the list is displayed from the fifth item until the end of the list.
+      :feedback_c: Incorrect. This would be correct if myLst[5:] were displayed.
+      :feedback_d: Incorrect. This would be correct if you wanted to display myLst[:4] instead of myLst[4:].
 
       What will print when the following code is run?
 
@@ -232,10 +231,10 @@ You will not be able to change your answers after you hit the "Finish Exam" butt
       :answer_c: I and II
       :answer_d: II and III
       :correct: b
-      :feedback_a: Incorrect. This evaluates to False
+      :feedback_a: Incorrect. This evaluates to False - a statement cannot be True AND False.
       :feedback_b: Correct. The statement can be either True or False which evaluates to True.
       :feedback_c: Incorrect. I evaluates to False.
-      :feedback_d: Incorrect. III evaluates to False.
+      :feedback_d: Incorrect. III evaluates to False because a statement cannot be False AND True.
 
       Which of the following will evaluate to true?
 
@@ -264,10 +263,10 @@ You will not be able to change your answers after you hit the "Finish Exam" butt
       :answer_c: students.umich.edu
       :answer_d: umich.edu
       :correct: c
-      :feedback_a: Incorrect. A subdomain modifies a domain and comes before the domain in the web address.
-      :feedback_b: Incorrect. A subdomain modifies a domain and comes before the domain in the web address.
+      :feedback_a: Incorrect. This links to a different url in the same web address; it is not a subdomain of umich.edu.
+      :feedback_b: Incorrect. A subdomain does not come after umich.edu in the web address.
       :feedback_c: Correct. A subdomain modifies a domain and comes before the domain in the web address.
-      :feedback_d: Incorrect. A subdomain modifies a domain and comes before the domain in the web address.
+      :feedback_d: Incorrect. Nothing is modifying the domain umich.edu.
 
       Which of the following would be considered a subdomain of umich.edu according to the guidelines of the Domain Name System (DNS)?
 

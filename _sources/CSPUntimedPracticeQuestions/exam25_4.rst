@@ -7,23 +7,22 @@ Set #4
 
 The following questions make up Set #4 of the Untimed Practice Exam Questions. The questions resemble, both in format and substance, what you might see on the AP CS Principles exam. You should finish these questions within 17 minutes to satisfy the time constraints of the AP exam. You may refer to the AP CS Reference Sheet, which can be found here_.
 
-.. _here: raw::html <a href="" target="_blank">here</a>
+.. _here: raw:: html <a href="https://secure-media.collegeboard.org/digitalServices/pdf/ap/ap-computer-science-principles-course-and-exam-description.pdf#page=121" target="_blank">here</a>
 
-Click the "Start" button when you are ready to begin the exam.  Click the "Pause" button to pause the exam (you will not be able to see the questions when the exam is paused).  It will show how much time you have used, but you have unlimited time.  Click on the "Finish Exam" button at the end when you are done.  The number correct, number wrong, and number skipped will be displayed at the bottom of the page.  Feedback for each answer will also be shown as well as your answer.
 
 You will not be able to change your answers after you hit the "Finish Exam" button.
 
 
    .. mchoice:: e25_4_1
       :answer_a: Linear search is more efficient for large data sets than binary search.
-      :answer_b: Binary search does not work on ordered sets.
+      :answer_b: Binary search does not work on ordered lists.
       :answer_c: Linear search looks at one element at a time.
-      :answer_d: Binary search is better for smaller sets.
+      :answer_d: Binary search is better for smaller lists.
       :correct: c
       :feedback_a: Incorrect. Linear search will generally take longer since it looks at one element at a time.
-      :feedback_b: Incorrect. Binary search can be used on ordered sets.
+      :feedback_b: Incorrect. Binary search can only be used on ordered sets.
       :feedback_c: Correct. Linear search looks at just one element at a time.
-      :feedback_d: Incorrect. Linear search is generally preferred for smaller data sets.
+      :feedback_d: Incorrect. Linear search is generally preferred for smaller data.
 
       Which of the following is true about linear and binary search?
 
@@ -61,8 +60,8 @@ You will not be able to change your answers after you hit the "Finish Exam" butt
    .. mchoice:: e25_4_4
       :answer_a: In no situation; this procedure works as intended
       :answer_b: In all situations; this procedure will DISPLAY the maximum, not the minimum
-      :answer_c: If every item in the list is positive
-      :answer_d: If every item in the list is negative
+      :answer_c: If every item in the list is greater than zero
+      :answer_d: If every item in the list is less than zero
       :correct: c
       :feedback_a: Incorrect. This procedure does not work in every case.
       :feedback_b: Incorrect. This code does obtain a minimum value, but fails to do so under certain circumstances.
@@ -97,12 +96,12 @@ You will not be able to change your answers after you hit the "Finish Exam" butt
 
    .. mchoice:: e25_4_5
       :answer_a: Abstraction reduces or removes details to help understand something new.
-      :answer_b: A lower-level abstraction is less specific.
+      :answer_b: A lower-level abstraction is less specific than a higher-level abstraction.
       :answer_c: Abstraction helps you manage the details and code of a program.
       :answer_d: Lower-level abstractions can be combined to make higher-level abstractions.
       :correct: b
       :feedback_a: Incorrect. Abstraction removes unnecessary information that is not needed to understand something.
-      :feedback_b: Correct. The lower the level, the more detail.
+      :feedback_b: Correct. The opposite is true. A lower the level of abstraction means there is more detail.
       :feedback_c: Incorrect. Abstraction is a way of managing details because it emphasizes the details that are relevant.
       :feedback_d: Incorrect. Since lower-level abstractions are more detailed, they cannot be combined to make higher-level abstractions.
 
@@ -112,10 +111,10 @@ You will not be able to change your answers after you hit the "Finish Exam" butt
    .. mchoice:: e25_4_6
       :answer_a: All digital data is an abstraction.
       :answer_b: All data eventually becomes binary digits (bits) that the computer interprets.
-      :answer_c: Programming commands are a potential source of bits.
+      :answer_c: Programming commands are a source of bits.
       :answer_d: Abstractions occur only in hardware applications.
       :correct: d
-      :feedback_a: Incorrect. Digital data is represented by abstractions at different levels.
+      :feedback_a: Incorrect. Digital data is represented by different levels of abstractions.
       :feedback_b: Incorrect. Computers read binary digits to interpret data.
       :feedback_c: Incorrect. Commands are data which can be broken down into bits.
       :feedback_d: Correct. Abstractions occur in software applications.
@@ -123,30 +122,30 @@ You will not be able to change your answers after you hit the "Finish Exam" butt
       Which of the following is NOT true?
 
    .. mchoice:: e25_4_7
-      :answer_a: Binary (base 2)
-      :answer_b: Tertiary (base 3)
-      :answer_c: Hexadecimal (base 16)
-      :answer_d: Decimal (our number system)
+      :answer_a: Someone using your social media information to show you specific advertisements.
+      :answer_b: Someone requesting your personal information through an online chat room.
+      :answer_c: Clicking a button that results in all of your passwords being open to hackers.
+      :answer_d: Having all of your email accounts deleted from too many failed login attempts
       :correct: b
-      :feedback_a: Incorrect. The binary number system is commonly used in computer programming.
-      :feedback_b: Correct. The tertiary (base 3) number system is not used in computer programming.
-      :feedback_c: Incorrect. The hexadecimal number system is used because it is easy to convert into the binary and decimal systems.
-      :feedback_d: Incorrect. The decimal system is used in computer programs.
+      :feedback_a: Incorrect. Although your personal information is being used in this situation, showing specific advertisements is not considered phishing.
+      :feedback_b: Correct. Phishing involves someone else trying to obtain personal information from you through electronic communication.
+      :feedback_c: Incorrect. Although your sensitive information is being revealed, this is not phishing because there is not another person disguising themselves as a trustworthy source.
+      :feedback_d: Incorrect. This is not phishing because there is no one trying to steal personal information from you.
 
 
-      Which of the following number systems is NOT used in a computer program?
+      Which of the following is most likely to be a part of a phishing attack?
 
 
 
 
    .. mchoice:: e25_4_8
-      :answer_a: Converting data usually comes at a cost.
+      :answer_a: Converting data from one file type to another usually comes at a cost.
       :answer_b: Data is never lost in conversion.
       :answer_c: Data is never changed in conversion.
       :answer_d: Data can always be converted without a loss.
       :correct: a
-      :feedback_a: Correct. When converting, things such as the quality of the data may be compromised.
-      :feedback_b: Incorrect. Data can be lost when converting across types.
+      :feedback_a: Correct. For example, you may lose the ability to edit a document when you convert to a PDF file.
+      :feedback_b: Incorrect. For example, the quality of a photo may decrease when you convert from JPG to PNG.
       :feedback_c: Incorrect. Data may lose readability in conversion and may be changed as a result.
       :feedback_d: Incorrect. There are instances in which data is lost through conversion.
 
@@ -210,7 +209,7 @@ You will not be able to change your answers after you hit the "Finish Exam" butt
       :answer_c: Undecidable problems always have a solution.
       :answer_d: Problems that cannot be solved with an algorithm are called solvable.
       :correct: a
-      :feedback_a: Correct. A decidable problem is solvable in finite steps.
+      :feedback_a: Correct. A decidable problem is solvable.
       :feedback_b: Incorrect. If a problem is solvable, it cannot be undecidable.
       :feedback_c: Incorrect. It is impossible to construct an algorithm that solves an undecidable problem.
       :feedback_d: Incorrect. Problems than cannot be solved with an algorithm are called unsolvable.
@@ -238,9 +237,9 @@ You will not be able to change your answers after you hit the "Finish Exam" butt
       :answer_c: Impossible to calculate
       :answer_d: Easier to do by hand
       :correct: b
-      :feedback_a: Incorrect. Algorithms with exponential will continually change with respect to time.
-      :feedback_b: Correct. Since exponential behavior implies continual change, it may not run in reasonable time.
-      :feedback_c: Incorrect. They can be solved for a specific time.
+      :feedback_a: Incorrect. Algorithms with exponential will continually change over time.
+      :feedback_b: Correct. Since an exponential function is continually changing, it may not run in reasonable time.
+      :feedback_c: Incorrect. They can be solved for a specific value.
       :feedback_d: Incorrect. It is not necessarily easier to calculate by hand.
 
       Algorithms will exponential behavior (e.g. x^n) are:
@@ -268,8 +267,8 @@ You will not be able to change your answers after you hit the "Finish Exam" butt
       :answer_d: Memory
       :correct: b
       :feedback_a: Incorrect. The internet is the global system of connected computer networks.
-      :feedback_b: Correct. A network is a grouping of multiple systems.
-      :feedback_c: Incorrect. A model represents entities and the relationships between them.
+      :feedback_b: Correct. A network is a group of multiple systems.
+      :feedback_c: Incorrect. A model represents the relationship between elements or objects.
       :feedback_d: Incorrect. Memory is the storing of information.
 
 
@@ -282,10 +281,10 @@ You will not be able to change your answers after you hit the "Finish Exam" butt
       :answer_c: 16
       :answer_d: 4
       :correct: c
-      :feedback_a: Incorrect. The block of code will repeat 3 times and the value of n will be 16.
-      :feedback_b: Incorrect. The block of code will repeat 3 times and the value of n will be 16.
+      :feedback_a: Incorrect. The value of n increases every time this code repeats.
+      :feedback_b: Incorrect. The block of code will repeat 3 times and the value of n will be 16. If it repeats a fourth time, n would equal 32.
       :feedback_c: Correct. The block of code will repeat 3 times and the value of n will be 16.
-      :feedback_d: Incorrect. The block of code will repeat 3 times and the value of n will be 16.
+      :feedback_d: Incorrect. The value of n equals 4 after repeating one time, but the block of code will repeat until i = 4.
 
       What is the value of n after the above code executes?
 
