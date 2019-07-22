@@ -12,6 +12,7 @@ You will not be able to change your answers after you hit the "Finish Exam" butt
 .. timed:: ch5a6ex
     
     .. mchoice:: e5a6_1
+       :practice: T
        :answer_a: value
        :answer_b: Second
        :answer_c: parameter
@@ -35,6 +36,7 @@ You will not be able to change your answers after you hit the "Finish Exam" butt
           myFunction("Second")
            
     .. mchoice:: e5a6_2
+       :practice: T
        :answer_a: <img src="../_static/squarea.png" alt="A square with the first line in black and the next 3 in red" width="300">
        :answer_b: <img src="../_static/squareb.png" alt="A square with all lines in red" width="300">
        :answer_c: <img src="../_static/squarec.png" alt="A square with the first two lines in black and the last two in red" width="300">
@@ -62,6 +64,7 @@ You will not be able to change your answers after you hit the "Finish Exam" butt
           alice.forward(50)
           
     .. mchoice:: e5a6_3
+       :practice: T
        :answer_a: bob.move(50)
        :answer_b: bob.left(50)
        :answer_c: bob.forward(50)
@@ -81,6 +84,7 @@ You will not be able to change your answers after you hit the "Finish Exam" butt
           bob = Turtle()
           
     .. mchoice:: e5a6_4
+       :practice: T
        :answer_a: definition
        :answer_b: procedure
        :answer_c: turtle
@@ -94,6 +98,7 @@ You will not be able to change your answers after you hit the "Finish Exam" butt
        A named sequence of statements that returns a result is known as which of the following?
            
     .. mchoice:: e5a6_5
+       :practice: T
        :answer_a: <img src="../_static/checka.png" alt="Shorter line to south and then longer line to east" width="300">
        :answer_b: <img src="../_static/checkb.png" alt="Longer line to south and then shorter line to east" width="300">
        :answer_c: <img src="../_static/checkc.png" alt="Longer line to north and then shorter line to east" width="300">
@@ -118,6 +123,7 @@ You will not be able to change your answers after you hit the "Finish Exam" butt
           
            
     .. mchoice:: e5a6_6
+       :practice: T
        :answer_a: Two squares connected with a straight line
        :answer_b: Two triangles connected with a straight line
        :answer_c: Two rectangles connected with a straight line

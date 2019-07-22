@@ -12,6 +12,7 @@ You will not be able to change your answers after you hit the "Finish Exam" butt
 .. timed:: ch12a13ex
     
     .. mchoice:: e12a13_1
+       :practice: T
        :answer_a: 5 to 20
        :answer_b: 6 to 20
        :answer_c: 5 to 19
@@ -31,6 +32,7 @@ You will not be able to change your answers after you hit the "Finish Exam" butt
           print ("All done")
            
     .. mchoice:: e12a13_2
+       :practice: T
        :answer_a: A
        :answer_b: B
        :answer_c: C
@@ -61,6 +63,7 @@ You will not be able to change your answers after you hit the "Finish Exam" butt
           print(grade)
           
     .. mchoice:: e12a13_3
+       :practice: T
        :answer_a: 3
        :answer_b: 25
        :answer_c: 45
@@ -87,6 +90,7 @@ You will not be able to change your answers after you hit the "Finish Exam" butt
               print("You will ace a test.")
               
     .. mchoice:: e12a13_4
+       :practice: T
        :answer_a: I
        :answer_b: II
        :answer_c: III
@@ -117,6 +121,7 @@ You will not be able to change your answers after you hit the "Finish Exam" butt
                    x = x * 2
                    
     .. mchoice:: e12a13_5
+       :practice: T
        :answer_a: A
        :answer_b: B
        :answer_c: C

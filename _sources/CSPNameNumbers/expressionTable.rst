@@ -65,6 +65,7 @@ Summary of Expression Types
 +------------+-------------------------------------------------------------------------------------------------+
 
 .. mchoice:: 3_3_1_intDiv_Q1
+   :practice: T
    :answer_a: 0
    :answer_b: 1
    :answer_c: 0.75
@@ -78,6 +79,7 @@ Summary of Expression Types
    What is the result of ``3 / 4``?
     
 .. mchoice:: 3_3_2_mod_Q1
+   :practice: T
    :answer_a: 0
    :answer_b: 1
    :answer_c: 2
@@ -91,6 +93,7 @@ Summary of Expression Types
    What is the result of ``18 % 5``?
    
 .. mchoice:: 3_3_3_mod_Q2
+   :practice: T
    :answer_a: 0
    :answer_b: 1
    :answer_c: 2

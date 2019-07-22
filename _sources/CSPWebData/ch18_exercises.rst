@@ -436,7 +436,7 @@ This data set shows the monthly Dow Jones averages from 1989 to 2001. The data i
 
 If you want to see **all** of the data click on the *Show* button below.  Once it appears, you can hide it again by clicking on the *Hide* button.
 
-.. reveal:: pol_Data1
+.. reveal:: pol_Data2
    :showtitle: Show
    :hidetitle: Hide
 

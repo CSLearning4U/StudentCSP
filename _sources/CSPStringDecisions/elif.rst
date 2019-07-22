@@ -49,6 +49,8 @@ Which way is better?  It turns out that beginners have an easier time understand
 **Mixed up programs**
 
 .. parsonsprob:: 13_4_1_string_elif
+   :numbered: left
+   :adaptive:
 
    The following program should report which team won or if there was a tie.  But the code has been mixed up.  Drag it into the right order with the right indention.   
    -----

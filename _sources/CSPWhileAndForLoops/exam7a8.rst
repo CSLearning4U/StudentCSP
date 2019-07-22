@@ -12,6 +12,7 @@ You will not be able to change your answers after you hit the "Finish Exam" butt
 .. timed:: ch7a8ex
     
     .. mchoice:: e7a8_1
+       :practice: T
        :answer_a: Number: 10
        :answer_b: Number: number
        :answer_c: Number: 0
@@ -32,6 +33,7 @@ You will not be able to change your answers after you hit the "Finish Exam" butt
               number = number + 1
            
     .. mchoice:: e7a8_2
+       :practice: T
        :answer_a: 1
        :answer_b: 2
        :answer_c: 3
@@ -52,6 +54,7 @@ You will not be able to change your answers after you hit the "Finish Exam" butt
           
            
     .. mchoice:: e7a8_3
+       :practice: T
        :answer_a: The program will loop indefinitely
        :answer_b: The value of number will be printed exactly 1 time
        :answer_c: The while loop will never get executed
@@ -73,6 +76,7 @@ You will not be able to change your answers after you hit the "Finish Exam" butt
               print(number)
            
     .. mchoice:: e7a8_4
+       :practice: T
        :answer_a: 4
        :answer_b: 0
        :answer_c: 7
@@ -95,6 +99,7 @@ You will not be able to change your answers after you hit the "Finish Exam" butt
           print (sum)
            
     .. mchoice:: e7a8_5
+       :practice: T
        :answer_a: 12
        :answer_b: 9
        :answer_c: 7

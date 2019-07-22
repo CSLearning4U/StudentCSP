@@ -20,9 +20,9 @@ This section uses the same data file that we have been using, but if you want to
 .. reveal:: pol_Data_7
     :showtitle: Show
     :hidetitle: Hide
-    
+
     .. raw:: html
-    
+
        <pre id="uspoll.txt">
        Aberdeen, SD :13 :8
        Adrian, MI :15 :9
@@ -439,35 +439,35 @@ Now, let's reuse the average code and look for a particular state.
    :tour_1: "Structural tour"; 2-4: state3-line1-3; 7-9: state3-line5-7; 12: state3-line8; 15: state3-line9; 18: state3-line10; 21: state3-line11; 24: state3-line12; 25: state3-line13; 28: state3-line14; 31: state3-line16;
    :nocodelens:
 
-   # read all the lines 
+   # read all the lines
    infile = open("uspoll.txt","r")
    lines = infile.readlines()
    infile.close()
-   
+
    # initialize the variables
    state = "CA"
-   total25 = 0 
+   total25 = 0
    count = 1.0
-   
+
    # loop through the lines
    for line in lines:
-   
+
        # split at :
        values = line.split(":")
-       
-       # split at , 
+
+       # split at ,
        cityState = values[0].split(",")
-       
+
        # if found state
        if cityState[1].find(state) >= 0:
-       
+
            # add the current to the sum
-           new25 = float(values[2]) 
+           new25 = float(values[2])
            total25 = total25 + new25
-           
-           # increment the count 
+
+           # increment the count
            count = count + 1
-	 
+
    # print the average
    print("Average PM 2.5 value for " , state, " is ", total25/count)
 
@@ -479,9 +479,9 @@ Use the below active code area to figure out the PM 10 code.  Replace the lines 
    infile = open("uspoll.txt","r")
    lines = infile.readlines()
    infile.close()
-   
+
    state = "CA"
-   # create and initialize total10 
+   # create and initialize total10
    count = 1.0
    for line in lines:
        values = line.split(":")
@@ -490,23 +490,25 @@ Use the below active code area to figure out the PM 10 code.  Replace the lines 
            # get the current pollution value
            # add the current pollution to total10
            count = count + 1
-	 
+
    print("Average PM 10 value for ", state, " is ", total10/count)
 
 What states have the highest average pollution values?  What do you think is most related to pollution: Population, area, or wealth?  Does it differ by PM 2.5 and PM 10?  For a list of the state two-letter abbreviations see http://www.50states.com/abbreviations.htm#.VJCB9r5NsXc.
 
-.. parsonsprob:: 18_6_1_avg25
+.. parsonsprob:: 18_8_1_avg25
+   :numbered: left
+   :adaptive:
 
-   The following program prints the average PM 2.5 pollution for a state, but the code is mixed up. Drag the blocks of statements from the left column to the right column and put them in the right order.  Then click on <i>Check Me</i> to see if you are right. You will be told if any of the lines are in the wrong order or have the wrong indention. 
+   The following program prints the average PM 2.5 pollution for a state, but the code is mixed up. Drag the blocks of statements from the left column to the right column and put them in the right order.  Then click on <i>Check Me</i> to see if you are right. You will be told if any of the lines are in the wrong order or have the wrong indention.
    -----
-   # read all the lines 
+   # read all the lines
    infile = open("uspoll.txt","r")
    lines = infile.readlines()
    infile.close()
-   
+
    # initialize the variables
    state = "CA"
-   total25 = 0 
+   total25 = 0
    count = 1.0
    =====
    # loop through the lines
@@ -514,27 +516,27 @@ What states have the highest average pollution values?  What do you think is mos
    =====
        # split at :
        values = line.split(":")
-   =====    
-       # split at , 
+   =====
+       # split at ,
        cityState = values[0].split(",")
-   =====    
+   =====
        # if found state
        if cityState[1].find(state) >= 0:
-   =====   
+   =====
            # add the current to the sum
-           new25 = float(values[2]) 
-           total25 = total25 + new25 
-           
+           new25 = float(values[2])
+           total25 = total25 + new25
+
            # increment the count
            count = count + 1
-   ===== 
+   =====
    # print the average
    avg = total25/count
    print("Avg for " , state, " is ", avg)
 
 .. note::
 
-    Discuss topics in this section with classmates. 
+    Discuss topics in this section with classmates.
 
       .. disqus::
           :shortname: cslearn4u

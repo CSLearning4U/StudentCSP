@@ -18,6 +18,7 @@ This section provides more practice using the **stamp** procedure.
 **Mixed up program**
 
 .. parsonsprob:: 10_5_1_turtle-x
+   :numbered: left
    :adaptive:
 
    The following program uses the stamp method to create an X of turtle shapes as shown to the left, <img src="../_static/TurtleStampX.png" width="150" align="left" hspace="10" vspace="5" /> but the lines are mixed up.  The program should do all necessary set-up, create the turtle, set the shape to "turtle", and pick up the pen. Stamp the blue turtles before you stamp the green ones.   <br /><br /><p>Drag the needed blocks of statements from the left column to the right column and put them in the right order with the correct indention.  Click on <i>Check Me</i> to see if you are right. You will be told if any of the lines are in the wrong order or are the wrong blocks.</p>
@@ -59,6 +60,8 @@ This section provides more practice using the **stamp** procedure.
        nick.forward(30)
        
 .. parsonsprob:: 10_5_2_turtle-squares
+   :numbered: left
+   :adaptive:
 
    The following program uses the stamp method to create two squares of turtle shapes as shown to the left, <img src="../_static/TurtleStampDoubleSquare.png" width="150" align="left" hspace="10" vspace="5" /> but the lines are mixed up.  The program should do all necessary set-up, create the turtle, set the shape to "turtle", and pick up the pen.  Draw the blue square before you draw the green one.<br /><br /><p>Drag the needed blocks of statements from the left column to the right column and put them in the right order with the correct indention.  Click on <i>Check Me</i> to see if you are right. You will be told if any of the lines are in the wrong order or are the wrong blocks.</p>
    -----
