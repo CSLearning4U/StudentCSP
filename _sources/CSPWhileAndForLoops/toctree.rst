@@ -9,6 +9,6 @@ Chapter 8 - While and For Loops
    whileCount.rst
    while.rst
    nestedLoops.rst
-   ch8_summary.rst
-   ch8_exercises.rst
+   summary.rst
+   Exercises.rst
    exam7a8.rst

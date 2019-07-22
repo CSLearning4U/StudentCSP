@@ -8,6 +8,6 @@ Chapter 13 - Using Decisions with Strings
    input.rst
    fortuneTeller.rst
    elif.rst
-   ch13_summary.rst
-   ch13_exercises.rst
+   summary.rst
+   Exercises.rst
    exam12a13.rst

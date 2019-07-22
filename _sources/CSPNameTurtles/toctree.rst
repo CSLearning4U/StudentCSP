@@ -11,5 +11,5 @@ Chapter 5 - Names for Turtles
    multTurtles.rst
    house.rst
    changeProg.rst
-   ch5_summary.rst
-   ch5_exercises.rst
+   summary.rst
+   Exercises.rst

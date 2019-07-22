@@ -13,5 +13,5 @@ Chapter 16 - Working with Collections
    decRange.rst
    forEach.rst
    rainfall.rst
-   ch16_summary.rst
-   ch16_exercises.rst
+   summary.rst
+   Exercises.rst

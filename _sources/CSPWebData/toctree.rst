@@ -12,5 +12,5 @@ Chapter 18 - Working with Data on the Web
    avgPoll.rst
    datastates.rst
    findPollState.rst
-   ch18_summary.rst
-   ch18_exercises.rst
+   summary.rst
+   Exercises.rst
