@@ -95,6 +95,8 @@ Can you loop through and encode a string to hide the contents of the message?
    What is the value of encodedMessage after the loop executes the first time?  
 
 .. parsonsprob:: 9_4_3_Decode_String
+   :numbered: left
+   :adaptive:
 
    The program below decodes an encoded message, but the lines are mixed up.  Put the lines in the right order with the right indentation.
    -----

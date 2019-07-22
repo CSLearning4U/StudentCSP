@@ -45,6 +45,7 @@ Strings start with single quotes or double quotes.  As you have seen before you 
    If we wanted to add one line to the above to print "My name is MarkMarkMark", which one of these would do it? Choose all that are correct.
 	
 .. mchoice:: 16_2_2_lenString
+   :practice: T
    :answer_a: 5
    :answer_b: 6
    :answer_c: 7
@@ -58,6 +59,7 @@ Strings start with single quotes or double quotes.  As you have seen before you 
    What is the length of the string ``"Hi sis!"``?
 	   
 .. mchoice:: 16_2_3_addStrings
+   :practice: T
    :answer_a: Watch Out
    :answer_b: WatchOut 
    :answer_c: Watch Out Watch Out

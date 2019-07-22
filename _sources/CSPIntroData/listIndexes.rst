@@ -81,6 +81,7 @@ You can access individual items of a list just like they were variables.  Using 
 	Of the four items in the list named ``items``, which one is not changed in the program above?
 	
 .. mchoice:: 16_4_4_addLists
+   :practice: T
    :answer_a: [3, 2, 1]
    :answer_b: [2, 0, 2]
    :answer_c: [2, 2, 2]

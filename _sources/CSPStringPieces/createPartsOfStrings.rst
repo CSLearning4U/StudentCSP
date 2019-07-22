@@ -41,6 +41,7 @@ As we have seen before the ``find(string)`` function takes a target string as in
 **Check your understanding**
 
 .. mchoice:: 17_6_1_Find_red
+   :practice: T
    :answer_a: 1
    :answer_b: 9
    :answer_c: 10
@@ -60,6 +61,7 @@ As we have seen before the ``find(string)`` function takes a target string as in
      print(pos)
 
 .. mchoice:: 17_6_2_Find_Red
+   :practice: T
    :answer_a: 1
    :answer_b: 13
    :answer_c: 14

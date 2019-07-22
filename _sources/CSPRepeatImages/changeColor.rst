@@ -99,6 +99,8 @@ We can *increase* the red in a similar way. Let's change STEP 5, so that we incr
 Try the program above on some of the other images by changing the name of the image file on line 5.   What effect does it always have? Is this what you expected when you increase the red?  What happens if you increase two colors at the same time?
 
 .. parsonsprob:: Image_Decrease_GB
+   :numbered: left
+   :adaptive:
 
    Another way to get a similar effect to increasing the red, is to decrease the green and blue.  Figure out how to do that in the program above and then use that information to drag the code blocks below from the left to the right in the correct order with the correct indention. 
    -----

@@ -495,7 +495,9 @@ Use the below active code area to figure out the PM 10 code.  Replace the lines 
 
 What states have the highest average pollution values?  What do you think is most related to pollution: Population, area, or wealth?  Does it differ by PM 2.5 and PM 10?  For a list of the state two-letter abbreviations see http://www.50states.com/abbreviations.htm#.VJCB9r5NsXc.
 
-.. parsonsprob:: 18_8_avg25
+.. parsonsprob:: 18_8_1_avg25
+   :numbered: left
+   :adaptive:
 
    The following program prints the average PM 2.5 pollution for a state, but the code is mixed up. Drag the blocks of statements from the left column to the right column and put them in the right order.  Then click on <i>Check Me</i> to see if you are right. You will be told if any of the lines are in the wrong order or have the wrong indention.
    -----

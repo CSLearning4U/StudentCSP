@@ -62,6 +62,7 @@ ycor        None          Returns the y values of the turtle's position
 ==========  ==========  =========================
 
 .. mchoice:: 14_1_1_change_size
+   :practice: T
    :answer_a: shape
    :answer_b: xcor
    :answer_c: pensize
@@ -75,6 +76,7 @@ ycor        None          Returns the y values of the turtle's position
    What procedure would you use to change the size of the line the turtle leaves when it moves?
    
 .. mchoice:: 14_1_2_goto
+   :practice: T
    :answer_a: stamp
    :answer_b: xcor
    :answer_c: penup

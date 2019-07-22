@@ -45,6 +45,7 @@ In programming there are two different terms used for a named sequence of statem
   print(int(34.2))
   
 .. mchoice:: 6_2_1_Functions_Q1
+   :practice: T
    :answer_a: -16
    :answer_b: -16.789
    :answer_c: 16.789

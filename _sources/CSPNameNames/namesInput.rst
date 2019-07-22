@@ -57,6 +57,7 @@ But, this means we have to change each of the four ``forward`` statements and we
   square(malik)      	# draw a square with malik
   
 .. mchoice:: 6_4_1_Function_Var_Q1
+   :practice: T
    :answer_a: 100
    :answer_b: 50
    :answer_c: 200
@@ -109,6 +110,7 @@ We can add an additional input to the function that specifies the size of the sq
   square(malik, 25)   	# draw a square of size 25
   
 .. mchoice:: 6_4_2_Name_The_Shape_Q1
+   :practice: T
    :answer_a: square
    :answer_b: rectangle
    :answer_c: triangle
@@ -151,6 +153,7 @@ We can add an additional input to the function that specifies the size of the sq
 The inputs that are specified in a function or procedure definition are also called **parameters** or **formal parameters**.  So ``turtle`` and ``size`` are both parameters (formal parameters) in the ``square`` procedure.  Notice that when we call ``square`` we have to specify the actual values for the inputs.  The actual values passed into the function as inputs are called the **arguments** or **actual parameters**. In the call ``square(malik, 50)`` both ``malik`` and ``50`` are arguments (actual parameters) to the ``square`` procedure.  
 
 .. mchoice:: 6_4_3_Name_Args_Q1
+   :practice: T
    :answer_a: turtle and size
    :answer_b: malik and 25
    :answer_c: imani and 25
@@ -179,6 +182,8 @@ The inputs that are specified in a function or procedure definition are also cal
      square(imani, 25)      # draw a square with size 25
      
 .. parsonsprob:: 6_4_4_Draw_Squares
+   :numbered: left
+   :adaptive:
 
    The following code assumes that a procedure square has been defined that takes a size.  The code should create a turtle and then use it to draw a square, move forward, and draw a second square as shown at left, <img src="../_static/SquareForwardSquare.png" width="150" align="left" hspace="10" vspace="5"/> but the lines are mixed up.  Drag the lines into the correct order on the right.
    -----

@@ -115,6 +115,9 @@ We can see values (including the values for named variables) by printing them.  
 		   What three values are printed when this program runs?
    
 .. parsonsprob:: 3_7_4_Per_Person_Cost
+   :practice: T
+   :numbered: left
+   :adaptive:
 
    The following program should figure out the cost per person for a dinner including the tip. But the blocks have been mixed up.  Drag the blocks from the left and put them in the correct order on the right.  Click the <i>Check Me</i> button to check your solution.</p>
    -----

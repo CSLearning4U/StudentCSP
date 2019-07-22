@@ -20,12 +20,12 @@ Reading the data
 
 This section uses the same data file that we just saw. If you want to see **all** of the data click on the *Show* button below.  Once it appears, you can hide it again by clicking on the *Hide* button.
 
-.. reveal:: pol_Data3
+.. reveal:: pol_Data_18_3
     :showtitle: Show
     :hidetitle: Hide
-    
+
     .. raw:: html
-    
+
        <pre id="uspoll.txt">
        Aberdeen, SD :13 :8
        Adrian, MI :15 :9
@@ -421,10 +421,10 @@ In Python, we must **open** files before we can use them and **close** them when
 ================ ======================== =====================================================
 ``open``          ``open(filename,'r')``    Open a file called filename and use it for reading.  This will return a reference to a file object.
 ``open``          ``open(filename,'w')``    Open a file called filename and use it for writing.  This will also return a reference to a file object.
-``close``         ``filename.close()``      Closes the file after you are finished with it.  
+``close``         ``filename.close()``      Closes the file after you are finished with it.
 ================ ======================== =====================================================
 
-The code below will print out the pollution information for all the cities that start with ``"A"``.  It will print the city, state on one line and the two pollution values for that city on another line.  It stops looping when there aren't any more lines to be read (when the returned line is an empty string).  
+The code below will print out the pollution information for all the cities that start with ``"A"``.  It will print the city, state on one line and the two pollution values for that city on another line.  It stops looping when there aren't any more lines to be read (when the returned line is an empty string).
 
 .. activecode:: printData
    :tour_1: "Structural tour"; 2: web1-line4; 5: web1-line5; 8: web1-line6; 11: web1-line7; 14: web1-line8; 17: web1-line9; 18-19: web1-line10-11; 22: web1-line12; 25: web1-line14;
@@ -432,37 +432,39 @@ The code below will print out the pollution information for all the cities that 
 
    # open the file for reading
    inFile = open("uspoll.txt","r")
-   
+
    # read a line from the file
    line = inFile.readline()
-   
+
    # while there is another line
    while line:
-   
+
        # create a list by splitting at the :
        values = line.split(":")
-       
+
        # get the city from the list
        city = values[0]
-       
+
        # if the city starts with an A print the info
        if (city.find("A") == 0):
            print('City: ', city)
            print("Pollution values:",values[1],values[2])
-           
+
        # read the next line
        line = inFile.readline()
 
    # close the file
    inFile.close()
-   
+
 .. parsonsprob:: 18_3_1_printInfoForCity
+   :numbered: left
+   :adaptive:
 
    The following program prints the pollution information for all cities that start with a ``D``, but the code is mixed up.  Drag the blocks of statements from the left column to the right column and put them in the right order.  Then click on <i>Check Me</i> to see if you are right. You will be told if any of the lines are in the wrong order or have the wrong indention.
    -----
    # open the file for reading
    inFile = open("uspoll.txt","r")
-   
+
    # read a line from the file
    line = inFile.readline()
    =====
@@ -471,7 +473,7 @@ The code below will print out the pollution information for all the cities that 
    =====
        # split at the :
        v = line.split(":")
-       
+
        # get the city
        city = v[0]
    =====
@@ -479,13 +481,13 @@ The code below will print out the pollution information for all the cities that 
        if (city.find("D") == 0):
            print('City: ', city)
            print("Pollution values:",v[1],v[2])
-   ===== 
+   =====
        # read the next line
        line = inFile.readline()
    =====
    # close the file
    inFile.close()
-   
+
 
 There is actually a way of using a **for** loop to read in a file.  We can read the whole thing into one giant list, and then use a **for** loop to process each line in the list.
 
@@ -497,16 +499,16 @@ There is actually a way of using a **for** loop to read in a file.  We can read 
    inFile = open("uspoll.txt","r")
    lines = inFile.readlines()
    inFile.close()
-   
+
    # loop through the lines list
    for line in lines:
-   
+
        # split at :
        values = line.split(":")
-       
+
        # get the city
        city = values[0]
-       
+
        # if city starts with A print the info
        if (city.find("A") == 0):
            print('City: ', city)
@@ -515,29 +517,29 @@ There is actually a way of using a **for** loop to read in a file.  We can read 
 .. mchoice:: 18_3_1_for_disadvantage
    :answer_a: For a big data file, this could overload memory.
    :answer_b: <code>for</code> loops are inefficient.
-   :answer_c: <code>for</code> loops are not as flexible as <code>while</code> loops.  
+   :answer_c: <code>for</code> loops are not as flexible as <code>while</code> loops.
    :correct: a
-   :feedback_a: This will be true for very large data sets.  
-   :feedback_b: <code>for</code> loops and <code>while</code> loops have the same efficiency.  
+   :feedback_a: This will be true for very large data sets.
+   :feedback_b: <code>for</code> loops and <code>while</code> loops have the same efficiency.
    :feedback_c: <code>while</code> loops are flexible, but <code>for</code> loops are more understandable, so you should use what makes the most sense for you.
 
-   What is the disadvantage of the second program, with a ``for`` loop? 
+   What is the disadvantage of the second program, with a ``for`` loop?
 
 .. tabbed:: 18_3_2_WSt
 
         .. tab:: Question
 
-           Write code to that will read an input file uspoll.txt . It will print the city name and the pollution values for all cities that have a PM 10 pollution of 20 or more. 
-           
-           
+           Write code to that will read an input file uspoll.txt . It will print the city name and the pollution values for all cities that have a PM 10 pollution of 20 or more.
+
+
            .. activecode::  18_3_2_WSq
                :nocodelens:
 
         .. tab:: Answer
-            
+
           .. activecode::  18_3_2_WSa
               :nocodelens:
-              
+
               # open the file, read the lines into a list, and close the file
               inFile = open("uspoll.txt","r")
               line = inFile.readline()
@@ -556,8 +558,8 @@ There is actually a way of using a **for** loop to read in a file.  We can read 
                      line = inFile.readline()
 
               inFile.close()
-                                
-        .. tab:: Discussion 
+
+        .. tab:: Discussion
 
             .. disqus::
                 :shortname: cslearn4u
@@ -565,7 +567,7 @@ There is actually a way of using a **for** loop to read in a file.  We can read 
 
 .. note::
 
-    Discuss topics in this section with classmates. 
+    Discuss topics in this section with classmates.
 
       .. disqus::
           :shortname: cslearn4u

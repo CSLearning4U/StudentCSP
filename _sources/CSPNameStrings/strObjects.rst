@@ -100,6 +100,7 @@ A **slice** with two values separated with a ``:`` between them returns a new st
 **Check Your Understanding**
 
 .. mchoice:: 4_2_1_Slice
+   :practice: T
    :answer_a: This is the end
    :answer_b: This
    :answer_c: his
@@ -117,6 +118,7 @@ A **slice** with two values separated with a ``:`` between them returns a new st
      print(str)
      
 .. mchoice:: 4_2_2_Slice2
+   :practice: T
    :answer_a: i
    :answer_b: s
    :answer_c: is the end
@@ -173,6 +175,7 @@ The ``find(string)`` function takes a string as input and returns the index wher
    **Check your understanding**
    
 .. mchoice:: 4_2_3_stringLen
+   :practice: T
    :answer_a: 13
    :answer_b: 15
    :answer_c: 10
@@ -190,6 +193,7 @@ The ``find(string)`` function takes a string as input and returns the index wher
      print(len(street))
      
 .. mchoice:: 4_2_4_Find
+   :practice: T
    :answer_a: 1
    :answer_b: 9
    :answer_c: 10

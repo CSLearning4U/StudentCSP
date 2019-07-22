@@ -12,6 +12,7 @@ You will not be able to change your answers after you hit the "Finish Exam" butt
 .. timed:: ch14a15ex
     
     .. mchoice:: e14a15_1
+       :practice: T
        :answer_a: y % 1
        :answer_b: y % 2
        :answer_c: y % 3
@@ -25,6 +26,7 @@ You will not be able to change your answers after you hit the "Finish Exam" butt
        Which of the following expressions gives you 3 possible results for all values of y?
            
     .. mchoice:: e14a15_2
+       :practice: T
        :answer_a: newPixel = image.Pixel(r, g, b)
        :answer_b: img.setPixel(x, y, newPixel)
        :answer_c: p = img.getPixel(x, y)
@@ -38,6 +40,7 @@ You will not be able to change your answers after you hit the "Finish Exam" butt
        Which of the following statements actually changes the image?
        
     .. mchoice:: e14a15_3
+       :practice: T
        :answer_a: The program removes all the red from the image
        :answer_b: The program changes all the red pixels to a single color
        :answer_c: The program changes all the pixels to have some red
@@ -83,6 +86,7 @@ You will not be able to change your answers after you hit the "Finish Exam" butt
           img.draw(win)
               
     .. mchoice:: e14a15_4
+       :practice: T
        :answer_a: Vertical stripes that alternate between red and black and start with red.
        :answer_b: Vertical stripes that alternate between black and red and start with black.
        :answer_c: Horizontal stripes that alternate between red and black and start with red.
@@ -116,6 +120,7 @@ You will not be able to change your answers after you hit the "Finish Exam" butt
           sue.forward(height)
                    
     .. mchoice:: e14a15_5
+       :practice: T
        :answer_a: A random value between 10 and 20 
        :answer_b: A random value between 11 and 19 
        :answer_c: A random value between 11 and 20 

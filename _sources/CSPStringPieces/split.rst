@@ -32,6 +32,7 @@ Try running this program.
    print(pieces[0])
 
 .. mchoice:: 17_3_1_question_firstsplit
+   :practice: T
    :answer_a: Smith
    :answer_b: girl
    :answer_c: 65 Elm Street
@@ -47,6 +48,7 @@ Try running this program.
    What do you think we would get if we executed ``print(pieces[3])``
 
 .. mchoice:: 17_3_2_question_firstsplit2
+   :practice: T
    :answer_a: Smith
    :answer_b: girl
    :answer_c: 65 Elm Street

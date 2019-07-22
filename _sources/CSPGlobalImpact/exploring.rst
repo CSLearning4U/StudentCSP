@@ -16,6 +16,8 @@ Exploring Impact Data
 .. index:: Global Impact
 
 .. parsonsprob:: 21_1_1_impact
+   :numbered: left
+   :adaptive:
 
    Sort the following technological innovations by the number of **human interactions** they have each second. (Sort from most to least.)
   

@@ -81,6 +81,9 @@ The next type of problem is new.  It shows correct code in code blocks on the le
     :align: center
 
 .. parsonsprob:: 3_6_1_Ketchup_Speed
+   :practice: T
+   :numbered: left
+   :adaptive:
 
    The following program figures out the ketchup speed in feet per <i>seconds</i>.  Drag the blocks from the left and put them in the correct order on the right.  Click the <i>Check Me</i> button to check your solution.</p>
    -----
