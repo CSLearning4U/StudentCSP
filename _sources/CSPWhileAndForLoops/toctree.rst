@@ -11,4 +11,5 @@ Chapter 8 - While and For Loops
    nestedLoops.rst
    summary.rst
    Exercises.rst
+   mixup_WhileAndFor.rst
    exam7a8.rst

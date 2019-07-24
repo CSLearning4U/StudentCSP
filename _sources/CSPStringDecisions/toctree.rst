@@ -10,4 +10,5 @@ Chapter 13 - Using Decisions with Strings
    elif.rst
    summary.rst
    Exercises.rst
+   mixup_IF.rst
    exam12a13.rst

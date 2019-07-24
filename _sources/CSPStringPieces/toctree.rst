@@ -13,3 +13,4 @@ Chapter 17 - Getting pieces out of strings and lists
    summary.rst
    Exercises.rst
    exam16a17.rst
+   mix_stringPieces.rst

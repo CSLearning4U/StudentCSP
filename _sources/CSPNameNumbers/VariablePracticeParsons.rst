@@ -8,10 +8,11 @@ Mixed Up Code Practice
 Try to solve each of the following. Click the *Check Me* button to check each solution.  You will be told if your solution is too short, has a block in the wrong order, or you are using the wrong block.  Some of the problems have an extra block that isn't needed in the correct solution.  Try to solve these on your phone or other mobile device!
 
 .. parsonsprob:: ch3ex1muc
+   :numbered: left
    :adaptive:
    :noindent:
 
-   The following program segment should print out the cost for each shirt if they are buy 2 and get the third free but were originally $45 each.  The blocks have been mixed up.  Drag the blocks from the left and put them in the correct order on the right.  Click the <i>Check Me</i> button to check your solution.</p>
+   The following program segment should print out the cost for each shirt if they are to buy 2 and get the third free but were originally $45 each.  The blocks have been mixed up.  Drag the blocks from the left and put them in the correct order on the right.  Click the <i>Check Me</i> button to check your solution.</p>
    -----
    price = 45
    =====
@@ -23,6 +24,7 @@ Try to solve each of the following. Click the *Check Me* button to check each so
 
 
 .. parsonsprob:: ch3ex2muc
+   :numbered: left
    :adaptive:
    :noindent:
 
@@ -42,6 +44,7 @@ Try to solve each of the following. Click the *Check Me* button to check each so
    print(perpersoncost) #distractor
 
 .. parsonsprob:: ch3ex3muc
+   :numbered: left
    :adaptive:
    :noindent:
 
@@ -59,6 +62,7 @@ Try to solve each of the following. Click the *Check Me* button to check each so
    amountLeft = totalPunch / oInCup #distractor
 
 .. parsonsprob:: ch3ex4muc
+   :numbered: left
    :adaptive:
    :noindent:
 
@@ -77,6 +81,7 @@ Try to solve each of the following. Click the *Check Me* button to check each so
    total = sInDay / 5 #distractor
 
 .. parsonsprob:: ch3ex5muc
+   :numbered: left
    :adaptive:
    :noindent:
 
@@ -94,6 +99,7 @@ Try to solve each of the following. Click the *Check Me* button to check each so
    numWeeks = weeklyRate / goal #distractor
 
 .. parsonsprob:: ch3ex6muc
+   :numbered: left
    :adaptive:
    :noindent:
 
@@ -112,6 +118,7 @@ Try to solve each of the following. Click the *Check Me* button to check each so
    print(totalCost) #distractor
 
 .. parsonsprob:: ch3ex7muc
+   :numbered: left
    :adaptive:
    :noindent:
 
@@ -130,6 +137,7 @@ Try to solve each of the following. Click the *Check Me* button to check each so
    tankHolds = 26 #distractor
 
 .. parsonsprob:: ch3ex8muc
+   :numbered: left
    :adaptive:
    :noindent:
 
@@ -145,6 +153,7 @@ Try to solve each of the following. Click the *Check Me* button to check each so
    print(NumWings) #distractor
 
 .. parsonsprob:: ch3ex9muc
+   :numbered: left
    :adaptive:
    :noindent:
 
@@ -162,6 +171,7 @@ Try to solve each of the following. Click the *Check Me* button to check each so
    finalPrice = price - discount #distractor
 
 .. parsonsprob:: ch3ex10muc
+   :numbered: left
    :adaptive:
    :noindent:
 
@@ -176,3 +186,40 @@ Try to solve each of the following. Click the *Check Me* button to check each so
    print(itemPrice)
    =====
    itemPrice = priceForTwo / 2 #distractor
+
+.. parsonsprob:: ch3ex11muc
+   :numbered: left
+   :adaptive:
+   :noindent:
+
+   Arrange the code so the following is displayed in order: 55, "computer science", 0. The blocks have been mixed up and include an extra block that isn't needed in the solution.  Drag the needed blocks from the left and put them in the correct order on the right.  Click the <i>Check Me</i> button to check your solution.</p>
+   -----
+   apple <- "computer science"
+   number <- 55
+   Michigan <- 0
+   =====
+   DISPLAY(number)
+   =====
+   DISPLAY(apple)
+   =====
+   DISPLAY(Michigan)
+   =====
+   DISPLAY(0) #distractor
+
+.. parsonsprob:: ch3ex12muc
+   :adaptive:
+   :noindent:
+   :numbered:left
+
+   The following program segment should swap the values of x and y after val1 and val 2 are assigned to x and y, respectively. But, the blocks have been mixed up and include an extra block that isn't needed in the solution.  Drag the needed blocks from the left and put them in the correct order on the right.  Click the <i>Check Me</i> button to check your solution.</p>
+   -----
+   x <- val1
+   y <- val2
+   =====
+   temp <- x
+   =====
+   x <- y
+   =====
+   y <- temp
+   =====
+   temp <- y #distractor
