@@ -45,6 +45,7 @@ The function ``len`` will return the number of items in the list.  You can do "a
   print(mySecondList)
 
 .. mchoice:: 16_3_1_lenList
+   :practice: T
    :answer_a: 1
    :answer_b: 3
    :answer_c: 4
@@ -58,6 +59,7 @@ The function ``len`` will return the number of items in the list.  You can do "a
    What is the length of the list ["Sue","Maria",5,"Erica"]?
 
 .. mchoice:: 16_3_2_addLists
+   :practice: T
    :answer_a: 1
    :answer_b: 2
    :answer_c: 3

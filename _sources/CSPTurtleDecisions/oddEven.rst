@@ -72,6 +72,8 @@ Try to change the code above to use both an ``elif`` and ``else`` to draw three 
 **Mixed up programs**
 
 .. parsonsprob:: 14_3_2_vert_stripes
+   :numbered: left
+   :adaptive:
 
    The following program should draw vertical color stipes alternating between red and black, but the code is mixed up.  Drag the block from left to right and place them in the correct order with the correct indention.
    -----

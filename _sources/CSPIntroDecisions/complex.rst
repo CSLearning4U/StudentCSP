@@ -46,6 +46,7 @@ A common use of ``and`` is to check that a value is in a range between a minimum
   print ("All done")
   
 .. mchoice:: 12_5_1_and1
+  :practice: T
   :answer_a: 1 to 10
   :answer_b: 0 to 9
   :answer_c: 1 to 9
@@ -74,6 +75,7 @@ A common use of ``or`` is to check if either one of two conditions are true.  Fo
   print ("All done")
   
 .. mchoice:: 12_5_2_or1
+  :practice: T
   :answer_a: all values of x
   :answer_b: 1 to 9
   :answer_c: 0 to 9

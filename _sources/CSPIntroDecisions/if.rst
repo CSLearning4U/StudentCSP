@@ -50,6 +50,7 @@ indented block if the logical expression was true.  If the logical expression wa
     Figure 3: Flow of execution for an if statement
     
 .. mchoice:: 12_2_1_If_Structure
+  :practice: T
   :answer_a: line 3
   :answer_b: line 4
   :correct: b

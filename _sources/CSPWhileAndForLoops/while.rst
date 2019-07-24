@@ -77,6 +77,7 @@ Let's say that you wanted to figure out the square root of 6.  How many times wo
 How about the square root of 25?  How about 2,356?  It's difficult to know ahead of time how many times the loop will execute.  That's where the ``while`` loop really shines, when you can specify an end condition (or rather, a *continue* condition).
 
 .. mchoice:: 8_4_3_Var1Var2
+   :practice: T
    :answer_a: var1 = -2, var2 = 0
    :answer_b: var1 = 0, var2 = -2
    :answer_c: var1 = 0, var2 = -1

@@ -86,6 +86,8 @@ Every turtle object has its own attributes like its current position and color. 
 **Mixed up programs**
 
 .. parsonsprob:: 5_4_2_JandT
+   :numbered: left
+   :adaptive:
 
    The following program has one turtle, "jamal", draw a capital L in blue and then another, "tina", draw a line to the west in orange as shown to the left, <img src="../_static/TwoTurtles1N.png" width="150" align="left" hspace="10" vspace="5" />.  The program should do all set-up, have "jamal" draw the L, and then have "tina" draw the line.   <br /><br /><p>Drag the blocks of statements from the left column to the right column and put them in the right order.  Then click on <i>Check Me</i> to see if you are right. You will be told if any of the lines are in the wrong order or are the wrong blocks.</p>
    -----
@@ -120,6 +122,7 @@ Every turtle object has its own attributes like its current position and color. 
    tina.forward(75)
 
 .. parsonsprob:: 5_4_3_JandT2
+   :numbered: left
    :adaptive:
 
    The following program has one turtle, "jamal", draw a line to the north in blue and then another, "tina", draw a line to the east in orange as shown to the left <img src="../_static/TwoTurtlesLN.png" width="150" align="left" hspace="10" vspace="5" />.  The program should import the turtle module, get the window to draw on, create the turtle "jamal", have it draw a line to the north, then create the turtle "tina", and have it draw a line to the east.  <br /><br /><p>Drag the blocks of statements from the left column to the right column and put them in the right order.  Then click on <i>Check Me</i> to see if you are right. You will be told if any of the lines are in the wrong order or are the wrong blocks.</p> 

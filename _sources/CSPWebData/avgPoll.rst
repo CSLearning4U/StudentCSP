@@ -459,6 +459,8 @@ Now, replace the lines that start with ``#`` below to write the code to get the 
    print("Average PM 10 value is ",total10/count)
    
 .. parsonsprob:: 18_6_1_avg25
+   :numbered: left
+   :adaptive:
 
    The following program prints the maximum PM 2.5 pollution found, but the code is mixed up.  Drag the blocks of statements from the left column to the right column and put them in the right order.  Then click on <i>Check Me</i> to see if you are right. You will be told if any of the lines are in the wrong order or have the wrong indention. 
    -----

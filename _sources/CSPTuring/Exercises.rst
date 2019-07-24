@@ -100,11 +100,11 @@ You will not be able to change your answers after you hit the "Finish Exam" butt
          zari.setheading(90)         
          zari.forward(100)           # tell zari to move forward by 100 units
          zari.right(90)              # turn by 90 degrees
-         zari.forward(50)           # tell zari to move forward by 100 units
+         zari.forward(50)           # tell zari to move forward by 50 units
          zari.right(90)              # turn by 90 degrees
          zari.forward(100)           # tell zari to move forward by 100 units
          zari.right(90)              # turn by 90 degrees
-         zari.forward(50)           # tell zari to move forward by 100 units
+         zari.forward(50)           # tell zari to move forward by 50 units
          zari.right(90)              # turn by 90 degrees
     
 

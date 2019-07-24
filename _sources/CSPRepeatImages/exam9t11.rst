@@ -12,6 +12,7 @@ You will not be able to change your answers after you hit the "Finish Exam" butt
 .. timed:: ch9t10ex
     
     .. mchoice:: e9t11_1
+       :practice: T
        :answer_a: !We're off to see the Wizard!
        :answer_b: !draziW eht ees ot ffo er'eW!
        :answer_c: We're off to see the Wizard!!draziW eht ees ot ffo er'eW
@@ -33,6 +34,7 @@ You will not be able to change your answers after you hit the "Finish Exam" butt
           print (newString)
            
     .. mchoice:: e9t11_2
+       :practice: T
        :answer_a: X = 5 and Y = 72
        :answer_b: X = 36 and Y = 10
        :answer_c: X = 10 and Y = 36
@@ -56,6 +58,7 @@ You will not be able to change your answers after you hit the "Finish Exam" butt
               zoe.right(Y)           # And turn each one by Y
           
     .. mchoice:: e9t11_3
+       :practice: T
        :answer_a: Pictures are made up of little pixels, laid out on an (x,y) grid.
        :answer_b: Each pixel is stored as a number between 0 and 255.
        :answer_c: Each color has a red part, a green part, and a blue part.
@@ -69,6 +72,7 @@ You will not be able to change your answers after you hit the "Finish Exam" butt
        Which of the following statements is false?
        
     .. mchoice:: e9t11_4
+       :practice: T
        :answer_a: Double the blue and green values in the picture
        :answer_b: Halve the blue and green values in the picture
        :answer_c: Set the green values to half the original blue and the blue to half the original green
@@ -96,6 +100,7 @@ You will not be able to change your answers after you hit the "Finish Exam" butt
           img.draw(win)
           
     .. mchoice:: e9t11_5
+       :practice: T
        :answer_a: <img src="../_static/turtleStamp5.png" alt="5 turtles facing out in a circle with one in the center facing east" width="300">
        :answer_b: <img src="../_static/turtleStamp5WithLines.png" alt="5 turtles facing out in a circle with one in the center facing east with lines from the center to each turtle on the circle" width="300">
        :answer_c: <img src="../_static/turtleStamp10.png" alt="10 turtles facing out in a circle with one in the center facing east" width="300">

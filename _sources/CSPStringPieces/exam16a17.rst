@@ -12,6 +12,7 @@ You will not be able to change your answers after you hit the "Finish Exam" butt
 .. timed:: ch16a17ex
     
     .. mchoice:: e16a17_1
+       :practice: T
        :answer_a: [1, 2, 4, 8, 16, 32, 64, 128, 256, 512, 1204, 2048]
        :answer_b: [1, 4, 16, 64, 256, 1024]
        :answer_c: [2, 8, 32, 128, 512, 2048]
@@ -35,6 +36,7 @@ You will not be able to change your answers after you hit the "Finish Exam" butt
           print (answer)
            
     .. mchoice:: e16a17_2
+       :practice: T
        :answer_a: Crfyro
        :answer_b: SC rof yarooH
        :answer_c: S o ao
@@ -58,6 +60,7 @@ You will not be able to change your answers after you hit the "Finish Exam" butt
           print (answer)
        
     .. mchoice:: e16a17_3
+       :practice: T
        :answer_a: Charlie
        :answer_b: Brown
        :answer_c: football
@@ -83,6 +86,7 @@ You will not be able to change your answers after you hit the "Finish Exam" butt
            example("Charlie Brown,boy,football", 8)
            
     .. mchoice:: e16a17_4
+       :practice: T
        :answer_a: yad ecin a si tI
        :answer_b: It is a nice day
        :answer_c: The empty string
@@ -104,6 +108,7 @@ You will not be able to change your answers after you hit the "Finish Exam" butt
           print resString
           
     .. mchoice:: e16a17_5
+       :practice: T
        :answer_a: 10 and -1
        :answer_b: 5 and 2
        :answer_c: 10 and 4 
@@ -125,6 +130,7 @@ You will not be able to change your answers after you hit the "Finish Exam" butt
           print (b[1])
           
     .. mchoice:: e16a17_6
+       :practice: T
        :answer_a: The printed result will be even and will be printed with a decimal point
        :answer_b: The printed result will be odd and will be printed with a decimal point
        :answer_c: The printed result will be even and will be printed without a decimal point
@@ -146,6 +152,7 @@ You will not be able to change your answers after you hit the "Finish Exam" butt
           print (t)
           
     .. mchoice:: e16a17_7
+       :practice: T
        :answer_a: ueauue
        :answer_b: ueayuyue
        :answer_c: bbrbbybggybmprs
