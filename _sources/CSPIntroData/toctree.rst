@@ -14,4 +14,5 @@ Chapter 16 - Working with Collections
    forEach.rst
    rainfall.rst
    summary.rst
+   mixup_data.rst
    Exercises.rst

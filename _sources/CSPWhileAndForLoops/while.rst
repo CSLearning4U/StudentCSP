@@ -9,7 +9,7 @@
 .. 	qnum::
 	:start: 1
 	:prefix: csp-8-4-
-	
+
 .. highlight:: java
    :linenothreshold: 4
 
@@ -17,7 +17,7 @@
 Looping When We Don't Know When We'll Stop
 ============================================
 
-While loops are typically used when you don't know how many times the loop needs to repeat.  The body of the loop will repeat while the condition is true.  The logical expression will be evaluated just before the body of the loop is repeated.  
+While loops are typically used when you don't know how many times the loop needs to repeat.  The body of the loop will repeat while the condition is true.  The logical expression will be evaluated just before the body of the loop is repeated.
 
 Let's say that we want to find the square root of a number.  For some square roots, you're never going to be exact.  Let's say that we want to find a square root that, when multiplied by itself, is within `0.01` of the square we want.  How do we do it?  There's a really old process that we can apply here.
 
@@ -52,7 +52,7 @@ Here's a program that does exactly that.  Try different `target` values, and see
 
    What would happen if we didn't compute ``guessSquared`` before the ``while`` loop?
 
-Let's say that you wanted to figure out the square root of 6.  How many times would the body of the ``while`` loop be executed?  We could figure it out by tracing the program.  
+Let's say that you wanted to figure out the square root of 6.  How many times would the body of the ``while`` loop be executed?  We could figure it out by tracing the program.
 
 .. the video is square-root-trace.mov
 
@@ -67,7 +67,7 @@ Let's say that you wanted to figure out the square root of 6.  How many times wo
   :answer_c: Three times.
   :answer_d: Four times
   :correct: c
-  :feedback_a: The first time we do the test, guess is 2, and 2 * 2 is 4, and 6 - 4 is 2 which is greater than 0.01.  
+  :feedback_a: The first time we do the test, guess is 2, and 2 * 2 is 4, and 6 - 4 is 2 which is greater than 0.01.
   :feedback_b: The second time we do the test, guess is 2.5 (average of 3 and 2). But, 2.5 * 2.5 = 6.25 which is still more than 0.01 away from 6.
   :feedback_c: The third time we do the test, guess is 2.45 which is 6.0025 when squared.  This is less than 0.01 away from 6.  So test executes 3 times.
   :feedback_d: We don't get to a fourth time.  Guess is 2, then 2.5, then 2.45 at which point the test fails and and the loop stops.
@@ -89,9 +89,9 @@ How about the square root of 25?  How about 2,356?  It's difficult to know ahead
    :feedback_d: This would be true if it was <code>var1 = var1 - 1</code>
 
    What are the values of var1 and var2 that are printed when the following code executes?
-   
-   :: 
-      
+
+   ::
+
       var1 = -2
       var2 = 0
       while var1 != 0:
@@ -101,7 +101,7 @@ How about the square root of 25?  How about 2,356?  It's difficult to know ahead
 
 .. note::
 
-    Discuss topics in this section with classmates. 
+    Discuss topics in this section with classmates.
 
       .. disqus::
           :shortname: cslearn4u
