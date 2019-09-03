@@ -9,6 +9,7 @@ Try to solve each of the following. Click the *Check Me* button to check each so
 
 .. parsonsprob:: ch3ex1muc
    :numbered: left
+   :practice: T
    :adaptive:
    :noindent:
 
@@ -25,6 +26,7 @@ Try to solve each of the following. Click the *Check Me* button to check each so
 
 .. parsonsprob:: ch3ex2muc
    :numbered: left
+   :practice: T
    :adaptive:
    :noindent:
 
@@ -43,8 +45,10 @@ Try to solve each of the following. Click the *Check Me* button to check each so
    =====
    print(perpersoncost) #distractor
 
+
 .. parsonsprob:: ch3ex3muc
    :numbered: left
+   :practice: T
    :adaptive:
    :noindent:
 
@@ -61,8 +65,10 @@ Try to solve each of the following. Click the *Check Me* button to check each so
    =====
    amountLeft = totalPunch / oInCup #distractor
 
+
 .. parsonsprob:: ch3ex4muc
    :numbered: left
+   :practice: T
    :adaptive:
    :noindent:
 
@@ -80,8 +86,10 @@ Try to solve each of the following. Click the *Check Me* button to check each so
    =====
    total = sInDay / 5 #distractor
 
+
 .. parsonsprob:: ch3ex5muc
    :numbered: left
+   :practice: T
    :adaptive:
    :noindent:
 
@@ -98,8 +106,10 @@ Try to solve each of the following. Click the *Check Me* button to check each so
    =====
    numWeeks = weeklyRate / goal #distractor
 
+
 .. parsonsprob:: ch3ex6muc
    :numbered: left
+   :practice: T
    :adaptive:
    :noindent:
 
@@ -117,8 +127,10 @@ Try to solve each of the following. Click the *Check Me* button to check each so
    =====
    print(totalCost) #distractor
 
+
 .. parsonsprob:: ch3ex7muc
    :numbered: left
+   :practice: T
    :adaptive:
    :noindent:
 
@@ -136,8 +148,10 @@ Try to solve each of the following. Click the *Check Me* button to check each so
    mpg = 15
    tankHolds = 26 #distractor
 
+
 .. parsonsprob:: ch3ex8muc
    :numbered: left
+   :practice: T
    :adaptive:
    :noindent:
 
@@ -152,8 +166,10 @@ Try to solve each of the following. Click the *Check Me* button to check each so
    =====
    print(NumWings) #distractor
 
+
 .. parsonsprob:: ch3ex9muc
    :numbered: left
+   :practice: T
    :adaptive:
    :noindent:
 
@@ -170,8 +186,10 @@ Try to solve each of the following. Click the *Check Me* button to check each so
    =====
    finalPrice = price - discount #distractor
 
+
 .. parsonsprob:: ch3ex10muc
    :numbered: left
+   :practice: T
    :adaptive:
    :noindent:
 
@@ -187,8 +205,10 @@ Try to solve each of the following. Click the *Check Me* button to check each so
    =====
    itemPrice = priceForTwo / 2 #distractor
 
+
 .. parsonsprob:: ch3ex11muc
    :numbered: left
+   :practice: T
    :adaptive:
    :noindent:
 
@@ -207,9 +227,10 @@ Try to solve each of the following. Click the *Check Me* button to check each so
    DISPLAY(0) #distractor
 
 .. parsonsprob:: ch3ex12muc
+   :numbered: left
+   :practice: T
    :adaptive:
    :noindent:
-   :numbered:left
 
    The following program segment should swap the values of x and y after val1 and val 2 are assigned to x and y, respectively. But, the blocks have been mixed up and include an extra block that isn't needed in the solution.  Drag the needed blocks from the left and put them in the correct order on the right.  Click the <i>Check Me</i> button to check your solution.</p>
    -----
