@@ -60,8 +60,7 @@ Try to solve each of the following. Click the *Check Me* button to check each so
    totalPunch = 2 * oInGallon
    =====
    amountLeft = totalPunch % oInCup
-   =====
-   print(amountLeft)
+   =====print(amountLeft)
    =====
    amountLeft = totalPunch / oInCup #distractor
 
