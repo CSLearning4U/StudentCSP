@@ -140,6 +140,7 @@ We can see values (including the values for named variables) by printing them.  
            
            .. activecode::  3_7_5_WSq
                :nocodelens:
+	       # Type your code here			
 
         .. tab:: Answer
         
