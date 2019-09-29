@@ -140,6 +140,17 @@ We can see values (including the values for named variables) by printing them.  
            
            .. activecode::  3_7_5_WSq
                :nocodelens:
+	       
+	       # Fill in the missing values from the description above
+	       numPeople = 
+	       
+	       appetizer = 
+	       entree = 
+	       dessert =
+	       
+	       bill = (??? + ???) * numPeople + ???
+	       
+	       print (bill)
 
         .. tab:: Answer
         
@@ -148,16 +159,14 @@ We can see values (including the values for named variables) by printing them.  
             .. activecode::  3_7_5_WSa
                 :nocodelens:
                 
-                # DECLARE VARIABLES AND ASSIGN VALUES
-                costPerApp = 2.00
-                costPerEntree = 9.89
-                costPerDessert = 7.99
-                # CREATE FORMULA FOR BILL CALCULATION
-                appCost = costPerApp * 10
-                entreeCost = costPerEntree * 10
-                totalBill = appCost + entreeCost + costPerDessert
-                # PRINT THE RESULT
-                print(totalBill)
+	       numPeople = 10
+	       appetizer = 2
+	       entree = 9.89
+	       dessert = 7.99
+	       
+	       bill = (appetizer + entree) * numPeople + dessert
+	       
+	       print (bill)
                                 
         .. tab:: Discussion 
 
