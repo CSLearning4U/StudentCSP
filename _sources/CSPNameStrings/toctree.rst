@@ -11,3 +11,4 @@ Chapter 4 - Names for Strings
    summary.rst
    Exercises.rst
    exam3a4.rst
+   mixedUpStrings.rst

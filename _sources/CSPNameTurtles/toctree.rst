@@ -13,3 +13,4 @@ Chapter 5 - Names for Turtles
    changeProg.rst
    summary.rst
    Exercises.rst
+   mixedUpTurtles.rst
