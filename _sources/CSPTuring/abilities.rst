@@ -12,7 +12,7 @@
 
 .. 	qnum::
 	:start: 1
-	:prefix: csp-2-3-
+	:prefix: csp-2-4-
 
 Computer Abilities
 ==================================
@@ -23,4 +23,3 @@ In this book, we are going to talk about what a computer can do in terms of the 
 - Computers can repeat steps.
 - Computers can make decisions.
 - Computers can take data apart.
-
