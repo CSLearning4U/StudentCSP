@@ -16,7 +16,7 @@ sys.path.append(os.getcwd())
 
 home_dir = os.getcwd()
 
-project_name = "studentcsp"
+project_name = "StudentCSP"
 
 #master_url = None
 #if master_url is None:
@@ -36,7 +36,7 @@ if master_url is None:
     master_url = get_master_url()
 
 master_app = 'runestone'
-serving_dir = "./build/studentcsp"
+serving_dir = "./build/StudentCSP"
 
 #new 7/2019 changes
 # Change to False when running localhost 
@@ -56,9 +56,9 @@ options(
     sphinx = Bunch(docroot=".",),
 
     build = Bunch(
-        builddir="./build/studentcsp",
+        builddir="./build/StudentCSP",
         sourcedir="_sources",
-        outdir="./build/studentcsp",
+        outdir="./build/StudentCSP",
         confdir=".",
         project_name=project_name,
         template_args={'course_id': project_name,
@@ -69,7 +69,7 @@ options(
                        'use_services': 'true',
                        'python3': 'true',
                        'dburl': 'postgresql://runestone@localhost/runestone',
-                       'basecourse': 'studentcsp',
+                       'basecourse': 'StudentCSP',
                         # new 7/2019 changes
                        'dynamic_pages': dynamic_pages,
                        'downloads_enabled': 'false',
@@ -78,6 +78,9 @@ options(
                         }
     )
 )
+
+version = pkg_resources.require("runestone")[0].version
+options.build.template_args['runestone_version'] = version
 
 # Check to see if we are building on our Jenkins build server, if so use the environment variables
 # to update the DB information for this build
