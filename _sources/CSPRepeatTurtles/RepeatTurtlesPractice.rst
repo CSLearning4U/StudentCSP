@@ -21,7 +21,13 @@ This section provides more practice using the **stamp** procedure.
    :numbered: left
    :adaptive:
 
-   The following program uses the stamp method to create an X of turtle shapes as shown to the left, <img src="../_static/TurtleStampX.png" width="150" align="left" hspace="10" vspace="5" /> but the lines are mixed up.  The program should do all necessary set-up, create the turtle, set the shape to "turtle", and pick up the pen. Stamp the blue turtles before you stamp the green ones.   <br /><br /><p>Drag the needed blocks of statements from the left column to the right column and put them in the right order with the correct indention.  Click on <i>Check Me</i> to see if you are right. You will be told if any of the lines are in the wrong order or are the wrong blocks.</p>
+   The following program uses the stamp method to create an X of turtle shapes as shown below, but the lines are mixed up.  The program should do all necessary set-up, create the turtle, set the shape to "turtle", and pick up the pen. Stamp the blue turtles before you stamp the green ones.
+
+   .. image:: ../../_static/TurtleStampX.png
+       :width: 150px
+       :align: center
+   
+   Drag the needed blocks of statements from the left column to the right column and put them in the right order with the correct indention.  Click on 'Check' to see if you are right. You will be told if any of the lines are in the wrong order or are the wrong blocks.
    -----
    from turtle import *
    =====
@@ -63,7 +69,13 @@ This section provides more practice using the **stamp** procedure.
    :numbered: left
    :adaptive:
 
-   The following program uses the stamp method to create two squares of turtle shapes as shown to the left, <img src="../_static/TurtleStampDoubleSquare.png" width="150" align="left" hspace="10" vspace="5" /> but the lines are mixed up.  The program should do all necessary set-up, create the turtle, set the shape to "turtle", and pick up the pen.  Draw the blue square before you draw the green one.<br /><br /><p>Drag the needed blocks of statements from the left column to the right column and put them in the right order with the correct indention.  Click on <i>Check Me</i> to see if you are right. You will be told if any of the lines are in the wrong order or are the wrong blocks.</p>
+   The following program uses the stamp method to create two squares of turtle shapes as shown below, but the lines are mixed up.  The program should do all necessary set-up, create the turtle, set the shape to "turtle", and pick up the pen.  Draw the blue square before you draw the green one.
+   
+   .. image:: ../../_static/TurtleStampDoubleSquare.png
+       :width: 150px
+       :align: center
+   
+   Drag the needed blocks of statements from the left column to the right column and put them in the right order with the correct indention.  Click on 'Check' to see if you are right. You will be told if any of the lines are in the wrong order or are the wrong blocks.
    -----
    from turtle import *
    space = Screen()

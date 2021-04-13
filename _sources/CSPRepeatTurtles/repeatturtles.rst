@@ -57,7 +57,13 @@ We already had a turtle draw a square.  We repeated the lines in order to make t
    :numbered: left
    :adaptive:
 
-   The following program uses a turtle to draw a rectangle as shown to the left, <img src="../_static/TurtleRect.png" width="150" align="left" hspace="10" vspace="5" /> but the lines are mixed up.  The program should do all necessary set-up and create the turtle.  After that, iterate (loop) 2 times, and each time through the loop the turtle should go forward 175 pixels, turn right 90 degrees, go forward 150 pixels, and turn right 90 degrees.<br /><br /><p>Drag the needed blocks of statements from the left column to the right column and put them in the right order with the correct indention.  There may be additional blocks that are not needed in a correct solution.   Click on <i>Check Me</i> to see if you are right. You will be told if any of the lines are in the wrong order or are the wrong blocks.</p>  
+   The following program uses a turtle to draw a rectangle as shown below, but the lines are mixed up.  The program should do all necessary set-up and create the turtle.  After that, iterate (loop) 2 times, and each time through the loop the turtle should go forward 175 pixels, turn right 90 degrees, go forward 150 pixels, and turn right 90 degrees.
+
+   .. image:: ../../_static/TurtleRect.png
+       :width: 150px
+       :align: center
+   
+   Drag the needed blocks of statements from the left column to the right column and put them in the right order with the correct indention.  There may be additional blocks that are not needed in a correct solution.   Click on 'Check' to see if you are right. You will be told if any of the lines are in the wrong order or are the wrong blocks.
    -----
    from turtle import *      
    =====   

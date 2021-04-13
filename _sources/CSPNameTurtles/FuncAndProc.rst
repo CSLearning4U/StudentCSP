@@ -65,7 +65,13 @@ We have seen string **functions** like ``lower()`` which returns a new string wi
    :numbered: left
    :adaptive:
 
-   The following program uses a turtle to draw a capital T as shown to the left, <img src="../_static/TurtleT1.png" width="150" align="left" hspace="10" vspace="5"/> but the lines are mixed up.  The program should do all necessary set-up: import the turtle module, get the space to draw on, and create the turtle.  After that the turtle should draw the lines in the numbered order as shown in the picture on the left.<br /><br /><p>Drag the needed blocks of statements from the left column to the right column and put them in the right order.  Then click on <i>Check Me</i> to see if you are right. You will be told if any of the lines are in the wrong order or are the wrong blocks.</p>  
+   The following program uses a turtle to draw a capital T as shown below, but the lines are mixed up.  The program should do all necessary set-up: import the turtle module, get the space to draw on, and create the turtle.  After that the turtle should draw the lines in the numbered order as shown in the picture below.
+   
+   .. image:: ../../_static/TurtleT1.png
+       :width: 150px
+       :align: center
+
+   Drag the needed blocks of statements from the left column to the right column and put them in the right order.  Then click on 'Check' to see if you are right. You will be told if any of the lines are in the wrong order or are the wrong blocks.  
    -----
    from turtle import *
    =====
@@ -97,7 +103,13 @@ We have seen string **functions** like ``lower()`` which returns a new string wi
    :numbered: left
    :adaptive:
 
-   The following program uses a turtle to draw a capital A as shown to the left, <img src="../_static/turtleA2.png" width="150" align="left" hspace="10" vspace="5"/> but the lines are mixed up.  The program should do all necessary set-up: import the turtle module, get the space to draw on, and create the turtle.  After that the turtle should draw the lines in the numbered order as shown in the picture on the left. <br /><br /><p>Drag the needed blocks of statements from the left column to the right column and put them in the right order.  Then click on <i>Check Me</i> to see if you are right. You will be told if any of the lines are in the wrong order or are the wrong blocks.</p>  
+   The following program uses a turtle to draw a capital A as shown below, but the lines are mixed up.  The program should do all necessary set-up: import the turtle module, get the space to draw on, and create the turtle.  After that the turtle should draw the lines in the numbered order as shown in the picture below.
+
+   .. image:: ../../_static/turtleA2.png
+       :width: 150px
+       :align: center
+
+   Drag the needed blocks of statements from the left column to the right column and put them in the right order.  Then click on 'Check' to see if you are right. You will be told if any of the lines are in the wrong order or are the wrong blocks.
    -----
    from turtle import *
    space = Screen()  

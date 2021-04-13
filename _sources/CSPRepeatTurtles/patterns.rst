@@ -77,7 +77,11 @@ You can use the coloring in the picture below to help you figure out the correct
    :numbered: left
    :adaptive:
 
-   There is a way of arranging the statements below such that this image is created. <img src="../_static/BlueTrianglesRedCircle.png" width="200" align="left" hspace="10" vspace="5" /> The turtle will draw many triangles.  Move the needed pieces of the program from the left into the space on the right.  Indent lines as needed.
+   There is a way of arranging the statements below such that this image is created.  The turtle will draw many triangles.  Move the needed pieces of the program from the left into the space on the right.  Indent lines as needed.
+
+   .. image:: ../../_static/BlueTrianglesRedCircle.png
+       :width: 200px
+       :align: center
    -----
    from turtle import *
    from sys import *    
@@ -114,7 +118,11 @@ You can use the coloring in the picture below to help you figure out the correct
    :numbered: left
    :adaptive:
 
-   There is a way of arranging the statements below such that this image is created. <img src="../_static/RedTrianglesBlueCircle.png" width="200" align="left" hspace="10" vspace="5" /> The turtle will draw many triangles. Move the needed pieces of the program from the left into the space on the right.  Indent lines as needed.
+   There is a way of arranging the statements below such that this image is created.  The turtle will draw many triangles. Move the needed pieces of the program from the left into the space on the right.  Indent lines as needed.
+
+   .. image:: ../../_static/RedTrianglesBlueCircle.png
+       :width: 200px
+       :align: center
    -----
    from turtle import *
    from sys import *    

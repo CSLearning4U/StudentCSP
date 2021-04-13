@@ -81,7 +81,13 @@ When we ask a turtle to turn left, it will turn left based on the direction it i
    :numbered: left
    :adaptive:
 
-   The following program uses a turtle to draw a capital L as shown to the left, <img src="../_static/TurtleL4.png" width="150" align="left" hspace="10" vspace="5" /> but the lines are mixed up.  The program should do all necessary set-up: import the turtle module, get the space to draw on, and create the turtle.  The turtle should turn to face south, draw a line that is 150 pixels long, then turn to face east, and draw a line that is 75 pixels long.  We have added a compass to the picture to indicate the directions north, south, west, and east. <br /><br /><p>Drag the needed blocks of statements from the left column to the right column and put them in the right order.  There may be additional blocks that are not needed in a correct solution.  Then click on <i>Check Me</i> to see if you are right. You will be told if any of the lines are in the wrong order or are the wrong blocks.  </p>
+   The following program uses a turtle to draw a capital L as shown below, but the lines are mixed up.  The program should do all necessary set-up: import the turtle module, get the space to draw on, and create the turtle.  The turtle should turn to face south, draw a line that is 150 pixels long, then turn to face east, and draw a line that is 75 pixels long.  We have added a compass to the picture to indicate the directions north, south, west, and east.
+   
+   .. image:: ../../_static/TurtleL4.png
+       :width: 150px
+       :align: center
+
+   Drag the needed blocks of statements from the left column to the right column and put them in the right order.  There may be additional blocks that are not needed in a correct solution.  Then click on 'Check' to see if you are right. You will be told if any of the lines are in the wrong order or are the wrong blocks.
    -----
    from turtle import *
    =====
@@ -113,7 +119,13 @@ When we ask a turtle to turn left, it will turn left based on the direction it i
    :numbered: left
    :adaptive:
 
-   The following program uses a turtle to draw a checkmark as shown to the left, <img src="../_static/checkMark.png" width="150" align="left" hspace="10" vspace="5" /> but the lines are mixed up.  The program should do all necessary set-up: import the turtle module, get the space to draw on, and create the turtle.  The turtle should turn to face southeast, draw a line that is 75 pixels long, then turn to face northeast, and draw a line that is 150 pixels long.  We have added a compass to the picture to indicate the directions north, south, west, and east.  Northeast is between north and east. Southeast is between south and east. <br /><br /><p>Drag the needed blocks of statements from the left column to the right column and put them in the right order.  There may be additional blocks that are not needed in a correct solution.  Then click on <i>Check Me</i> to see if you are right. You will be told if any of the lines are in the wrong order or are the wrong blocks.  </p>
+   The following program uses a turtle to draw a checkmark as shown below, but the lines are mixed up. The program should do all necessary set-up: import the turtle module, get the space to draw on, and create the turtle.  The turtle should turn to face southeast, draw a line that is 75 pixels long, then turn to face northeast, and draw a line that is 150 pixels long.  We have added a compass to the picture to indicate the directions north, south, west, and east.  Northeast is between north and east. Southeast is between south and east.
+   
+   .. image:: ../../_static/checkMark.png
+       :width: 150px
+       :align: center
+
+   Drag the needed blocks of statements from the left column to the right column and put them in the right order.  There may be additional blocks that are not needed in a correct solution.  Then click on 'Check' to see if you are right. You will be told if any of the lines are in the wrong order or are the wrong blocks.
    -----
    from turtle import *
    =====

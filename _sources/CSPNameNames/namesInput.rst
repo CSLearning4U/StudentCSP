@@ -185,7 +185,13 @@ The inputs that are specified in a function or procedure definition are also cal
    :numbered: left
    :adaptive:
 
-   The following code assumes that a procedure square has been defined that takes a size.  The code should create a turtle and then use it to draw a square, move forward, and draw a second square as shown at left, <img src="../_static/SquareForwardSquare.png" width="150" align="left" hspace="10" vspace="5"/> but the lines are mixed up.  Drag the lines into the correct order on the right.
+   The following code assumes that a procedure square has been defined that takes a size.  The code should create a turtle and then use it to draw a square, move forward, and draw a second square as shown below, but the lines are mixed up.
+   
+   .. image:: ../../_static/SquareForwardSquare.png
+       :width: 150px
+       :align: center
+   
+   Drag the lines into the correct order on the right.
    -----
    from turtle import *    
    =====

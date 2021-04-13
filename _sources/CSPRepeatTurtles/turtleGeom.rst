@@ -92,7 +92,13 @@ Change the ``??`` in line 7 below to the amount to turn each time to draw a 12 s
    :numbered: left
    :adaptive:
 
-   The following program uses a turtle to draw a triangle as shown to the left, <img src="../_static/TurtleTriangle.png" width="150" align="left" hspace="10" vspace="5"/> but the lines are mixed up.  The program should do all necessary set-up and create the turtle.  After that, iterate (loop) 3 times, and each time through the loop the turtle should go forward 100 pixels, and then turn left 120 degrees.<br /><br /><p>Drag the needed blocks of statements from the left column to the right column and put them in the right order with the correct indention.  There may be additional blocks that are not needed in a correct solution.  Click on <i>Check Me</i> to see if you are right. You will be told if any of the lines are in the wrong order or are the wrong blocks.</p> 
+   The following program uses a turtle to draw a triangle as shown below, but the lines are mixed up.  The program should do all necessary set-up and create the turtle.  After that, iterate (loop) 3 times, and each time through the loop the turtle should go forward 100 pixels, and then turn left 120 degrees.
+
+   .. image:: ../../_static/TurtleTriangle.png
+       :width: 150px
+       :align: center
+   
+   Drag the needed blocks of statements from the left column to the right column and put them in the right order with the correct indention.  There may be additional blocks that are not needed in a correct solution.  Click on 'Check' to see if you are right. You will be told if any of the lines are in the wrong order or are the wrong blocks.
    -----
    from turtle import * 
    =====         
