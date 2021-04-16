@@ -65,7 +65,7 @@ Let's compute how long it would take ketchup to ooze down a table.  Imagine that
    dripFPM = dripFPH / MPH
    print("Ketchup speed in feet per minute:")
    print(dripFPM)
-   print("Ketchup speed to move 4 feet in minutes:")
+   print("Time to move 4 feet in minutes:")
    print(4 / dripFPM)
 
    
