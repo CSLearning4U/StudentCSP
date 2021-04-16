@@ -135,29 +135,39 @@ We can see values (including the values for named variables) by printing them.  
 .. tabbed:: 3_7_5_WSt
 
         .. tab:: Question
-
+	   Don't click the 'Answer' tab until you've had a go at creating your own solution.
+	   
            10 people went to a restaurant for dinner. Each guest ate 1 appetizer and 1 entree. The whole party shared 1 dessert. Write the code to calculate and print the total *bill* if each appetizer costs $2.00, each entree costs $9.89, and dessert costs $7.99.  It should print 126.89.
-           
+        
+	   Create variables to hold each value.  Calculate ``bill`` as ``(appetizer + entree) * numPeople + dessert``.  Be sure to print the result.
+	
            .. activecode::  3_7_5_WSq
                :nocodelens:
+	       
+	       # Fill in the missing values from the description above
+	       numPeople = ???
+	       
+	       appetizer = ???
+	       entree = ???
+	       dessert = ???
+	       
+	       bill = (??? + ???) * numPeople + ???
+	       
+	       print (bill)
 
         .. tab:: Answer
-        
-            Create variables to hold each value.  Calculate ``totalBill`` as ``appCost + entreeCost + costPerDessert``.  Be sure to print the result.
-            
+                    
             .. activecode::  3_7_5_WSa
                 :nocodelens:
                 
-                # DECLARE VARIABLES AND ASSIGN VALUES
-                costPerApp = 2.00
-                costPerEntree = 9.89
-                costPerDessert = 7.99
-                # CREATE FORMULA FOR BILL CALCULATION
-                appCost = costPerApp * 10
-                entreeCost = costPerEntree * 10
-                totalBill = appCost + entreeCost + costPerDessert
-                # PRINT THE RESULT
-                print(totalBill)
+	       numPeople = 10
+	       appetizer = 2
+	       entree = 9.89
+	       dessert = 7.99
+	       
+	       bill = (appetizer + entree) * numPeople + dessert
+	       
+	       print (bill)
                                 
         .. tab:: Discussion 
 
