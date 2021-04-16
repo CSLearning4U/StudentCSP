@@ -6,5 +6,4 @@ Chapter 20: The Internet
 
     intro.rst
     autonomous.rst
-    characteristics.rst
     cybersecurity.rst

@@ -8,7 +8,7 @@ Chapter 4 - Names for Strings
    strObjects.rst
    immutable.rst
    madlib.rst
-   ch4_summary.rst
-   ch4_exercises.rst
-   StringPracticeParsons.rst
+   summary.rst
+   Exercises.rst
    exam3a4.rst
+   mixedUpStrings.rst

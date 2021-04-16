@@ -72,6 +72,7 @@ It is certainly possible to have multiple ``if`` statements, and each one can ma
    What is the total for 12 items that weigh 3 pounds?
    
 .. mchoice:: 12_6_3_Grade_Ifs
+   :practice: T
    :answer_a: A
    :answer_b: B
    :answer_c: C
@@ -102,6 +103,7 @@ It is certainly possible to have multiple ``if`` statements, and each one can ma
      print(grade)
      
 .. mchoice:: 12_6_4_Logic_Ifs
+   :practice: T
    :answer_a: x will always equal 0 after this code executes for any value of x
    :answer_b: if x is greater than 2, the value in x will be doubled after this code executes
    :answer_c: if x is greater than 2, x will equal 0 after this code executes

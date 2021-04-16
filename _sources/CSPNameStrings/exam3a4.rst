@@ -12,6 +12,7 @@ You will not be able to change your answers after you hit the "Finish Exam" butt
 .. timed:: ch3a4ex
     
     .. mchoice:: e3a4_1
+       :practice: T
        :answer_a: namewords
        :answer_b: name + words
        :answer_c: John Smith + likes to play outside.
@@ -31,6 +32,7 @@ You will not be able to change your answers after you hit the "Finish Exam" butt
           print (name + words)
            
     .. mchoice:: e3a4_2
+       :practice: T
        :answer_a: Tests to see if the values on each side of the expression are equal
        :answer_b: Assigns the name on the left to the value on the right
        :answer_c: Copies the value from the right to the left
@@ -48,6 +50,7 @@ You will not be able to change your answers after you hit the "Finish Exam" butt
           cat = "meow"
            
     .. mchoice:: e3a4_3
+       :practice: T
        :answer_a: I only
        :answer_b: II only 
        :answer_c: III only
@@ -72,6 +75,7 @@ You will not be able to change your answers after you hit the "Finish Exam" butt
                print ("My name is " + Morrissey)
            
     .. mchoice:: e3a4_4
+       :practice: T
        :answer_a: 0
        :answer_b: 2
        :answer_c: 5
@@ -90,6 +94,7 @@ You will not be able to change your answers after you hit the "Finish Exam" butt
           print(result)
            
     .. mchoice:: e3a4_5
+       :practice: T
        :answer_a: 3
        :answer_b: 10
        :answer_c: 18
@@ -111,6 +116,7 @@ You will not be able to change your answers after you hit the "Finish Exam" butt
           var1 = 18
           
     .. mchoice:: e3a4_6
+       :practice: T
        :answer_a: THIS IS A TEST
        :answer_b: this is a test
        :answer_c: This is a test

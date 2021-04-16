@@ -9,5 +9,5 @@ Chapter 10 - Repeating Steps with Turtles
    patterns.rst
    stamp.rst
    RepeatTurtlesPractice.rst
-   ch10_summary.rst
-   ch10_exercises.rst
+   summary.rst
+   Exercises.rst

@@ -76,6 +76,8 @@ The accumulator doesn't have to be set to be an empty string.  You can put somet
    When the variable ``letter`` contains the ``"W"`` from ``Wizard``, how many exclamation points are in ``newString``?
 
 .. parsonsprob:: 9_3_3_Palindrome
+   :numbered: left
+   :adaptive:
 
    <p>The phrase <code>"A but tuba"</code> is a <b>palindrome</b>.  The letters are the same forward and backward.  The below program generates the output: <code>"abut tub a<=>a but tuba"</code>  Put the lines in the right order with the right indentation.</p>
    -----

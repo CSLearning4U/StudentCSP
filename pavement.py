@@ -8,25 +8,49 @@ from os import environ
 
 from sphinxcontrib import paverutils
 
+# new 7/2019 changes
+import pkg_resources
+from runestone import get_master_url
+
 sys.path.append(os.getcwd())
 
 home_dir = os.getcwd()
 
+project_name = "StudentCSP"
+
+#master_url = None
+#if master_url is None:
+#    if 'RSHOST' in os.environ:
+#        master_url = environ['RSHOST']
+#    elif gethostname() in  ['web608.webfaction.com', 'rsbuilder']:
+#        master_url = 'http://interactivepython.org'
+#    elif gethostname() == 'runestone-deploy':
+#        master_url = 'https://runestone.academy'
+#    else:
+#        master_url = 'http://127.0.0.1:8000'
+
+# new 7/2019 changes
 master_url = None
+
 if master_url is None:
-    if 'RSHOST' in os.environ:
-        master_url = environ['RSHOST']
-    elif gethostname() in  ['web608.webfaction.com', 'rsbuilder']:
-        master_url = 'http://interactivepython.org'
-    elif gethostname() == 'runestone-deploy':
-        master_url = 'https://runestone.academy'
-    else:
-        master_url = 'http://127.0.0.1:8000'
+    master_url = get_master_url()
 
 master_app = 'runestone'
 serving_dir = "./build/StudentCSP"
-dest = '../../static'
-project_name = "StudentCSP"
+
+#new 7/2019 changes
+# Change to False when running localhost 
+dynamic_pages = True
+
+if dynamic_pages:
+    dest = './published'
+else:
+    dest = '../../static'
+
+#master_app = 'runestone'
+#serving_dir = "./build/StudentCSP"
+#dest = '../../static'
+#project_name = "StudentCSP"
 
 options(
     sphinx = Bunch(docroot=".",),
@@ -45,10 +69,18 @@ options(
                        'use_services': 'true',
                        'python3': 'true',
                        'dburl': 'postgresql://runestone@localhost/runestone',
-                       'basecourse': 'StudentCSP'
+                       'basecourse': 'StudentCSP',
+                        # new 7/2019 changes
+                       'dynamic_pages': dynamic_pages,
+                       'downloads_enabled': 'false',
+                       'enable_chatcodes': 'false',
+                       'allow_pairs': 'false'
                         }
     )
 )
+
+version = pkg_resources.require("runestone")[0].version
+options.build.template_args['runestone_version'] = version
 
 # Check to see if we are building on our Jenkins build server, if so use the environment variables
 # to update the DB information for this build

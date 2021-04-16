@@ -65,7 +65,7 @@ With the internet, computer scientists and engineers have enabled a new form of 
 
 However, the global effects of computing can also be harmful for people and society. Companies that want to improve their customer experience or advertisement strategy  can collect personal data which raises data protection and privacy issues. With thousands of new electrical gadgets on the market everyday, the generation of clean energy and development of effective recycling becomes more and more urgent. The "Digital Divide" suggests how segments of society struggle to participate in the new technologically influenced economy. For example, the elderly, poor, and disabled struggle to access technology. Such rising challenges encourage innovative solutions and policies that will protect human rights and economic competition between new company giants.
 
-.. mchoice:: 22_1_1_MooreQ1    
+.. mchoice:: 22_1_2_MooreQ1    
        		   :answer_a: I, II
        		   :answer_b: I, III
        		   :answer_c: III, IV
@@ -73,7 +73,7 @@ However, the global effects of computing can also be harmful for people and soci
        		   :correct: b
        		   :feedback_a: Privacy has decreased due to computing, as companies can more easily access your personal data.
        		   :feedback_b: Computing has increased the ability to communicate around the world, and has made information readily available through the internet.
-       		   :feedback_c: Certain groups of people (i.e. elderly, poor) have difficulty accessing technology. 
+       		   :feedback_c: Certain groups of people (i.e. elderly, poor) have difficulty accessing technology.
        		   :feedback_d: Two of these options are not true.
 
        		   Which of the following are positive effects of computing?

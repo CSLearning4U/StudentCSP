@@ -2,3 +2,5 @@ build/
 pavement.pyc
 *.swp
 .DS_Store
+__pycache__/pavement.cpython-36.pyc
+__pycache__/pavement.cpython-36.pyc

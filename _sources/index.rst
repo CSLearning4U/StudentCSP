@@ -5,7 +5,7 @@
     Invariant Sections being Forward, Prefaces, and Contributor List,
     no Front-Cover Texts, and no Back-Cover Texts.  A copy of the license
     is included in the section entitled "GNU Free Documentation License".
-	
+
 =======================================
 CS Principles: Big Ideas in Programming
 =======================================
@@ -20,7 +20,7 @@ CS Principles: Big Ideas in Programming
 
 .. Sources can also be included from subfolders of this directory.
    (e.g. "DataStructures/queues.rst").
-   
+
 Assignments
 :::::::::::::::::
 
@@ -28,14 +28,14 @@ Assignments
 
    <ul>
    <li><a href="/runestone/assignments/chooseAssignment.html">Assignments</a></li>
-   </ul>   
-   
+   </ul>
+
 SECTION 1: COMPUTER ABILITIES
 :::::::::::::::::::::::::::::::
 
 .. toctree::
    :maxdepth: 3
-   
+
    CSPrinTeasers/toctree.rst
    CSPTuring/toctree.rst
 
@@ -69,7 +69,7 @@ SECTION 4: DECISIONS
 
 .. toctree::
    :maxdepth: 3
-   
+
    CSPIntroDecisions/toctree.rst
    CSPStringDecisions/toctree.rst
    CSPTurtleDecisions/toctree.rst
@@ -91,7 +91,7 @@ SECTION 6: WHAT'S POSSIBLE
 
 .. toctree::
    :maxdepth: 3
-   
+
    CSPInternet/toctree.rst
    CSPCreativity/toctree.rst
    CSPGlobalImpact/toctree.rst
@@ -102,12 +102,12 @@ SECTION 7: PRACTICE EXAM QUESTIONS
 
 .. toctree::
    :maxdepth: 3
-  
+
    CSPPracticeQuestions/toctree.rst
-   
+   CSPUntimedPracticeQuestions/toctree.rst
+
 Indices
 ::::::::::::::::::
 
 * :ref:`genindex`
 * :ref:`search`
-   

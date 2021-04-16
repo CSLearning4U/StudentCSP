@@ -5,5 +5,5 @@ Chapter 19 - Computer Abilities Summary
    :maxdepth: 2
 
    thatsall.rst
-   ch19_summary.rst
-   examPost.rst
+   summary.rst
+   Exercises.rst

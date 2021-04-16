@@ -5,7 +5,7 @@ Chapter 24 - PRACTICE EXAMS
   :maxdepth: 2
 
   APCSP_ExamInfo.rst
-  exam24_1.rst
+  Exercises.rst
   exam24_2.rst
   exam24_3.rst
   exam24_4.rst

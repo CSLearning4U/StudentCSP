@@ -25,6 +25,7 @@ You can use the ``range`` function to create a list of numbers.    If the ``rang
     print(range(11)) 
     
 .. mchoice:: 7_4_1_Numbers_Range1
+   :practice: T
    :answer_a: range(5)
    :answer_b: range(6)
    :answer_c: range(7)
@@ -44,6 +45,7 @@ If two values are passed as input to the ``range`` function then it will return 
     print(range(20,31))
 
 .. mchoice:: 7_4_2_Numbers_Range2
+   :practice: T
    :answer_a: range(10)
    :answer_b: range(1,10)
    :answer_c: range(11)

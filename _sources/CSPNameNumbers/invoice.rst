@@ -112,29 +112,33 @@ We don't really have to create new variables ``quantity2`` and ``unitPrice2``.  
 .. Note::
    It is best to use variable names that make sense like ``invoiceTotal`` and ``quantity`` instead of names that don't make any sense like ``thisVariableIsMyFriend`` and ``Fred``.  The name should help you remember what the variable is representing.  
 
-Let's say that apples are $0.40 apiece, and pears are $0.65 apiece.  Modify the program below to calculate the total cost.
+Let's say that apples are $0.40 apiece, and pears are $0.65 apiece.  Modify the program below to calculate the total cost (it should print 3.55).
 
 .. activecode:: Complete_Assignment
 
-   apples = 4
-   pears = 3
+   numApples = 4
+   numPears = 3
+   
+   costPerApple = 
+   costPerPear = 
+   
    totalCost =
    print(totalCost)
 
 You are welcome to try out the following answers by copying and pasting them into the program above before answering this question:
 
 .. mchoice:: 3_8_3_Make_An_Assignment_Q1
-  :answer_a: totalCost = apples + pears
-  :answer_b: totalCost = (0.4 * apples) + (0.65 * pears)
-  :answer_c: totalCost = (0.4 * pears) + (0.65 * apples)
-  :answer_d: totalCost = (0.4 + apples) * (0.65 + pears)
+  :answer_a: totalCost = numApples + numPears
+  :answer_b: totalCost = (costPerApple * numApples) + (costPerPear * numPears)
+  :answer_c: totalCost = (costPerApple * numPears) + (costPerPear * numApples)
+  :answer_d: totalCost = (0.4 * numApples) + (0.65 + numPears)
   :correct: b
   :feedback_a: That does not consider the cost of the apples or pears.
   :feedback_b: We need to multiply the cost per apple times the number of apples and add it to the cost per pear times the number of pears.
   :feedback_c: That gets the costs backwards
-  :feedback_d: That is the wrong formula for computing total cost.
+  :feedback_d: That would work, but giving names to numbers makes code easier to understand.
 
-   Which line of code will compute the correct ``totalCost`` if put into line 3 above?
+   Which line of code will compute the correct ``totalCost`` if put into the program above?
 
 .. tabbed:: 3_8_4_WSt
 

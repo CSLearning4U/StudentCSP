@@ -65,7 +65,7 @@ Let's compute how long it would take ketchup to ooze down a table.  Imagine that
    dripFPM = dripFPH / MPH
    print("Ketchup speed in feet per minute:")
    print(dripFPM)
-   print("Ketchup speed to move 4 feet in minutes:")
+   print("Time to move 4 feet in minutes:")
    print(4 / dripFPM)
 
    
@@ -73,14 +73,17 @@ The next type of problem is new.  It shows correct code in code blocks on the le
    
 **Click on the right arrow below to play the following video.**
    
-.. video:: parsons
-   :controls:
-   :thumb: ../_static/MixedUpCodeVideoThumb.png
+.. the video is MixedUpCode.mov
 
-   http://ice-web.cc.gatech.edu/ce21/1/static/video/MixedUpCode.mov
-   http://ice-web.cc.gatech.edu/ce21/1/static/video/MixedUpCode.webm
+.. youtube:: X5SCf9AV_oo
+    :width: 640
+    :height: 480
+    :align: center
 
 .. parsonsprob:: 3_6_1_Ketchup_Speed
+   :practice: T
+   :numbered: left
+   :adaptive:
 
    The following program figures out the ketchup speed in feet per <i>seconds</i>.  Drag the blocks from the left and put them in the correct order on the right.  Click the <i>Check Me</i> button to check your solution.</p>
    -----

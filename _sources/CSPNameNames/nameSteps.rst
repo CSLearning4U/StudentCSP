@@ -108,14 +108,16 @@ You define a function just like you define a procedure, but it will also ``retur
    
 See the video below for a hint on how to solve the next mixed up code problem. 
 
-.. video:: indentVideo
-		   :controls:
-		   :thumb: ../_static/video-mixedUpCodeIndent.png
+.. the video is IndentVideo.mov
 
-		   http://ice-web.cc.gatech.edu/ce21/1/static/video/IndentVideo.mov
-		   http://ice-web.cc.gatech.edu/ce21/1/static/video/IndentVideo.webm
+.. youtube:: 3oYHEHTt2hM
+    :width: 640
+    :height: 480
+    :align: center
    
 .. parsonsprob:: 6_3_3_Triangle_Procedure
+   :numbered: left
+   :adaptive:
 
    The following code should define a procedure that draws a triangle, but it may be mixed up <i>and may contain extra (unused) code</i>.  Drag the needed code to the right side in the correct order.  <b>Remember that the statements in the procedure must be indented!</b>  To indent a block drag it further right. 
    -----

@@ -49,6 +49,7 @@ While the strings themselves can't be changed you can change the value of a vari
    print(sentence)
    
 .. mchoice:: 4_3_1_s1
+   :practice: T
    :answer_a: xyz
    :answer_b: xyxyz
    :answer_c: xy xy z
@@ -70,6 +71,7 @@ While the strings themselves can't be changed you can change the value of a vari
      s1 = s1 + s2 + "z"
      
 .. mchoice:: 4_3_2_s2
+   :practice: T
    :answer_a: Hey
    :answer_b: hey
    :answer_c: HEY

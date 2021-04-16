@@ -27,7 +27,7 @@ We will use just the US data.  There are three columns separated by colon (':') 
   - The annual mean amounts of particulate pollution that's 2.5 micrometers in diameter (even smaller), measured in the same micrograms per cubic meter of air. This is abbreviated as PM 2.5.
 
 Here are just the first 9 lines of the data.
-  
+
  ::
 
      Aberdeen, SD :13 :8
@@ -41,12 +41,12 @@ Here are just the first 9 lines of the data.
 
 If you want to see **all** of the data click on the *Show* button below.  Once it appears, you can hide it again by clicking on the *Hide* button.
 
-.. reveal:: pol_Data1
+.. reveal:: pol_Data3
     :showtitle: Show
     :hidetitle: Hide
-    
+
     .. raw:: html
-    
+
        <pre id="uspoll.txt">
        Aberdeen, SD :13 :8
        Adrian, MI :15 :9
@@ -428,7 +428,5 @@ If you want to see **all** of the data click on the *Show* button below.  Once i
        Yuba City, CA :12 :7
        Yuma, AZ :14 :9
        </pre>
-    
+
 According to the World Health Organization, 2.5 micrometer pollution is particularly deadly, because it more easily gets `deep into our lungs <http://en.wikipedia.org/wiki/Particulates>`_.  To give a sense of how dangerous that is, anywhere that the annual mean amount of just 5 µg/m3 (microgram per a cubic meter of air) was linked with a 13% increased risk of heart attacks.
-
-

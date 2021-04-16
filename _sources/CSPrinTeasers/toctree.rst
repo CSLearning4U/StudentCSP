@@ -12,3 +12,4 @@ Chapter 1 - What is this Book About?
    computeImages.rst
    standards.rst
    ch1_summary.rst
+   Exercises.rst

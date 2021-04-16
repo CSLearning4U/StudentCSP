@@ -8,6 +8,6 @@ Chapter 15 - Using Decisions with Images
    combineImages.rst
    imageIfElse.rst
    imageMultIf.rst
-   ch15_summary.rst
-   ch15_exercises.rst
+   summary.rst
+   Exercises.rst
    exam14a15.rst

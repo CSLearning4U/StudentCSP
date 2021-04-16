@@ -91,12 +91,13 @@ In programming languages, setting a variable's value is also called **assignment
 
 **Click on the right arrow below to play the following video.**
 
-.. video:: intro_assignment
-   :controls:
-   :thumb: ../_static/video-think-about-assignment.png
+.. the video is assignment-v2-small.mov
 
-   http://ice-web.cc.gatech.edu/ce21/1/static/video/assignment-v2-small.mov
-   http://ice-web.cc.gatech.edu/ce21/1/static/video/assignment-v2-small.webm
+.. youtube:: tULT-Nqunlc
+    :width: 640
+    :height: 480
+    :align: center
+
    
 Legal Variable Names
 ----------------------
@@ -114,6 +115,7 @@ There are restrictions on what you can use as a variable name.
 Since you can't have spaces in a variable name you can either join words together by uppercasing the first letter of each new word like ``heightInInches`` or use underscores between words ``height_in_inches``.  Uppercasing the first letter of each new word is called **camel-case** or **mixed-case**.  
 
 .. mchoice:: 3_1_1_varNames_Q1
+   :practice: T
    :answer_a: _a1
    :answer_b: my_name
    :answer_c: amountOfStuff
@@ -129,6 +131,7 @@ Since you can't have spaces in a variable name you can either join words togethe
    Which of the following is *not* a legal variable name?
    
 .. mchoice:: 3_1_2_varNames_Q2
+   :practice: T
    :answer_a: _my_name
    :answer_b: my name
    :answer_c: myname

@@ -10,5 +10,5 @@ Chapter 7 - Computers can Repeat Steps
    range.rst
    accumPattern.rst
    print.rst
-   ch7_summary.rst
-   ch7_exercises.rst
+   summary.rst
+   Exercises.rst
