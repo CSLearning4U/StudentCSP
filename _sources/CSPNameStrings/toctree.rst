@@ -10,5 +10,5 @@ Chapter 4 - Names for Strings
    madlib.rst
    summary.rst
    Exercises.rst
+   StringPracticeParsons.rst
    exam3a4.rst
-   mixedUpStrings.rst
