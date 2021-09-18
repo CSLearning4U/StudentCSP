@@ -21,6 +21,22 @@ CS Principles: Big Ideas in Programming
 .. Sources can also be included from subfolders of this directory.
    (e.g. "DataStructures/queues.rst").
 
+Annoucements 
+:::::::::::::::::
+
+Calling all women, genderqueer, and non-binary technologists in grades 9-12! Apply now for the NCWIT Award for Aspirations in Computing to be recognized for all that you do (or want to do) in technology. Visit www.aspirations.org/AiCHSAward for details. #NCWITAiC22
+
+- The Award for AiC honors 9th-12th grade women, genderqueer, and non-binary students for their computing-related achievements and interests, and encourages them to pursue their passions.
+
+Calling all educators (teachers, counselors, coaches, mentors, and others) who support students’ interest in tech: apply for the AiC Educator Award! www.aspirations.org/AiCEduAward #NCWITAiC22 #CSed
+
+- The AiC Educator Award identifies exemplary formal and informal educators who play a pivotal role in encouraging 9th-12th grade women, genderqueer, and non-binary students to explore their interests in computing and technology.
+
+We are currently also accepting applications for a free online mentorship program for women of color (Black, Latina, and/or Native American) who are taking an Advanced Placement Computer Science A course (CSA or CSP) during the 2021-2022 school year.
+
+- This program is part of a research project, Sisters Rise Up, which studies ways to help women of color succeed in AP CS.  It offers free remote help sessions led by undergraduate students from the University of Michigan. Two one-hour remote help sessions are offered most weeks and a two-three hour remote help session is offered once a month.  If you take the AP CS exam and send in your score by the end of August you will receive a $100 gift card.
+- If you are interested, please fill out contact information for a parent or guardian at https://forms.gle/4LfH8r28tw67iZd78.
+
 Assignments
 :::::::::::::::::
 
