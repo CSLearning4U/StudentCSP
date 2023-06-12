@@ -134,7 +134,7 @@ You will not be able to change your answers after you hit the "Finish Exam" butt
        Which of the following statements is true about the output of this circuit?
           .. figure:: Figures/logicgate.jpg
 
-    .. mchoice:: e24_2_7
+    .. mchoice:: e24_2_7_v2
        :answer_a: I, II only
        :answer_b: II, III only
        :answer_c: I only
