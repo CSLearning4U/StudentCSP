@@ -13,7 +13,7 @@ Try to solve each of the following. Click the *Check Me* button to check each so
    :adaptive:
    :noindent:
   
-   The following program segment should draw a rectangle.  The blocks have been mixed up.  Drag the blocks from the left and put them in the correct order on the right.  Click the <i>Check Me</i> button to check your solution.</p>
+   The following program segment should draw a rectangle.  The blocks have been mixed up.  Drag the blocks from the left and put them in the correct order on the right. 
    -----
    from turtle import *
    =====
@@ -38,7 +38,7 @@ Try to solve each of the following. Click the *Check Me* button to check each so
    :adaptive:
    :noindent:
   
-   The following program segment should draw a red line.  The blocks have been mixed up.  Drag the blocks from the left and put them in the correct order on the right.  Click the <i>Check Me</i> button to check your solution.</p>
+   The following program segment should draw a red line.  The blocks have been mixed up.  Drag the blocks from the left and put them in the correct order on the right.  
    -----
    from turtle import *
    =====
@@ -60,7 +60,7 @@ Try to solve each of the following. Click the *Check Me* button to check each so
    :adaptive:
    :noindent:
   
-   The following program segment should draw an equilateral triangle.  The blocks have been mixed up.  Drag the blocks from the left and put them in the correct order on the right.  Click the <i>Check Me</i> button to check your solution.</p>
+   The following program segment should draw an equilateral triangle.  The blocks have been mixed up.  Drag the blocks from the left and put them in the correct order on the right. 
    -----
    from turtle import *
    =====
@@ -90,7 +90,7 @@ Try to solve each of the following. Click the *Check Me* button to check each so
    :adaptive:
    :noindent:
   
-   The following program segment should contain the correct steps to create a turtle.  The blocks have been mixed up.  Drag the blocks from the left and put them in the correct order on the right.  Click the <i>Check Me</i> button to check your solution.</p>
+   The following program segment should contain the correct steps to create a turtle.  The blocks have been mixed up.  Drag the blocks from the left and put them in the correct order on the right. 
    -----
    from turtle import *
    =====
@@ -107,13 +107,13 @@ Try to solve each of the following. Click the *Check Me* button to check each so
    turt = turtle() #paired
 
 
-.. parsonsprob:: ch5ex5muc
+.. parsonsprob:: ch5ex5muc_v2
    :numbered: left
    :practice: T
    :adaptive:
    :noindent:
   
-   The following program segment should create two turtles, Ari and Chris. Ari should have a pensize of 20 and draw a line to the east, while Chris will have the standard pensize and draw a line to the west.  The blocks have been mixed up.  Drag the blocks from the left and put them in the correct order on the right.  Click the <i>Check Me</i> button to check your solution.</p>
+   The following program segment should create two turtles, Ari and Chris. Ari should have a pensize of 20 and draw a line to the west, while Chris will have the standard pensize and draw a line to the east.  The blocks have been mixed up.  Drag the blocks from the left and put them in the correct order on the right.  
    -----
    from turtle import *
    =====
@@ -142,7 +142,7 @@ Try to solve each of the following. Click the *Check Me* button to check each so
    :adaptive:
    :noindent:
   
-   The following program segment should draw a red line, starting from postion (10, 30).  The blocks have been mixed up.  Drag the blocks from the left and put them in the correct order on the right.  Click the <i>Check Me</i> button to check your solution.</p>
+   The following program segment should draw a red line, starting from postion (10, 30).  The blocks have been mixed up.  Drag the blocks from the left and put them in the correct order on the right.
    -----
    from turtle import *
    =====
@@ -169,7 +169,7 @@ Try to solve each of the following. Click the *Check Me* button to check each so
    :adaptive:
    :noindent:
   
-   The following program segment should turn turtle Bri south, then draw a green line.  The blocks have been mixed up.  Drag the blocks from the left and put them in the correct order on the right.  Click the <i>Check Me</i> button to check your solution.</p>
+   The following program segment should turn turtle Bri south, then draw a green line.  The blocks have been mixed up.  Drag the blocks from the left and put them in the correct order on the right.  
    -----
    from turtle import *
    =====
